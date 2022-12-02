@@ -15,7 +15,7 @@ const cards8 = CardData8.map(item => {
  }
     )
 
-function Clubmusic() {
+function ClubMusic() {
   
     return (
    <div>
@@ -35,4 +35,4 @@ function Clubmusic() {
   )
 }
 
-export default Clubmusic
+export default ClubMusic

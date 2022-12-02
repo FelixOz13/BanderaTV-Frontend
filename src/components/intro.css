@@ -155,12 +155,10 @@ nav li {
                -webkit-transform: scaleX(-1);
                transform: scaleX(-1);
                animation-iteration-count: infinite;
-               animation: indianaut 9s infinite;
-               animation-timing-function: ease;
-               -webkit-transform: scaleX(-1);
-               transform: scaleX(-1);
-      
-             }
+               animation: indianaut 6s infinite;
+               animation-timing-function: ease-in;
+               animation-direction: alternate-reverse;
+               }
       
       
       
