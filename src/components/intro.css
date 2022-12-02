@@ -142,6 +142,20 @@ nav li {
     margin:20px;
     height: auto;
 }
+.player-wrapper-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+}
+.hero{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
 
 
    
@@ -173,6 +187,9 @@ nav li {
                  left: 450px;
       
                }
+                             
+              
+                             
       
                
              }
