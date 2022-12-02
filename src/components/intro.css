@@ -1,153 +1,47 @@
-:root {
-  --level-one: translateZ(3rem);
-  --level-two: translateZ(6rem);
-  --level-three: translateZ(9rem);
-  --fw-normal: 400;
-  --fw-bold: 700;
-  --clr: #b7c9e5;
+* {
+  box-sizing: border-box;
 }
-
-
-
-
-.introcard {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height:auto;
-}
-
-.introcard__content {
-  text-align: center;
-  position: relative;
-  padding: 15em 5em;
-  transition: transform 3s;
-  background: black;
-  transform-style: preserve-3d;
-  background-image: url("../bgimages/goldmusic2.png");
-}
-
-.introcard:hover .introcard__content {
-  transform: rotateY(.5turn);
-}
-
-.introcard__front,
-.introcard__back {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 5em 3em;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  display: grid;
-  align-content: center;
-}
-
-.introcard__front {
-  
-  background-image: url("../bgimages/flyingsungod.jpg");
-  background-size: cover;
-  background-blend-mode: overlay;
-  color: goldenrod;
-}
-
-.introcard__front::before {
-  content: '';
-  position: absolute;
-  --spacer: 1em;
-  top: var(--spacer);
-  bottom: var(--spacer);
-  left: var(--spacer);
-  right: var(--spacer);
-  border: 3px solid currentColor;
-  transform: var(--level-one);
-}
-
-.introcard__title {
-  font-size: 1.2rem;
-  transform: var(--level-three);
-  order: 2;
-  text-transform: uppercase;
-  font-family: 'Notable';
-  color:white;
-}
-
-
-
-.introcard__subtitle {
-  transform: var(--level-two);
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: .75rem;
-  font-weight: var(--fw-bold);
-  opacity: .7;
-}
-
-.introcard__body {
-  transform: var(--level-two);
-  font-weight: var(fw-normal);
-  font-size: 1rem;
-  line-height: 1.6;
-  color:white;
-  font-family:'Notable'
-}
-
-.introcard__back {
-  transform: rotateY(.5turn);
-  color: var(--clr);
-  background: #333;
-  background-image: url("../bgimages/goldmusic2.png");
-}
-
 body {
-  background-color: black;
-}
-
-
-.container-1,
-.container-2,
-.container-3,
-h2 {
-  text-align: center;
-  font-family: 'Notable';
-  font-size: 3rem;
-  font-size: 28px;
-  padding: 3em;
-  color: white;
-  text-decoration: none;
-}
-
-.title {
-  text-align: center;
-  font-family: 'Notable';
-  font-size: 4rem;
-  color: white;
-}
-
-
-nav a,
-nav li {
-  display: inline;
-  margin: 20px;
+  margin: auto;
+  max-width: fit-content;
+  background-size: 100%;
   
-  font-family: 'Notable';
-  font-size: 2rem;
+
 }
 
-.video3{
-     display: block;
-    margin:20px;
-    height: auto;
-}
 .player-wrapper-3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 95%;
     height: auto;
+}
+.indianaut2 {
+  width: 12%;
+  height: 12%;
+  position: relative;
+  animation-delay: 3s;
+  border-radius: 50%;
+  margin-left: 5px;
+  animation-iteration-count: infinite;
+  animation: indianaut2 12s infinite;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+}
+
+
+
+
+@keyframes indianaut2 {
+  from {
+      left: 800px;
+    }
+  
+    to {
+      left: 0px;
+    }
+        
+
 }
 .hero{
   display: block;
@@ -160,16 +54,16 @@ nav li {
 
    
              .indianaut {
+              -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
                width: 12%;
                height: 12%;
                position: relative;
                animation-delay: 3s;
                border-radius: 50%;
                margin-left: 5px;
-               -webkit-transform: scaleX(-1);
-               transform: scaleX(-1);
                animation-iteration-count: infinite;
-               animation: indianaut 6s infinite;
+               animation: indianaut 12s infinite;
                animation-timing-function: ease-in;
                animation-direction: alternate-reverse;
                }
@@ -178,24 +72,38 @@ nav li {
       
       
              @keyframes indianaut {
-               from {
-                 left: 0px;
-      
-               }
-      
-               to {
-                 left: 450px;
-      
-               }
-                             
+              0% {
+                  
+                  left: 0px;
+                  top: 500px;
+                }
               
-                             
-      
-               
-             }
-  
-      
-    
+                25% {
+                 
+                  right: 500px;
+                  top: 0px;
+                }
+              
+                50% {
+                  
+                  left: 500px;
+                  top: 0px;
+                }
+              
+                75% {
+                  
+                  right: 500px;
+                  top: 500px;
+                }
+              
+                100% {
+                  
+                  left: 0px;
+                  bottom: 0px;
+                }
+                               
+              }
+                            
 
         
         

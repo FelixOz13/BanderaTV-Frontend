@@ -30,7 +30,8 @@ export default function Mariachi() {
             
            <ButtonTreeCategories/>
             <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-            <img className="indianaut" src="./images/indianaut.png" alt=""/>
+            <img className="indianaut" src="./images/indianaut.png" alt="" />
+            <img className="indianaut2" src="./images/indianaut.png" alt=""/>
             <div>
             <section className="cards-list">
                {cards2}

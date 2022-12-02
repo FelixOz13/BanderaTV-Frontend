@@ -55,6 +55,7 @@ section {
   font-size: 1.5rem;
   margin-top: 10px;
   text-align: center;
+  
 }
 
 
@@ -254,10 +255,13 @@ section {
 
 .player-wrapper {
   position: relative;
+  bottom:800px;
   padding-top: 56.25%;
   width: 95%;
   display: block;
   margin: auto;
+  
+
 
   /* Player ratio: 100 / (1280 / 720) */
 }

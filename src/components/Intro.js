@@ -1,6 +1,7 @@
 import "./intro.css"
 import SponsorContainer from "./SponsorContainer"
 import ButtonTreeCategories from "./ButtonTreeCategories";
+import Comments from "../Comments/Comments";
 import Navbar from "./Navbar"
 
 
@@ -9,9 +10,9 @@ import Navbar from "./Navbar"
 
 function Intro() {
   return (
+    <div className="hero">
     <div>
-       <div className="hero">
-      <Navbar />
+       <Navbar />
       
       <div>
         <div className="notranslate">
@@ -22,8 +23,8 @@ function Intro() {
         
          <ButtonTreeCategories/>
         </div>
-        
-      <img className="indianaut" src="./images/indianaut.png" alt=""/>
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+        <img className="indianaut2" src="./images/indianaut.png" alt=""/>
       <video
           className="player-wrapper-3"
           width="100%"
@@ -34,18 +35,23 @@ function Intro() {
           playsInline={true}>
          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"/>
         </video>
-        <img className="indianaut" src="./images/indianaut.png" alt=""/>
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+        <img className="indianaut2" src="./images/indianaut.png" alt=""/>
       </div>
-        
-   
-        
-        
-         
-     
-                        
-            
-        <SponsorContainer/>
+        <Comments
+        commentsUrl="http://localhost:3004/comments"
+        currentUserId="1"
+          />
+   <SponsorContainer/>
     </div>
+
+        
+        
+      
+   
+   
+          
+       
   
       
       
