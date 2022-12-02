@@ -513,7 +513,7 @@ const CardData5 = [
    {
 "id": 202,
   "title": " The Jonas Brothers",
-  "description": "The Jonas Brothers (/ˈdʒoʊnəs/) are an American pop rock band. Formed in 2005, they gained popularity from their appearances on the Disney Channel television network. They consist of three brothers: Kevin Jonas, Joe Jonas, and Nick Jonas.[1][2][3] Raised in Wyckoff, New Jersey, the Jonas Brothers moved to Little Falls, New Jersey, in 2005, where they wrote their first record that made its Hollywood Records release.[4] They starred in the 2008 Disney Channel Original Movie Camp Rock and its 2010 sequel, Camp Rock 2: The Final Jam. They also starred in their own Disney Channel series Jonas, which was rebranded as Jonas L.A. for its second season. The band have released five albums: It's About Time (2006), Jonas Brothers (2007), A Little Bit Longer (2008), Lines, Vines and Trying Times (2009), and Happiness Begins (2019).",
+  "description": "The Jonas Brothers (/ˈdʒoʊnəs/) are an American pop rock band. Formed in 2005, they gained popularity from their appearances on the Disney Channel television network. They consist of three brothers: Kevin Jonas, Joe Jonas, and Nick Jonas. Raised in Wyckoff, New Jersey, the Jonas Brothers moved to Little Falls, New Jersey, in 2005, where they wrote their first record that made its Hollywood Records release.[4] They starred in the 2008 Disney Channel Original Movie Camp Rock and its 2010 sequel, Camp Rock 2: The Final Jam. They also starred in their own Disney Channel series Jonas, which was rebranded as Jonas L.A. for its second season. The band have released five albums: It's About Time (2006), Jonas Brothers (2007), A Little Bit Longer (2008), Lines, Vines and Trying Times (2009), and Happiness Begins (2019).",
   "videourl": "https://youtube.com/playlist?list=PLISjWix87QOmCbVCUY5g-vEMSgUITz575",
   "price": "$50",
   "coverImg": "jonasbrothers.jpeg",
@@ -569,7 +569,7 @@ const CardData5 = [
    
   "id": 200,
   "title": "Weezer",
-  "description": "Weezer es una banda estadounidense de rock alternativo formada en Los Ángeles en 1992. El grupo está formado, actualmente, por Rivers Cuomo (vocalista principal y guitarra líder), Brian Bell (guitarra rítmica, teclados y coros), Scott Shriner (bajo eléctrico y coros) y Patrick Wilson (batería y coros). La banda ha cambiado su formación varias veces desde su nacimiento en 1992.1​ Han publicado quince álbumes de estudio, seis EP y un DVD. Hasta la fecha han vendido más de nueve millones de discos en su país.",
+  "description": "Weezer es una banda estadounidense de rock alternativo formada en Los Ángeles en 1992. El grupo está formado, actualmente, por Rivers Cuomo (vocalista principal y guitarra líder), Brian Bell (guitarra rítmica, teclados y coros), Scott Shriner (bajo eléctrico y coros) y Patrick Wilson (batería y coros). La banda ha cambiado su formación varias veces desde su nacimiento en 1992. Han publicado quince álbumes de estudio, seis EP y un DVD. Hasta la fecha han vendido más de nueve millones de discos en su país.",
   "videourl": "https://youtube.com/playlist?list=PLg4pQIhMIijXph_pltMzVl7Xqvqew3jrD",
   "price": "$50",
   "coverImg": "weezer.jpeg",
