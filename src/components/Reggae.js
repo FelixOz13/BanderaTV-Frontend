@@ -23,7 +23,7 @@ function Reggae() {
       
           <ButtonTreeCategories />
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-          <img className="indianaut" src="./images/martian.jpeg" alt="" />
+          <img className="indianaut" src="./images/mexskull.jpeg" alt="" />
           <img className="indianaut2" src="./images/martian.jpeg" alt=""/>
 
             <section className="cards-list">
