@@ -34,7 +34,7 @@ body {
 
 @keyframes indianaut2 {
   from {
-      left: 250px;
+      left: 275px;
     }
   
     to {
@@ -75,25 +75,25 @@ body {
               0% {
                   
                   left: 0px;
-                  top: 250px;
+                  top: 275px;
                 }
               
                 25% {
                  
-                  right: 250px;
+                  right: 275px;
                   top: 0px;
                 }
               
                 50% {
                   
-                  left: 250px;
+                  left: 275px;
                   top: 0px;
                 }
               
                 75% {
                   
-                  right: 250px;
-                  top: 250px;
+                  right: 275px;
+                  top: 275px;
                 }
               
                 100% {
