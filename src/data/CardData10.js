@@ -55,7 +55,7 @@ const CardData10 = [
    "id":228,
    "title":"Gorillaz",
    "description":"Gorillaz es una banda virtual inglesa creada en 1998 por Damon Albarn y Jamie Hewlett. La banda está compuesta por cuatro miembros ficticios: 2-D, Noodle, Murdoc Niccals y Russel Hobbs. La mayoría de sus canciones junto con todo su universo ficticio, se presentan a través de vídeos musicales animados, de animación tradicional y animación por computadora, entrevistas y pequeños cortos animados. En la realidad, Albarn es el único miembro permanente de la banda. El productor y ejecutivo Remi Kabaka Jr. empezaría a colaborar con el grupo en 2016 después de proveer por varios años la voz de Russel Hobbs y sería nombrado miembro oficial junto a Albarn y Hewlett en 2019 en el documental de Gorillaz.",
-   "videourl":"https://youtube.com/playlist?list=PLtKoi37ubAW1Pj2Xp-PnN6ipLUScnhhIC",
+   "videourl":"https://youtube.com/playlist?list=PLtKoi37ubAW0tpP93-fO4FQ9memrbcXnO",
    "price":36,
    "coverImg":"gorillaz.jpg",
    "category":"Alternativo",
