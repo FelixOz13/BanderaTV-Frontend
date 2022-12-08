@@ -22,7 +22,7 @@ function Reggaeton() {
       
       <ButtonTreeCategories />
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-      <img className="indianaut" src="./images/indianaut.png" alt="" />
+      <img className="indianaut" src="./images/goldmusic2.png" alt="" />
       <img className="indianaut" src="./images/moonaut.png" alt="" />
       <img className="indianaut2" src="./images/astronaut.png" alt="" />
             <section className="cards-list">
