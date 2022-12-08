@@ -1,6 +1,7 @@
 import ReactPlayer from 'react-player/lazy'
 import Clients from './Clients'
 import LikeButtons from './LikeButtons'
+import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi';
 import { FaFacebook } from 'react-icons/fa';
@@ -113,11 +114,8 @@ function Card(props) {
       
         <div>
        
-        <img className="flag-logo2" src="../images/aguiladorada.jpeg"  alt=""/>
-        <img className="flag-logo2" src="../images/goldmusic2.png"  alt=""/>
-        <h4 className="contact">contacto@banderamusical.com
-          Whattsap-52+3324949195
-        </h4>
+        
+        <BanderaMedia/>
       </div>
      
       </div>  
