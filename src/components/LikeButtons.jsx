@@ -5,10 +5,8 @@ import { BiLike } from 'react-icons/bi';
 
 
 
-export default function LikeButtons() {
-  const [likes, setLikes,] = useState(24021)
-    
-   
+export default function LikeButtons(min, max) {
+  const [likes, setLikes,] = useState(Math.floor(Math.random() * 100000))
 
     const handleLike = (prev) => {
         setLikes((prev) => {
