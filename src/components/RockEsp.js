@@ -25,8 +25,11 @@ function RockEsp() {
           
       <ButtonTreeCategories />
           <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-          <img className="indianaut" src="./images/skullyknuckles.png" alt="" />
-          <img className="indianaut2" src="./images/skullyknuckles.png" alt=""/>
+          <img className="indianaut2" src="./images/moonaut.png" alt="" />
+          <img className="indianaut" src="./images/astronaut.png" alt="" />
+          <img className="indianaut" src="./images/indianaut.png" alt="" />
+          <img className="indianaut" src="./images/rockguitarist.jpg" alt="" />
+          
             <section className="cards-list">
                {cards7}
             </section>

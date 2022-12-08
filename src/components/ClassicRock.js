@@ -25,8 +25,9 @@ function ClassicRock() {
           
       <ButtonTreeCategories />
           <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-          <img className="indianaut" src="./images/rockguitarist.jpg" alt="" />
-          <img className="indianaut2" src="./images/rockguitarist.jpg" alt=""/>
+          <img className="indianaut" src="./images/astronaut.png" alt="" />
+          <img className="indianaut2" src="./images/rockguitarist.jpg" alt="" />
+          <img className="indianaut2" src="./images/astronaut.png" alt="" />
             <section className="cards-list">
                {cards6}
             </section>

@@ -30,6 +30,7 @@ function Cumbias() {
       <img className="indianaut" src="./images/flyingsungod.jpg" alt="" />
       <img className="indianaut2" src="./images/flyingsungod.jpg" alt="" />
      
+     
             <section className="cards-list">
                {cards9}
             </section>
