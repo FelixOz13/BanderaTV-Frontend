@@ -3,7 +3,7 @@ const CardData3 = [
    "id":66,
    "title":"Pat Boy",
    "description":"LOS ÁNGELES, EEUU — Jesús 'Pat Boy' Chablé, se ha convertido en un referente en el mundo del rap, pero no de uno cualquiera, si no del Rap Maya.El deseo del artista de preservar su cultura indígena, le llevó por una travesía que le ha convertido en un pionero de dicho género musical más allá de sus fronteras y en el proceso ha logrado dar visibilidad a su comunidad dentro y fuera de México.Pat Boy, en entrevista con la Voz de América dijo ser un rapero con una misión, que es la de “promover y preservar” su lengua natal y su cultura.“Soy exponente de rap en lengua maya orgullosamente..",
-   "videourl":"https://youtube.com/playlist?list=PL66mZR-Sq4J4xtMm8T2pWGbC_iuuEOVAt",
+   "videourl":"https://youtube.com/playlist?list=UULFOeZiPDp4nnzNe-9mEp3XTg",
    "price":50,
    "coverImg":"Patboy.jpeg",
    "category":"Rap Maya",
