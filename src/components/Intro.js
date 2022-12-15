@@ -24,7 +24,7 @@ function Intro() {
          <ButtonTreeCategories/>
         </div>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
-        <img className="indianaut2" src="./images/indianaut.png" alt="" />
+        <img className="indianaut2" src="./images/sley.jpg" alt="" />
         
       <video
           className="player-wrapper-3"
