@@ -29,7 +29,7 @@ function ButtonTreeCategories() {
       </Link> 
 
       <Link className="btn " to="/raptrap">
-        <img src="../images/raptrap.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/rap3.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link> 
       <Link className="btn " to="/reggaeton">
         <img src="../images/reggaetonlogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
