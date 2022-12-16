@@ -29,7 +29,7 @@ function RockEsp() {
           <img className="indianaut" src="./images/astronaut.png" alt="" />
           <img className="indianaut" src="./images/indianaut.png" alt="" />
           <img className="indianaut" src="./images/rockguitarist.jpg" alt="" />
-          <img className="indianaut2" src="./images/sley.jpg" alt="" />
+          <img className="santanaut" src="./images/sley.jpg" alt="" />
           
             <section className="cards-list">
                {cards7}

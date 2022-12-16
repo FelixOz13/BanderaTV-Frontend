@@ -24,7 +24,9 @@ function Intro() {
          <ButtonTreeCategories/>
         </div>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
-        <img className="indianaut2" src="./images/sley.jpg" alt="" />
+        <img className="santanaut" src="./images/sley.jpg" alt="" />
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+        
         
       <video
           className="player-wrapper-3"
@@ -37,7 +39,8 @@ function Intro() {
          <source src="./images/Banderamusicalgreenspace.mp4" type="video/mp4"/>
         </video>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
-        <img className="indianaut2" src="./images/indianaut.png" alt=""/>
+        <img className="indianaut2" src="./images/indianaut.png" alt="" />
+        <img className="santanaut" src="./images/sley.jpg" alt="" />
       </div>
         <Comments
         commentsUrl="http://localhost:3004/comments"

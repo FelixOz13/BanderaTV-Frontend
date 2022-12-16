@@ -25,8 +25,9 @@ function Norteño() {
       
            <ButtonTreeCategories/>
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-          <img className="indianaut" src="./images/aguiladorada.jpeg" alt="" />
-            <img className="indianaut2" src="./images/sley.jpg" alt="" />
+      <img className="indianaut" src="./images/aguiladorada.jpeg" alt="" />
+      <img className="indianaut2" src="./images/aguiladorada.jpeg" alt="" />
+            <img className="santanaut" src="./images/sley.jpg" alt="" />
             <div>
             <section className="cards-list">
                {cards12}

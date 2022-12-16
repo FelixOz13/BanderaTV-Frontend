@@ -101,6 +101,55 @@ body {
                   left: 0px;
                   bottom: 0px;
                 }
+                     
+              }
+                .santanaut {
+                                  
+                                  width: 12%;
+                                  height: 12%;
+                                  position: relative;
+                                  animation-delay: 3s;
+                                  border-radius: 50%;
+                                  margin-left: 5px;
+                                  animation-iteration-count: infinite;
+                                  animation: santanaut 12s infinite;
+                                  animation-timing-function: ease-in;
+                                  animation-direction: alternate-reverse;
+                                }
+                
+                
+                
+                
+                                @keyframes santanaut {
+                                  0% {
+                
+                                    left: 0px;
+                                    top: 275px;
+                                  }
+                
+                                  25% {
+                
+                                    right: 275px;
+                                    top: 0px;
+                                  }
+                
+                                  50% {
+                
+                                    left: 275px;
+                                    top: 0px;
+                                  }
+                
+                                  75% {
+                
+                                    right: 275px;
+                                    top: 275px;
+                                  }
+                
+                                  100% {
+                
+                                    left: 0px;
+                                    bottom: 0px;
+                                  }
                                
               }
                             
