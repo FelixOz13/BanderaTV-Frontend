@@ -28,7 +28,7 @@ function ClassicRock() {
           <img className="indianaut" src="./images/astronaut.png" alt="" />
           <img className="indianaut2" src="./images/rockguitarist.jpg" alt="" />
           <img className="indianaut" src="./images/moonaut.png" alt="" />
-          <img className="indianaut" src="./images/sley.jpg" alt="" />
+          <img className="santanaut" src="./images/sley.jpg" alt="" />
           <img className="indianaut2" src="./images/astronaut.png" alt="" />
             <section className="cards-list">
                {cards6}
