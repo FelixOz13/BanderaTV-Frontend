@@ -1,5 +1,6 @@
 import "./intro.css"
 import SponsorContainer from "./SponsorContainer"
+import Clients from "./Clients"
 import ButtonTreeCategories from "./ButtonTreeCategories";
 import Comments from "../Comments/Comments";
 import Navbar from "./Navbar"
@@ -46,7 +47,8 @@ function Intro() {
         commentsUrl="http://localhost:3004/comments"
         currentUserId="1"
           />
-   <SponsorContainer/>
+      <SponsorContainer />
+      <Clients/>
     </div>
 
         

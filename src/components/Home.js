@@ -35,7 +35,7 @@ function Home() {
         </section>
         </div>
       
-        <SponsorContainer/>
+        
        
         </div>
        

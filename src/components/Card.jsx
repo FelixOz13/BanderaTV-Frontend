@@ -20,6 +20,7 @@ import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 
 
+
 function Card(props) {
  
    let badgeText
@@ -108,7 +109,8 @@ function Card(props) {
         
       </div>
       <div>
-        <SponsorContainer /> 
+        <SponsorContainer />
+        
         </div>
       
       
