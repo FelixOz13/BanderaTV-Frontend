@@ -24,7 +24,7 @@ function Intro() {
          <ButtonTreeCategories/>
         </div>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
-        <img className="santanaut" src="./images/sley.jpg" alt="" />
+        
         <img className="indianaut" src="./images/indianaut.png" alt="" />
         
         
@@ -40,7 +40,7 @@ function Intro() {
         </video>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
         <img className="indianaut2" src="./images/indianaut.png" alt="" />
-        <img className="santanaut" src="./images/sley.jpg" alt="" />
+       
       </div>
         <Comments
         commentsUrl="http://localhost:3004/comments"

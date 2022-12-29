@@ -2,10 +2,16 @@
 
 function SponsorContainer() {
   return (
-    <div><div className="sponsorcontainer1">
+    <div><div className="sponsorcontainer">
            <a href="https://www.viagogo.com.mx/" target="_blank" rel="noreferrer">
           <img src="../images/viagogo.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
       </a>
+       <a href="https://www.ontourviajes.com/" target="_blank" rel="noreferrer">
+          <img src="../images/ontour.png" className="sponsor" alt="" media="(max-width: 400px)" />
+      </a>
+      <a href="https://malaracha.com/" target="_blank" rel="noreferrer">
+          <img src="../images/malaracha.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        </a>
       
          <a href="https://www.casaorendain.com/product/tequila-ollitas/33?idioma=es" target="_blank" rel="noreferrer" >
       <img src="../images/ollitas2.jpeg" className="sponsor"   alt="" media="(max-width: 400px)" />
@@ -33,9 +39,7 @@ function SponsorContainer() {
          <a href="https://www.indierocks.mx/tv/" target="_blank" rel="noreferrer">
         <img src="../images/indierocks.jpg" className="sponsor" id="third-party-grid" alt="" media="(max-width: 400px)" />
         </a>
-         <a href="https://www.merchbar.com/" target="_blank" rel="noreferrer">
-          <img src="../images/merchbar.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
-        </a>
+         
       <a href="https://www.billboard.com/charts/hot-100/  " target="_blank" rel="noreferrer">
         <img src="../images/billboard.jpeg" className="sponsor"  alt="" media="(max-width: 400px)" />
         </a>
@@ -54,11 +58,10 @@ function SponsorContainer() {
         <a href="https://www.banamex.com/" target="_blank" rel="noreferrer">
           <img src="../images/citi.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
         </a> 
-        <a href="https://www.gnp.com/" target="_blank" rel="noreferrer">
-          <img src="../images/gnp.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
-      </a> 
+        
        <a href="http://www.auditorio-telmex.com/" target="_blank" rel="noreferrer">
-        <img src="../images/telmex.jpg" className="sponsor" alt="" media="(max-width: 400px)" /></a>
+        <img src="../images/telmex.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </a>
         <a href="https://www.arenavfg.mx/" target="_blank" rel="noreferrer">
           <img src="../images/arenavfg.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
       </a> 

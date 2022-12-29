@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player/lazy'
-import Clients from './Clients'
+import SponsorContainer from './SponsorContainer'
 import LikeButtons from './LikeButtons'
 import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
@@ -108,7 +108,7 @@ function Card(props) {
         
       </div>
       <div>
-        <Clients /> 
+        <SponsorContainer /> 
         </div>
       
       
