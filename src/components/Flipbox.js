@@ -12,11 +12,11 @@ function Flipbox() {
           
           
     <div className="flip-box-front">
-      <img className="flag-logo3" src="../images/aguiladorada.jpeg" alt="Mexico"/>
+      <img className="flag-logo3" src="../images/goldmusic2.png" alt="Mexico"/>
           </div>
 
           <div className="flip-box-back">
-      <img className="flag-logo4" src="../images/2023.jpg" alt="Mexico"/>
+      <img className="flag-logo4" src="../images/aguiladorada.jpeg" alt="Mexico"/>
               </div>
               
             </div>
