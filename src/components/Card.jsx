@@ -14,7 +14,7 @@ import { SiApplemusic } from 'react-icons/si';
 import { FaTiktok } from 'react-icons/fa';
 import { FaSoundcloud } from 'react-icons/fa';
 import { SiTidal } from 'react-icons/si';
-import { FaNapster } from 'react-icons/fa';
+
 import Comments from "../Comments/Comments";
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 
@@ -93,7 +93,8 @@ function Card(props) {
         <a target="_blank" rel="noreferrer" href={props.item.tidal} className='icons-tidal' id="third-party-grid"><SiTidal />
         </a>
                   
-        <a target="_blank" rel="noreferrer" href={props.item.napster} className='icons-napster' id="third-party-grid"><FaNapster />
+        <a target="_blank" rel="noreferrer" href={props.item.napster} className="sponsor" id="third-party-grid">
+          <img src="../images/amazonMusic.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
         </a>
         <a href= {props.item.wiki} target="_blank" rel="noreferrer">
           <img src="../images/wiki.jpg" className="sponsor" alt="" media="(max-width: 400px)" /></a>
