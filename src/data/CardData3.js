@@ -33,7 +33,7 @@ const CardData3 = [
     description:
       'Gonzalo Julián Conde (nacido el 29 de agosto de 1998), conocido profesionalmente como Bizarrap , es un productor discográfico y DJ argentino . Se especializa en EDM , trap latino y rap . Es conocido por sus Bzrp Music Sessions, que graba con una amplia variedad de artistas.  Fue nominado a un Premio Grammy Latino a Mejor Productor en 2021.Gonzalo nació el 29 de agosto de 1998 en Ramos Mejía , Argentina. Se interesó por la música desde muy joven, y tenía interés en la música electrónica y los DJ , más que en cantar. Sus principales influencias fueron Skrillex , David Guetta y Martin Garrix . A los 14 años comenzó a estudiar solfeo, se matriculó en clases de piano y comenzó a producir sus primeras canciones. .',
     videourl:
-      'https://youtube.com/playlist?list=PL66mZR-Sq4J4xtMm8T2pWGbC_iuuEOVAt',
+      'https://youtube.com/playlist?list=UULFmS75G-98QihSusY7NfCZtw',
     price: 50,
     coverImg: 'bizzarap.jpeg',
     category: 'Rap Latino',
