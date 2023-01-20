@@ -27,7 +27,7 @@ function BanderaMedia() {
       <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@bandera_musical" className='bandera' ><FaTiktok /></a>
       <a target="_blank" rel="noreferrer" href="https://banderamusical.com/" className='bandera'>
         <GiBlackFlag /></a>
-      <a target="_blank" rel="noreferrer" href="mailto:banderamusicalmx@gmail.com" className='bandera'>
+      <a target="_blank" rel="noreferrer" href="mailto:contacto@banderamusical.com" className='bandera'>
       <FaEnvelope /></a>
     
     </div>
