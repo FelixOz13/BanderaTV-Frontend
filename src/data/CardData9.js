@@ -1,6 +1,6 @@
 const CardData9 = [
 {
-   
+   "id":249,
    "title": "Los Angeles Azules",
    "description":"Los hermanos Mejía Avante incursionaron en la música en los años 70, tocando melodías sencillas de manera lírica en una estudiantina, forjando rápidamente su talento musical. Apoyados por sus padres Martha Avante Barrón y Porfirio Mejía García, quienes consiguieron préstamos de dinero empeñando algunas de sus propiedades, y con empleos como conductor de autobuses suburbanos (en el caso de su padre) lograron comprar, en pagos, el primer equipo de instrumentos musicales, bocinas y amplificadores.",
    "videourl":"http://youtube.com/playlist?list=PLF-cRDh2mrlUHPW6deKoe0C771xYTJ6SY",

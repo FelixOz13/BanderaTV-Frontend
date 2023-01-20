@@ -1,4 +1,5 @@
-const CardData6 = [ {
+const CardData6 = [
+   {
    "id":25,
    "title":"Guns & Roses",
    "description":"Guns N' Roses es una banda estadounidense de hard rock formada en Hollywood en la zona de Sunset Strip, alrededor de Santa Mónica, en el área metropolitana de Los Ángeles, California en 1985. El grupo fue fundado por el vocalista Axl Rose y el guitarrista Izzy Stradlin.",
@@ -378,6 +379,33 @@ const CardData6 = [ {
    "tiktok":"https://www.tiktok.com/@thejimihendrixexperience?lang=es",
    "napster":"https://app.napster.com/artist/jimi-hendrix"
 }, {
+   "id":212,
+   "title":"Beach Boys",
+   "description":"The Beach Boys are an American rock band that formed in Hawthorne, California, in 1961. The group's original lineup consisted of brothers Brian, Dennis, and Carl Wilson, their cousin Mike Love, and friend Al Jardine. Distinguished by their vocal harmonies, adolescent-themed lyrics, and musical ingenuity, they are one of the most influential acts of the rock era. They drew on the music of older pop vocal groups, 1950s rock and roll, and black R&B to create their unique sound. Under Brian's direction, they often incorporated classical or jazz elements and unconventional recording techniques in innovative ways..",
+   "videourl":"https://youtube.com/playlist?list=PL_ZuQ6gD_Zp62U-ay5q0hEmSvrR_GbGii",
+   "price":36,
+   "coverImg": "theBeachBoys.png",
+   "category":"Rock Clasico",
+   "location":"USA",
+   "locationImg":"usaflag.jpg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://thebeachboys.com/",
+   "youtube":"https://www.youtube.com/channel/UCUxNZEOdVy77QiiSTHk8bug",
+   "facebook":"https://www.facebook.com/thebeachboys",
+   "instagram":"https://www.instagram.com/thebeachboys/",
+   "twitter":"https://www.instagram.com/thebeachboys/",
+   "spotify":"https://open.spotify.com/artist/3oDbviiivRWhXwIE8hxkVV?autoplay=true",
+   "deezer":"https://www.deezer.com/en/artist/2179?autoplay=true",
+   "apple":"https://music.apple.com/us/artist/the-beach-boys/562555",
+   "soundcloud":"https://soundcloud.com/thebeachboys",
+   "tidal":"https://listen.tidal.com/artist/9371",
+   "wiki":"https://en.wikipedia.org/wiki/The_Beach_Boys",
+   "ticketmaster":"https://www.ticketmaster.com/the-beach-boys-tickets/artist/734518",
+   "tiktok":"https://www.tiktok.com/@thebeachboys",
+   "napster":"https://music.amazon.com.mx/artists/B000QJPEL0/the-beach-boys"
+   },
+   {
    "id":41,
    "title":"Santana",
    "description":"Carlos Humberto Santana Barragan (Autlán de Navarro, Jalisco; 20 de julio de 1947) es un guitarrista mexicano nacionalizado estadounidense.En 1966 fundó la banda Santana, pionera en fusionar la música latina con el rock. Santana ha vendido más de 100 millones de álbumes en todo el mundo (contando las ventas de su banda y su carrera en solitario). Ha ganado diez premios Grammy y tres premios Grammy Latino.",

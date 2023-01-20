@@ -1,32 +1,5 @@
 const CardData12 = [
-   {
-   "id":111,
-   "title":"Ernesto Cardenas Bazaldua",
-      "description": " Ernesto Bazaldua  es un Cantautor de Origen Mexicano cual  radica en Guadalajara, Jalisco, Mexico, Su   musica es versatil,Regional y sus exitos son ,1:Por Ser Pobre, 2:Tu Conciencia Te hara Llorar, 3. Dia de las Madres 4.Ese Soy Yo 5: Te Esperare 7.Con una Llamada 7. Se te acabado el juego 8.Libro Cerrado 9.Tomados de la mano, 10.Carta de Retiro.",
-   
-   "videourl":"https://youtube.com/playlist?list=UUF0QfCEV_8ZpA0B2Yv56xBg",
-   "price":"$50",
-   "coverImg":"ErnestoCardenas.jpg",
-   "category":"Regional",
-   "location":"Mexico",
-   "locationImg":"mexiflag.jpg",
-   "openSpots": null,
-   "likes": 1000,
-   "websiteurl":"https://wynk.in/music/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/bl_3617050935625",
-   "youtube":"https://www.youtube.com/@ernestocardenas5939",
-   "facebook":"https://www.facebook.com/ernesto.cardenasbazaldua.1",
-   "instagram":"",
-   "twitter":"",
-   "spotify":"https://open.spotify.com/artist/7KZNDFnwppqWlfoVcCh1bg",
-   "deezer":"https://www.deezer.com/en/artist/1822121",
-   "apple":"https://music.apple.com/us/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/1644034684",
-   "soundcloud":"https://soundcloud.com/search?q=Ernesto%20Crdenas%20Bazaldua",
-   "tidal":"https://listen.tidal.com/artist/6254720",
-   "wiki":"https://www.amazon.co.uk/Con-una-Llamada/dp/B0BDKTQJXJ",
-   "ticketmaster":"https://www.viagogo.com.mx/",
-   "tiktok":"https://www.tiktok.com/@ernestocardenasba",
-   "napster":"https://music.amazon.com.mx/albums/B0BDKM5VGD"
-   },{
+   ,{
    "id":111,
    "title":"Los Tucanes de Tijuana",
    "description":"Los Tucanes de Tijuana son una agrupación de música regional mexicana liderada por Mario Quintero Lara, especializada en el estilo norteño y corrido. Fue creada en la ciudad de Tijuana, Baja California, México en el año de 1983 y formalizada en 1987. Durante su carrera han cosechado diversos premios y reconocimientos, entre los que destacan un Grammy Latino en 2012 por el álbum 365 días, cinco nominaciones a los Premios Grammy, nueve a los Premios Lo Nuestro y múltiples Premios BMI para Quintero como compositor. Son la primera banda de música norteña en ganar un premio de cine internacional al obtener el galardón «Un Certain Regard Angel Film» en el Festival Internacional de Cine de Mónaco por su participación en el documental Los ilegales. En 2008 el grupo recibió una estrella en el Paseo de la Fama de Las Vegas.",
@@ -187,7 +160,34 @@ const CardData12 = [
    "ticketmaster":"https://www.ticketmaster.com.mx/",
    "tiktok":"https://www.tiktok.com/@grupo360oficiall?lang=es",
    "napster":"https://app.napster.com/artist/grupo-360"
-}   ,
+}, {
+   "id":111,
+   "title":"Ernesto Cardenas Bazaldua",
+      "description": " Ernesto Bazaldua  es un Cantautor de Origen Mexicano cual  radica en Guadalajara, Jalisco, Mexico, Su   musica es versatil,Regional y sus exitos son ,1:Por Ser Pobre, 2:Tu Conciencia Te hara Llorar, 3. Dia de las Madres 4.Ese Soy Yo 5: Te Esperare 7.Con una Llamada 7. Se te acabado el juego 8.Libro Cerrado 9.Tomados de la mano, 10.Carta de Retiro.",
+   
+   "videourl":"https://youtube.com/playlist?list=UUF0QfCEV_8ZpA0B2Yv56xBg",
+   "price":"$50",
+   "coverImg":"ErnestoCardenas.jpg",
+   "category":"Regional",
+   "location":"Mexico",
+   "locationImg":"mexiflag.jpg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://wynk.in/music/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/bl_3617050935625",
+   "youtube":"https://www.youtube.com/@ernestocardenas5939",
+   "facebook":"https://www.facebook.com/ernesto.cardenasbazaldua.1",
+   "instagram":"",
+   "twitter":"",
+   "spotify":"https://open.spotify.com/artist/7KZNDFnwppqWlfoVcCh1bg",
+   "deezer":"https://www.deezer.com/en/artist/1822121",
+   "apple":"https://music.apple.com/us/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/1644034684",
+   "soundcloud":"https://soundcloud.com/search?q=Ernesto%20Crdenas%20Bazaldua",
+   "tidal":"https://listen.tidal.com/artist/6254720",
+   "wiki":"https://www.amazon.co.uk/Con-una-Llamada/dp/B0BDKTQJXJ",
+   "ticketmaster":"https://www.viagogo.com.mx/",
+   "tiktok":"https://www.tiktok.com/@ernestocardenasba",
+   "napster":"https://music.amazon.com.mx/albums/B0BDKM5VGD"
+   }  ,
   
    {
    "id":231,
