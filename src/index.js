@@ -16,6 +16,7 @@ import Reggae from './components/Reggae';
 import Reggaeton from './components/Reggaeton';
 import ClubMusic from './components/ClubMusic';
 import Pop from './components/Pop';
+import BanderaNews from './components/BanderaNews';
 
 
 import { BrowserRouter as Router, Routes, Route, Navigate,  } from 'react-router-dom'
@@ -43,6 +44,7 @@ root.render(
         <Route path='/alternative' element={<Alternative />} />
         <Route path='/reggae' element={<Reggae />} />
         <Route path='/clubmusic' element={<ClubMusic />} />
+         <Route path='/banderanews' element={<BanderaNews />} />
         
         
     </Routes>

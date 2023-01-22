@@ -54,6 +54,9 @@ function ButtonTreeCategories() {
       <Link className="btn" to="/clubmusic">
         <img src="../images/clubmusiclogo.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link> 
+      <Link className="btn" to="/banderanews">
+        <img src="../images/MusicNews.png" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link> 
     </div>
   )
 }
