@@ -1,21 +1,43 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: auto;
   max-width: fit-content;
   background-size: 100%;
-  
+
 
 }
 
-.player-wrapper-3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    height: auto;
+
+
+.player-wrapper-5 {
+  position: relative;
+  padding-top: 56.25%
+    /* Player ratio: 100 / (1280 / 720) */
+
 }
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 3rem;
+  margin-top: 80px;
+}
+
+
+
+.player-wrapper-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+}
+
 .indianaut2 {
   width: 12%;
   height: 12%;
@@ -34,80 +56,73 @@ body {
 
 @keyframes indianaut2 {
   from {
-      left: 275px;
-    }
-  
-    to {
-      left: 0px;
-    }
-        
+    left: 275px;
+  }
+
+  to {
+    left: 0px;
+  }
+
 
 }
-.hero{
+
+.hero {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
 }
 
 
-   
-             .indianaut {
-              -webkit-transform: scaleX(-1);
-                transform: scaleX(-1);
-               width: 12%;
-               height: 12%;
-               position: relative;
-               animation-delay: 3s;
-               border-radius: 50%;
-               margin-left: 5px;
-               animation-iteration-count: infinite;
-               animation: indianaut 12s infinite;
-               animation-timing-function: ease-in;
-               animation-direction: alternate-reverse;
-               }
-      
-      
-      
-      
-             @keyframes indianaut {
-              0% {
-                  
-                  left: 0px;
-                  top: 275px;
-                }
-              
-                25% {
-                 
-                  right: 275px;
-                  top: 0px;
-                }
-              
-                50% {
-                  
-                  left: 275px;
-                  top: 0px;
-                }
-              
-                75% {
-                  
-                  right: 275px;
-                  top: 275px;
-                }
-              
-                100% {
-                  
-                  left: 0px;
-                  bottom: 0px;
-                }
-                     
-              }
-                
-                            
 
-        
-        
+.indianaut {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 12%;
+  height: 12%;
+  position: relative;
+  animation-delay: 3s;
+  border-radius: 50%;
+  margin-left: 5px;
+  animation-iteration-count: infinite;
+  animation: indianaut 12s infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate-reverse;
+}
 
 
 
+
+@keyframes indianaut {
+  0% {
+
+    left: 0px;
+    top: 275px;
+  }
+
+  25% {
+
+    right: 275px;
+    top: 0px;
+  }
+
+  50% {
+
+    left: 275px;
+    top: 0px;
+  }
+
+  75% {
+
+    right: 275px;
+    top: 275px;
+  }
+
+  100% {
+
+    left: 0px;
+    bottom: 0px;
+  }
+
+}
