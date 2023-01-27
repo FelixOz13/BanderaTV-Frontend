@@ -55,7 +55,7 @@ section {
   font-size: 1.5rem;
   margin-top: 10px;
   text-align: center;
-  
+
 }
 
 
@@ -71,7 +71,7 @@ section {
   text-overflow: ellipsis;
   font-size: 1.5rem;
   font-family: 'Bungee Shade';
-  color:#f4c44b ;
+  color: #f4c44b;
 }
 
 .card--stats {
@@ -82,6 +82,7 @@ section {
   font-family: 'Bungee Shade';
   font-size: 1rem;
 }
+
 .title2 {
   text-align: center;
   font-family: 'Notable';
@@ -95,7 +96,7 @@ section {
 }
 
 .contactheader {
- 
+
   font-family: 'Asap Condensed';
   font-size: 1.5rem;
   color: #f4c44b;
@@ -103,7 +104,7 @@ section {
 }
 
 .contact {
- 
+
   font-family: 'Asap Condensed';
   font-size: 1.2rem;
   color: #f4c44b;
@@ -115,8 +116,8 @@ section {
   width: 70px;
   height: 70px;
   text-align: center;
-  
-  
+
+
 }
 
 .navbar-logo {
@@ -255,12 +256,12 @@ section {
 
 .player-wrapper {
   position: relative;
-  bottom:800px;
+  bottom: 800px;
   padding-top: 56.25%;
   width: 95%;
   display: block;
   margin: auto;
-  
+
 
 
   /* Player ratio: 100 / (1280 / 720) */
