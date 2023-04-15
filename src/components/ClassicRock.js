@@ -24,7 +24,7 @@ function ClassicRock() {
           <h4 className="headertext">Escoje tu categoria? ? </h4>
           
       <ButtonTreeCategories />
-          <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+          <h1 className="slidertext">←←Desliza para Navegar→→</h1>
           <img className="indianaut" src="./images/astronaut.png" alt="" />
           <img className="indianaut2" src="./images/rockguitarist.jpg" alt="" />
           <img className="indianaut" src="./images/moonaut.png" alt="" />

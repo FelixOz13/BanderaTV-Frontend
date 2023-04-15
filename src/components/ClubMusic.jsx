@@ -25,7 +25,7 @@ function ClubMusic() {
             
             
          <ButtonTreeCategories/>
-            <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+            <h1 className="slidertext">←←Desliza para Navegar→→</h1>
             <img className="indianaut" src="./images/electronauts.jpeg" alt="" />
             <img className="indianaut2" src="./images/electronauts.jpeg" alt=""/>
             <section className="cards-list">

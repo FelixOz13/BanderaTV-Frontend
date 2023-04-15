@@ -19,6 +19,8 @@ import Pop from './components/Pop';
 import BanderaNews from './components/BanderaNews';
 
 
+
+
 import { BrowserRouter as Router, Routes, Route, Navigate,  } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -49,6 +51,7 @@ root.render(
         
     </Routes>
     </Router>,
-  </div>
+    </div>
+  
 );
 

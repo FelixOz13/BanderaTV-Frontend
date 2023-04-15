@@ -6,20 +6,22 @@
   color: blue;
 
 }
+
 .player-wrapper {
   position: relative;
   padding-top: 56.25%;
   width: 95%;
   display: block;
-  margin:45px;
+  margin: 45px;
 
   /* Player ratio: 100 / (1280 / 720) */
 }
+
 .third-party-icons2 {
   display: flex;
   flex-wrap: wrap;
-  margin-left:50px;
-  
+  margin-left: 50px;
+
 }
 
 .third-party-icons>* {
@@ -32,20 +34,23 @@
   border-radius: 20%;
   margin: 6px;
 }
+
 .sharebutton {
-  width:50px;
+  width: 50px;
   font-size: 25px;
   color: #dc9e02;
   background-color: black;
   position: relative;
-  bottom:45px;
-  left:150px;
+  bottom: 45px;
+  left: 150px;
 }
-.bandera-icons{
-  font-size:20px;
+
+.bandera-icons {
+  font-size: 20px;
   margin-right: 5px;
 }
-.bandera{
-  color:#dc9e02;
-  margin:5px;
+
+.bandera {
+  color: #dc9e02;
+  margin: 5px;
 }

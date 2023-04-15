@@ -26,7 +26,7 @@ function Cumbias() {
       
       
        <ButtonTreeCategories/>
-      <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+      <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <img className="indianaut2" src="./images/flyingsungod.jpg" alt="" />
       <img className="indianaut" src="./images/flyingsungod.jpg" alt="" />
      
