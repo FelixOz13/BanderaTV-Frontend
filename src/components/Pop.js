@@ -19,7 +19,7 @@ function Pop() {
     <div>
       <Navbar />
       <h1 className="title2">Pop Internacional</h1>
-      <h4 className="headertext">Escoje tu categoria? ? </h4>
+      <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4>
       
       <ButtonTreeCategories />
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>

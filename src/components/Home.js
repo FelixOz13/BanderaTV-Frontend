@@ -13,9 +13,10 @@ function Home() {
   return (
     <div>
       <Navbar />
+      <h1 className="title2">Exitos Musicales de 2023</h1>
       <h4 className="headertext">
         {' '}
-        Hola Paisano, Bienvenido a Bandera Musical!!!, Escoje el tipo de musica
+        Escoje el tipo de musica
         que mas te gusta`???
       </h4>
       <ButtonTreeCategories />

@@ -52,7 +52,37 @@ const CardData = [
       "ticketmaster": "https://dreamfields.com.mx/boletos/",
       "tiktok": "https://www.tiktok.com/@dreamfieldsmexico",
       "napster": "https://us.napster.com/artist/oophoi/album/dreamfields"
-   },
+   },{
+    id: 197,
+    title: 'Gloria Trevi',
+    description:
+      ' Gloria de los Ángeles Treviño Ruiz (Monterrey, Nuevo León, 15 de febrero de 1968), conocida artísticamente como Gloria Trevi, es una cantante, actriz, productora, compositora y empresaria mexicana.En 1985 se mudó a la Ciudad de México para comenzar su carrera artística. Allí conoció al productor y arreglista Sergio Andrade, quien formó el grupo musical "Boquitas Pintadas". Cuatro años más tarde, de la mano de Andrade, publicó su álbum debut ...Qué hago aquí? , distribuido por BMG Ariola. En los 90, debutó en el cine con tres películas: Pelo suelto (1991), Zapatos viejos (1993) y Una papa sin catsup (1995). Terminó la década con cinco álbumes que sumaban casi 5 millones de ventas.',
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_mb7BtKgDmwJxfVeUV8bchdmIP1qgfvcKU',
+    price: '$50',
+    coverImg: 'gloriatrevi.jpg',
+    category: 'Regional Latino',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://gloriatrevi.lnk.to/IslaDivinaAlbum!YTD',
+    youtube: 'https://www.youtube.com/channel/UCNZazBoobtvziOGR65QQVog',
+    facebook: 'https://www.facebook.com/GloriaTreviOficial',
+    instagram: 'https://www.instagram.com/gloriatrevi/',
+    twitter: 'https://twitter.com/GloriaTrevi',
+    spotify: 'https://open.spotify.com/artist/1Db5GsIoVWYktPoD2nnPZZ',
+    deezer: 'https://www.deezer.com/mx/artist/7218',
+    apple: 'https://music.apple.com/mx/artist/gloria-trevi/6711586',
+    soundcloud: 'https://soundcloud.com/gloria-trevi-official',
+    tidal: 'https://listen.tidal.com/artist/3752902',
+    wiki: 'https://es.wikipedia.org/wiki/Gloria_Trevi',
+    ticketmaster:
+      'https://www.ticketmaster.com/gloria-trevi-tickets/artist/956252',
+    tiktok:
+      'https://www.tiktok.com/@gloriatrevioficial',
+    napster: 'https://music.amazon.com.mx/artists/B00130DI78/gloria-trevi',
+  },
    {
       "id": 303,
       "title": " Lila Downs",

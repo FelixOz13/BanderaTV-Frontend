@@ -22,7 +22,7 @@ function Cumbias() {
         <div>
       <Navbar />
       <h1 className="title2">Cumbia pa Bailar</h1>
-      <h4 className="headertext">Escoje tu categoria? ? </h4>
+      <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4>
       
       
        <ButtonTreeCategories/>

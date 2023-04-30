@@ -9,6 +9,7 @@ import Cumbias from './components/Cumbias';
 import RockEsp from './components/RockEsp';
 import RapTrap from './components/RapTrap';
 import ClassicRock from './components/ClassicRock';
+import Metal from './components/Metal'
 import Alternative from './components/Alternative';
 import Banda from './components/Banda';
 import Norteño from './components/Norteño';
@@ -16,7 +17,14 @@ import Reggae from './components/Reggae';
 import Reggaeton from './components/Reggaeton';
 import ClubMusic from './components/ClubMusic';
 import Pop from './components/Pop';
-import BanderaNews from './components/BanderaNews';
+import Chill from './components/Chill';
+import Romantica from './components/Romantica';
+import Local from './components/Local';
+import Events from './components/Events';
+import Blues from './components/Blues';
+import Classical from './components/Classical';
+import Jazz from './components/Jazz';
+
 
 
 
@@ -46,7 +54,15 @@ root.render(
         <Route path='/alternative' element={<Alternative />} />
         <Route path='/reggae' element={<Reggae />} />
         <Route path='/clubmusic' element={<ClubMusic />} />
-         <Route path='/banderanews' element={<BanderaNews />} />
+        <Route path='/chill' element={<Chill />} />
+        <Route path='/romantica' element={<Romantica/>} />
+        <Route path='/local' element={<Local/>} />
+        <Route path='/events' element={<Events/>} />
+        <Route path='/blues' element={<Blues />} />
+        <Route path='/classical' element={<Classical />} />
+        <Route path='/jazz' element={<Jazz />} />
+        <Route path='/Metal' element={<Metal />} />
+        
         
         
     </Routes>

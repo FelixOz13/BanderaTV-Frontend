@@ -107,35 +107,9 @@ const CardData8 = [
    "tiktok":"https://www.tiktok.com/@arminvanbuuren?lang=es",
    "napster":"https://app.napster.com/artist/armin-van-buuren"
    },
-      {
-   "id":4,
-   "title":"The Theivery Corporation",
-   "description":"Thievery Corporation es un dúo de DJ y productores musicales de la ciudad de Washington, Estados Unidos. Lo integran Rob Garza y Eric Hilton y ocasionalmente, músicos de sesión.Su música puede definirse dentro del estilo de música electrónica denominado downtempo, con influencias del dub, el acid jazz, la música de la India y de Brasil (esencialmente bossa nova), en una fusión combinada con una estética lounge.Thievery Corporation edita su producción en el sello (propio) Eighteenth Street Lounge, así como también algunos de sus sencillos o EP han sido editados por los sellos 4AD y !K7..",
-   "videourl":"https://youtube.com/playlist?list=PLZMps7ZJMfTOCn0pqD3OzeoS9MM2nQJcT",
-   "price":80,
-   "coverImg":"thethieverycorp.jpg",
-   "category":"Electro Dub",
-   "location":"USA",
-   "locationImg":"usaflag.jpg",
-   "openSpots": null,
-   "likes": 1000,
-   "websiteurl":"https://thieverycorporation.com/",
-   "youtube":"https://www.youtube.com/channel/UCzFpkcvn4ulINJsS5SpLaJQ",
-   "facebook":"https://www.facebook.com/thieverycorporation",
-   "instagram":"https://www.instagram.com/thieverycorporation/",
-   "twitter":"https://twitter.com/ThieveryCorpDC",
-   "spotify":"https://open.spotify.com/artist/25KNo5GDS6ZpLkjasaecA3",
-   "deezer":"https://www.deezer.com/mx/artist/366",
-   "apple":"https://music.apple.com/mx/artist/armin-van-buuren/17976294",
-   "soundcloud":"https://soundcloud.com/thieverycorporation",
-   "tidal":"https://listen.tidal.com/artist/3518232",
-   "wiki":"https://es.wikipedia.org/wiki/Thievery_Corporation",
-   "ticketmaster":"https://www.ticketmaster.com/thievery-corporation-tickets/artist/807166",
-   "tiktok":"https://www.tiktok.com/@thieverycorporationdc?lang=es",
-   "napster":"https://mx.napster.com/artist/thievery-corporation"
-   },
+      
    {
-   "id":4,
+   "id":5,
    "title":"Mark Farina",
    "description":"Mark Farina (born March 25, 1969 in Chicago, Illinois, USA) is an American disc jockey and musician, known for his Chicago house, acid jazz and downtempo works. His notable releases include Mood (KMS Records, 1989) and the Mushroom Jazz series (Om Records, 1996–2011), and recently known also from house compilations El Divinio. He is primarily identified with the house music scene based in San Francisco, California. Farina currently resides in Dallas, Texas.Shortly after Farina became friends with Derrick Carter in 1988 at a record store in Chicago, he developed an interest in house music. Farina experimented with a deeper style, dropping De La Soul, disco classics and other styles not being played in the main rooms of nightclubs. While exploring purist forms of house music, Farina developed his trademark style, known as mushroom jazz: acid jazz infused with the West Coast's jazzy, organic productions along with urban beats.",
    "videourl":"https://youtube.com/playlist?list=OLAK5uy_k8lhsYmCtEzylloeQhTdKuyakQlAMkYMM",
@@ -162,7 +136,7 @@ const CardData8 = [
    "napster":"https://us.napster.com/artist/mark-farina"
    },
    {
-   "id":5,
+   "id":6,
    "title":"Nacional Records",
    "description":"Nacional Records es una compañía discográfica independiente fundada en el 2005 por Tomas Cookman, que es uno de los pocos sellos que distribuye música en español y rock en español, aparte de distribuir música latina y distintos géneros musicales, que se enfocan especialmente en Latinoamérica y España. Incluyendo artistas de Chile, Colombia, México, Argentina, Venezuela, Ecuador, entre otros.",
    "videourl":"https://youtube.com/playlist?list=UUK_7uFzY1qxGpT3BiYHAoxg",
@@ -187,33 +161,7 @@ const CardData8 = [
    "ticketmaster":"https://www.ticketmaster.com/",
    "tiktok":"https://www.tiktok.com/@nacionalrecords",
    "napster":"https://us.napster.com/artist/nortec-collective"
-}, {
-   "id":6,
-   "title": "Cafe del Mar",
-   "description":"El Café del Mar es un bar de Ibiza, situado junto a la playa de San Antonio, famoso por la selección de música que reproduce al atardecer.Construido sobre una idea del zaragozano Ramón Guiral Broto, Carlos Andrea y José Les, y diseñado por el arquitecto Lluis Güell, se inauguró el 20 de junio de 1980. El local explotó comercialmente una idea sencilla disfrutar de los atardeceres de la bahía de Caló Des Moro mientras se escucha buena música y se toma una copa. Desde 1994 el Café Del Mar ha editado cada año álbumes chill out, lounge, ambient, chill house y balearic beats con su selección musical que refleja el ambiente ibicenco.",
-   "videourl":"https://youtube.com/playlist?list=PLjr4y4MklyLSWqYbEo_rtZgKW8n6De2ED",
-   "price":80,
-   "coverImg":"cafedelmar.jpg",
-   "category":"Electro Chill",
-   "location":"Ibiza Spain",
-   "locationImg":"spain.jpeg",
-   "openSpots": null,
-   "likes": 1000,
-   "websiteurl":"https://cafedelmar.com/",
-   "youtube":"https://www.youtube.com/c/cafedelmar",
-   "facebook":"https://www.facebook.com/officialcafedelmar",
-   "instagram":"https://www.instagram.com/cafedelmar/",
-   "twitter":"https://twitter.com/CafedelMar_Ibz",
-   "spotify":"https://open.spotify.com/artist/4L74W177Wc8s7WrQHbVaXt",
-   "deezer":"https://www.deezer.com/mx/artist/5374891",
-   "apple":"https://music.apple.com/mx/artist/caf%C3%A9-del-mar/264182083",
-   "soundcloud":"https://soundcloud.com/cafedelmarmusic",
-   "tidal":"https://listen.tidal.com/artist/3973704",
-   "wiki":"https://en.wikipedia.org/wiki/Caf%C3%A9_del_Mar",
-   "ticketmaster":"https://www.ticketmaster.es/venue/cafe-del-mar-club-barcelona-barcelona-entradas/ckdemarbcn/114",
-   "tiktok":"https://www.tiktok.com/@cafedelmarmalta",
-   "napster":"https://us.napster.com/artist/various-artists/album/cafe-del-mar-wnts"
-}, {
+},  {
    "id":7,
    "title":"Alan Walker ",
    "description":"Alan Olav Walker (born 24 August 1997) is a British-born Norwegian DJ, YouTuber and record producer primarily known for the critically acclaimed single Faded (2015), which was certified platinum in 14 countries. He has also made several songs including Sing Me to Sleep, Alone, Darkside, and On My Way, all of which attracted millions of views on YouTube.",
@@ -267,7 +215,7 @@ const CardData8 = [
    "napster":"https://www.deezer.com/mx/artist/3968561"
    },
    {
-   "id":8,
+   "id":9,
    "title":"Deep Nation",
    "description":"Deep house (110~125 BPM) is a subgenre of house music that originated in the 1980s, initially fusing elements of Chicago house with the lush chords of 1980s jazz-funk and touches of soul music. Its origins are attributed to the early recordings of Larry Heard (aka Mr. Fingers), including his influential track Can You Feel It.",
    "videourl":"https://youtube.com/playlist?list=UULFDnRtxAQIT9FAkr0CuhREeQ",
@@ -293,7 +241,7 @@ const CardData8 = [
    "tiktok":"https://www.tiktok.com/@dopenationrecords?lang=es",
    "napster":"https://www.beatport.com/artist/deep-house-nation/479233"
 },{
-   "id":8,
+   "id":10,
    "title":"Infected Mushroom",
    "description":"Infected Mushroom is an Israeli musical duo formed in Haifa in 1996 by producers Erez Eisen and Amit Duvdevani.[1] They produce and perform psytrance, electronica, dream trance and psychedelic music. They are one of the best-selling groups in Israeli music history in terms of both domestic and international sales.They employ a variety of musical sources, including acoustic guitars and complex synthesized basses. Their compositions often contain changes of drum beat and tempo. Infected Mushroom's live shows feature vocals and analogue instruments in performances that are set against a multimedia backdrop..",
    "videourl":"https://youtube.com/playlist?list=OLAK5uy_khzB7ZlDTCokqsjF0vSvgapWPUk10qNFI",
@@ -319,9 +267,9 @@ const CardData8 = [
    "tiktok":"https://www.tiktok.com/@infectedmushroomofficial?lang=es",
    "napster":"https://www.napster.com/mx"
 },{
-   "id":8,
+   "id":11,
    "title":"The Chemical Brothers",
-   "description":"The Chemical Brothers are an English electronic music duo[1] formed by Tom Rowlands and Ed Simons in Manchester in 1989.[2][3] They were pioneers (along with the Prodigy, Fatboy Slim, the Crystal Method, and other acts) in bringing the big beat genre to the forefront of pop culture. After attracting Virgin Records, the duo achieved further success with second album Dig Your Own Hole (1997), which topped the UK charts. In the UK, they have had six No. 1 albums and 13 top-20 singles, including two chart-toppers..",
+   "description":"The Chemical Brothers are an English electronic music duo[1] formed by Tom Rowlands and Ed Simons in Manchester in 1989. They were pioneers (along with the Prodigy, Fatboy Slim, the Crystal Method, and other acts) in bringing the big beat genre to the forefront of pop culture. After attracting Virgin Records, the duo achieved further success with second album Dig Your Own Hole (1997), which topped the UK charts. In the UK, they have had six No. 1 albums and 13 top-20 singles, including two chart-toppers..",
    "videourl":"https://youtube.com/playlist?list=OLAK5uy_mm98ULXax2Mi5BojzmnTLC7s2EEJP67FM",
    "price":80,
    "coverImg":"thechemicalbrothers.jpg",
@@ -344,6 +292,33 @@ const CardData8 = [
    "ticketmaster":"https://www.ticketmaster.com/chemical-brothers-tickets/artist/807212",
    "tiktok":"https://www.tiktok.com/@chemicalbrothersofficial",
    "napster":"https://www.deezer.com/mx/artist/81"
+   },
+   {
+   "id":12,
+   "title":"Afterlife",
+   "description":"Afterlife Records is an electronic music label established in 2016 by artists Carmine Conte and Matteo Milleri, also known as the duo of Tale Of Us. The record label is known for its melodic techno-beats and dreamy sounds and has worked with artists such as Eric Prydz, ANNA, Mathame, Kevin de Vries and more...",
+   "videourl":"https://youtube.com/playlist?list=PLvmn9Ssy7H3xoXUIcX4Pb5mYpc-mz8MSz",
+   "price":80,
+   "coverImg":"afterlife.jpg",
+   "category":"Electronica",
+   "location":"Ibiza",
+   "locationImg":"spain.jpeg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://www.after.life/",
+   "youtube":"https://www.youtube.com/@Afterlifeofc",
+   "facebook":"https://www.facebook.com/Afterlifeofc/",
+   "instagram":"https://www.instagram.com/afterlife_ofc/",
+   "twitter":"https://twitter.com/AfterlifeRecor1",
+   "spotify":"https://open.spotify.com/playlist/4YqlPeF8NyuiG6MymeSvK9?si=19163978b73b498a&nd=1",
+   "deezer":"https://www.deezer.com/mx/artist/6620",
+   "apple":"https://music.apple.com/mx/artist/afterlife/1186372246",
+   "soundcloud":"https://soundcloud.com/afterlifeofc",
+   "tidal":"https://listen.tidal.com/artist/21432206",
+   "wiki":"https://trifec.one/afterlife-records/#:~:text=Afterlife%20Records%20is%20an%20electronic,Kevin%20de%20Vries%20and%20more.",
+   "ticketmaster":"https://www.ticketmaster.com/afterlife-tickets/artist/2243592",
+   "tiktok":"https://www.tiktok.com/@afterlife_ofc",
+   "napster":"https://music.amazon.com.mx/artists/B08HL8D7GS/afterlife"
 },
 ]
 

@@ -31,7 +31,7 @@ const CardData13 = [
    "title":"Eden Muñoz",
    "description":"Rodolfo Edén Muñoz Cantú (Los Mochis, Sinaloa, 25 de septiembre de 1990), es un cantante, compositor y productor mexicano de música regional mexicana. Muñoz es el menor de 4 hermanos del matrimonio entre Rodolfo Muñoz e Isidora Cantú quienes por azares del destino la vida los traslada a la ciudad de Mazatlán, Sinaloa, donde más adelante su crianza y entorno lo llevaría de lleno a la música.Desde muy pequeño Edén comenzó a dar muestra que había nacido para esto, ya que sin ninguna pena interpretaba canciones y le cambiaba la letra a estas sin saber que más adelante serviría de plataforma para lograr grandes composiciones que han marcado el rumbo de la música regional mexicana en los últimos tiempos..",
    "videourl":"https://youtube.com/playlist?list=PLLlCI9n44muADESckd8b6oOL1cmfGLz35",
-   "coverImg":"EdenMuñoz.jpg",
+   "coverImg":"edenmunoz.jpg",
    "category":"Regional",
    "location":"Mexico",
    "locationImg":"mexiflag.jpg",

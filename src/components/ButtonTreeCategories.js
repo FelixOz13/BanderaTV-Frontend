@@ -5,11 +5,11 @@ function ButtonTreeCategories() {
   return (
     <div>
       <Link className="btn" to="/home">
-        <img src="../images/homelogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/ExitosMusicales.png" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn" to="/mariachi">
-        <img src="../images/regimex1.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/regimex.png" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link>
 
       <Link className="btn" to="/banda">
@@ -54,9 +54,31 @@ function ButtonTreeCategories() {
       <Link className="btn" to="/clubmusic">
         <img src="../images/clubmusiclogo.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
       </Link> 
-      <Link className="btn" to="/banderanews">
-        <img src="../images/MusicNews.png" className="sponsor" alt="" media="(max-width: 400px)" />
-      </Link> 
+      <Link className="btn" to="/chill">
+        <img src="../images/chill.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/romantica">
+        <img src="../images/romantica.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/local">
+        <img src="../images/local.png" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/events">
+        <img src="../images/events.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/blues">
+        <img src="../images/blues.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/jazz">
+        <img src="../images/jazz.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/classical">
+        <img src="../images/Classica!.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        </Link>
+       <Link className="btn" to="/metal">
+        <img src="../images/metal.png" className="sponsor" alt="" media="(max-width: 400px)" />
+      </Link>
+      
     </div>
   )
 }

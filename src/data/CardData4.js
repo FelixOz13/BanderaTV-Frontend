@@ -26,7 +26,33 @@ const CardData4 = [
    "ticketmaster":"https://www.ticketmaster.com./piso-21-tickets/artist/2364788",
    "tiktok":"https://www.tiktok.com/@piso21music?lang=es",
    "napster":"https://us.napster.com/artist/piso-21"
-}, 
+},{
+   "id":82,
+   "title":"OV7",
+   "description":"OV7 (conocido en sus inicios como La Onda Vaselina, luego Onda Vaselina) es un grupo musical pop mexicano formado en el año 1989. El grupo surgió en el año 1989 como una agrupación infantil creada por la cantante y actriz mexicana Julissa con el nombre de La Onda Vaselina. En el año 2000, el grupo se independiza de su fundadora y resurge con su nombre y concepto actual. En el año 2003, el grupo decide separarse para brindarle la oportunidad a sus integrantes de desarrollarse de forma independiente. En el año 2022 la famosa agrupación retoma sus presentaciones bajo el concepto de OV7 Treinta. Gira qué celebra más de 30 años de trayectoria",
+   "category":"Pop",
+   "videourl":"https://youtube.com/playlist?list=PLC7DFC3C897F1E77B",
+   "price":80,
+   "coverImg":"ov7.jpg",
+   "location":"Mexico",
+   "locationImg":"mexiflag.jpg",
+   "openSpots": 1000,
+   "likes": 1000,
+   "websiteurl":"https://dreaminpeace.store/",
+   "youtube":"https://www.youtube.com/channel/UC7tJh7b0ledI9fe1A_-dzRw",
+   "facebook":"https://www.facebook.com/OV7OFICIAL",
+   "instagram":"https://www.instagram.com/oficialov7/",
+   "twitter":"https://twitter.com/ov7oficial",
+   "spotify":"https://open.spotify.com/artist/5zaT4Qu9otu6z4oyWjRqM2?si=xg1B-_dNSnKtXPgUNkIQqA&nd=1",
+   "deezer":"https://www.deezer.com/mx/artist/491621",
+   "apple":"https://music.apple.com/mx/artist/ov7/170956727",
+   "soundcloud":"https://soundcloud.com/ov7official",
+   "tidal":"https://listen.tidal.com/artist/1414",
+   "wiki":"https://es.wikipedia.org/wiki/OV7",
+   "ticketmaster":"https://www.ticketmaster.com/ov7-tickets/artist/1631627",
+   "tiktok":"https://www.tiktok.com/@oficialov7?lang=es",
+   "napster":"https://music.amazon.com.mx/artists/B0013A38NC/ov7"
+   }, 
   {
    "id":76,
    "title":"Shakira",
@@ -53,9 +79,38 @@ const CardData4 = [
    "ticketmaster":"https://www.ticketmaster.com./shakira-tickets/artist/779049",
    "tiktok":"https://www.tiktok.com/@shakira?lang=es",
    "napster":"https://app.napster.com/artist/shakira"
-}  ,
-      
-   {
+}  , {
+    id: 197,
+    title: 'Jesse y Joy',
+    description:
+      'Jesse & Joy son un dúo mexicano de música pop, formado en 2005 por los hermanos Jesse (1982) 1​ y Joy Huerta (1986) en la Ciudad de México.El dúo ha lanzado seis álbumes de estudio, dos álbumes en vivo y un EP en Warner Music Latina. También ha realizado giras internacionales y ha ganado un Premio Grammy al Mejor Álbum Latino y cinco Premios Grammy Latinos en varias categorías.Jesse & Joy son probablemente unos de los artistas más puros y talentosos de nuestra generación, escribió Latin Times.',
+    videourl:
+      'https://youtube.com/playlist?list=PLy1NnxDiUL4iyLeRCsWq3vpQ6c_sInCyr',
+    price: '$50',
+    coverImg: 'jesseyjoy.jpg',
+    category: 'Regional Latino',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://jesseyjoy.com/',
+    youtube: 'https://www.youtube.com/channel/UC6awBq3lKY35T__puHY2OYQ',
+    facebook: 'https://www.facebook.com/JesseyJoyOficial',
+    instagram: 'https://www.instagram.com/jesseyjoy/',
+    twitter: 'https://twitter.com/jesseyjoy',
+    spotify: 'https://open.spotify.com/artist/1mX1TWKpNxDSAH16LgDfiR',
+    deezer: 'https://www.deezer.com/mx/artist/7218',
+    apple: 'https://music.apple.com/us/artist/jesse-joy/167779502',
+    soundcloud: 'https://soundcloud.com/user-996270785',
+    tidal: 'https://listen.tidal.com/artist/12832964',
+    wiki: 'https://es.wikipedia.org/wiki/Jesse_%26_Joy',
+    ticketmaster:
+      'https://www.ticketmaster.com.mx/jesse-joy-zapopan-07-05-2023/event/14005E6189360940',
+    tiktok:
+      'https://www.tiktok.com/@jesseandjoy',
+    napster: 'https://music.amazon.com.mx/artists/B001231YC2/jesse-joy',
+  },
+  {
    "id":77,
    "title":"Camilo",
    "description":"Camilo Andrés Echeverry Correa, conocido simplemente como Camilo, es un cantautor y músico colombiano. Debutó en 2008, después de ganar el concurso de talentos Factor X de su país en 2007.",
