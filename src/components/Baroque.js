@@ -1,12 +1,12 @@
 import React from 'react'
 import ButtonTreeCategories from "./ButtonTreeCategories";
-import CardData21 from '../data/CardData21'
+import CardData22 from '../data/CardData22'
 import Card from './Card'
 import Navbar from './Navbar'
 
 
-function Metal() {
-   const cards21 = CardData21.map(item => {
+function Baroque() {
+   const cards22 = CardData22.map(item => {
         return (
             <Card
                 key={item.id}
@@ -21,21 +21,21 @@ function Metal() {
   return (
     <div>
           <Navbar/>
-          <h1 className="title2">Rock Metal</h1>
+          <h1 className="title2">Baroque y Musica Classica </h1>
       <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4> 
       
            <ButtonTreeCategories/>
       
-      <img className="indianaut" src="./images/hangloose.jpg" alt="" />
-          <img className="indianaut2" src="./images/hangloose.jpg" alt="" />
+      <img className="indianaut" src="./images/violin.png" alt="" />
+          <img className="indianaut2" src="./images/piano.png" alt="" />
           <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
             <div>
             <section className="cards-list">
-               {cards21}
+               {cards22}
             </section>
             </div>
         </div>
   )
 }
 
-export default Metal
+export default Baroque

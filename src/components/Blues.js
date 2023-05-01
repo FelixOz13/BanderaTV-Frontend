@@ -24,7 +24,8 @@ function Blues() {
       
       <ButtonTreeCategories/>
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-      <img className="indianaut" src="./images/indianaut.png" alt=""/>
+      <img className="indianaut" src="./images/harmonica.jpg" alt="" />
+      <img className="indianaut2" src="./images/harmonica.jpg" alt=""/>
             <section className="cards-list">
                {cards18}
             </section>

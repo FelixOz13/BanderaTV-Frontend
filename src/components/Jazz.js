@@ -24,7 +24,8 @@ function Jazz() {
       
       <ButtonTreeCategories/>
       <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-      <img className="indianaut" src="./images/jazzyjeff.jpg" alt=""/>
+      <img className="indianaut" src="./images/jazzyjeff.jpg" alt="" />
+      <img className="indianaut2" src="./images/jazz.jpg" alt=""/>
             <section className="cards-list">
                {cards19}
             </section>

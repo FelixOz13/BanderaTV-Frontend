@@ -1,0 +1,58 @@
+const CardData22 = [
+    {
+   "id":82,
+   "title":"Mozart",
+   "description":"Johannes Chrysostomus Wolfgangus Theophilus Mozarta​ (Salzburgo, 27 de enero de 1756-Viena, 5 de diciembre de 1791), más conocido como Wolfgang Amadeus Mozart, fue un compositor, pianista, director de orquesta y profesor del antiguo Arzobispado de Salzburgo (anteriormente parte del Sacro Imperio Romano Germánico, actualmente parte de Austria), maestro del Clasicismo, considerado como uno de los músicos más influyentes y destacados de la historia. ",
+   "category":"Classica",
+   "videourl":"https://youtu.be/gpUPMSuXrzI",
+   "price":80,
+   "coverImg":"mozart.jpeg",
+   "location":"Austria",
+   "locationImg":"austria.png",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://www.operaphila.org/whats-on/on-stage-2016-2017/figaro/composer/",
+   "youtube":"https://www.youtube.com/@classicalmusic923",
+   "facebook":"https://www.facebook.com/groups/111312582236031",
+   "instagram":"https://www.instagram.com/mozartclassics/",
+   "twitter":"https://twitter.com/MozartQuote",
+   "spotify":"https://open.spotify.com/artist/4NJhFmfw43RLBLjQvxDuRS",
+   "deezer":"https://www.deezer.com/mx/album/103717472",
+   "apple":"https://music.apple.com/mx/search?term=Mozart",
+   "soundcloud":"https://soundcloud.com/mozart",
+   "tidal":"https://listen.tidal.com/artist/3518587",
+   "wiki":"https://es.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+   "ticketmaster":"https://www.ticketmaster.com/mozart-tickets/artist/2184326",
+   "tiktok":"https://www.tiktok.com/@theoffical_mozart?lang=es",
+   "napster":"https://music.amazon.com.mx/artists/B000QJON8A/wolfgang-amadeus-mozart"
+  },{
+   "id":82,
+   "title":"Bethoven",
+   "description":"Ludwig van Beethovena​ (Bonn, Arzobispado de Colonia; 16 de diciembre de 1770b​- Viena, 26 de marzo de 1827) fue un compositor, director de orquesta, pianista y profesor de piano alemán. Su legado musical abarca, cronológicamente, desde el Clasicismo hasta los inicios del Romanticismo. Es considerado uno de los compositores más importantes de la historia de la música y su legado ha influido de forma decisiva en la evolución posterior de este arte.Siendo el último gran representante del clasicismo vienés (después de Christoph Willibald Gluck, Joseph Haydn y Wolfgang Amadeus Mozart), Beethoven consiguió hacer trascender la música del Romanticismo, influyendo en diversidad de obras musicales del siglo xix. Su arte se expresó en numerosos géneros y aunque las sinfonías fueron la fuente principal de su popularidad internacional, su impacto resultó ser principalmente significativo en sus obras para piano y música de cámara.. ",
+   "category":"Classica",
+   "videourl":"https://youtube.com/playlist?list=OLAK5uy_lC2jM_5KCvDIIhvDY3rJu8OLCQA14f5aw",
+   "price":80,
+   "coverImg":"bethoveen.jpg",
+   "location":"Germany",
+   "locationImg":"germany.jpg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://www.biografiasyvidas.com/monografia/beethoven/",
+   "youtube":"https://www.youtube.com/channel/UCnsAooIr-Dsr8zJOCSadQcA",
+   "facebook":"https://www.facebook.com/BeethovenAndBeyond",
+   "instagram":"https://www.instagram.com/ludwig.van.beethoven/",
+   "twitter":"https://twitter.com/SaysBeethoven",
+   "spotify":"https://open.spotify.com/artist/2wOqMjp9TyABvtHdOSOTUS",
+   "deezer":"https://www.deezer.com/mx/artist/6144",
+   "apple":"https://music.apple.com/mx/artist/ludwig-van-beethoven/1130028",
+   "soundcloud":"https://soundcloud.com/ludwigvanbeethovenofficial",
+   "tidal":"https://listen.tidal.com/playlist/5849ba81-0955-4e5e-bd82-b1b4c5ab3d5e",
+   "wiki":"https://es.wikipedia.org/wiki/Ludwig_van_Beethoven",
+   "ticketmaster":"https://www.ticketmaster.com/ludwig-van-beethoven-tickets/artist/2508392",
+   "tiktok":"https://www.tiktok.com/@ludwigvanbeethoven?lang=es",
+   "napster":"https://music.amazon.com.mx/artists/B000QHD644/ludwig-van-beethoven"
+  }
+  ]
+
+
+export default CardData22

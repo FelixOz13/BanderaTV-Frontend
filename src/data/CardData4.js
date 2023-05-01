@@ -431,12 +431,7 @@ const CardData4 = [
   "ticketmaster": "https://www.ticketmaster.com/elton-john-tickets/artist/735394",
   "tiktok": "https://www.tiktok.com/@eltonjohn?lang=es",
   "napster": "https://us.napster.com/artist/elton-john"
-},  
-     
-   
-   
-     
-   {
+},{
    "id":206,
    "title":"The Black Keys",
    "description":"The Black Keys es un banda de rock estadounidense formada en Akron en 2001 y compuesta por dan Auerbach y Patrick Carney. El dúo comenzó de forma independiente, grabando música en sótanos y produciendo sus propios álbumes, antes de emerger como una de las bandas más populares de garage rock en la década de 2010. El crudo sonido de blues rock de la banda está relacionado directamente con las influencias de Auerbach, incluyendo a Howlin Wolf y Robert Johnson.",
@@ -788,33 +783,12 @@ const CardData4 = [
     "napster": "https://web.napster.com/artist/art.61479",
     "tiktok": "https://www.tiktok.com/@michaelbuble?lang=es"
   },
-   {
-    "id": 148,
-    "title": "Keith Sweat",
-    "description": "Keith Douglas Sweat (born July 22, 1961) is an American singer, songwriter, record producer, and an early figure in the new jack swing musical movement. He is known for his collection of hits including I Want Her, Make It Last Forever, I'll Give All My Love to You, Make You Sweat, Get Up on It, Twisted and Nobody. He has released 13 solo albums (2 as a part of the R&B supergroup LSG) and discovered the groups Silk and Kut Klose",
-    "videourl": "http://youtube.com/playlist?list=OLAK5uy_nlB9yG-3k_bPWvyqGZ_H4SMjqb2MZIiuA",
-    "price": "$50",
-    "coverImg": "keithSweat.jpg",
-    "category": "Rythm & Blues",
-    "location": "USA",
-    "locationImg": "usaflag.jpg",
-    "openSpots": null,
-    "likes": 1000,
-    "websiteurl": "https://thesweathotel.iheart.com/?pname=thesweathotel.com&sc=dnsredirect",
-    "youtube": "https://www.youtube.com/channel/UCcakvzPhugt3zkRPON_mXNw",
-    "facebook": "https://www.facebook.com/ogkeithsweat/",
-    "instagram": "https://www.instagram.com/keithsweat/",
-    "twitter": "https://twitter.com/OGKeithSweat",
-    "spotify": "https://open.spotify.com/artist/2r09Inibex3C4ZNTUVSG3m",
-    "deezer": "https://www.deezer.com/mx/artist/6326",
-    "apple": "https://music.apple.com/mx/artist/keith-sweat/335680",
-    "soundcloud": "https://soundcloud.com/keithsweatofficial",
-    "tidal": "https://listen.tidal.com/artist/14696",
-    "wiki": "https://en.wikipedia.org/wiki/Keith_Sweat",
-    "ticketmaster": "https://www.ticketmaster.com/keith-sweat-tickets/artist/736235",
-    "napster": "https://us.napster.com/artist/keith-sweat",
-    "tiktok": "https://www.tiktok.com/@keithsweat_official?lang=es"
-   }
+     
+     
+   
+   
+     
+   
 ]
 
 

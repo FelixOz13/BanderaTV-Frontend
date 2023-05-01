@@ -24,6 +24,9 @@ import Events from './components/Events';
 import Blues from './components/Blues';
 import Classical from './components/Classical';
 import Jazz from './components/Jazz';
+import Sierreño from './components/Sierreño';
+import Rhythm from './components/Rhythm';
+import Baroque from './components/Baroque';
 
 
 
@@ -62,6 +65,9 @@ root.render(
         <Route path='/classical' element={<Classical />} />
         <Route path='/jazz' element={<Jazz />} />
         <Route path='/Metal' element={<Metal />} />
+        <Route path='/Sierreño' element={<Sierreño />} />
+        <Route path='/Rhythm' element={<Rhythm />} />
+        <Route path='/Baroque' element={<Baroque />} />
         
         
         
