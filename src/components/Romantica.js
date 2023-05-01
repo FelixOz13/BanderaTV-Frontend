@@ -1,5 +1,6 @@
 import CardData15 from '../data/CardData15'
 import Card from './Card'
+import Navbar from './Navbar'
 
 import ButtonTreeCategories from "./ButtonTreeCategories";
 
@@ -17,7 +18,7 @@ import ButtonTreeCategories from "./ButtonTreeCategories";
 function Romantica() {
   return (
     <div>
-      
+      <Navbar/>
       <h1 className="title2">Musica Romantica</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4>
       

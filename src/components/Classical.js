@@ -2,6 +2,7 @@ import React from 'react'
 import ButtonTreeCategories from "./ButtonTreeCategories";
 import CardData20 from '../data/CardData20'
 import Card from './Card'
+import Navbar from './Navbar'
 
 
 function Classical() {
@@ -19,7 +20,7 @@ function Classical() {
     })  
   return (
     <div>
-          
+          <Navbar/>
           <h1 className="title2">Epoca de Oro</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4> 
       

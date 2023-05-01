@@ -6,7 +6,7 @@
  body {
    margin: 0;
    max-width: fit-content;
-   background-image: url("bgimages/universewallpaper2.jpg");
+   background-image: url("bgimages/purpleuniverse.jpg");
    background-size: 100%;
 
  }
@@ -72,7 +72,7 @@
 
  .headertext {
    color: #f4c44b;
-   background-color: black;
+
    font-family: 'Henny Penny';
    font-size: 1.5rem;
    margin-top: 10px;
@@ -92,7 +92,7 @@
    overflow: hidden;
    text-overflow: ellipsis;
    font-size: 1.5rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    color: #f4c44b;
  }
 
@@ -101,7 +101,7 @@
    align-items: center;
    color: #f4c44b;
    font-weight: bold;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    font-size: 1rem;
  }
 
@@ -160,7 +160,7 @@
    font-size: .8rem;
    margin-top: 10px;
    font-weight: bold;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
 
  }
 
@@ -179,27 +179,27 @@
    margin-left: 45px;
    margin-right: 45px;
    font-size: 1rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    color: #f4c44b;
  }
 
 
  .slidertextdiv {
-   background-color: black;
+
    text-align: center;
    border-radius: 20px;
    margin-top: 10px;
    margin-left: 45px;
    margin-right: 45px;
    font-size: 1rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    color: #f4c44b;
  }
 
  .slidertext {
-   background-color: black;
+
    font-size: 1rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -211,7 +211,7 @@
 
  .herotext {
    font-size: 2rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    text-align: center;
    background-color: black;
    border-radius: 15px;
@@ -223,7 +223,7 @@
  .eventos {
    background-color: black;
    font-size: 3rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -239,7 +239,7 @@
  .socialmedia {
    background-color: black;
    font-size: 2rem;
-   font-family: 'Bungee Shade';
+   font-family: 'Nabla';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -313,20 +313,20 @@
    display: flex;
    flex-direction: row;
    margin-bottom: 5px;
-   font-family: 'Bungee Shade'
+   font-family: 'Nabla'
  }
 
  .icons-like {
    font-size: 25px;
    color: #dc9e02;
    margin-left: 5px;
-   font-family: 'Bungee Shade'
+   font-family: 'Nabla'
  }
 
  .num-display {
    position: absolute;
    left: 50px;
-   font-family: 'Bungee Shade'
+   font-family: 'Nabla'
  }
 
  .locationImg {
@@ -633,9 +633,7 @@
    margin: 6px;
  }
 
- .sponsorcontainer1 {
-   margin-left: 30px;
- }
+
 
  .sponsorcontainer {
    display: flex;
@@ -656,6 +654,38 @@
 
 
  .sponsor:hover {
+   background-image: linear-gradient(to right, #dc9e02,
+       black,
+       #dc9e02);
+   max-width: 95px;
+   max-height: 95px;
+   padding: 5px;
+   border-radius: 10%;
+   cursor: pointer;
+ }
+
+
+
+ .sponsorcontainer1 {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+ }
+
+ .sponsorcontainer1>* {
+   flex: 5 1 5%;
+ }
+
+ .sponsor1 {
+   width: 55px;
+   height: 55px;
+   border-radius: 20%;
+   margin: 0px;
+ }
+
+
+
+ .sponsor1:hover {
    background-image: linear-gradient(to right, #dc9e02,
        black,
        #dc9e02);

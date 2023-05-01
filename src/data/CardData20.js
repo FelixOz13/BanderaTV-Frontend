@@ -414,32 +414,6 @@ const CardData20 = [
    "ticketmaster":"https://www.ticketmaster.com/joan-sebastian-tickets/artist/755195",
    "tiktok":"https://www.tiktok.com/@joansebastianoficial?lang=es",
    "napster":"https://web.napster.com/artist/joan-sebastian"
-},{
-  "id": 128,
-  "title": "Frank Sinatra",
-  "description": "Francis Albert Sinatra, conocido como Frank Sinatra, fue un cantante y actor estadounidense, considerado una de las figuras más importantes del siglo XX y uno de los cantantes más populares de todos los tiempos en todo el mundo. Dejó, a través de sus discos y actuaciones en directo, un legado canónico en lo que respecta a la interpretación vocal masculina de la música. Su popularidad llegó a ser inmensa en todo el mundo y prácticamente constante a lo largo de toda su carrera, sus grabaciones alcanzaron las listas musicales 209 veces. Es uno de los 33 artistas en ostentar tres estrellas en el Paseo de la Fama de Hollywood..",
-  "videourl": "https://youtube.com/playlist?list=PL4X0crpaJ94XBIbsOwJSbQCIIVu5xRhoC",
-  "price": "$50",
-  "coverImg": "FrankSinatra.jpg",
-  "category": "Jazz",
-  "location": "USA",
-  "locationImg": "usaflag.jpg",
-  "openSpots": null,
-  "likes": 1000,
-  "websiteurl": "http://www.sinatra.com/",
-  "youtube": "https://www.youtube.com/channel/UCJtvg6ZFwzdFdtcHBqetvwg",
-  "facebook": "https://www.facebook.com/sinatra",
-  "instagram": "https://www.instagram.com/sinatra/",
-  "twitter": "https://twitter.com/franksinatra",
-  "spotify": "https://open.spotify.com/artist/1Mxqyy3pSjf8kZZL4QVxS0",
-  "deezer": "https://www.deezer.com/mx/artist/617",
-  "apple": "https://music.apple.com/mx/artist/frank-sinatra/171366",
-  "soundcloud": "https://soundcloud.com/frank-sinatra",
-  "tidal": "https://listen.tidal.com/artist/362",
-  "wiki": "https://es.wikipedia.org/wiki/Frank_Sinatra",
-  "ticketmaster": "https://www.ticketmaster.com/frank-sinatra-show-tickets/artist/2225939",
-  "tiktok": "https://www.tiktok.com/@franksinatra",
-  "napster": "https://us.napster.com/artist/frank-sinatra"
 },
 ]
 

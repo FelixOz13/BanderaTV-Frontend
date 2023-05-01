@@ -3,44 +3,44 @@ import { Link } from 'react-router-dom'
 
 function ButtonTreeCategories() {
   return (
-    <div>
+    <div className="sponsorcontainer1">
       <Link className="btn" to="/home">
-        <img src="../images/ExitosMusicales.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/ExitosMusicales.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn" to="/mariachi">
-        <img src="../images/regimex.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/regimex.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link>
 
       <Link className="btn" to="/banda">
-        <img src="../images/bandalogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/bandalogo.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link>
       
       <Link className="btn" to="/norteño">
-        <img src="../images/norteño.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/norteño.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn" to="/cumbias">
-        <img src="../images/cumbialogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/cumbialogo.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn" to="/rockesp">
-        <img src="../images/rockesp.jpeg" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/rockesp.jpeg" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn " to="/raptrap">
-        <img src="../images/rap3.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/rap3.jpg" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
       <Link className="btn " to="/reggaeton">
-        <img src="../images/reggaetonlogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/reggaetonlogo.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link> 
 
       <Link className="btn" to="/reggae">
-        <img src="../images/reggaelogo.jpg" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/reggaelogo.jpg" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link>
 
       <Link className="btn" to="/alternative">
-        <img src="../images/alternativelogo.png" className="sponsor" alt="" media="(max-width: 400px)" />
+        <img src="../images/alternativelogo.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link>
 
       <Link className="btn" to="/pop">

@@ -1,6 +1,6 @@
 import CardData17 from '../data/CardData17'
 import Card from './Card'
-
+import Navbar from './Navbar'
 import ButtonTreeCategories from "./ButtonTreeCategories";
 
 
@@ -17,7 +17,7 @@ import ButtonTreeCategories from "./ButtonTreeCategories";
 function Events() {
   return (
     <div>
-      
+      <Navbar/>
       <h1 className="title2">Eventos en Mexico</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4>
       

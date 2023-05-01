@@ -29,7 +29,7 @@ const CardData10 = [
    "id":228,
    "title":"Imagine Dragons",
    "description":"Imagine Dragons es una banda estadounidense de Pop Rock originaria de Las Vegas, Nevada. Está compuesta por Dan Reynolds (vocalista), Daniel Wayne Sermon (guitarrista), Ben McKee (bajista) y Daniel Platzman (baterista). La banda ganó el reconocimiento mundial con el lanzamiento de su álbum de estudio debut Night Visions (2012), y con su canción 'It's Time'. Billboard colocó a Imagine Dragons en la cima de su ranking del 2013 'Year In Rock', además los llamó «la banda revelación del 2013».",
-   "videourl":"https://youtube.com/playlist?list=OLAK5uy_nSsWaQnZJ6icTtRPjEbAnK9j7Uv86ZuBo",
+   "videourl":"https://youtube.com/playlist?list=PLG7Rcw-np_6fJKgE9Lhu2gW-cq4bolc2B",
    "price":36,
    "coverImg":"ImagineDragons.jpg",
    "category":"Alternativo",

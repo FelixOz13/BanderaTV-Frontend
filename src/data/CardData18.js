@@ -107,7 +107,7 @@ const CardData18 = [
    "tiktok":"https://www.tiktok.com/search/video?lang=es&q=creedence%20clearwater%20revival&t=1654383158590",
    "napster":"https://app.napster.com/artist/creedence-clearwater-revival"
   },
-   {
+  {
   "id": 129,
   "title": "Ray Charles",
   "description": "Ray Charles Robinson, más conocido como Ray Charles, fue un cantante, saxofonista y pianista estadounidense de soul y R&B. Entre sus amigos y músicos él prefería que le llamaran Hermano Ray y era frecuentemente referido como El Genio. Charles comenzó a perder la visión a la edad de 5 años y a los 7 años era ciego. Fue pionero de la música soul durante los años 1950 por la combinación del blues, rhythm and blues y el estilo gospel dentro de la música que grabó para el sello Atlantic. Contribuyó a la integración de la música country, rhythm and blues y música pop durante los años 1960 con su gran éxito en ABC Records, notable con sus dos álbumes de Modern Sound. Mientras estuvo con ABC, Ray Charles fue uno de los primeros músicos afroamericanos en tener control artístico en la compañía para la cual grababa.",
@@ -134,6 +134,7 @@ const CardData18 = [
   "tiktok": "https://www.tiktok.com/search?q=Ray%20Charles&t=1660884101665",
   "napster": "https://us.napster.com/artist/ray-charles"
 }, 
+  
 {
   "id": 175,
   "title": "James Brown",
@@ -294,58 +295,7 @@ const CardData18 = [
   "tiktok": "https://www.tiktok.com/@laurynhillfannn?lang=es",
   "napster": "https://us.napster.com/artist/lauryn-hill"
 } ,       
-       {
-  "id": 130,
-  "title": "Barbara Streisand",
-  "description": "Barbra Streisand (Brooklyn, Nueva York; 24 de abril de 1942) es una actriz, cantante, compositora, productora y directora estadounidense. A lo largo de su extensa carrera de más de seis décadas, sus logros en la música, el cine y el teatro la han convertido en un icono de la cultura estadounidense. Tras una exitosa carrera como cantante durante los años sesenta, debutó en el cine con gran esplendor en el musical Funny Girl de 1968, que la estableció como una intérprete de éxito y que le premió con su primer Óscar como mejor actriz.",
-  "videourl": "https://youtube.com/playlist?list=PLqADcilQMwvbvI6kJ4Ho5DHBNuPMWdWjP",
-  "price": "$50",
-  "coverImg": "BarbaraStreisand.jpg",
-  "category": "Romantic",
-  "location": "USA",
-  "locationImg": "usaflag.jpg",
-  "openSpots": null,
-  "likes": 1000,
-  "websiteurl": "https://releaseme2.barbrastreisand.com/",
-  "youtube": "https://www.youtube.com/channel/UCvwLGtS025Kafufr8SsR_EQ",
-  "facebook": "https://www.facebook.com/barbrastreisand",
-  "instagram": "https://www.instagram.com/barbrastreisand/",
-  "twitter": "https://twitter.com/BarbaraStreis19",
-  "spotify": "https://open.spotify.com/artist/7jmTilWYlKOuavFfmQAcu6",
-  "deezer": "https://www.deezer.com/mx/artist/5657",
-  "apple": "https://music.apple.com/mx/artist/barbra-streisand/249646",
-  "soundcloud": "https://soundcloud.com/barbarastreisandofficial",
-  "tidal": "https://listen.tidal.com/artist/70",
-  "wiki": "https://es.wikipedia.org/wiki/Barbra_Streisand",
-  "ticketmaster": "https://www.ticketmaster.com/barbra-streisand-tickets/artist/734094",
-  "tiktok": "https://www.tiktok.com/@barbrastreisand?lang=es",
-  "napster": "https://us.napster.com/artist/barbra-streisand"
-},{
-  "id": 131,
-  "title": "Aretha Franklin",
-  "description": "Aretha Louise Franklin fue una cantante estadounidense de soul, R&B y góspel. Apodada «Lady Soul» o «Queen of soul», fue la máxima exponente de dicho género, y una de las más grandes transmisoras de góspel de todos los tiempos, así como una de las artistas más influyentes en la música contemporánea..",
-  "videourl": "https://youtube.com/playlist?list=PLCx4rpClwwTAnYs_sgXpHj3_zPsYonM_8",
-  "price": "$50",
-  "coverImg": "ArethaFranklin.jpg",
-  "category": "Jazz",
-  "location": "USA",
-  "locationImg": "usaflag.jpg",
-  "openSpots": null,
-  "likes": 1000,
-  "websiteurl": "https://www.arethafranklin.net/",
-  "youtube": "https://www.youtube.com/channel/UCGDOBEUVPWkzmHo4dDa96zQ",
-  "facebook": "https://www.facebook.com/arethafranklin/",
-  "instagram": "https://www.instagram.com/arethafranklin/",
-  "twitter": "https://twitter.com/ArethaFranklin",
-  "spotify": "https://open.spotify.com/artist/7nwUJBm0HE4ZxD3f5cy5ok",
-  "deezer": "https://www.deezer.com/mx/artist/2059",
-  "apple": "https://music.apple.com/mx/artist/aretha-franklin/98742",
-  "soundcloud": "https://soundcloud.com/arethafranklin",
-  "wiki": "https://es.wikipedia.org/wiki/Aretha_Franklin",
-  "ticketmaster": "https://www.ticketmaster.com/aretha-franklin-tickets/artist/735118",
-  "tiktok": "https://www.tiktok.com/@arethafranklin?lang=es",
-  "napster": "https://us.napster.com/artist/aretha-franklin"
-},
+      
 ]
 
 
