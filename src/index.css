@@ -669,7 +669,7 @@
  .sponsorcontainer1 {
    display: flex;
    flex-wrap: wrap;
-   margin: 20px;
+   margin: 5px;
  }
 
  .sponsorcontainer1>* {

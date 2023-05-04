@@ -1,6 +1,6 @@
 const CardData = [
    {
-   "id":82,
+   "id":1,
    "title":"Peso Pluma",
    "description":"Hassan Emilio Kabande Laija (Zapopan, Jalisco; 15 de junio de 1999), conocido como Peso Pluma, es un cantante mexicano. Se especializa en el subgénero de corridos tumbados.Su fama internacional comenzó en 2022, después de colaborar con cantantes como Luis R. Conriquez y Natanael Cano.3​ Algunos de sus éxitos son «El Belicón», «Siempre pendientes», «PRC», «Por las noches», «AMG», «Ella baila sola» y «La bebé (Remix)». Debido a su fama ha logrado colaborar también con artistas de éxito mundial como Becky G,5​ Nicki Nicole6​, Marshmello,7​y Ovy on the Drums.Su estilo musical se caracteriza por un toque acústico con influencias de la música urbana como el trap mezclados con sonido de los corridos",
    "category":"Sierreño",
@@ -27,7 +27,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B082C6RXYG"
    },
    {
-   "id":82,
+   "id":2,
    "title":"El Fantasma",
    "description":"Alexander García was born in Las Canas, Durango. He worked as a gardener for six years before becoming a singer.He performs regional Mexican music[2] and corrido songs about hardworking people. On social media, fans nickname him the King from the Underground.His nickname began because his friends and family call him El Fanta.[3] He was finalist at the 2019 Billboard Latin Music Awards.In 2019, El Fantasma's single Encantadora charted number 1 on Regional Mexican Airplay. On August 14, 2021, his single Soy Buen Amigo charted number 1 on Regional Mexican Airplay. It also charted 27 on Hot Latin Songs",
    "category":"Sierreño",
@@ -54,7 +54,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B003DHLCDQ/el-fantasma"
    },
     {
-   "id":82,
+   "id":3,
    "title":"Natanael Cano",
    "description":"Natanael Cano, nombre artístico de Nathanahel Rubén Cano Monge (Hermosillo, 27 de marzo de 2001), es un rapero y cantautor del género regional mexicano. Es el creador del concepto corridos tumbados, nombre de uno de sus discos. Su música fusiona géneros de música regional mexicana tales como el corrido y sierreño-banda con rap, trap, y hip-hop ",
    "category":"Sierreño",
@@ -81,7 +81,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B07F747D1Q/natanael-cano"
    },
    {
-   "id":232,
+   "id":4,
    "title":"Rancho Humilde Records",
    "description":"Jimmy Humilde, es considerado como “uno de los hombres que más misterio genera entorno a su persona” en el mundo del espectáculo musical.",
    "videourl":"https://youtube.com/playlist?list=PLj9gRUgWAIL90dAa2YBl3WBt_zO-drgdq",
@@ -109,7 +109,7 @@ const CardData = [
 },
    {
           
-   "id":83,
+   "id":5,
    "title":"Tercer Elemento",
    "description":"T3R Elemento fue formado por tres jóvenes de origen mexicano y un cubano en Las Vegas, Estados Unidos. Dado que realizaron dos intentos previos de formar un grupo, ante esos fracasos decidieron llamar al grupo T3R Elemento en referencia a que era la tercera vez que lo intentaban.Kristopher Nava fue el fundador del grupo. En 2016 publicaron su primer disco llamado Rafa Caro en Vivo y en 2018 publicaron the green trip. En 2018 fueron nominados por Álbum Favorito-Regional Mexicano a los Premios Latin American Music debido a su creciente popularidad la cual se ha dado en plataformas como Youtube. Sus temas han sido incluidos en la lista Billboard en los Estados Unidos .",
    "videourl":"http://youtube.com/playlist?list=PLkzsyPO-ybMTw1qR-AdG9_urQq3-nfr6b",
@@ -136,7 +136,7 @@ const CardData = [
    "napster": "https://web.napster.com/artist/t3r-elemento",
    "bandera":"/tercerelemento"
 }, {
-   "id":81,
+   "id":6,
    "title":"Grupo 360",
    "description":"Conjunto de Musica Norteña ,Sierreña y Comica de la ciudad de Tijuana Baja California .SEGUIMOS LABORANDO,AQUILESORGANIGRAMA, THE PANIN ,LA BArDA , ZONA DE GUERRA ,SOMOS DE ACCIÓN ",
    "category":"Sierreño",
@@ -164,7 +164,7 @@ const CardData = [
 }   ,
   
    {
-   "id":231,
+   "id":7,
    "title":"Los Hijos de Garcia",
    "description":"Los Hijos De Garcia Proveniente de la ciudad de Las Vegas, Nevada ha captado la atención por su peculiar manera para interpretar sus corridos y canciones. A Los Hijos de García los categorizan como “Regional Urbano”, debido a sus líricas y manera de tocar la música norteña. Su sonido único de la acordeón los hacen notar, lo cual se demuestra en sus éxitos underground como son “18 Libras”, “Los Lujos de La Vida”, “El Tuna”, entre otros más.",
    "videourl":"https://youtube.com/playlist?list=PLF-cRDh2mrlWnKytmIAEKPrCV4ONP_1VP",
@@ -191,7 +191,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B01EE9PSVI/los-hijos-de-garcia"
 },
 {
-   "id":232,
+   "id":8,
    "title":"Herencia de Patrones",
    "description":"Biografía de Herencia de Patrones Inicios en la vida de Herencia de Patrones . Herencia de Patrones es un grupo exponente del regional mexicano, banda y corridos originarios del norte de México quienes fusionaron la música urbana.",
    "videourl":"https://youtube.com/playlist?list=PLj9gRUgWAIL-Kd808w8x8f-kFj7_HyT0_",
@@ -218,7 +218,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B076BYDRQB/herencia-de-patrones"
    },
    {
-   "id":232,
+   "id":9,
    "title":"Grupo Marca Registrada",
    "description":"Marca Registrada es una agrupación originaria de Culiacán que se fundó durante 2014 y sus integrantes son Fidel Castro, Ángel Mondragón, Fernando Medina, Sergio Espinozam y Rudy Mascareño. Estudié Ciencias de la Comunicación en la Universidad Autónoma de Sinaloa..",
    "videourl":"https://youtube.com/playlist?list=OLAK5uy_nNvXohVC7ZkjMAR4Fv-2v8j2brqIkFcyU",
@@ -246,7 +246,7 @@ const CardData = [
    },
   
 {
-   "id":80,
+   "id":10,
    "title":"Grupo Firme",
    "description":"Grupo Firme es una agrupación de música regional mexicana. Empezaron cómo grupo norteño, pero también han grabado con banda sinaloense. Ha recibido nominaciones para una variedad de programas que incluyen: Premios Juventud y Premio Lo Nuestro, resultando ganador en 2021 de este último con cinco distinciones.El fundador de la agrupación musical es el Choixcense de 32 años, Jairo Corrales el cual creó a la banda después de conocerse en un evento en la ciudad de Tijuana.",
    "videourl":"http://youtube.com/playlist?list=UUFlC8U0Uif2hF0FIgsSIIYQ",
@@ -273,7 +273,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B01BZRCST2/grupo-firme"
    },
    {
-   "id":85,
+   "id":11,
    "title":"Eden Muñoz",
    "description":"Rodolfo Edén Muñoz Cantú (Los Mochis, Sinaloa, 25 de septiembre de 1990), es un cantante, compositor y productor mexicano de música regional mexicana. Muñoz es el menor de 4 hermanos del matrimonio entre Rodolfo Muñoz e Isidora Cantú quienes por azares del destino la vida los traslada a la ciudad de Mazatlán, Sinaloa, donde más adelante su crianza y entorno lo llevaría de lleno a la música.Desde muy pequeño Edén comenzó a dar muestra que había nacido para esto, ya que sin ninguna pena interpretaba canciones y le cambiaba la letra a estas sin saber que más adelante serviría de plataforma para lograr grandes composiciones que han marcado el rumbo de la música regional mexicana en los últimos tiempos..",
    "videourl":"https://youtube.com/playlist?list=PLLlCI9n44muADESckd8b6oOL1cmfGLz35",
@@ -299,7 +299,7 @@ const CardData = [
    "napster":"https://music.amazon.com.mx/artists/B003X2YJR2/eden-mu%C3%B1oz"
    },
    {
-   "id":100,
+   "id":12,
    "title":"Chuy Lizarraga",
    "description":"Chuy Lizarraga es “La cara alegre de la banda”, así es conocido ahora el cantante oriundo de Mazatlán Sinaloa, México; nacido el 9 de Noviembre de 1976 y con sus largos 10 años de carrera artística ahora incursiona en el medio musical como solista después de haber militado por varias agrupaciones del mismo estilo musical. .",
    "videourl":"http://youtube.com/playlist?list=PLnQJvKNB7Plq5WdeHT05UmZbinWq7X9BD",
@@ -326,7 +326,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/art.54718648"
    },
    {
-   "id":94,
+   "id":13,
    "title":"Banda MS",
    "description":"La Banda Sinaloense MS de Sergio Lizárraga también conocida como Banda MS es una agrupación de música de banda sinaloense creada en la ciudad de Mazatlán, Sinaloa, en el año de 2003..",
    "videourl":"http://youtube.com/playlist?list=PLQDuTkZkYAFkYOzl5ba0PIarAXME9D0jI",
@@ -353,7 +353,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/banda-sinaloense-ms-de-sergio-lizarraga"
    },
    {
-   "id":87,
+   "id":14,
    "title":"Carin Leon",
    "description":"Óscar Armando Díaz De León Huez, mejor conocido en el medio musical como Carín León, es un cantante, guitarrista y compositor mexicano. Nació en Hermosillo, Sonora, México, el 26 de julio de 1989. El cantante comenzó su carrera formando parte de distintas agrupaciones, tales como Los Reales y Grupo Arranke. En el 2018 comenzó con su carrera como solista, logrando un amplio reconocimiento en la escena en poco tiempo.",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_nJNKtjy1IdtjM71VR780T24y2MetYuNSg",
@@ -379,7 +379,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/calibre-50"
    },
    {
-   "id":111,
+   "id":15,
    "title":"Los Tucanes de Tijuana",
    "description":"Los Tucanes de Tijuana son una agrupación de música regional mexicana liderada por Mario Quintero Lara, especializada en el estilo norteño y corrido. Fue creada en la ciudad de Tijuana, Baja California, México en el año de 1983 y formalizada en 1987. Durante su carrera han cosechado diversos premios y reconocimientos, entre los que destacan un Grammy Latino en 2012 por el álbum 365 días, cinco nominaciones a los Premios Grammy, nueve a los Premios Lo Nuestro y múltiples Premios BMI para Quintero como compositor. Son la primera banda de música norteña en ganar un premio de cine internacional al obtener el galardón «Un Certain Regard Angel Film» en el Festival Internacional de Cine de Mónaco por su participación en el documental Los ilegales. En 2008 el grupo recibió una estrella en el Paseo de la Fama de Las Vegas.",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_kVyzS5YvKNUaKdLtqU0C7djL5D8vMM52U",
@@ -405,7 +405,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/@lostucanesdetijuana?lang=es",
    "napster":"https://web.napster.com/artist/los-tucanes-de-tijuana"
    }, {
-   "id":89,
+   "id":16,
    "title":"Gerardo Ortiz",
    "description":"Gerardo Ortiz Medina es un cantante y compositor mexicano-estadounidense de música regional mexicana, especializado en los estilos de banda, norteño, norteño-banda, sierreño, sierreño-banda y mariachi. Es especialmente famoso por sus corridos progresivos.",
    "videourl":"http://youtube.com/playlist?list=PLByjh6DfxKTKdej2wbJqw6UmA2KHszPyG",
@@ -431,7 +431,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/@....gerardoortizoficial?lang=es",
    "napster":"https://web.napster.com/artist/gerardo-ortiz"
 }, {
-   "id":90,
+   "id":17,
    "title":"Neto Bernal",
    "description":"Ernesto Bernal Contreras, mejor conocido como Neto Bernal, es un cantante de música regional, procedente de Mexicali, Baja California, México. El joven, que nació el 1 de octubre de 1997, comparte junto con su madre el origen en la ciudad fronteriza, Mexicali, mientras que su padre viene de Sonora. El artista, de tan sólo 19 años, creció allí junto con su hermano menor, Alexis Bernal.",
    "videourl":"http://youtube.com/playlist?list=PLaSnKw4FFePPPOXaDVDk3SObo2PbAeqbp",
@@ -457,7 +457,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/@netobernal?lang=es",
    "napster":"https://web.napster.com/artist/neto-bernal"
    },{
-   "id":112,
+   "id":18,
    "title":"El Tigrillo Palma",
    "description":"El Tigrillo Palma” nació en El Baral, Guasave, municipio del estado de Sinaloa, a los seis años de edad, Efrén descubrió el gusto por el canto, y a los diez años ya había grabado su primer disco en un grupo que formó con su hermana y que se llamaba “Los Vaqueritos de El Baral”. En ese tiempo, Efrén y su hermana vivían en la ciudad de México, D.F., ya que pa… Más información",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_luleD3J1PjmzogRZZOegcd6scqvgXF0ys",
@@ -485,7 +485,7 @@ const CardData = [
 }
         ,
        {
-   "id":113,
+   "id":19,
    "title":"El Compa Sacra",
    "description":"¿Quién es El Compa Sacra? Sacramento Ramírez, conocido artísticamente como El Compa Sacra, nació en La Piedad, Michuacán, México. Llego a Estados Unidos de Norte America a comienzos de 1980. Comenzó su carrera musical con la agrupación Los Razos, la cual alcanzó reconocimiento en los años 80 y 90.",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_kJ5AizQuObUTIu65sr1wXNEw2Sft1-D1M",
@@ -512,7 +512,7 @@ const CardData = [
 },
        
    {
-   "id":79,
+   "id":20,
    "title":"Antonio Delgado",
    "description":"Antonio Delgado es Originario de Tijuana. El Muchacho heredo su gran talento atravez de su padre quien tambien fue un gran cantante y tambien tuvo varios exitos musicales. El Joven ha demostrado ser muy Serio y Firme con Exitos como La 9 y Verde Veneno.",
    "videourl":"http://youtube.com/playlist?list=PLF-cRDh2mrlUEifrg_eT-P0htj5fUBspN",
@@ -539,7 +539,7 @@ const CardData = [
    "napster":"https://app.napster.com/artist/antonio-delgado"
 } ,
 {
-   "id":91,
+   "id":21,
    "title":"Jesse Uribe",
    "description":" Yesid Eduardo Uribe Ordóñez (Bucaramanga, 22 de marzo de 1987), más conocido como Jessi Uribe, es un cantante y músico colombiano, reconocido principalmente por su participación en los realities La Voz Colombia y A otro nivel del Canal Caracol..",
    "videourl":"http://youtube.com/playlist?list=PL4UtXzxnvDJ2LHj0DgQc4jh9UQI-j9kTM",
@@ -568,7 +568,7 @@ const CardData = [
    
  
 {
-   "id":92,
+   "id":22,
    "title":"Luis Angel-El Flaco",
    "description":"Luis Ángel Franco Rivera mejor conocido como Luis Angel El flaco” es un famoso cantante de música de banda y regional mexicano que ha logrado millones de fans por su gran talento vocal. Luis Angel -El flaco” nació el 7 de marzo de 1987 en Mazatlán Sinaloa y también es muy reconocido por haber sido vocalista de La Banda Los Recoditos por más de 16 años..",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_m_Jv-ZG4bHK1gIJjgHqlUjZQcLBCxnla8",
@@ -595,7 +595,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/luis-angel-el-flaco"
    },
    {
-   "id":102,
+   "id":23,
    "title":"Los Dos Carnales",
    "description":"Los Dos Carnales comenzaron su carrera desde muy jóvenes, respectivamente, pero luego empezaron a realizar show de payasos en donde tocaban sus canciones. “Tocando en sí tenemos un buen rato, mi hermano empezó a los 9 años y yo tenía 14. Cuando empezamos en este rollo de la música, nos tocó ser payasos. Hacíamos show y tocabamos”, mencionó Poncho Quezada  .",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_mw2bd-OH5SC66vMYVJWLGnPHXcY2s64rg",
@@ -624,7 +624,7 @@ const CardData = [
 
         
        {
-   "id":104,
+   "id":24,
    "title":"DEL Records",
    "description":"DEL Records es un sello discográfico estadounidense de música en español fundado por Ángel del Villar en 2008. Su sede se encuentra en el suburbio de Bell Gardens en Los Ángeles, California, e incluye DEL Records, DEL Publishing, DEL Studios y DEL Entertainment, los cuales se centran en la música regional mexicana, específicamente en géneros del pacífico mexicano cómo la banda sinaloense, el norteño estilo pacífico, el norteño-banda, el sierreño, el sierreño-banda y el mariachi. DEL Records ha dado inicio a carreras musicales de artistas que mantienen actualmente buen desempeño comercial como Tercer Elemento, Lenin Ramírez, Ulices Chaidez, Luis Carrazco, entre otros. DEL Records y sus artistas son ganadores frecuentes en los Premios Billboard de la música latina..",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_mhD873MzMdsLA0BGNtyoc_7znFASWHWUI",
@@ -650,7 +650,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/@delrecordsofficial?lang=es",
    "napster":"https://web.napster.com/artist/del-records"
 },{
-   "id":82,
+   "id":25,
    "title":"Luis R Conriquez",
    "description":"Luis R Conriquez es un compositor que se hizo conocido entre el público gracias a su estilo interpretativo, la honestidad de sus letras, sus mensajes de superación personal y un talento innato para componer corridos modernos",
    "category":"Sierreño",
@@ -677,7 +677,7 @@ const CardData = [
    "napster":"https://us.napster.com/artist/luis-r-conriquez"
    },
        {
-   "id":105,
+   "id":26,
    "title":"Fuerza Regida",
    "description":"FUERZA REGIDA es un grupo de música Regional Mexicana, conformado por Jesús Ortiz Paz, Samuel Jaimez, Khrystian Ramos y José, originarios de Sinaloa, México. ",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_mbBjDr6BF9efxuubR7uCa4j7nO3rxXlL4",
@@ -704,7 +704,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/fuerza-regida"
 }
        ,{
-   "id":231,
+   "id":27,
    "title":"Los de La Noria",
    "description":"Los de la noria está conformado por: En el 2015 la empresa de representación artística Andaluz Music presenta a su nuevo y talentoso grupo Los de la Noria un conjunto de 3 jóvenes músicos Sinaloenses que unen sus acordes para dar un sonido dinámico y fresco al estilo sierreño.",
    "videourl":"https://youtube.com/playlist?list=PLx8xu1SPDGv_inyAMZ605De9lbYzxvR_u",
@@ -730,7 +730,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/@losdelanoria?lang=es",
    "napster":"https://web.napster.com/artist/art.242132068"
 },{
-   "id":106,
+   "id":28,
    "title":"Espinoza Paz",
    "description":"Isidro Chávez Espinoza, conocido artísticamente como Espinoza Paz (29 de octubre de 1981, Angostura, Sinaloa), es un músico y cantautor mexicano, especializado en los estilos de banda, norteño, mariachi, duranguense y country en español.",
    "videourl":"http://youtube.com/playlist?list=PL0bZXeO0KLMMf6zz6etoYNEWEijQ9ZoLA",
@@ -757,7 +757,7 @@ const CardData = [
    "napster":"https://web.napster.com/artist/espinoza-paz"
 },
    {
-   "id":95,
+   "id":29,
    "title":"Pancho Barraza",
    "description":"Pancho Barraza nació en Villa Union, municipio de Mazatlan, Sinaloa el 17 DE JUNIO DE 1961. Desde que era niño demostró inquietudes por la música, adquirió experiencia participando en diversos concursos. Estudio la carrera de profesor de música en la Bénemerita Escuela Normal de Sinaloa y ejerció como tal en una secundaría del poblado Villa Unión hasta los 22 años cuando se integró como bajista al grupo Karisma y así mismo al coro de la iglesia de dicho pueblo.",
    "videourl":"http://youtube.com/playlist?list=UU182E6DfqeGhPcyo-6N8xig",
@@ -785,7 +785,7 @@ const CardData = [
 },
 
 {
-   "id":96,
+   "id":30,
    "title":"Julio Preciado",
    "description":"Julio César Preciado Quevedo (Mazatlán, Sinaloa, México, 1 de diciembre de 1966) es un cantante mexicano de banda sinaloense que formó parte de la banda más representativa de este género musical la Banda del Recodo de don Cruz Lizárraga como vocalista de 1991 a 1998 siguiendo posteriormente una carrera en solitario con la Banda Perla del Pacífico. .",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_lANuTCU3POCJ6nmDBkuuQyQq6Z1F17ohE",
@@ -811,7 +811,7 @@ const CardData = [
    "tiktok":"https://www.tiktok.com/search?lang=es&q=Julio%20Preciado&t=1655491640150",
    "napster":"https://web.napster.com/artist/julio-preciado"
 } ,{
-   "id":107,
+   "id":31,
    "title":"El Mimoso",
    "description":"Luis Antonio Lopez Flores mejor conocido como “El Mimoso” nació el 21 de noviembre de 1979 en Concordia, Sinaloa. El tercero de cuatro hermanos, sus padres José Cruz López Salazar y Guadalupe Flores Rodríguez; vieron que desde muy chico le nació el gusto por el canto, en su natal Concordia.",
    "videourl":"http://youtube.com/playlist?list=PLO8c1UjEPsQvoDnx4IMtFBHm0SljWDWj6",
@@ -840,7 +840,7 @@ const CardData = [
 
       
        {
-   "id":110,
+   "id":32,
    "title":"Lupillo Rivera",
    "description":"Guadalupe Martín Rivera Saavedra conocido como Lupillo Rivera es un cantante y compositor de música regional, estadounidense de origen mexicano.",
    "videourl":"http://youtube.com/playlist?list=OLAK5uy_kuI9H6qIYevoWHaK6WAwVr0lxALer6cZA",
@@ -869,7 +869,7 @@ const CardData = [
 ,
 
     {
-   "id":103,
+   "id":33,
    "title":"Ariel Kamacho y Los Plebes del Rancho",
    "description":"Los Plebes del Rancho de Ariel Camacho es una agrupación de música regional mexicana, especializado en el estilo del Sierreño-Banda. Son originarios de Guamúchil, Sinaloa. El grupo fue fundado en 2013 como Ariel Camacho y los Plebes del Rancho, por Ariel Camacho y su amigo César Sánchez. Firmaron originalmente con DEL Records en 2014, pero luego se retiraron en 2016 debido a disputas generadas con el incumplimiento del contrato y firmaron con JG Entertainment. El fallecimiento de Ariel Camacho provocó cambios en el grupo.",
    "videourl":"http://youtube.com/playlist?list=PL16_wFPiPzHKJGkgBVgOnZolTNmLtVU4E",

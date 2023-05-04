@@ -27,7 +27,10 @@ import Jazz from './components/Jazz';
 import Sierreño from './components/Sierreño';
 import Rhythm from './components/Rhythm';
 import Baroque from './components/Baroque';
-
+import Nigga from './components/Nigga';
+import Rancheras from './components/Rancheras';
+import Mexicanas from './components/Mexicanas';
+import Sonidero from './components/Sonidero';
 
 
 
@@ -68,6 +71,10 @@ root.render(
         <Route path='/Sierreño' element={<Sierreño />} />
         <Route path='/Rhythm' element={<Rhythm />} />
         <Route path='/Baroque' element={<Baroque />} />
+        <Route path='/Nigga' element={<Nigga />} />
+        <Route path='/Rancheras' element={<Rancheras />} />
+        <Route path='/Mexicanas' element={<Mexicanas />} />
+        <Route path='/Sonidero' element={<Sonidero />} />
         
         
         

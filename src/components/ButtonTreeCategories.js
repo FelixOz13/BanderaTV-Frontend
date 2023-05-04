@@ -86,8 +86,18 @@ function ButtonTreeCategories() {
         <Link className="btn" to="/baroque">
         <img src="../images/classica.png" className="sponsor1" alt="" media="(max-width: 400px)" />
       </Link>
-      
-      
+      <Link className="btn" to="/nigga">
+        <img src="../images/nigga.png" className="sponsor1" alt="" media="(max-width: 400px)" />
+      </Link>
+       <Link className="btn" to="/rancheras">
+        <img src="../images/ranchera.jpeg" className="sponsor1" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/mexicanas">
+        <img src="../images/cantantes.png" className="sponsor1" alt="" media="(max-width: 400px)" />
+      </Link>
+      <Link className="btn" to="/sonidero">
+        <img src="../images/sonidero.png" className="sponsor1" alt="" media="(max-width: 400px)" />
+      </Link>
     </div>
   )
 }
