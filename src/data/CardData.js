@@ -2,7 +2,7 @@ const CardData = [
    {
    "id":82,
    "title":"Peso Pluma",
-   "description":"Hassan Emilio Kabande Laija (Zapopan, Jalisco; 15 de junio de 1999), conocido como Peso Pluma, es un cantante mexicano. Se especializa en el subgénero de corridos tumbados.Su fama internacional comenzó en 2022, después de colaborar con cantantes como Luis R. Conriquez y Natanael Cano.3​ Algunos de sus éxitos son «El Belicón», «Siempre pendientes», «PRC», «Por las noches», «AMG», «Ella baila sola» y «La bebé (Remix)».4​ Debido a su fama ha logrado colaborar también con artistas de éxito mundial como Becky G,5​ Nicki Nicole6​, Marshmello,7​y Ovy on the Drums.Su estilo musical se caracteriza por un toque acústico con influencias de la música urbana como el trap mezclados con sonido de los corridos",
+   "description":"Hassan Emilio Kabande Laija (Zapopan, Jalisco; 15 de junio de 1999), conocido como Peso Pluma, es un cantante mexicano. Se especializa en el subgénero de corridos tumbados.Su fama internacional comenzó en 2022, después de colaborar con cantantes como Luis R. Conriquez y Natanael Cano.3​ Algunos de sus éxitos son «El Belicón», «Siempre pendientes», «PRC», «Por las noches», «AMG», «Ella baila sola» y «La bebé (Remix)». Debido a su fama ha logrado colaborar también con artistas de éxito mundial como Becky G,5​ Nicki Nicole6​, Marshmello,7​y Ovy on the Drums.Su estilo musical se caracteriza por un toque acústico con influencias de la música urbana como el trap mezclados con sonido de los corridos",
    "category":"Sierreño",
    "videourl":"https://youtube.com/playlist?list=PLF-cRDh2mrlXbLwh-AdLa1iHtuW_y_J9b",
    "price":80,
