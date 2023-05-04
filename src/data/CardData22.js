@@ -1,6 +1,6 @@
 const CardData22 = [
     {
-   "id":82,
+   "id":1,
    "title":"Mozart",
    "description":"Johannes Chrysostomus Wolfgangus Theophilus Mozarta​ (Salzburgo, 27 de enero de 1756-Viena, 5 de diciembre de 1791), más conocido como Wolfgang Amadeus Mozart, fue un compositor, pianista, director de orquesta y profesor del antiguo Arzobispado de Salzburgo (anteriormente parte del Sacro Imperio Romano Germánico, actualmente parte de Austria), maestro del Clasicismo, considerado como uno de los músicos más influyentes y destacados de la historia. ",
    "category":"Classica",
@@ -26,7 +26,7 @@ const CardData22 = [
    "tiktok":"https://www.tiktok.com/@theoffical_mozart?lang=es",
    "napster":"https://music.amazon.com.mx/artists/B000QJON8A/wolfgang-amadeus-mozart"
   },{
-   "id":82,
+   "id":2,
    "title":"Bethoven",
    "description":"Ludwig van Beethovena​ (Bonn, Arzobispado de Colonia; 16 de diciembre de 1770b​- Viena, 26 de marzo de 1827) fue un compositor, director de orquesta, pianista y profesor de piano alemán. Su legado musical abarca, cronológicamente, desde el Clasicismo hasta los inicios del Romanticismo. Es considerado uno de los compositores más importantes de la historia de la música y su legado ha influido de forma decisiva en la evolución posterior de este arte.Siendo el último gran representante del clasicismo vienés (después de Christoph Willibald Gluck, Joseph Haydn y Wolfgang Amadeus Mozart), Beethoven consiguió hacer trascender la música del Romanticismo, influyendo en diversidad de obras musicales del siglo xix. Su arte se expresó en numerosos géneros y aunque las sinfonías fueron la fuente principal de su popularidad internacional, su impacto resultó ser principalmente significativo en sus obras para piano y música de cámara.. ",
    "category":"Classica",
@@ -34,7 +34,7 @@ const CardData22 = [
    "price":80,
    "coverImg":"bethoveen.jpg",
    "location":"Germany",
-   "locationImg":"germany.jpg",
+   "locationImg":"germany.jpeg",
    "openSpots": null,
    "likes": 1000,
    "websiteurl":"https://www.biografiasyvidas.com/monografia/beethoven/",
@@ -51,6 +51,32 @@ const CardData22 = [
    "ticketmaster":"https://www.ticketmaster.com/ludwig-van-beethoven-tickets/artist/2508392",
    "tiktok":"https://www.tiktok.com/@ludwigvanbeethoven?lang=es",
    "napster":"https://music.amazon.com.mx/artists/B000QHD644/ludwig-van-beethoven"
+  },{
+   "id":3,
+   "title":"Pyotr Ilyich Tchaikovsky",
+   "description":"Piotr Ilich Chaikovski (en ruso: Пётр Ильич Чайковский, romanización Piotr Il'ič Čajkovskij, pronunciación Acerca de este sonido /ˈpʲotr ɪlʲˈjit͡ɕ t͡ɕɪjˈkofskʲɪj/ (?·i))nota 1​ (Vótkinsk, 25 de abriljul./ 7 de mayo de 1840greg.-San Petersburgo, 25 de octubrejul./ 6 de noviembre de 1893greg.)nota 2​ fue un compositor ruso del período del Romanticismo. Es autor de algunas de las obras de música clásica más famosas del repertorio actual, como los ballets El lago de los cisnes, La bella durmiente y El cascanueces, la Obertura 1812, la obertura-fantasía Romeo y Julieta, el Primer concierto para piano, el Concierto para violín, sus sinfonías Cuarta, Quinta y Sexta y las óperas Eugenio Oneguin y La dama de picas.. ",
+   "category":"Classica",
+   "videourl":"https://youtube.com/playlist?list=OLAK5uy_miO0tlI6l-SdVsQhhqSJHmCESVcgodmY0",
+   "price":80,
+   "coverImg":"Tchaikovsky.jpg",
+   "location":"Russia",
+   "locationImg":"russia.jpeg",
+   "openSpots": null,
+   "likes": 1000,
+   "websiteurl":"https://www.biografiasyvidas.com/biografia/c/chaikovski.htm",
+   "youtube":"https://www.youtube.com/channel/UC6UJm5ElaATOPzXxNkuLDJg",
+   "facebook":"https://www.facebook.com/profile.php?id=100044902903214",
+   "instagram":"https://www.instagram.com/pyotr_ilyich_tchaikovsky_/",
+   "twitter":"https://twitter.com/Tchaikovskyism",
+   "spotify":"https://open.spotify.com/artist/3MKCzCnpzw3TjUYs2v7vDA?autoplay=true",
+   "deezer":"https://www.deezer.com/mx/artist/309998",
+   "apple":"https://music.apple.com/mx/artist/pyotr-ilyich-tchaikovsky/262899",
+   "soundcloud":"https://soundcloud.com/pyotr-ilyich-tchaikovsky",
+   "tidal":"https://listen.tidal.com/artist/4101908",
+   "wiki":"https://es.wikipedia.org/wiki/Piotr_Ilich_Chaikovski",
+   "ticketmaster":"https://www.ticketmaster.com.mx/search?q=concerto",
+   "tiktok":"https://www.tiktok.com/@pyotr_ilyich_tchaikovsky?lang=es",
+   "napster":"https://music.amazon.com.mx/artists/B000QJP7QM"
   }
   ]
 
