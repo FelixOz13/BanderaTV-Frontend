@@ -155,7 +155,7 @@ const BandsData = [
     description:
       'Robert Sylvester Kelly (Chicago, Illinois, 8 de enero de 1967),​ más conocido por su nombre artístico R. Kelly, es un cantante, compositor y productor musical. Nativo de Chicago, Kelly comenzó a actuar desde 1980 y debutó en 1992 con el grupo Public Announcement. En 1993, Kelly lanzó su primer álbum como solista con el álbum 12 Play. También se le conoce por una colección de grandes éxitos, incluyendo la mundialmente conocida I Believe I Can Fly, Bump N’ Grind, Your Body’s Callin’, Gotham City, Ignition (Remix), If I Could Turn Back the Hands of Time, The World’s Greatest y I’m a Flirt (Remix). En 1998, ganó tres premios Grammy por I Believe I Can Fly. Su sonido distintivo y estilo ha influido en numerosos artistas de hip hop y R&B contemporáneo. Kelly se convirtió en la primera estrella de música en jugar baloncesto profesional, cuando firmó en 1997.',
     videourl:
-      'https://youtube.com/playlist?list=PLHFeMk_LSwG5WMlOMrny0r3SQyFYx7W2M',
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlX8juzKzs5THTQLyVpOUogS',
     price: '$50',
     coverImg: 'RKelly.jpg',
     category: 'Rythm & Blues',
