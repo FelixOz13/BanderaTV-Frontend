@@ -1036,3 +1036,22 @@
    cursor: pointer;
 
  }
+ .app-download-banner {
+   background-color: #f0f0f0;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .app-download-banner p {
+   margin: 0;
+   font-size: 14px;
+ }
+
+ .app-download-banner a {
+   display: block;
+   margin-top: 5px;
+ }
+
+ .app-download-banner img {
+   height: 40px;
+ }

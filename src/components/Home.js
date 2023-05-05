@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import BandsData from '../data/BandsData'
+import BandsData1 from '../data/BandsData1'
 import SponsorContainer from './SponsorContainer'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 
 function Home() {
-  const cards = BandsData.map((item) => {
+  const cards = BandsData1.map((item) => {
     return <Card key={item.id} item={item} />
   })
 
@@ -16,8 +16,7 @@ function Home() {
       <h1 className="title2">Exitos Musicales de 2023</h1>
       <h4 className="headertext">
         {' '}
-        Escoje el tipo de musica
-        que mas te gusta`???
+        Escoje el tipo de musica que mas te gusta`???
       </h4>
       <ButtonTreeCategories />
       <div className="hero">

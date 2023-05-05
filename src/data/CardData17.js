@@ -118,6 +118,36 @@ const CardData17 = [
     napster: 'https://app.napster.com/artist/natanael-cano',
   },
   {
+    id: 1,
+    title: 'Alicia Keys',
+    description:
+      'Alicia Augello Cook (Nueva York, 25 de enero de 1981) conocida como Alicia Keys, es una cantante compositora, productora musical y actriz estadounidense. Ha vendido más de 75 millones de discos a nivel mundial y ha ganado numerosos premios, incluyendo 16 Grammys, 17 Premios Billboard y tres American Music Awards. Su álbum debut Songs in A Minor (2001) ganó cinco Grammys.',
+    videourl:
+      'https://youtube.com/playlist?list=PL9_UKVdymCPeiMreTKiHFcKIoXA9_moVN',
+    price: '$50',
+    coverImg: 'aliciakeys.jpg',
+    category: 'Rythm & Blues',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://www.aliciakeys.com/',
+    youtube: 'https://www.youtube.com/channel/UCK5X3f0fxO4YnVKVZP8p6hg',
+    facebook: 'https://www.facebook.com/aliciakeys/',
+    instagram: 'https://www.instagram.com/aliciakeys/',
+    twitter: 'https://twitter.com/aliciakeys',
+    spotify: 'https://open.spotify.com/artist/3DiDSECUqqY1AuBP8qtaIa',
+    deezer: 'https://www.deezer.com/mx/artist/228',
+    apple: 'https://music.apple.com/mx/artist/alicia-keys/316069',
+    soundcloud: 'https://soundcloud.com/aliciakeys',
+    tidal: 'https://listen.tidal.com/artist/1552',
+    wiki: 'https://es.wikipedia.org/wiki/Alicia_Keys',
+    ticketmaster:
+      'https://www.ticketmaster.com/alicia-keys-tickets/artist/807171',
+    tiktok: 'https://www.tiktok.com/@aliciakeys',
+    napster: 'https://music.amazon.com.mx/artists/B000RHRHPM/alicia-keys',
+  },
+  {
     id: 82,
     title: 'OV7',
     description:

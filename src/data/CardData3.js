@@ -32,8 +32,7 @@ const CardData3 = [
     title: 'Bizzarap',
     description:
       'Gonzalo Julián Conde (nacido el 29 de agosto de 1998), conocido profesionalmente como Bizarrap , es un productor discográfico y DJ argentino . Se especializa en EDM , trap latino y rap . Es conocido por sus Bzrp Music Sessions, que graba con una amplia variedad de artistas.  Fue nominado a un Premio Grammy Latino a Mejor Productor en 2021.Gonzalo nació el 29 de agosto de 1998 en Ramos Mejía , Argentina. Se interesó por la música desde muy joven, y tenía interés en la música electrónica y los DJ , más que en cantar. Sus principales influencias fueron Skrillex , David Guetta y Martin Garrix . A los 14 años comenzó a estudiar solfeo, se matriculó en clases de piano y comenzó a producir sus primeras canciones. .',
-    videourl:
-      'https://youtube.com/playlist?list=UULFmS75G-98QihSusY7NfCZtw',
+    videourl: 'https://youtube.com/playlist?list=UULFmS75G-98QihSusY7NfCZtw',
     price: 50,
     coverImg: 'bizzarap.jpeg',
     category: 'Rap Latino',
@@ -185,7 +184,7 @@ const CardData3 = [
     description:
       'Cartel de Santa es una banda mexicana de hip hop creada en Santa Catarina, Nuevo León. El grupo comenzó sus actividades en 1996 bajo distintos nombres y miembros antes de tomar su nombre y alineación definitivos. el grupo está compuesto por el vocalista principal Eduardo Dávalos De Luna y Román Rodríguez, más conocido como Rowan Rabia, Monoplug o simplemente Mono, antes también formaba parte del grupo Dharius, pero se separa del mismo a mediados de 2013 por problemas personales.',
     videourl:
-      'http://youtube.com/playlist?list=PLF-cRDh2mrlUOvGrt-AKKvC7HFT4HZmEi',
+      'https://youtube.com/playlist?list=PLEgUR3S4so_xP6CwdlxHP4TGuioGPlhL8',
     price: 50,
     coverImg: 'CarteldeSanta.jpg',
     category: 'Rap Latino',
@@ -529,8 +528,6 @@ const CardData3 = [
     twitter: 'https://twitter.com/CMacheteOficial',
     spotify: 'https://open.spotify.com/artist/628gUkswCfCS1hIOOHmIpK',
   },
-
- 
 ]
 
 export default CardData3
