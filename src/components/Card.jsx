@@ -50,6 +50,7 @@ function Card(props) {
           className="video"
           width="280px"
           height="180px"
+          light
           controls
           url={props.item.videourl}
           playIcon=<BsFillPlayCircleFill />
