@@ -6,7 +6,7 @@
  body {
    margin: 0;
    max-width: fit-content;
-   background-image: url("bgimages/purpleuniverse.jpg");
+   background-image: url("bgimages/universe.jpg");
    background-size: 100%;
 
  }
@@ -108,7 +108,7 @@
  .title2 {
    text-align: center;
    font-family: 'Notable';
-   font-size: 2rem;
+   font-size: 1.5rem;
    color: white;
 
  }
