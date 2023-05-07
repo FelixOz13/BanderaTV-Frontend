@@ -28,7 +28,6 @@ const BandsData1 = [
     tiktok: 'https://www.tiktok.com/@thalia?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B001JQEVBI/thalia',
   },
-  ,
   {
     id: 1,
     title: 'Peso Pluma',

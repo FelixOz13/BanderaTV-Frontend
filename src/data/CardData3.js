@@ -501,7 +501,6 @@ const CardData3 = [
     instagram: 'https://www.instagram.com/bascur_beaese/',
     twitter: 'https://twitter.com/RapBascur',
     spotify: 'https://open.spotify.com/artist/1gr15bpTzqHwHxj9PVZf4N',
-    spotify: 'https://open.spotify.com/artist/1wGIhYkKWSq4yACtTkCkSX',
     deezer: 'https://www.deezer.com/mx/artist/7894544',
     apple: 'https://music.apple.com/mx/artist/bascur/867826388',
     soundcloud: 'https://soundcloud.com/bascur',
