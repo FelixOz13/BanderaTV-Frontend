@@ -239,6 +239,36 @@ const BandsData = [
     napster: 'https://mx.napster.com/artist/the-black-eyed-peas',
   },
   {
+    id: 23,
+    title: 'Sade',
+    description:
+      'Helen Folasade Adu Ibadán, 16 de enero de 1959), más conocida como Sade, es una cantante y compositora nigeriana nacionalizada británica Durante su adolescencia no paraba de escuchar discos de Nina Simone, Peggy Lee y Astrud Gilberto.Sus estudios de diseño la llevaron a abrir una boutique, pero su amor por la música la llevó a cantar en un grupo funky de cierto carácter latino que respondía al nombre de Arriba. Desde ese momento descubrió un extraño placer al escribir letras. Más tarde, esta banda pasó a llamarse Pride, y luego cambió a Sade, que es una abreviatura de Folasade. Y con Sade comenzó a conocerse también a su vocalista..',
+
+    videourl:
+      'https://youtube.com/playlist?list=PL7A67YeJT9U7oMK2xMU5JJcEj6vwQHcEt',
+    price: '$50',
+    coverImg: 'sade.jpg',
+    category: 'Soul',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.sade.com/',
+    youtube: 'https://www.youtube.com/channel/UCegKDBFMUSQNeWe4FAB7aig',
+    facebook: 'https://www.facebook.com/sadeofficial',
+    instagram: 'https://www.instagram.com/sade/',
+    twitter: 'https://twitter.com/SadeOfficial',
+    spotify: 'https://open.spotify.com/artist/47zz7sob9NUcODy0BTDvKx',
+    deezer: 'https://www.deezer.com/mx/artist/202',
+    apple: 'https://music.apple.com/mx/artist/sade/475591',
+    soundcloud: 'https://soundcloud.com/sadeofficial',
+    tidal: 'https://listen.tidal.com/artist/485',
+    wiki: 'https://es.wikipedia.org/wiki/Sade_Adu',
+    ticketmaster: 'https://www.ticketmaster.com/sade-tickets/artist/736033',
+    napster: 'https://music.amazon.com.mx/artists/B000QKKF3G/sade',
+    tiktok: 'https://www.tiktok.com/@sadeaduwife',
+  },
+  {
     id: 4,
     title: 'Calvin Harris',
     description:

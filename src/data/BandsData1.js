@@ -66,7 +66,7 @@ const BandsData1 = [
     description:
       'Gerardo Daniel Torres Montante (San Nicolás de los Garza, Nuevo León; 15 de julio de 1994 ), mejor conocido por su nombr MX (anteriormente Gera MXM), es un rapero y compositor mexicano. Su nombre artístico proviene de las primeras cuatro letras de su nombre real, Gera (Gerardo) y la abreviatura del sello Mexamafia ( MXM ), la abreviatura MX proviene de México.e artístico Gera.',
     videourl:
-      'http://youtube.com/playlist?list=PLoy5Hd9UCYnVb5yeqd4DMrFz7ZgBQUqJ8',
+      'https://youtube.com/playlist?list=OLAK5uy_nKCRl-R8dhnNTcmpHzJ5XiKzLseTEaij4',
     price: '$50',
     coverImg: 'GeraMX.jpg',
     category: 'Rap Latino',
@@ -356,6 +356,38 @@ const BandsData1 = [
       'https://www.ticketmaster.com/cartel-de-santa-tickets/artist/1220878',
     tiktok: 'https://www.tiktok.com/@carteldesantaoficial?lang=es',
     napster: 'https://app.napster.com/artist/cartel-de-santa',
+  },
+  {
+    id: 123,
+    title: 'Cristian Nodal',
+    description:
+      'Christian Jesús González Nodal (Caborca , Sonora; 11 de enero de 1999), conocido como Christian Nodal, es un cantante, compositor mexicano. Su primer sencillo, «Adiós amor», publicado en 2016 bajo el sello discográfico Fonovisa, lo lanzó a la fama en diversos medios de comunicación en México y Estados Unidos.',
+    videourl:
+      'https://youtube.com/playlist?list=PL2cg72xd9U-ioO2IpH7OZrT43hVgC6fmm',
+    price: 80,
+    coverImg: 'nodal.jpg',
+    category: 'Mariachi',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'http://www.christiannodal.com/',
+    youtube: 'https://www.youtube.com/channel/UCtqOng3GVhQVu1Gl-3UlyAQ',
+    facebook: 'https://www.facebook.com/christiannodaloficialmx/',
+    instagram: 'https://www.instagram.com/nodal/',
+    twitter: 'https://twitter.com/elnodal?lang=en',
+    spotify:
+      'https://open.spotify.com/artist/0XwVARXT135rw8lyw1EeWP?si=xMgobcktQD6v1nbtGIxGhQ&nd=1',
+    deezer: 'https://www.deezer.com/mx/artist/9763952',
+    apple: 'https://music.apple.com/mx/artist/christian-nodal/1079597775',
+    soundcloud: 'https://soundcloud.com/christiannodal',
+    tidal: 'https://listen.tidal.com/artist/7745729',
+    wiki: 'https://en.wikipedia.org/wiki/Christian_Nodal',
+    ticketmaster:
+      'https://www.ticketmaster.com/christian-nodal-tickets/artist/2405178',
+
+    tiktok: 'https://www.tiktok.com/@christiannodal',
+    napster: 'https://web.napster.com/artist/christian-nodal',
   },
   {
     id: 85,

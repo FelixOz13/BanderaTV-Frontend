@@ -215,7 +215,7 @@ const CardData25 = [
       'https://music.amazon.com.mx/artists/B000WXQ8L0/natalia-lafourcade',
   },
   {
-    id: 6,
+    id: 8,
     title: 'Julieta Venegas',
     description:
       'Julieta Venegas Percevault9​(Long Beach, California;10​11​ 24 de noviembre de 1970) es una cantante, compositora, multinstrumentista, productora, actriz y activista mexicana catalogada como una «leyenda» de la música en español. Es una de las artistas más reconocidas a nivel mundial.Fue integrante de la banda mexicana de ska y reggae Tijuana No!, en la que compuso la canción más exitosa de la agrupación: «Pobre de ti», junto a Álex Zúñiga. En 1996 comenzó su carrera como solista cuando viajó a la Ciudad de México apoyada por la banda Café Tacvba.19​ Consiguió un contrato con el sello discográfico BMG/Ariola, lanzando su álbum debut Aquí (1997) al igual que su siguiente producción Bueninvento (2000) discos producidos por Gustavo Santaolalla, los cuales fueron alabados por los críticos y propagándose en el público del rock en México, Centroamérica y América del Sur.',
@@ -244,7 +244,7 @@ const CardData25 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJQM0C/julieta-venegas',
   },
   {
-    id: 6,
+    id: 9,
     title: 'Gloria Trevi',
     description:
       ' Gloria de los Ángeles Treviño Ruiz (Monterrey, Nuevo León, 15 de febrero de 1968), conocida artísticamente como Gloria Trevi, es una cantante, actriz, productora, compositora y empresaria mexicana.En 1985 se mudó a la Ciudad de México para comenzar su carrera artística. Allí conoció al productor y arreglista Sergio Andrade, quien formó el grupo musical "Boquitas Pintadas". Cuatro años más tarde, de la mano de Andrade, publicó su álbum debut ...Qué hago aquí? , distribuido por BMG Ariola. En los 90, debutó en el cine con tres películas: Pelo suelto (1991), Zapatos viejos (1993) y Una papa sin catsup (1995). Terminó la década con cinco álbumes que sumaban casi 5 millones de ventas.',
@@ -275,7 +275,7 @@ const CardData25 = [
   },
 
   {
-    id: 7,
+    id: 10,
     title: 'Shakira',
     description:
       'Shakira Isabel Mebarak Ripoll (Barranquilla, Atlántico, Colombia; 2 de febrero de 1977), conocida simplemente como Shakira, es una cantautora, bailarina, actriz, embajadora de buena voluntad de UNICEF y empresaria colombiana.',
@@ -303,7 +303,36 @@ const CardData25 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKEIZM/shakira',
   },
   {
-    id: 201,
+    id: 11,
+    title: 'Karol G',
+    description:
+      'Carolina Giraldo Navarro Medellín, Colombia; 14 de febrero de 1991, conocida artísticamente como Karol G, es una cantante y compositora colombiana de reguetón, pop y trap latino.Se lanzó internacionalmente con la canción «301» junto con el cantante Reykon el líder en 2012, posicionado en el top de varias estaciones de radios y canales de televisión,3​ y le permitió realizar conciertos en países como Aruba, Colombia, Ecuador y Estados Unidos.4​ Obtuvo mayor reconocimiento en 2013, cuando lanzó la canción «Amor de dos» junto con Nicky Jam.5​ En 2016, luego de que lanzó varios sencillos, firmó un contrato con la discográfica Universal Music Latin Entertainment, y hubo un ascenso en su carrera..',
+    videourl:
+      'https://youtube.com/playlist?list=PLpTxN0bsTsj5GSZ4xME8tbhxez793WTob',
+    price: '$50',
+    coverImg: 'karolG.jpeg',
+    category: 'Bachatta',
+    location: 'Colombia',
+    locationImg: 'coloflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.karolgmusic.com/',
+    youtube: 'https://www.youtube.com/channel/UCZuPJZ2kGFdlbQu1qotZaHw',
+    facebook: 'https://www.facebook.com/KarolGOficial',
+    instagram: 'https://www.instagram.com/karolg/',
+    twitter: 'https://twitter.com/KarolGOnStats',
+    spotify: 'https://open.spotify.com/artist/790FomKkXshlbRYZFtlgla',
+    deezer: 'https://www.deezer.com/mx/artist/5297021',
+    apple: 'https://music.apple.com/us/artist/karol-g/290814601',
+    soundcloud: 'https://soundcloud.com/karolgofficial',
+    tidal: 'https://listen.tidal.com/artist/5237820',
+    wiki: 'https://es.wikipedia.org/wiki/Karol_G',
+    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Karol+G',
+    tiktok: 'https://www.tiktok.com/@karolg',
+    napster: 'https://us.napster.com/artist/karol-g',
+  },
+  {
+    id: 12,
     title: 'Danna Paola',
     description:
       'Danna Paola Rivera Munguía (Ciudad de México, 23 de junio de 1995) es una cantante, actriz, modelo y compositora mexicana. Ha sido ganadora de diferentes premios, entre los que se encuentran 9 Kids Choice Awards, 4 MTV Millennial Awards, 4 MTV Italian Music Awards, 1 MTV Europe Music Awards y 2 premios de la Sociedad de Autores y Compositores de México por «Oye Pablo» y «Sodio». Además fue nominada al Grammy Latino por su sexto álbum de estudio K.O. en 2021..',
@@ -333,7 +362,37 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/danna-paola',
   },
   {
-    id: 1540,
+    id: 13,
+    title: 'Alicia Keys',
+    description:
+      'Alicia Augello Cook (Nueva York, 25 de enero de 1981) conocida como Alicia Keys, es una cantante compositora, productora musical y actriz estadounidense. Ha vendido más de 75 millones de discos a nivel mundial y ha ganado numerosos premios, incluyendo 16 Grammys, 17 Premios Billboard y tres American Music Awards. Su álbum debut Songs in A Minor (2001) ganó cinco Grammys.',
+    videourl:
+      'https://youtube.com/playlist?list=PL9_UKVdymCPeiMreTKiHFcKIoXA9_moVN',
+    price: '$50',
+    coverImg: 'aliciakeys.jpg',
+    category: 'Rythm & Blues',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://www.aliciakeys.com/',
+    youtube: 'https://www.youtube.com/channel/UCK5X3f0fxO4YnVKVZP8p6hg',
+    facebook: 'https://www.facebook.com/aliciakeys/',
+    instagram: 'https://www.instagram.com/aliciakeys/',
+    twitter: 'https://twitter.com/aliciakeys',
+    spotify: 'https://open.spotify.com/artist/3DiDSECUqqY1AuBP8qtaIa',
+    deezer: 'https://www.deezer.com/mx/artist/228',
+    apple: 'https://music.apple.com/mx/artist/alicia-keys/316069',
+    soundcloud: 'https://soundcloud.com/aliciakeys',
+    tidal: 'https://listen.tidal.com/artist/1552',
+    wiki: 'https://es.wikipedia.org/wiki/Alicia_Keys',
+    ticketmaster:
+      'https://www.ticketmaster.com/alicia-keys-tickets/artist/807171',
+    tiktok: 'https://www.tiktok.com/@aliciakeys',
+    napster: 'https://music.amazon.com.mx/artists/B000RHRHPM/alicia-keys',
+  },
+  {
+    id: 14,
     title: 'Dua Lipa',
     description:
       'Dua Lipa (Londres, 22 de agosto de 1995) es una cantante, compositora, modelo y actriz británica de origen albanokosovar. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017. El álbum alcanzó el número 3 en la UK Albums Chart y lanzó ocho sencillos, incluidos «Be the One» e «IDGAF», y el sencillo número 1 del Reino Unido «New Rules», que también llegó al puesto número 6 en Estados Unidos. En 2018, ganó dos premios Brit a la artista solista femenina británica y artista revelación británica.',
@@ -363,7 +422,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/dua-lipa',
   },
   {
-    id: 142,
+    id: 15,
     title: 'Rihanna',
     description:
       'Robyn Rihanna Fenty, conocida simplemente como Rihanna, es una cantante, empresaria, diseñadora de moda, actriz, diplomática, escritora y bailarina barbadense. Es conocida por fusionar algunos géneros caribeños con música pop y por reinventar su imagen a través de los años. Su impacto en la cultura popular la ha llevado a convertirse en un icono de la música y de la moda, por lo que se refieren a ella como la «Princesa del R&B» y «Reina de la Moda». Rihanna es además considerada la artista musical más influyente y exitosa del siglo XXI.',
@@ -393,7 +452,7 @@ const CardData25 = [
   },
 
   {
-    id: 143,
+    id: 16,
     title: 'Lady Gaga',
     description:
       'Stefani Joanne Angelina Germanotta, más conocida por su nombre artístico Lady Gaga, es una cantante, compositora, productora, bailarina, actriz, activista y diseñadora de moda estadounidense. Nacida y criada en la ciudad de Nueva York, estudió en la escuela Convent of the Sacred Heart y asistió por un tiempo breve a la Tisch School of the Arts, perteneciente a la Universidad de Nueva York, hasta que abandonó sus estudios para enfocarse en su carrera musical. Fue así como irrumpió en la escena del rock en el Lower East Side de Manhattan y firmó un contrato con Streamline Records hacia fines de 2007. En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution',
@@ -423,7 +482,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/lady-gaga',
   },
   {
-    id: 145,
+    id: 17,
     title: 'Demi Lovato',
     description:
       'Demetria Devonne Lovato, cuyo nombre artístico es Demi Lovato, es una celebridad estadounidense profesional en el canto, la actuación y la composición. Fundó junto con Nick Jonas el sello discográfico Safehouse Records..',
@@ -454,7 +513,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/demi-lovato',
   },
   {
-    id: 139,
+    id: 18,
     title: 'Adele',
     description:
       'Adele Laurie Blue Adkins (Londres, 5 de mayo de 1988), conocida simplemente como Adele, es una cantautora y multinstrumentista británica. Es una de las artistas musicales con mayores ventas del mundo, con más de 120 millones de ventas entre discos y sencillos.',
@@ -484,7 +543,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/adele',
   },
   {
-    id: 140,
+    id: 19,
     title: 'Avril Lavigne',
     description:
       'Avril Ramona Lavigne es una cantante, compositora, diseñadora de moda, productora musical, actriz y filántropa franco-canadiense. Algunos críticos de revistas como Billboard la llaman la princesa del pop punk. Comenzó su carrera musical en diciembre de 2001, cuando después de una presentación en una feria country, despertó el interés del productor L.A. Reid y firmó para Arista Records.',
@@ -514,7 +573,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/avril-lavigne',
   },
   {
-    id: 140,
+    id: 20,
     title: 'Taylor Swift',
     description:
       'Taylor Alison Swift (Reading, Pensilvania; 13 de diciembre de 1989) es una cantautora, productora, actriz, directora, diseñadora y empresaria estadounidense.Criada en Wyomissing (Pensilvania), se mudó a Nashville (Tennessee) a los 14 años para realizar una carrera de música country. Firmó con la compañía discográfica independiente Big Machine Records y se convirtió en la artista más joven contratada por Sony/ATV Music Publishing House. En 2006 lanzó su álbum debut homónimo Taylor Swift, el cual la estableció como una estrella en la música country. «Our Song», su tercer sencillo, la convirtió en la persona más joven en escribir temas sin ayuda de nadie e interpretar una canción número uno en la lista de Hot Country Songs. Recibió una nominación a mejor artista nuevo en los Premios Grammy de 2008.',
@@ -544,7 +603,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/taylor-swift',
   },
   {
-    id: 138,
+    id: 21,
     title: 'Britney Spears',
     description:
       'Britney Jean Spears (McComb, Misisipi; 2 de diciembre de 1981) es una cantante, bailarina, compositora, modelo, actriz, diseñadora de modas y empresaria estadounidense. Comenzó a actuar desde niña, a través de papeles en producciones teatrales. Después adquirió fama al participar en el programa de televisión The Mickey Mouse Club.',
@@ -574,7 +633,7 @@ const CardData25 = [
     napster: 'https://us.napster.com/artist/britney-spears',
   },
   {
-    id: 136,
+    id: 22,
     title: 'Madonna',
     description:
       'Madonna Louise Ciccone, conocida simplemente como Madonna, es una cantante, bailarina, compositora, actriz, empresaria e icono estadounidense. Madonna pasó su infancia en Bay City y en 1978 se mudó a la ciudad de Nueva York para realizar una carrera de danza contemporánea. Después de participar en dos grupos musicales, Breakfast Club y Emmy, en 1982 firmó con Sire Records y lanzó su álbum debut Madonna al año siguiente.',
@@ -604,7 +663,37 @@ const CardData25 = [
   },
 
   {
-    id: 8,
+    id: 23,
+    title: 'Sade',
+    description:
+      'Helen Folasade Adu Ibadán, 16 de enero de 1959), más conocida como Sade, es una cantante y compositora nigeriana nacionalizada británica Durante su adolescencia no paraba de escuchar discos de Nina Simone, Peggy Lee y Astrud Gilberto.Sus estudios de diseño la llevaron a abrir una boutique, pero su amor por la música la llevó a cantar en un grupo funky de cierto carácter latino que respondía al nombre de Arriba. Desde ese momento descubrió un extraño placer al escribir letras. Más tarde, esta banda pasó a llamarse Pride, y luego cambió a Sade, que es una abreviatura de Folasade. Y con Sade comenzó a conocerse también a su vocalista..',
+
+    videourl:
+      'https://youtube.com/playlist?list=PL7A67YeJT9U7oMK2xMU5JJcEj6vwQHcEt',
+    price: '$50',
+    coverImg: 'sade.jpg',
+    category: 'Soul',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.sade.com/',
+    youtube: 'https://www.youtube.com/channel/UCegKDBFMUSQNeWe4FAB7aig',
+    facebook: 'https://www.facebook.com/sadeofficial',
+    instagram: 'https://www.instagram.com/sade/',
+    twitter: 'https://twitter.com/SadeOfficial',
+    spotify: 'https://open.spotify.com/artist/47zz7sob9NUcODy0BTDvKx',
+    deezer: 'https://www.deezer.com/mx/artist/202',
+    apple: 'https://music.apple.com/mx/artist/sade/475591',
+    soundcloud: 'https://soundcloud.com/sadeofficial',
+    tidal: 'https://listen.tidal.com/artist/485',
+    wiki: 'https://es.wikipedia.org/wiki/Sade_Adu',
+    ticketmaster: 'https://www.ticketmaster.com/sade-tickets/artist/736033',
+    napster: 'https://music.amazon.com.mx/artists/B000QKKF3G/sade',
+    tiktok: 'https://www.tiktok.com/@sadeaduwife',
+  },
+  {
+    id: 23,
     title: 'Rocio Durcal',
     description:
       'María de los Ángeles de las Heras Ortiz, conocida por su nombre artístico Rocío Dúrcal, fue una actriz y cantante española. Dúrcal es considerada como la «reina de las rancheras» y es una de las mujeres de habla hispana con más ventas en la industria. En 2005, un año antes de su muerte, recibió el Grammy Latino a la excelencia musical.',
@@ -635,6 +724,67 @@ const CardData25 = [
       'https://www.ticketmaster.com/rocio-durcal-tickets/artist/754908',
     napster: 'https://web.napster.com/artist/rocio-durcal-latin',
     tiktok: 'https://www.tiktok.com/@rociodurcal.oficial',
+  },
+  {
+    id: 25,
+    title: 'Tina Turner',
+    description:
+      'Anna Mae Bullock, más conocida como Tina Turner, es una cantante, compositora, bailarina, actriz y coreógrafa de nacionalidad suiza y origen estadounidense, cuya carrera se desarrolló durante más de cincuenta años, además de ser una de las principales y mayores componentes de rock siendo considerada como la «Reina del Rock». Se retiró del escenario y la música en 2013 a la edad de setenta y tres años después de una carrera musical de cincuenta y cuatro años.',
+    videourl:
+      'https://youtube.com/playlist?list=PLGRnTVgjhDFKabSWJfU4s-pkLwTz6jVJP',
+    price: '$50',
+    coverImg: 'TinaTurner.jpg',
+    category: 'Jazz',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.tinaturnerofficial.com/',
+    youtube: 'https://www.youtube.com/channel/UCfBkblXPcSNt784AZz5J6AQ',
+    facebook: 'https://www.facebook.com/TinaTurner/',
+    instagram: 'https://www.instagram.com/tinaturner/?hl=en',
+    twitter: 'https://twitter.com/LoveTinaTurner',
+    spotify:
+      'https://open.spotify.com/artist/1zuJe6b1roixEKMOtyrEak?si=vmbXj7mUSjWUXe6AujvE8g&nd=1',
+    deezer: 'https://www.deezer.com/mx/artist/1454',
+    apple: 'https://music.apple.com/mx/artist/tina-turner/488075',
+    soundcloud: 'https://soundcloud.com/tina-turner-official',
+    tidal: 'https://listen.tidal.com/artist/9214',
+    wiki: 'https://es.wikipedia.org/wiki/Tina_Turner',
+    ticketmaster:
+      'https://www.ticketmaster.com/tina-turner-tickets/artist/736358',
+    tiktok: 'https://www.tiktok.com/@tina.turner.love?lang=es',
+    napster: 'https://us.napster.com/artist/tina-turner',
+  },
+  {
+    id: 147,
+    title: 'Lauryn Hill',
+    description:
+      'Lauryn Hill (East Orange, Nueva Jersey, 26 de mayo de 1975) es una rapera, cantante, actriz y productora discográfica estadounidense galardonada 8 veces con el premio Grammy. Fue miembro de The Fugees antes de empezar una carrera en solitario.',
+    videourl:
+      'http://youtube.com/playlist?list=OLAK5uy_m0PVFfyOJH8trqZucyaODwytdicqitwGQ',
+    price: '$50',
+    coverImg: 'laurynHill.jpg',
+    category: 'Rythm & Blues',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://mslaurynhill.com/',
+    youtube: 'https://www.youtube.com/results?search_query=lauryn+hill',
+    facebookurl: 'https://www.facebook.com/mslaurynhill',
+    instagram: 'https://www.instagram.com/mslaurynhill/',
+    twitter: 'https://twitter.com/MsLaurynHill',
+    spotify: 'https://open.spotify.com/artist/2Mu5NfyYm8n5iTomuKAEHl',
+    deezer: 'https://www.deezer.com/mx/artist/1117',
+    apple: 'https://music.apple.com/mx/artist/lauryn-hill/21434',
+    soundcloud: 'https://soundcloud.com/lauryn-hill-official',
+    tidal: 'https://listen.tidal.com/artist/8201663',
+    wiki: 'https://es.wikipedia.org/wiki/Lauryn_Hill',
+    ticketmaster:
+      'https://www.ticketmaster.com/ms-lauryn-hill-tickets/artist/795402',
+    tiktok: 'https://www.tiktok.com/@laurynhillfannn?lang=es',
+    napster: 'https://us.napster.com/artist/lauryn-hill',
   },
 ]
 export default CardData25

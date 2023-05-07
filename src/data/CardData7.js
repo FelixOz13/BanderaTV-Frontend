@@ -60,6 +60,36 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/los-fabulosos-cadillacs',
   },
   {
+    id: 197,
+    title: 'Mœnia',
+    description:
+      'Moenia (estilizado Mœnia) es un grupo mexicano de Synth-Pop en 1996 lanzarían su primer álbum oficial homónimo y dándose a conocer por su gran éxito No puedo estar sin ti, recibiendo numerosas aceptaciones en la industria de la música y el público en general. Juan Carlos Lozano abandonaría la agrupación después del éxito de su primer álbum. Optaron por regresar a sus orígenes con reintegrar a Alfonso Pichardo como vocalista principal. En 1999 lanzan su segundo álbum titulado Adición+ con Alfonso Pichardo como vocalista permanente de la banda.',
+    videourl:
+      'https://youtube.com/playlist?list=PLLOW3tRoU2ErRdFcwOaft4i735ZBeQUZk',
+    price: '$50',
+    coverImg: 'moenia.jpg',
+    category: 'Rock en Español',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'http://www.moenia.com/',
+    youtube: 'https://www.youtube.com/channel/UCEJr7n8Brn1zj0ZuWZPPajw',
+    facebook: 'https://www.facebook.com/moeniamx',
+    instagram: 'https://www.instagram.com/moeniamx/',
+    twitter: 'https://twitter.com/MoeniaMx',
+    spotify: 'https://open.spotify.com/artist/3QmmtMrEf7aQrsd1VtejAV',
+    deezer: 'https://www.deezer.com/mx/artist/12043',
+    apple: 'https://music.apple.com/mx/artist/moenia/112531',
+    soundcloud: 'https://soundcloud.com/moenia-official',
+    tidal: 'https://listen.tidal.com/artist/7719',
+    wiki: 'https://en.wikipedia.org/wiki/M%C5%93nia',
+    ticketmaster:
+      'https://www.ticketmaster.com.mx/moenia-boletos/artist/794979',
+    tiktok: 'https://www.tiktok.com/@moeniamx',
+    napster: 'https://music.amazon.com.mx/artists/B000TE048U/moenia',
+  },
+  {
     id: 198,
     title: 'Fobia',
     description:
@@ -420,7 +450,7 @@ const CardData7 = [
     tiktok: 'https://www.tiktok.com/@babasonicos?lang=es',
     napster: 'https://us.napster.com/artist/babasonicos',
   },
-  
+
   {
     id: 200,
     title: 'La Ley',
@@ -451,20 +481,22 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/la-ley',
   },
   {
-   "id":1,
-   "title": "Caifanes",
-   "description":"Caifanes es una banda mexicana de rock en español que estuvo activa de 1987 a 1995,2​ y de 2011 hasta la actualidad.3​ La banda empezó como un cuarteto conformado por Saúl Hernández (guitarra y voz), Alfonso André (batería), Sabo Romo (bajo) y Diego Herrera (teclados, saxofón y percusiones), lanzando en 1988 el álbum debut Caifanes. En 1989 se unió Alejandro Marcovich como guitarra líder..",
-   "videourl":"https://youtube.com/playlist?list=OLAK5uy_lfdPhaQpXNbHr2XyZ8FfTcR_qek-4Z86M",
-   "price":null,
-   "coverImg":"Caifanes.jpg",
-   "category":"Rock en Español",
-   "location":"Mexico",
-   "locationImg":"mexiflag.jpg",
-   "openSpots": 1000,
-   "likes": 1000,
-   "websiteurl":"https://www.caifanes.com.mx/",
-   "youtube":"https://www.youtube.com/channel/UCYTPYsuIRSu7o9xmeB_L4_g",
-   facebook: 'https://www.facebook.com/CaifanesMex',
+    id: 1,
+    title: 'Caifanes',
+    description:
+      'Caifanes es una banda mexicana de rock en español que estuvo activa de 1987 a 1995,2​ y de 2011 hasta la actualidad.3​ La banda empezó como un cuarteto conformado por Saúl Hernández (guitarra y voz), Alfonso André (batería), Sabo Romo (bajo) y Diego Herrera (teclados, saxofón y percusiones), lanzando en 1988 el álbum debut Caifanes. En 1989 se unió Alejandro Marcovich como guitarra líder..',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lfdPhaQpXNbHr2XyZ8FfTcR_qek-4Z86M',
+    price: null,
+    coverImg: 'Caifanes.jpg',
+    category: 'Rock en Español',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://www.caifanes.com.mx/',
+    youtube: 'https://www.youtube.com/channel/UCYTPYsuIRSu7o9xmeB_L4_g',
+    facebook: 'https://www.facebook.com/CaifanesMex',
     instagram: 'https://www.instagram.com/caifanesmex/',
     twitter:
       'https://twitter.com/CaifanesMex?fbclid=IwAR2vNtuY5IcJfjBXbnWWkyXRY1nSgl0yqgt1YYuxVtLBYEgkiLKADHJiVng',
