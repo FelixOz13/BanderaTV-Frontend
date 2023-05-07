@@ -333,7 +333,7 @@ const BandsData1 = [
     description:
       'Cartel de Santa es una banda mexicana de hip hop creada en Santa Catarina, Nuevo León. El grupo comenzó sus actividades en 1996 bajo distintos nombres y miembros antes de tomar su nombre y alineación definitivos. el grupo está compuesto por el vocalista principal Eduardo Dávalos De Luna y Román Rodríguez, más conocido como Rowan Rabia, Monoplug o simplemente Mono, antes también formaba parte del grupo Dharius, pero se separa del mismo a mediados de 2013 por problemas personales.',
     videourl:
-      'https://youtube.com/playlist?list=PLEgUR3S4so_xP6CwdlxHP4TGuioGPlhL8',
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlUOvGrt-AKKvC7HFT4HZmEi',
     price: 50,
     coverImg: 'CarteldeSanta.jpg',
     category: 'Rap Latino',
