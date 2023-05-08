@@ -1,5 +1,4 @@
 import ReactPlayer from 'react-player/lazy'
-import SponsorContainer from './SponsorContainer'
 import LikeButtons from './LikeButtons'
 import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
@@ -12,7 +11,7 @@ import { FaInstagramSquare } from 'react-icons/fa'
 import { FaDeezer } from 'react-icons/fa'
 import { SiApplemusic } from 'react-icons/si'
 import { FaTiktok } from 'react-icons/fa'
-import { FaSoundcloud } from 'react-icons/fa'
+
 import { SiTidal } from 'react-icons/si'
 
 import Comments from '../Comments/Comments'
@@ -57,12 +56,12 @@ function Card(props) {
         />
       </div>
       <LikeButtons />
-      <div>
+      {/*<div>
         <Comments
           commentsUrl="http://localhost:3004/comments"
           currentUserId="1"
         />
-      </div>
+       </div>*/}
       <div className="slidertextdiv">
         <h1 className="slidertext">
           Presiona un Link para visitar la red social del artista
@@ -162,15 +161,6 @@ function Card(props) {
         <a
           target="_blank"
           rel="noreferrer"
-          href={props.item.soundcloud}
-          className="icons-soundcloud"
-          id="third-party-grid"
-        >
-          <FaSoundcloud />
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
           href={props.item.tidal}
           className="icons-tidal"
           id="third-party-grid"
@@ -178,18 +168,12 @@ function Card(props) {
           <SiTidal />
         </a>
 
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={props.item.napster}
-          className="sponsor"
-          id="third-party-grid"
-        >
+        <a href={props.item.napster} target="_blank" rel="noreferrer">
           <img
             src="../images/amazonMusic.jpeg"
             className="sponsor"
             alt=""
-            media="(max-width: 400px)"
+            media="(max-width: 300px)"
           />
         </a>
         <a href={props.item.wiki} target="_blank" rel="noreferrer">
@@ -200,6 +184,28 @@ function Card(props) {
             media="(max-width: 400px)"
           />
         </a>
+        <div>
+          <BanderaMedia />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Card
+
+{
+  /*  
+   <a
+          target="_blank"
+          rel="noreferrer"
+          href={props.item.soundcloud}
+          className="icons-soundcloud"
+          id="third-party-grid"
+        >
+          <FaSoundcloud />
+        </a>
+  </a>
         <a href="https://www.informador.mx/" target="_blank" rel="noreferrer">
           <img
             src="../images/informador.jpg"
@@ -237,4 +243,5 @@ function Card(props) {
   )
 }
 
-export default Card
+export default Card*/
+}

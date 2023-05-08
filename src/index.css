@@ -3,7 +3,7 @@
  }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Iceland&display=swap');
 
  body {
    margin: 0;
@@ -93,8 +93,8 @@
  .card--title {
    overflow: hidden;
    text-overflow: ellipsis;
-   font-size: 1.5rem;
-   font-family: 'Nabla';
+   font-size: 2.0rem;
+   font-family: 'Iceland';
    color: #f4c44b;
  }
 
@@ -103,7 +103,7 @@
    align-items: center;
    color: #f4c44b;
    font-weight: bold;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    font-size: 1rem;
  }
 
@@ -120,21 +120,7 @@
    margin: 25px;
  }
 
- .contactheader {
 
-   font-family: 'Asap Condensed';
-   font-size: 1.5rem;
-   color: #f4c44b;
-   margin-bottom: -45px;
- }
-
- .contact {
-
-   font-family: 'Asap Condensed';
-   font-size: 1.2rem;
-   color: #f4c44b;
-
- }
 
 
  .flag-logo2 {
@@ -159,10 +145,10 @@
    display: flex;
    align-items: center;
    color: #f4c44b;
-   font-size: .8rem;
+   font-size: 1.2rem;
    margin-top: 10px;
    font-weight: bold;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
 
  }
 
@@ -181,7 +167,7 @@
    margin-left: 45px;
    margin-right: 45px;
    font-size: 1rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    color: #f4c44b;
  }
 
@@ -194,14 +180,14 @@
    margin-left: 45px;
    margin-right: 45px;
    font-size: 1rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    color: #f4c44b;
  }
 
  .slidertext {
 
    font-size: 1rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -213,7 +199,7 @@
 
  .herotext {
    font-size: 2rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    text-align: center;
    background-color: black;
    border-radius: 15px;
@@ -225,7 +211,7 @@
  .eventos {
    background-color: black;
    font-size: 3rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -241,7 +227,7 @@
  .socialmedia {
    background-color: black;
    font-size: 2rem;
-   font-family: 'Nabla';
+   font-family: 'Iceland';
    text-align: center;
    border-radius: 10px;
    margin-left: 0 auto;
@@ -315,20 +301,20 @@
    display: flex;
    flex-direction: row;
    margin-bottom: 5px;
-   font-family: 'Nabla'
+   font-family: 'Iceland'
  }
 
  .icons-like {
    font-size: 25px;
    color: #dc9e02;
    margin-left: 5px;
-   font-family: 'Nabla'
+   font-family: 'Iceland'
  }
 
  .num-display {
    position: absolute;
    left: 50px;
-   font-family: 'Nabla'
+   font-family: 'Iceland'
  }
 
  .locationImg {

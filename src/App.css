@@ -45,12 +45,17 @@
   left: 150px;
 }
 
-.bandera-icons {
+.bandera-icons2 {
+  display:flex;
+  flex-direction: row;
   font-size: 20px;
-  margin-right: 5px;
+  margin-top: 25px;
 }
 
 .bandera {
+  display: flex;
+  flex-direction: row;
   color: #dc9e02;
   margin: 5px;
+  font-size:20px;
 }

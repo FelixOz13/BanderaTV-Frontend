@@ -10,7 +10,7 @@ function Intro() {
     <div className="hero">
       <div>
         <Navbar />
-          <h1 className="title2">Bienvenido</h1>
+        <h1 className="title2">Bienvenido</h1>
         <div>
           <h4 className="headertext">
             {' '}
@@ -41,8 +41,8 @@ function Intro() {
         commentsUrl="http://localhost:3004/comments"
         currentUserId="1"
       />
-      <SponsorContainer />
-      <Clients />
+      {/* <SponsorContainer />
+  <Clients />*/}
     </div>
   )
 }
