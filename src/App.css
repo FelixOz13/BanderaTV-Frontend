@@ -45,7 +45,7 @@
   left: 150px;
 }
 
-.bandera-icons2 {
+.bandera-icons {
   display:flex;
   flex-direction: row;
   font-size: 20px;
@@ -58,4 +58,7 @@
   color: #dc9e02;
   margin: 5px;
   font-size:20px;
+}
+.contact{
+  font-size: 1rem;
 }

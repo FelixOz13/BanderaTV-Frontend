@@ -131,13 +131,17 @@
 
  }
 
- .navbar-logo {
-   border-width: 4px;
-   border-color: #dc9e02;
-   border-style: groove;
-   margin-left: -15px;
-   margin-top: -8px;
- }
+.navbar-logo {
+  border-width: 4px;
+  border-color: #dc9e02;
+  border-style: groove;
+  margin-left: -25px;
+  margin-top: -25px;
+  width:185px;
+  height:60px;
+}
+
+
 
 
 
@@ -684,50 +688,10 @@
    cursor: pointer;
  }
 
- .channel-component {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 10px;
-   overflow-x: auto;
- }
+ 
 
 
- .channels {
-   width: 125px;
-   height: 125px;
-   border-radius: 20%;
-   margin: 0px;
- }
-
- .channelcardtitle {
-   padding: 5px;
-   background-color: black;
-   border-radius: 10px;
-   color: goldenrod;
- }
-
- .channelcardtitle :hover {
-   background-image: linear-gradient(to right, #dc9e02,
-       black,
-       #dc9e02);
-   max-width: 125px;
-   max-height: 125px;
-   padding: 5px;
-   border-radius: 10%;
-   cursor: pointer;
- }
-
-
- .channels:hover {
-   background-image: linear-gradient(to right, #dc9e02,
-       black,
-       #dc9e02);
-   max-width: 125px;
-   max-height: 125px;
-   padding: 5px;
-   border-radius: 10%;
-   cursor: pointer;
- }
+ 
 
  .tm-icon {
    width: 50px;
@@ -969,7 +933,7 @@
  /* Position the front and back side */
  .flip-box-front {
    position: absolute;
-   width: 55px;
+   width: 65px;
    height: 60px;
 
  }
@@ -996,7 +960,7 @@
  .flag-logo4 {
    width: 60px;
    height: 60px;
-   margin-left: 285px;
+   margin-left: 260px;
  }
 
  .btn {
