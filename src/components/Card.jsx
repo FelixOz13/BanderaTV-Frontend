@@ -194,8 +194,7 @@ function Card(props) {
 
 export default Card
 
-{
-  /*  
+/*  
    <a
           target="_blank"
           rel="noreferrer"
@@ -244,4 +243,3 @@ export default Card
 }
 
 export default Card*/
-}
