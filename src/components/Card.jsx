@@ -4,12 +4,12 @@ import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { FaFacebook } from 'react-icons/fa'
-import { FaSpotify } from 'react-icons/fa'
+
 import { FaTwitterSquare } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import { FaInstagramSquare } from 'react-icons/fa'
-import { FaDeezer } from 'react-icons/fa'
-import { SiApplemusic } from 'react-icons/si'
+import { SiTicketmaster } from 'react-icons/si'
+
 import { FaTiktok } from 'react-icons/fa'
 
 import { SiTidal } from 'react-icons/si'
@@ -127,8 +127,30 @@ function Card(props) {
         >
           <FaTiktok />
         </a>
+        <a href={props.item.ticketmaster} target="_blank" rel="noreferrer">
+          <img
+            src="../images/ticketmaster.jpg"
+            className="sponsor"
+            alt=""
+            media="(max-width: 400px)"
+          />
+        </a>
+        <a href={props.item.wiki} target="_blank" rel="noreferrer">
+          <img
+            src="../images/wiki.jpg"
+            className="sponsor"
+            alt=""
+            media="(max-width: 400px)"
+          />
+        </a>
+      </div>
+    </div>
+  )
+}
 
-        <a
+export default Card
+
+/*      <a
           target="_blank"
           rel="noreferrer"
           href={props.item.spotify}
@@ -189,12 +211,9 @@ function Card(props) {
         </div>
       </div>
     </div>
-  )
-}
+ 
 
-export default Card
-
-/*  
+ 
    <a
           target="_blank"
           rel="noreferrer"

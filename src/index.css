@@ -457,25 +457,25 @@
    cursor: pointer;
  }
 
- .icons-deezer {
-   margin-top: 4px;
-   margin-bottom: 2px;
-   margin-right: 10px;
-   font-size: 45px;
-   color: #dc9e02, ;
-   background-color: none;
-   border-radius: 10%;
+ .icons-ticketmaster {
+  margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+    font-size: 45px;
+    color: none;
+    background-color: none;
+    border-radius: 10%;
  }
 
- .icons-deezer :hover {
-   background-image: linear-gradient(to right, #dc9e02,
-       black,
-       #dc9e02);
-   max-width: 95px;
-   max-height: 95px;
-   padding: 5px;
-   border-radius: 10%;
-   cursor: pointer;
+ .icons-ticketmaster :hover {
+    background-image: linear-gradient(to right, #dc9e02,
+          black,
+          #dc9e02);
+      max-width: 95px;
+      max-height: 95px;
+      padding: 5px;
+      border-radius: 10%;
+      cursor: pointer;
  }
 
  .icons-itunes {
