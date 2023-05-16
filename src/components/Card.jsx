@@ -8,7 +8,6 @@ import { FaFacebook } from 'react-icons/fa'
 import { FaTwitterSquare } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import { FaInstagramSquare } from 'react-icons/fa'
-import { SiTicketmaster } from 'react-icons/si'
 
 import { FaTiktok } from 'react-icons/fa'
 
@@ -144,6 +143,7 @@ function Card(props) {
           />
         </a>
       </div>
+      <BanderaMedia />
     </div>
   )
 }

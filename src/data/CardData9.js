@@ -158,7 +158,8 @@ const CardData9 = [
     title: 'Grupo Cañaveral de Humberto Pabon',
     description:
       ' GRUPO CAñAVERAL nace en enero de 1995, con la idea de crear un grupo que rescatara el auténtico sabor de la cumbia en México. Creado por el . Humberto Pabón Olivares, y por primera vez en México, se integra a una agrupación auténticamente mexicana, el famosísimo Tambor Alegre originario de Colombia..',
-    videourl: 'https://youtube.com/playlist?list=PL1207E50B46D6A148',
+    videourl:
+      'https://youtube.com/playlist?list=PLJRMiyX0t8zQpn0k3ygRs4RoJwEtmGQQA',
     price: 36,
     coverImg: 'GRUPOcAñAVERAL.jpg',
     category: 'Tropical',
