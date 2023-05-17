@@ -664,9 +664,9 @@
    margin: 5px;
  }
 
- .sponsorcontainer1>* {
-   flex: 5 1 5%;
- }
+    .sponsorcontainer1>* {
+      flex: 5 1 5%;
+    }
 
  .sponsor1 {
    width: 55px;
