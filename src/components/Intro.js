@@ -1,6 +1,4 @@
 import './intro.css'
-import SponsorContainer from './SponsorContainer'
-import Clients from './Clients'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Comments from '../Comments/Comments'
 import Navbar from './Navbar'
@@ -10,6 +8,7 @@ function Intro() {
     <div className="hero">
       <div>
         <Navbar />
+
         <h1 className="title2">Bienvenido</h1>
         <div>
           <h4 className="headertext">
