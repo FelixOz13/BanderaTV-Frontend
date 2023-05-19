@@ -32,7 +32,8 @@ import Rancheras from './components/Rancheras'
 import Mexicanas from './components/Mexicanas'
 import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
-
+import Bachatta from './components/Bachatta'
+import AdsComponent from './adsense/AdsComponent'
 import {
   BrowserRouter as Router,
   Routes,
@@ -79,6 +80,7 @@ root.render(
         <Route path="/Mexicanas" element={<Mexicanas />} />
         <Route path="/Sonidero" element={<Sonidero />} />
         <Route path="/baladas" element={<Baladas />} />
+        <Route path="/bachatta" element={<Bachatta />} />
       </Routes>
     </Router>
     {isMobile && (
@@ -96,6 +98,5 @@ root.render(
         </a>
       </div>
     )}
-    ,
   </div>,
 )

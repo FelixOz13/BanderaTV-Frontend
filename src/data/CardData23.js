@@ -59,36 +59,7 @@ const CardData23 = [
     tiktok: 'https://www.tiktok.com/@snoopdogg?lang=es',
     napster: 'https://us.napster.com/artist/snoop-dogg',
   },
-  {
-    id: 1235,
-    title: 'Bad Bunny',
-    description:
-      'Benito Antonio Martínez Ocasio (Almirante Sur, Vega Baja, 10 de marzo de 1994), conocido artísticamente como Bad Bunny, es un rapero, cantante, compositor y actor puertorriqueño.Su estilo de música es generalmente definido como trap latino y reguetón, pero también ha interpretado otros géneros como rock, kizomba y soul. Se caracteriza por su entonación grave y rasposa y su estilo de vestir, considerado uno de los artistas urbanos latinos más importantes de la historia',
-    videourl:
-      'https://www.youtube.com/playlist?list=PLRW7iEDD9RDStpKHAckdbGs3xaCChAL7Z',
-    price: 50,
-    coverImg: 'BadBunny.jpeg',
-    category: 'Rap Americano',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.badbunnytour.com/',
-    youtube: 'https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q',
-    facebook: 'https://www.facebook.com/BadBunnyOfficial',
-    instagram: 'https://www.instagram.com/badbunnyofficiials/',
-    twitter: 'https://twitter.com/badbunnyinfope',
-    spotify: 'https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X',
-    deezer: 'https://www.deezer.com/mx/artist/10583405',
-    apple: 'https://music.apple.com/mx/artist/bad-bunny/1126808565',
-    soundcloud: 'https://soundcloud.com/badbunny15',
-    tidal: 'https://listen.tidal.com/artist/8027279',
-    wiki: 'https://es.wikipedia.org/wiki/Bad_Bunny',
-    ticketmaster:
-      'https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395',
-    tiktok: 'https://www.tiktok.com/@badbunny?lang=es',
-    napster: 'https://web.napster.com/artist/art.231403288',
-  },
+
   {
     id: 215,
     title: 'Beastie Boys',
@@ -746,4 +717,4 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/lil-wayne',
   },
 ]
-export default CardData23;
+export default CardData23

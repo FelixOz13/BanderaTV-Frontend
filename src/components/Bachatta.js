@@ -1,17 +1,17 @@
 import React from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
-import CardData from '../data/CardData'
+import CardData27 from '../data/CardData27'
 import Card from './Card'
 import Navbar from './Navbar'
 
-function Sierreño() {
-  const cards = CardData.map((item) => {
+function Bachatta() {
+  const cards = CardData27.map((item) => {
     return <Card key={item.id} item={item} />
   })
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Sierreños con Corridos </h1>
+      <h1 className="title2">Bachatta Suavecita </h1>
       <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4>
 
       <ButtonTreeCategories />
@@ -26,4 +26,4 @@ function Sierreño() {
   )
 }
 
-export default Sierreño
+export default Bachatta

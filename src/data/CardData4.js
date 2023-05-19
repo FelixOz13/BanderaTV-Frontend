@@ -1,35 +1,5 @@
 const CardData4 = [
   {
-    id: 76,
-    title: 'Piso 21',
-    description:
-      'Piso 21 es una boy band colombiana formada en Medellín en 2011.Son los pioneros de pop urbano en Latinoamérica, compuesto de David Escobar “DIM”, Juan David Huertas “El Profe”, Pablo Mejía “Pablito” y David Lorduy. Entraron en la escena musical con su primer álbum homónimo y lograron ser un fenómeno global con su segundo álbum Ubuntu con éxitos como Me Llamas (feat. Maluma), La Vida Sin Tí, Te Amo (feat. Paulo Londra), Puntos Suspensivos, “Besándote”, y “Déjala Que Vuelva (feat. Manuel Turizo)”.',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_nShyWYyitaXV5Ig0R_kWx9_MXmRkHcJQw',
-    price: 50,
-    coverImg: 'piso21.jpg',
-    category: 'Pop',
-    location: 'Colombia',
-    locationImg: 'coloflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.shakira.com/',
-    youtube: 'https://www.youtube.com/channel/UCEFNzT2RoVqGkV4e3Osyx4A',
-    facebook: 'https://www.facebook.com/piso21',
-    instagram: 'https://www.instagram.com/piso21/',
-    twitter: 'https://twitter.com/piso21music',
-    spotify: 'https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd',
-    deezer: 'https://www.deezer.com/en/artist/4038501',
-    apple: 'https://music.apple.com/us/artist/piso-21/403121923',
-    soundcloud: 'https://soundcloud.com/piso21official',
-    tidal: 'https://listen.tidal.com/artist/5032091',
-    wiki: 'https://es.wikipedia.org/wiki/Piso_21',
-    ticketmaster:
-      'https://www.ticketmaster.com./piso-21-tickets/artist/2364788',
-    tiktok: 'https://www.tiktok.com/@piso21music?lang=es',
-    napster: 'https://us.napster.com/artist/piso-21',
-  },
-  {
     id: 82,
     title: 'OV7',
     description:
