@@ -278,7 +278,7 @@ const CardData27 = [
       'https://www.youtube.com/playlist?list=PLRW7iEDD9RDStpKHAckdbGs3xaCChAL7Z',
     price: 50,
     coverImg: 'BadBunny.jpeg',
-    category: 'Rap Americano',
+    category: 'Rap ',
     location: 'USA',
     locationImg: 'usaflag.jpg',
     openSpots: null,
