@@ -4,19 +4,26 @@ import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { FaFacebook } from 'react-icons/fa'
-
+import { FaSpotify } from 'react-icons/fa'
+import { FaDeezer } from 'react-icons/fa'
+import { SiApplemusic } from 'react-icons/si'
 import { FaTwitterSquare } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import { FaInstagramSquare } from 'react-icons/fa'
-
 import { FaTiktok } from 'react-icons/fa'
-
 import { SiTidal } from 'react-icons/si'
-
+import React, { useState } from 'react'
+import Spinner from './Spinner'
 import Comments from '../Comments/Comments'
 import { BsFillPlayCircleFill } from 'react-icons/bs'
 
 function Card(props) {
+  const [imageLoaded, setImageLoaded] = useState(false)
+
+  const handleImageLoad = () => {
+    setImageLoaded(true)
+  }
+
   let badgeText
   if (props.item.openSpots === 0) {
     badgeText = 'No Mas Boletos'
@@ -27,10 +34,13 @@ function Card(props) {
   return (
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
+      {!imageLoaded && <Spinner />}{' '}
+      {/* Display spinner while image is loading */}
       <img
         src={`../images/${props.item.coverImg}`}
         className="card--image"
         alt="card"
+        onLoad={handleImageLoad}
       />
       <div className="notranslate">
         <h1 className="card--title">{props.item.title}</h1>
@@ -142,15 +152,8 @@ function Card(props) {
             media="(max-width: 400px)"
           />
         </a>
-      </div>
-      <BanderaMedia />
-    </div>
-  )
-}
 
-export default Card
-
-/*      <a
+        <a
           target="_blank"
           rel="noreferrer"
           href={props.item.spotify}
@@ -158,16 +161,6 @@ export default Card
           id="third-party-grid"
         >
           <FaSpotify />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={props.item.deezer}
-          className="icons-deezer"
-          id="third-party-grid"
-        >
-          <FaDeezer />
         </a>
 
         <a
@@ -198,67 +191,10 @@ export default Card
             media="(max-width: 300px)"
           />
         </a>
-        <a href={props.item.wiki} target="_blank" rel="noreferrer">
-          <img
-            src="../images/wiki.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
-        <div>
-          <BanderaMedia />
-        </div>
       </div>
-    </div>
- 
-
- 
-   <a
-          target="_blank"
-          rel="noreferrer"
-          href={props.item.soundcloud}
-          className="icons-soundcloud"
-          id="third-party-grid"
-        >
-          <FaSoundcloud />
-        </a>
-  </a>
-        <a href="https://www.informador.mx/" target="_blank" rel="noreferrer">
-          <img
-            src="../images/informador.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
-
-        <a href="https://www.mtvla.com/" target="_blank" rel="noreferrer">
-          <img
-            src="../images/mtv.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
-        <a href="https://www.estadioakron.mx/" target="_blank" rel="noreferrer">
-          <img
-            src="../images/akron.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
-      </div>
-      <div>
-        <SponsorContainer />
-      </div>
-
-      <div>
-        <BanderaMedia />
-      </div>
+      <BanderaMedia />
     </div>
   )
 }
 
-export default Card*/
+export default Card

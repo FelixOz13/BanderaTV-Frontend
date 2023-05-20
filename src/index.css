@@ -637,10 +637,11 @@
  }
 
  .sponsor {
-   width: 55px;
-   height: 55px;
+   width: 48px;
+   height: 48px;
    border-radius: 20%;
-   margin: 6px;
+   margin: 9px;
+  margin-top: 20px;
  }
 
 
