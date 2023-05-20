@@ -1,44 +1,50 @@
-import React from 'react'
-import ButtonTreeCategories from "./ButtonTreeCategories";
+import { useState } from 'react'
+import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData2 from '../data/CardData2'
 import Card from './Card'
 import Navbar from './Navbar'
 
+function Mariachi() {
+  const [searchQuery, setSearchQuery] = useState('')
 
+  const filteredData = CardData2.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase()),
+  )
 
-export default function Mariachi() {
-    const cards2 = CardData2.map(item => {
-        return (
-            <Card
-                key={item.id}
-                item={item}
-                
-                
-                           
-                        
-            />
-        )
-    })        
-    
-           
-    return (
-       
-        <div>
-            <Navbar />
-            <h1 className="title2">Musica Regional Mexicana</h1>
-            <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4> 
-            
-           <ButtonTreeCategories/>
-            <h1 className="slidertext">←←Desliza para Navegar→→</h1>
-            <img className="indianaut" src="./images/aguiladorada.jpeg" alt="" />
-            <img className="indianaut2" src="./images/aguiladorada.jpeg" alt="" />
-            
-            <div>
-            <section className="cards-list">
-               {cards2}
-            </section>
-            </div>
-        </div>
-    )
+  const sortedData = [...filteredData].sort((a, b) => {
+    if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
+    if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
+    return 0
+  })
+
+  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+
+  const handleSearch = (event) => {
+    setSearchQuery(event.target.value)
+  }
+
+  return (
+    <div>
+      <Navbar />
+      <h1 className="title2">Musica Regional Mexicana</h1>
+      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
+
+      <ButtonTreeCategories />
+
+      <img className="indianaut" src="./images/aguiladorada.jpeg" alt="" />
+      <img className="indianaut2" src="./images/aguiladorada.jpeg" alt="" />
+      <div className="search-bar">
+        <input
+          className="searchbar"
+          type="text"
+          value={searchQuery}
+          onChange={handleSearch}
+          placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
+        />
+      </div>
+      <h1 className="slidertext">←←Desliza para Navegar→→</h1>
+      <section className="cards-list">{cards}</section>
+    </div>
+  )
 }
-        
+export default Mariachi

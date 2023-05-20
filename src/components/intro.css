@@ -39,8 +39,8 @@ body {
 }
 
 .indianaut2 {
-  width: 12%;
-  height: 12%;
+  width: 8%;
+  height: 8%;
   position: relative;
   animation-delay: 3s;
   border-radius: 50%;
@@ -79,8 +79,8 @@ body {
 .indianaut {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width: 12%;
-  height: 12%;
+  width: 8%;
+  height: 8%;
   position: relative;
   animation-delay: 3s;
   border-radius: 50%;

@@ -1,6 +1,5 @@
 const CardData7 = [
   {
-    id: 42,
     title: 'Mana',
     description:
       'Maná es una banda de rock pop mexicana fundada en 1986 en Guadalajara, Jalisco. Actualmente la integran Fher Olvera, Juan Calleros, Álex González y Sergio Vallín. Ha vendido más de 40 millones de discos en todo el mundo..',
@@ -29,7 +28,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/mana',
   },
   {
-    id: 197,
     title: 'Los Fabulosos Cadillacs',
     description:
       'Los Fabulosos Cadillacs es una banda argentina de ska proveniente de Buenos Aires y fundada en 1984. Es considerada una de las mejores bandas de la historia de ese género en Latinoamérica. Llevan grabados 16 álbumes y a lo largo de sus distintas eras colaboraron con distintos artistas argentinos e internacionales, obteniendo en el medio un gran reconocimiento crítico y comercial. Varios de sus trabajos han sido incluidos en listas de mejores álbumes de rock latinoamericano y han recibido nominaciones y premaciones de MTV Latinoamérica, Premios Gardel, Fundación Konex y Grammy..',
@@ -60,7 +58,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/los-fabulosos-cadillacs',
   },
   {
-    id: 197,
     title: 'Mœnia',
     description:
       'Moenia (estilizado Mœnia) es un grupo mexicano de Synth-Pop en 1996 lanzarían su primer álbum oficial homónimo y dándose a conocer por su gran éxito No puedo estar sin ti, recibiendo numerosas aceptaciones en la industria de la música y el público en general. Juan Carlos Lozano abandonaría la agrupación después del éxito de su primer álbum. Optaron por regresar a sus orígenes con reintegrar a Alfonso Pichardo como vocalista principal. En 1999 lanzan su segundo álbum titulado Adición+ con Alfonso Pichardo como vocalista permanente de la banda.',
@@ -90,7 +87,6 @@ const CardData7 = [
     napster: 'https://music.amazon.com.mx/artists/B000TE048U/moenia',
   },
   {
-    id: 198,
     title: 'Fobia',
     description:
       'La banda inició su trayectoria en la Ciudad de México en 1987, época en la que en México había poca difusión para los grupos de rock. La historia que ellos tienen acerca de la formación de la banda se remonta a un concierto de Las Insólitas Imágenes de Aurora en 1987, De Lozanne rompe la llave de su automóvil y pidió un "ride" a Huidobro, con quien platica sobre sus inquietudes musicales y juntos unieron sus talentos y forman una agrupación. Más tarde, De Lozanne le recomendó a Huidobro, un bajista al que consideraba muy bueno.',
@@ -121,7 +117,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/fobia',
   },
   {
-    id: 303,
     title: ' Lila Downs',
     description:
       'Ana Lila Downs Sánchez, más conocida como Lila Downs (Heroica Ciudad de Tlaxiaco, Oaxaca, 19 de septiembre de 1968),​ es una cantante, compositora, productora, actriz y antropóloga​ mexicana. Además de cantar en español e inglés, también interpreta melodías en diversos idiomas nativos de su país, como mixteco y zapoteco, así como maya, purépecha y náhuatl. Reivindica sus raíces mexicanas y de los pueblos originarios, además de la música regional de Oaxaca.',
@@ -150,7 +145,6 @@ const CardData7 = [
     napster: 'https://us.napster.com/artist/lila-downs',
   },
   {
-    id: 46,
     title: 'Vaquero Negro',
     description:
       'Vaquero Negro es una propuesta musical fresca que surge en Jalisco por alla de 2015 en Guadalajara. La banda está compuesta por: Nacho (vocal), Nachin (batería), (guitarra) y (bajo). Su sonido resulta de la mezcla el rock, rap, hip-hop y el nü metal, que resuena con gran fuerza en cada canción..',
@@ -181,7 +175,6 @@ const CardData7 = [
     napster: 'https://us.napster.com/search?query=Vaquero%20Negro',
   },
   {
-    id: 46,
     title: 'Soda Stereo',
     description:
       'Soda Stereo es una banda argentina de rock formada originalmente en Belgrano, Buenos Aires en 1982 por Gustavo Cerati (voz, guitarra), Héctor «Zeta» Bosio (bajo) y Carlos Alberto Ficicchia «Charly Alberti» (batería). Es considerada por la crítica especializada como una de las más importantes, populares e influyentes bandas de rock en español de todos los tiempos y una leyenda de la música latina. Fueron el primer grupo de habla hispana en conseguir un éxito masivo en Latinoamérica y tuvieron un papel muy importante en el desarrollo y la difusión del rock iberoamericano y el rock en español durante las décadas de 1980 y 1990. Durante su carrera, fueron vanguardistas y marcaron tendencia en Latinoamérica, en la que protagonizaron diversos géneros como la música divertida de sus inicios, la new wave, el dark, el hard rock, el rock alternativo y el rock electrónico de sus finales.',
@@ -212,7 +205,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/soda-stereo',
   },
   {
-    id: 47,
     title: 'Zoe',
     description:
       'Zoé es una banda mexicana de rock formada en 1997 en Cuernavaca, México. La banda es liderada por León Larregui y conformada por Sergio Acosta (guitarra), Jesús Báez (teclados), Ángel Mosqueda (bajo) y Rodrigo Guardiola (batería).',
@@ -241,7 +233,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/zoe',
   },
   {
-    id: 48,
     title: 'Los Enanitos Verdes',
     description:
       'Enanitos Verdes es una banda argentina de rock en español, formada en 1979 en Mendoza, Argentina. A lo largo de su carrera han logrado colocarse en puestos importantes de las listas de popularidad argentinas, de América y el Caribe. Es considerado uno de los grupos más importantes del rock argentino de los años 1980 y del rock en español.',
@@ -272,7 +263,6 @@ const CardData7 = [
     ticketImg: 'viagogo.jpeg',
   },
   {
-    id: 48,
     title: 'Los Bunkers',
     description:
       'Los Bunkers es una banda chilena de Rock alternativo oriunda de Concepción formada a finales de los noventa y activa de manera ininterrumpida hasta su separación en 2014. El grupo estuvo compuesto en un inicio por los hermanos Francisco y Mauricio Durán y Álvaro y Gonzalo López, junto a Manuel Lagos, quien sería más tarde reemplazado por Mauricio Basualto.Considerada como una de las bandas más importantes y exitosas de la música popular chilena,4​5​6​ destacó por su «chilenización» del rock clásico, fusionando sonidos provenientes de la raíz folclórica (esencialmente de la nueva canción chilena) con el estilo de grupos anglosajones como The Beatles y Cream, y de coterráneos penquistas como Los Tres y Santos Dumont.7​8​ Aunque con el paso del tiempo, la banda llegaría a experimentar con diversos estilos musicales que marcarían el sonido de sus últimos álbumes, tales como el britpop, la electrónica y la psicodelia.',
@@ -303,7 +293,6 @@ const CardData7 = [
     ticketImg: 'viagogo.jpeg',
   },
   {
-    id: 53,
     title: 'Siddhartha',
     description:
       'Siddhartha es un artista mexicano nominado al Latin Grammy en 2008 y 2014. Siddhartha, es un músico solista de indie rock. Participó como baterista del grupo de rock mexicano Zoé',
@@ -334,7 +323,6 @@ const CardData7 = [
   },
 
   {
-    id: 54,
     title: 'Molotov',
     description:
       'Molotov es una banda mexicana de Rock Rap formada en 1995 y conformada por Micky Huidobro, Tito Fuentes, Randy Ebright y Paco Ayala. Su primer álbum, ¿Dónde jugarán las niñas?, registró más de un millón de copias vendidas. Fue señalado como uno de los mejores álbumes en 1997 por varios medios estadounidenses, país en el que compararon a la música del cuarteto con otras bandas ya establecidas como Beastie Boys, Rage Against the Machine y Red Hot Chili Peppers. La mayoría de las canciones del grupo son mejor conocidas por su contenido de sátira política y crítica social hacia el gobierno mexicano y la sociedad, motivo por el cual fueron objeto de censura al principio de su trayectoria.',
@@ -363,7 +351,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/molotov',
   },
   {
-    id: 187,
     title: 'Juanes',
     description:
       'Juan Esteban Aristizábal Vásquez, conocido por su nombre artístico Juanes, es un cantante, compositor y músico colombiano de pop latino y rock en español que combina diversos ritmos musicales. Ha sido premiado con 26 Grammy Latinos a lo largo de su trayectoria musical. Este es el mayor récord logrado por un cantante colombiano y el artista solista con más Grammy ganados. Además, ha vendido más de 16 millones de álbumes a nivel mundial.',
@@ -392,7 +379,6 @@ const CardData7 = [
     napster: 'https://web.napster.com/artist/juanes',
   },
   {
-    id: 197,
     title: 'Reik',
     description:
       'Reik es una banda musical originaria de Mexicali, Baja California, México y formada en 2003. Esta banda está principalmente conformada por Jesús Navarro (Voz principal y Piano), Julio Ramírez (Guitarra y Bajo) y Gilberto «Bibi» Marín (Guitarra y Batería). Los primeros 5 álbumes de la banda mexicana han sido de puras Baladas románticas, sin embargo, desde principios de 2015 sus últimas producciones abarcan el reguetón y el pop latino. Ha ganado un Latin Billboard Music Award, cuatro premios Los Premios MTV Latinoamérica y un Grammy latino..',
@@ -421,7 +407,6 @@ const CardData7 = [
     napster: 'https://us.napster.com/artist/reik',
   },
   {
-    id: 188,
     title: 'Los Babasonicos',
     description:
       'Adrián Rodríguez, conocido artísticamente como Adrián Dárgelos, es un cantante, compositor y escritor argentino, líder del grupo musical Babasónicos..',
@@ -452,7 +437,6 @@ const CardData7 = [
   },
 
   {
-    id: 200,
     title: 'La Ley',
     description:
       'La Ley fue una banda chilena de rock formada en 1987 por iniciativa del tecladista y guitarrista Andrés Bobe de Paraíso Perdido y su amigo, el tecladista Rodrigo Aboitiz de Aparato Raro, iniciando así un nuevo proyecto, donde más tarde se uniría Beto Cuevas, Mauricio Claveria, Luciano Rojas y Pedro Frugone..',
@@ -481,7 +465,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/la-ley',
   },
   {
-    id: 1,
     title: 'Caifanes',
     description:
       'Caifanes es una banda mexicana de rock en español que estuvo activa de 1987 a 1995,2​ y de 2011 hasta la actualidad.3​ La banda empezó como un cuarteto conformado por Saúl Hernández (guitarra y voz), Alfonso André (batería), Sabo Romo (bajo) y Diego Herrera (teclados, saxofón y percusiones), lanzando en 1988 el álbum debut Caifanes. En 1989 se unió Alejandro Marcovich como guitarra líder..',
@@ -511,7 +494,6 @@ const CardData7 = [
     napster: 'https://music.amazon.com.mx/artists/B00137ENB6/caifanes',
   },
   {
-    id: 44,
     title: 'Heroes del Silencio',
     description:
       'Héroes del Silencio (a veces abreviado Héroes o por sus iniciales HDS) fue un grupo español de rock radicado en Zaragoza, formado inicialmente por Juan Valdivia (guitarra solista) y Enrique Bunbury (voz y guitarra rítmica), y completado con Joaquín Cardiel (bajo) y Pedro Andreu (batería), a mediados de los años 80. Experimentaron un gran éxito en España e Hispanoamérica, así como en varios países europeos, incluyendo Alemania, Bélgica, Suiza, Francia e Italia, convirtiéndose en uno de los grupos más exitosos de la historia del rock en español.',
@@ -541,7 +523,6 @@ const CardData7 = [
     napster: 'https://www.napster.com/mx/',
   },
   {
-    id: 44,
     title: 'Cafe Tacvba',
     description:
       'Café Tacvba es una banda de rock alternativo procedente de Ciudad Satélite, Naucalpan, Estado de México. El grupo se conformó en 1989. Además del éxito comercial y de crítica que han logrado, el grupo es reconocido por su proyecto cultural vanguardista el cual mezcla el rock y sus temas habituales con letras, historias y sonidos extraídos de la cultura popular mexicana, esto último gracias al uso en diversas canciones de instrumentos como tololoche y jarana. Entre los principales premios obtenidos a lo largo de su carrera destacan el Grammy y el Grammy Latino..',
@@ -570,7 +551,6 @@ const CardData7 = [
     napster: 'https://www.tiktok.com/@tiktacvba?lang=es',
   },
   {
-    id: 41,
     title: 'Santana',
     description:
       'Carlos Humberto Santana Barragan (Autlán de Navarro, Jalisco; 20 de julio de 1947) es un guitarrista mexicano nacionalizado estadounidense.En 1966 fundó la banda Santana, pionera en fusionar la música latina con el rock. Santana ha vendido más de 100 millones de álbumes en todo el mundo (contando las ventas de su banda y su carrera en solitario). Ha ganado diez premios Grammy y tres premios Grammy Latino.',
@@ -600,7 +580,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/santana',
   },
   {
-    id: 196,
     title: 'La Maldita Vecindad',
     description:
       'Maldita Vecindad y los Hijos del Quinto Patio es un grupo musical mexicano, formado en la Ciudad de México en 1985 que fusiona ritmos como el rock, el ska, el reggae, el punk e influencias tradicionales de la música mexicana como el danzón y el bolero..',
@@ -631,7 +610,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/maldita-vecindad',
   },
   {
-    id: 184,
     title: 'Manu Chao',
     description:
       'José Manuel Arturo Tomás Chao Ortega, más conocido como Manu Chao, es un cantautor francés nacionalizado español, multiinstrumentista exlíder del grupo Mano Negra. Hijo del periodista y escritor español Ramón Chao y sobrino del escritor y teólogo Xosé Chao Rego, se crio en un ambiente cultural muy rico en su infancia y primera juventud. Además de escritor y periodista, su padre fue un excelente pianista, ganador del Premio de Virtuosismo de Piano y caballero de las Artes y las Letras de Francia. ',
@@ -661,7 +639,6 @@ const CardData7 = [
     napster: 'https://mx.napster.com/artist/manu-chao',
   },
   {
-    id: 199,
     title: 'Los Hombres G',
     description:
       'Hombres G es una banda musical española de rock and roll y pop rock. Esta banda fue fundada en Madrid en 1982 por su vocalista y bajista David Summers y uno de sus guitarristas, Rafa Gutiérrez, junto con Javier Molina y Daniel Mezquita. A mediados de los años 80 se popularizó en España con su primer álbum, para después ser conocidos internacionalmente, principalmente en Latinoamérica.',
@@ -690,7 +667,6 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/hombres-g',
   },
   {
-    id: 45,
     title: 'El Tri',
     description:
       'El Tri es una banda de rock mexicano, fundada y liderada por Alejandro Lora, tras su salida de la banda Three Souls in My Mind, en 1981.El grupo ha vendido más de 30 millones de discos en su carrera y ha tenido cinco nominaciones para el Premio Grammy bajo la categoría de Mejor Álbum de Rock en Español por su álbumes: Cuando tú no estás (1998), Fin de siglo (1999), No podemos volar (2001), y 35 Años y lo que falta todavía (2005) y Mejor Álbum de Rock Vocal Dúo o Grupo para Alex Lora: Del Three a El Tri (40 rolas del alma. Mi mente y Mi aferración) (2009). En el 1971 El Three Souls in My Mind participó en el Festival de Rock y Ruedas de Avándaro.',

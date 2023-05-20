@@ -1,69 +1,63 @@
 const BandsData2 = [
   {
-    id: 1,
-    title: 'Yiyo Sarante',
+    title: 'Tito Puente',
     description:
-      'Eduardo Sarante es un cantante dominicano, mejor conocido como Yiyo Sarante. Nació en Baní, provincia de Peravia, República Dominicana. Según la crítica especializada, también lo conocen como La Voz De La Salsa.Yiyo Sarante vivió su niñez en Baní, es hijo de Ángel Sarante y María Perdomo, ocupando el séptimo además es el séptimo puesto entre los nueve hermanos, cinco de ellos músicos.Yiyo Sarante se adentró en el mundo de la música desde temprana edad, cuando participó en diferentes orquestas de República Dominicana. En 1999, debutó como cantante y realizó presentaciones en la zona turística de Bávaro en su país natal. En 2003, pasó a formar parte de la orquesta Oro Duro, de uno de sus hermanos músicos...',
-
+      'Ernesto Antonio Puente (Nueva York, 20 de abril de 1923-ibídem, 31 de mayo de 2000), conocido como Tito Puente, fue un legendario percusionista estadounidense de origen puertorriqueño. Nombre ineludible del jazz a nivel mundial, desarrolló su trabajo en el campo de la música cubana (son montuno, chachachá, mambo, bolero, pachanga, guaracha), y del jazz afrocubano, el jazz latino y la salsa.',
     videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_lo8ErAm1QmcfbclOnFg4tO5HSp5xPO6gQ',
-    price: 50,
-    coverImg: 'yiyosarante.jpg',
-    category: 'Salsa',
-    location: 'Republica Dominicana',
-    locationImg: 'dominican.jpg',
+      'https://youtube.com/playlist?list=OLAK5uy_lyzRM7XkStXcwWB6l9JM5jefPCaFjFWmc',
+    price: 36,
+    coverImg: 'TitoPuente.jpg',
+    category: 'Mambo',
+    location: 'Puerto Rico',
+    locationImg: 'puertorico.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl:
-      'https://lasuper104fm.com/2021/06/19/biografia-de-yiyo-sarante/',
-    youtube: 'https://www.youtube.com/channel/UC3RhQS-TYlc91Cpmyz_2cWA',
-    facebook: 'https://www.facebook.com/yiyosarante',
-    instagram: 'https://www.instagram.com/yiyosarante/',
-    twitter: 'https://twitter.com/yiyosarante?lang=en',
-    spotify: 'https://open.spotify.com/artist/2rwLjVHS15sfzciKXXNbgA',
-    deezer: 'https://www.deezer.com/en/artist/1634132',
-    apple: 'https://music.apple.com/us/artist/yiyo-sarante/500109790',
-    soundcloud: 'https://soundcloud.com/yiyosarante',
-    tidal: 'https://listen.tidal.com/artist/4504389',
-    wiki: 'https://lasuper104fm.com/2021/06/19/biografia-de-yiyo-sarante/',
-    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Salsa',
-    tiktok: 'https://www.tiktok.com/@oficialyiyosarante',
-    napster: 'https://music.amazon.com.mx/artists/B007AHLP8W/yiyo-sarante',
+    websiteurl: 'https://es.wikipedia.org/wiki/Tito_Puente',
+    youtube: 'https://www.youtube.com/channel/UC-80HNiK3Vwd0zcFcfB8hRw',
+    facebook: 'https://www.facebook.com/pages/Tito%20Puente/108467629176892/',
+    instagram: 'https://www.instagram.com/_tito_puente_/',
+    twitter: 'https://twitter.com/roberjba',
+    spotify: 'https://open.spotify.com/artist/6SPpCqM8gOzrtICAxN5NuX',
+    deezer: 'https://www.deezer.com/mx/artist/8661',
+    apple: 'https://music.apple.com/mx/artist/tito-puente/105119',
+    soundcloud: 'https://soundcloud.com/tito-puente-official',
+    tidal: 'https://listen.tidal.com/artist/1895',
+    wiki: 'https://en.wikipedia.org/wiki/Tito_Puente',
+    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Tito+Puente+JR',
+    tiktok: 'https://www.tiktok.com/search?q=Tito%20puente&t=1658084271449',
+    napster: 'https://web.napster.com/artist/tito-puente',
   },
   {
-    id: 2,
-    title: 'Marc Anthony',
+    title: 'Celia Cruz',
     description:
-      'Marco Antonio Muñiz Rivera (Nueva York, 16 de septiembre de 1968), más conocido como Marc Anthony, es un cantautor y actor estadounidense de origen puertorriqueño, cuyas canciones van desde la salsa, pasando por el bolero, la balada y el pop. Empezó su trayectoria discográfica en los géneros del hip hop con el dúo Little Louie & Marc Anthony, llegando al N.º 1 de las listas estadounidenses en 1991. Ralph Mercado lo contrató para su sello RMM en esa fecha y lo lanzó cantando salsa, consiguiendo un gran éxito que duró años, desde su primer sencillo con la canción "Hasta que te conocí" de Juan Gabriel que fue N.º 1 en ventas..',
-
+      'Úrsula Hilaria Celia de la Caridad de la Santísima Trinidad Cruz Alfonso (La Habana, Cuba; 21 de octubre de 1925-Fort Lee, Nueva Jersey, Estados Unidos; 16 de julio de 2003), más conocida como Celia Cruz, fue una cantante cubana de música tropical. Apodada «La Reina de la Salsa»y «La Guarachera de Cuba», es ampliamente considerada una de las artistas latinas más populares e importantes del siglo XX y un icono de la música latina. Fue una de las máximas exponentes de su género, así como una de las artistas más influyentes de la música de su país.',
     videourl:
-      'https://youtube.com/playlist?list=PLWgebRsx5qvG31UoLwAFtU7FNGPy8XNPS',
-    price: 50,
-    coverImg: 'marcanthony.jpg',
-    category: 'Salsa',
-    location: 'Colombia',
-    locationImg: 'coloflag.jpg',
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlXagibiHOsWNzrXSIFZj6hq',
+    price: 36,
+    coverImg: 'CeliaCruz.jpg',
+    category: 'Mambo',
+    location: 'Cuba',
+    locationImg: 'cubaflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://www.marcanthonyonline.com/en/',
-    youtube: 'https://www.youtube.com/channel/UCZU8q-bsoCeXtT7n9OY1POg',
-    facebook: 'https://www.facebook.com/officialmarcanthony/',
-    instagram: 'https://www.instagram.com/marcanthony/',
-    twitter: 'https://twitter.com/MarcAnthony',
-    spotify:
-      'https://open.spotify.com/artist/4wLXwxDeWQ8mtUIRPxGiD6?autoplay=true',
-    deezer: 'https://www.deezer.com/en/artist/112',
-    apple: 'https://music.apple.com/us/artist/marc-anthony/217029',
-    soundcloud: 'https://soundcloud.com/marcanthonyofficial',
-    tidal: 'https://listen.tidal.com/artist/930',
-    wiki: 'https://es.wikipedia.org/wiki/Marc_Anthony',
+    websiteurl: 'https://celiacruz.com/',
+    youtube: 'https://www.youtube.com/channel/UC0ici7PK6RBnCUQ2mqVGzKA',
+    facebook: 'https://www.facebook.com/CeliaCruzTheQueen',
+    instagram: 'https://www.instagram.com/celiacruz/',
+    twitter: 'https://twitter.com/CeliaCruz',
+    spotify: 'https://open.spotify.com/artist/2weA6hhVqTIN2gSn9PUB9U',
+    deezer: 'https://www.deezer.com/mx/artist/5024',
+    apple: 'https://music.apple.com/mx/artist/celia-cruz/105181',
+    soundcloud: 'https://soundcloud.com/celia-cruz-official',
+    tidal: 'https://listen.tidal.com/artist/6072',
+    wiki: 'https://en.wikipedia.org/wiki/Celia_Cruz',
     ticketmaster:
-      'https://www.ticketmaster.com/marc-anthony-tickets/artist/759949',
-    tiktok: 'https://www.tiktok.com/@marcanthony',
-    napster: 'https://music.amazon.com.mx/artists/B000QJIF6G/marc-anthony',
+      'https://www.ticketmaster.com/Celia-Cruz-tickets/artist/760911',
+    napster: 'https://web.napster.com/artist/celia-cruz',
+    tiktok: 'https://www.tiktok.com/@soyceliacruz',
   },
+
   {
-    id: 3,
     title: 'David Zahan',
     description:
       'Andrés David Saldarriaga Salazar es un cantautor salsero Colombiano nacido en la ciudad de Medellín y al que muchos conocen como David Zahan.Empezó el gusto por su género musical (Salsa) desde pequeño cuando su padre escuchaba los LP en casa, su mayor ídolo es Frankie Ruiz, por eso hoy en día David es reconocido mundialmente por su homenaje “Reviviendo a Frankie Ruiz” dicho proyecto se dió a conocer a nivel internacional alcanzando mas de 100 millones de reproducciones en YouTube en menos de 1 año.A parte de este proyecto, Zahan también ha lanzado producciones propias compuestas por él mismo, y ha trabajado con exponentes y productores iconos de la salsa, su último lanzamiento titulado “Media Mujer” sigue sonando en muchas emisoras a nivel internacional..',
@@ -93,7 +87,6 @@ const BandsData2 = [
     napster: 'https://music.amazon.com.mx/artists/B00INZ6AYO/david-zahan',
   },
   {
-    id: 4,
     title: 'Chiquito Team Band',
     description:
       'La Chiquito Team Band es un quinteto de salseros liderado por los fundadores Chiquito Timbal (Rafael Berroa) y Manuel Piano (Emmanuel Frias). Los otros miembros del grupo incluyen a Alberto María, Kelvin Saviñon y Lugo Santana, quienes actúan como coro de respaldo y ocasionalmente toman solos, todo frente a una orquesta de salsa que hace bailar. Llaman a su enfoque innovador del género tropical "La Industria Salsera.A pesar de su corta edad cuando formaron la banda, Timbal y Piano habían estado cantando y trabajando profesionalmente desde su infancia. Por separado, habían estado asociados con artistas locales e internacionales como Julián Oro Duro, Bonny Cepeda, José Peña Suazo, Jossie Esteban, Giro, Yiyo Sarante, El Clasicom y otros más. Se encontraban frecuentemente en el circuito, se hicieron amigos y decidieron unirse y formar el concepto musical no solo como cantantes, sino también como productores...',
@@ -125,39 +118,8 @@ const BandsData2 = [
     napster:
       'https://music.amazon.com.mx/artists/B00GV81MZM/chiquito-team-band',
   },
+
   {
-    id: 5,
-    title: 'Maluma',
-    description:
-      'Maluma has a number of singles that have charted within the top ten on Billboard Hot Latin Songs, including Felices los 4, Borró Cassette, and Corazón. His collaborative efforts Chantaje with Shakira and Medellín with Madonna have reached the top of the Hot Latin Songs and the Dance Club Songs chart, respectively. He has worked with other international artists, such as Ricky Martin, J Balvin, and The Weeknd. Maluma has won a Latin Grammy Award, an MTV Video Music Award, two Latin American Music Awards, and been nominated for a Grammy Award for Best Latin Pop Album.',
-    videourl:
-      'http://youtube.com/playlist?list=PLI2uE28GO_poIPrHuSGt2Ru6Er5AzCyk5',
-    price: 36,
-    coverImg: 'maluma.jpg',
-    category: 'Bachatta',
-    location: 'Colombia',
-    locationImg: 'coloflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl:
-      'https://maluma.online/?fbclid=IwAR2kZKmUfqJ3sRMh-jl3eHSM0apR2-lEeKxsGC9d_VT1XsfmqCbVgyzZ5eY',
-    youtube: 'https://www.youtube.com/c/MalumaOfficialChannel',
-    facebook: 'https://www.facebook.com/MALUMAMUSIK',
-    instagram: 'https://www.instagram.com/maluma/?hl=en',
-    twitter:
-      'https://twitter.com/maluma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
-    spotify: 'https://open.spotify.com/artist/1r4hJ1h58CWwUQe3MxPuau',
-    deezer: 'https://www.deezer.com/mx/artist/1424602',
-    apple: 'https://music.apple.com/mx/artist/maluma/448916501',
-    soundcloud: 'https://soundcloud.com/malumaofficial',
-    tidal: 'https://listen.tidal.com/artist/4098182',
-    wiki: 'https://es.wikipedia.org/wiki/Maluma',
-    ticketmaster: 'https://www.ticketmaster.com./maluma-tickets/artist/2095829',
-    tiktok: 'https://www.tiktok.com/@maluma1472?lang=es',
-    napster: 'https://app.napster.com/artist/maluma',
-  },
-  {
-    id: 6,
     title: 'Luis Enrique',
     description:
       'Nació en Somoto, el 28 de septiembre de 1962. Proveniente de una familia de artistas musicales, hijo de Francisco Luis Mejía Godoy y sobrino de los cantautores nicaragüenses Luis Enrique Mejía Godoy y Carlos Mejía Godoy.Es conocido por su estilo de salsa romántica, Luis Enrique, ha ganado varios discos de oro y platino, tres (3) Grammy Latino, un (1) Grammy americano, cuatro Latin Billboards, tres premios Lo Nuestro, dos premios Ronda y también los premios Huaco, TV y Novelas, Aplausos, ACE y ASCAP.Debido a la compleja situación política en aquella época migra de Nicaragua hacia Estados Unidos junto a su hermano, en el año 1978, instalándose en Los Ángeles. Es ahí, donde inspirado por la música del Jazz y el Rhythm and Blues americano, fue agregando nuevos sonidos a sus composiciones...',
@@ -187,7 +149,6 @@ const BandsData2 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKD060/luis-enrique',
   },
   {
-    id: 7,
     title: 'José Alberto El Canario',
     description:
       'José Alberto El Canario se mudó a Puerto Rico con su familia en la edad de 7 años, e inspirado por la música latina procedió a pulir su canto en la Academia Militar de Las Antillas. Él se trasladó a Nueva York en los inicios de 1970 y cantó con varias orquestas. Él recibió atención internacional como el líder de la Típica 73 en octubre de 1977.José Alberto empezó a armar su propia banda en 1983, y se convirtió en una estrella latina principal en 1984',
@@ -218,7 +179,6 @@ const BandsData2 = [
       'https://music.amazon.com.mx/artists/B004FHZYRI/jos%C3%A9-alberto-el-canario',
   },
   {
-    id: 8,
     title: 'Alberto Barros',
     description:
       'Alberto Barros, conocido como “El Titán de la Salsa”, es uno de los artistas más representativos de la música colombiana a nivel internacional. Tiene una amplia trayectoria como productor musical, compositor, arreglista, trombonista y cantante. Nació el 30 de noviembre en Barranquilla, Colombia...',
@@ -249,7 +209,6 @@ const BandsData2 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJRHTM/alberto-barros',
   },
   {
-    id: 9,
     title: 'Orquestra Guayacan',
     description:
       'Guayacán Orquesta es una orquesta de salsa colombiana, fundada en Bogotá, Colombia por razones de mayor facilidad en la época de crear una agrupación, después se radicaron en Cali ciudad de la orquesta. Es dirigida musicalmente por Alexis Lozano, arreglista y productor, quien además ejecuta varios instrumentos musicales de la familia de las cuerdas y de viento..',
@@ -281,7 +240,6 @@ const BandsData2 = [
       'https://music.amazon.com.mx/artists/B009696BGI/guayac%C3%A1n-orquesta',
   },
   {
-    id: 10,
     title: 'La Sonora Ponceña',
     description:
       'La Sonora Ponceña es una orquesta puertorriqueña de música salsa fundada por "Quique" Lucca en 1954. Dirigida por el hijo de "Quique", Papo Lucca, es una de las agrupaciones más importantes del género musical.En 1968 graban su primer disco de 33 RPM llamado Hacheros Pa Un Palo que contaba con los arreglos hechos por el hijo de "Quique", Enrique Arsenio, conocido como Papo Lucca. El disco fue un éxito en Nueva York al igual que su segunda grabación, llamada Fuego en el 23, que fue realizada en 1969.Aconsejado por Louie Ramírez la agrupación inicia una gira por el Caribe interpretando y grabando temas, tales como La Pollera Colorá, del colombiano Wilson Choperena y bombas, merengues, guaguancós y sones. A finales de los años 70 el grupo graba un disco con Celia Cruz titulado La Ceiba...',
@@ -311,6 +269,67 @@ const BandsData2 = [
       'https://www.tiktok.com/search?q=la%20sonora%20ponce%C3%B1a&t=1684215533784',
     napster:
       'https://music.amazon.com.mx/artists/B000V87BZ8/sonora-ponce%C3%B1a',
+  },
+  {
+    title: 'Yiyo Sarante',
+    description:
+      'Eduardo Sarante es un cantante dominicano, mejor conocido como Yiyo Sarante. Nació en Baní, provincia de Peravia, República Dominicana. Según la crítica especializada, también lo conocen como La Voz De La Salsa.Yiyo Sarante vivió su niñez en Baní, es hijo de Ángel Sarante y María Perdomo, ocupando el séptimo además es el séptimo puesto entre los nueve hermanos, cinco de ellos músicos.Yiyo Sarante se adentró en el mundo de la música desde temprana edad, cuando participó en diferentes orquestas de República Dominicana. En 1999, debutó como cantante y realizó presentaciones en la zona turística de Bávaro en su país natal. En 2003, pasó a formar parte de la orquesta Oro Duro, de uno de sus hermanos músicos...',
+
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lo8ErAm1QmcfbclOnFg4tO5HSp5xPO6gQ',
+    price: 50,
+    coverImg: 'yiyosarante.jpg',
+    category: 'Salsa',
+    location: 'Republica Dominicana',
+    locationImg: 'dominican.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl:
+      'https://lasuper104fm.com/2021/06/19/biografia-de-yiyo-sarante/',
+    youtube: 'https://www.youtube.com/channel/UC3RhQS-TYlc91Cpmyz_2cWA',
+    facebook: 'https://www.facebook.com/yiyosarante',
+    instagram: 'https://www.instagram.com/yiyosarante/',
+    twitter: 'https://twitter.com/yiyosarante?lang=en',
+    spotify: 'https://open.spotify.com/artist/2rwLjVHS15sfzciKXXNbgA',
+    deezer: 'https://www.deezer.com/en/artist/1634132',
+    apple: 'https://music.apple.com/us/artist/yiyo-sarante/500109790',
+    soundcloud: 'https://soundcloud.com/yiyosarante',
+    tidal: 'https://listen.tidal.com/artist/4504389',
+    wiki: 'https://lasuper104fm.com/2021/06/19/biografia-de-yiyo-sarante/',
+    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Salsa',
+    tiktok: 'https://www.tiktok.com/@oficialyiyosarante',
+    napster: 'https://music.amazon.com.mx/artists/B007AHLP8W/yiyo-sarante',
+  },
+  {
+    title: 'Marc Anthony',
+    description:
+      'Marco Antonio Muñiz Rivera (Nueva York, 16 de septiembre de 1968), más conocido como Marc Anthony, es un cantautor y actor estadounidense de origen puertorriqueño, cuyas canciones van desde la salsa, pasando por el bolero, la balada y el pop. Empezó su trayectoria discográfica en los géneros del hip hop con el dúo Little Louie & Marc Anthony, llegando al N.º 1 de las listas estadounidenses en 1991. Ralph Mercado lo contrató para su sello RMM en esa fecha y lo lanzó cantando salsa, consiguiendo un gran éxito que duró años, desde su primer sencillo con la canción "Hasta que te conocí" de Juan Gabriel que fue N.º 1 en ventas..',
+
+    videourl:
+      'https://youtube.com/playlist?list=PLWgebRsx5qvG31UoLwAFtU7FNGPy8XNPS',
+    price: 50,
+    coverImg: 'marcanthony.jpg',
+    category: 'Salsa',
+    location: 'Colombia',
+    locationImg: 'coloflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.marcanthonyonline.com/en/',
+    youtube: 'https://www.youtube.com/channel/UCZU8q-bsoCeXtT7n9OY1POg',
+    facebook: 'https://www.facebook.com/officialmarcanthony/',
+    instagram: 'https://www.instagram.com/marcanthony/',
+    twitter: 'https://twitter.com/MarcAnthony',
+    spotify:
+      'https://open.spotify.com/artist/4wLXwxDeWQ8mtUIRPxGiD6?autoplay=true',
+    deezer: 'https://www.deezer.com/en/artist/112',
+    apple: 'https://music.apple.com/us/artist/marc-anthony/217029',
+    soundcloud: 'https://soundcloud.com/marcanthonyofficial',
+    tidal: 'https://listen.tidal.com/artist/930',
+    wiki: 'https://es.wikipedia.org/wiki/Marc_Anthony',
+    ticketmaster:
+      'https://www.ticketmaster.com/marc-anthony-tickets/artist/759949',
+    tiktok: 'https://www.tiktok.com/@marcanthony',
+    napster: 'https://music.amazon.com.mx/artists/B000QJIF6G/marc-anthony',
   },
 ]
 export default BandsData2

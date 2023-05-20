@@ -1,6 +1,5 @@
 const CardData11 = [
   {
-    id: 201,
     title: 'Danna Paola',
     description:
       'Danna Paola Rivera Munguía (Ciudad de México, 23 de junio de 1995) es una cantante, actriz, modelo y compositora mexicana. Ha sido ganadora de diferentes premios, entre los que se encuentran 9 Kids Choice Awards, 4 MTV Millennial Awards, 4 MTV Italian Music Awards, 1 MTV Europe Music Awards y 2 premios de la Sociedad de Autores y Compositores de México por «Oye Pablo» y «Sodio». Además fue nominada al Grammy Latino por su sexto álbum de estudio K.O. en 2021..',
@@ -30,7 +29,6 @@ const CardData11 = [
     napster: 'https://us.napster.com/artist/danna-paola',
   },
   {
-    id: 71,
     title: 'Rauw Alejandro',
     description:
       'Raúl Alejandro Ocasio Ruiz (born January 10, 1993), known professionally as Rauw Alejandro, is a Puerto Rican singer and songwriter. Referred to as the King of Modern Reggaeton, he belongs to the new generation of Puerto Rican urban musicians. His debut studio album, Afrodisíaco, was released in November 2020. His second studio album, Vice Versa, released in June 2021, featured the lead single Todo de Ti. He has won one Latin Grammy Award from four nominations..',
@@ -60,7 +58,6 @@ const CardData11 = [
     napster: 'https://us.napster.com/artist/rauw-alejandro',
   },
   {
-    id: 201,
     title: 'Nikki Nicole',
     description:
       'Nicole Denise Cucco (Rosario, Santa Fe; 25 de agosto de 2000), conocida artísticamente como Nicki Nicole, es una cantante, rapera y compositora argentina.En 2019, saltó a la fama con el sencillo «Wapo Traketero», logrando obtener millones de reproducciones en YouTube en un corto período de tiempo después de ser publicado. La canción se convirtió en un fenómeno viral, logrando ingresar al listado Argentina Hot 100 de Billboard.1​2​3​En agosto de ese mismo año terminó ganando más reconocimiento a nivel nacional e internacional con la publicación de su Music Session junto al productor Bizarrap, la cual actualmente cuenta con más de 168 millones de reproducciones. En noviembre de ese mismo año lanzó su primer álbum de estudio de nombre Recuerdos, en el cual se encontraron temas como «Años luz», «Shorty», «Plegarias», entre otros. El álbum recibió nominaciones a distintos premios...',
@@ -90,7 +87,6 @@ const CardData11 = [
     napster: 'https://us.napster.com/artist/nicki-nicole',
   },
   {
-    id: 71,
     title: 'Farruko',
     description:
       'Debutó en 2007 con «Bla, bla, bla», la cual tuvo la producción de Phantom y Villa y con el cual logró posicionarse dentro del ámbito musical, por lo que gracias a esto, lanzó canciones como «El Penthouse», «El paseo por el bloque» con Ñengo Flow y «No me atrevo» en 2007, «Escala a mi cama» con Galante & Killatonez y Ñengo Flow, «Sata es» con Galante & Killatonez y «Sexo fuera del planeta» con Fifer en 2008, con las cuales logró consolidarse como unos los talentos nuevos del reguetón.',
@@ -119,7 +115,6 @@ const CardData11 = [
     napster: 'https://app.napster.com/artist/farruko',
   },
   {
-    id: 201,
     title: 'Karol G',
     description:
       'Carolina Giraldo Navarro Medellín, Colombia; 14 de febrero de 1991, conocida artísticamente como Karol G, es una cantante y compositora colombiana de reguetón, pop y trap latino.Se lanzó internacionalmente con la canción «301» junto con el cantante Reykon el líder en 2012, posicionado en el top de varias estaciones de radios y canales de televisión,3​ y le permitió realizar conciertos en países como Aruba, Colombia, Ecuador y Estados Unidos.4​ Obtuvo mayor reconocimiento en 2013, cuando lanzó la canción «Amor de dos» junto con Nicky Jam.5​ En 2016, luego de que lanzó varios sencillos, firmó un contrato con la discográfica Universal Music Latin Entertainment, y hubo un ascenso en su carrera..',
@@ -148,7 +143,6 @@ const CardData11 = [
     napster: 'https://us.napster.com/artist/karol-g',
   },
   {
-    id: 73,
     title: 'Maluma',
     description:
       'Maluma has a number of singles that have charted within the top ten on Billboard Hot Latin Songs, including Felices los 4, Borró Cassette, and Corazón. His collaborative efforts Chantaje with Shakira and Medellín with Madonna have reached the top of the Hot Latin Songs and the Dance Club Songs chart, respectively. He has worked with other international artists, such as Ricky Martin, J Balvin, and The Weeknd. Maluma has won a Latin Grammy Award, an MTV Video Music Award, two Latin American Music Awards, and been nominated for a Grammy Award for Best Latin Pop Album.',
@@ -179,7 +173,6 @@ const CardData11 = [
     napster: 'https://app.napster.com/artist/maluma',
   },
   {
-    id: 74,
     title: 'JBalvin',
     description:
       'José Álvaro Osorio Balvín, conocido artísticamente como J Balvin, es un cantante, compositor y productor discográfico colombiano. Ha logrado posicionarse tanto en el mercado musical hispano como en el mercado musical de habla inglesa, llegando a colocar sus temas en número uno en varias listas musicales, entre ellas Billboard. También es conocido como el Príncipe del Reguetón.',

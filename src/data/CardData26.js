@@ -1,6 +1,62 @@
 const CardData26 = [
   {
-    id: 1,
+    title: 'Tito Puente',
+    description:
+      'Ernesto Antonio Puente (Nueva York, 20 de abril de 1923-ibídem, 31 de mayo de 2000), conocido como Tito Puente, fue un legendario percusionista estadounidense de origen puertorriqueño. Nombre ineludible del jazz a nivel mundial, desarrolló su trabajo en el campo de la música cubana (son montuno, chachachá, mambo, bolero, pachanga, guaracha), y del jazz afrocubano, el jazz latino y la salsa.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lyzRM7XkStXcwWB6l9JM5jefPCaFjFWmc',
+    price: 36,
+    coverImg: 'TitoPuente.jpg',
+    category: 'Mambo',
+    location: 'Puerto Rico',
+    locationImg: 'puertorico.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://es.wikipedia.org/wiki/Tito_Puente',
+    youtube: 'https://www.youtube.com/channel/UC-80HNiK3Vwd0zcFcfB8hRw',
+    facebook: 'https://www.facebook.com/pages/Tito%20Puente/108467629176892/',
+    instagram: 'https://www.instagram.com/_tito_puente_/',
+    twitter: 'https://twitter.com/roberjba',
+    spotify: 'https://open.spotify.com/artist/6SPpCqM8gOzrtICAxN5NuX',
+    deezer: 'https://www.deezer.com/mx/artist/8661',
+    apple: 'https://music.apple.com/mx/artist/tito-puente/105119',
+    soundcloud: 'https://soundcloud.com/tito-puente-official',
+    tidal: 'https://listen.tidal.com/artist/1895',
+    wiki: 'https://en.wikipedia.org/wiki/Tito_Puente',
+    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Tito+Puente+JR',
+    tiktok: 'https://www.tiktok.com/search?q=Tito%20puente&t=1658084271449',
+    napster: 'https://web.napster.com/artist/tito-puente',
+  },
+  {
+    title: 'Celia Cruz',
+    description:
+      'Úrsula Hilaria Celia de la Caridad de la Santísima Trinidad Cruz Alfonso (La Habana, Cuba; 21 de octubre de 1925-Fort Lee, Nueva Jersey, Estados Unidos; 16 de julio de 2003), más conocida como Celia Cruz, fue una cantante cubana de música tropical. Apodada «La Reina de la Salsa»y «La Guarachera de Cuba», es ampliamente considerada una de las artistas latinas más populares e importantes del siglo XX y un icono de la música latina. Fue una de las máximas exponentes de su género, así como una de las artistas más influyentes de la música de su país.',
+    videourl:
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlXagibiHOsWNzrXSIFZj6hq',
+    price: 36,
+    coverImg: 'CeliaCruz.jpg',
+    category: 'Mambo',
+    location: 'Cuba',
+    locationImg: 'cubaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://celiacruz.com/',
+    youtube: 'https://www.youtube.com/channel/UC0ici7PK6RBnCUQ2mqVGzKA',
+    facebook: 'https://www.facebook.com/CeliaCruzTheQueen',
+    instagram: 'https://www.instagram.com/celiacruz/',
+    twitter: 'https://twitter.com/CeliaCruz',
+    spotify: 'https://open.spotify.com/artist/2weA6hhVqTIN2gSn9PUB9U',
+    deezer: 'https://www.deezer.com/mx/artist/5024',
+    apple: 'https://music.apple.com/mx/artist/celia-cruz/105181',
+    soundcloud: 'https://soundcloud.com/celia-cruz-official',
+    tidal: 'https://listen.tidal.com/artist/6072',
+    wiki: 'https://en.wikipedia.org/wiki/Celia_Cruz',
+    ticketmaster:
+      'https://www.ticketmaster.com/Celia-Cruz-tickets/artist/760911',
+    napster: 'https://web.napster.com/artist/celia-cruz',
+    tiktok: 'https://www.tiktok.com/@soyceliacruz',
+  },
+  {
     title: 'Los Angeles Azules',
     description:
       'Los hermanos Mejía Avante incursionaron en la música en los años 70, tocando melodías sencillas de manera lírica en una estudiantina, forjando rápidamente su talento musical. Apoyados por sus padres Martha Avante Barrón y Porfirio Mejía García, quienes consiguieron préstamos de dinero empeñando algunas de sus propiedades, y con empleos como conductor de autobuses suburbanos (en el caso de su padre) lograron comprar, en pagos, el primer equipo de instrumentos musicales, bocinas y amplificadores.',
@@ -30,7 +86,6 @@ const CardData26 = [
       'https://music.amazon.com.mx/artists/B004WMEZEY/los-%C3%A1ngeles-azules',
   },
   {
-    id: 2,
     title: 'Los Yaguaru',
     description:
       'LOS YAGUARÚ (palabra de origen paraguayo, dialecto guaraní, que significa “Nutria de Río”) es una organización que conjuntó el talento de excelentes músicos procedentes de diferentes estados de la República Mexicana, con el firme propósito de ganarse el corazón y apoyo de los amantes del género tropical..',
@@ -61,7 +116,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B004SKXU78/los-yaguaru',
   },
   {
-    id: 3,
     title: 'Los Askis',
     description:
       'Los Askis (amigo, en el idioma otomí), es un grupo de Cumbia Andina Mexicana, su labor pionera es el movimiento andino Mexicano que lo ha colocado prácticamente como el primer grupo de la Cumbia Andina Mexicana.El grupo nace en el año de 1994 con condición de tocar música de Latinoamérica y folclor en los centros culturales de Ciudad de México; hacían fusiones con otros géneros como el carnavalito, huayno, saya, huapango, son, rumba, nahua..',
@@ -92,7 +146,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B002UTE0VO/los-askis',
   },
   {
-    id: 4,
     title: 'Aniceto Molina',
     description:
       'Aniceto de Jesús Molina Aguirre (El Campano, Córdoba, Colombia, 17 de abril de 1939 - San Antonio, Texas, 30 de marzo de 2015)1​ fue un acordeonista y cantautor colombiano en el género cumbia. Su mayor éxito fue la "Cumbia sampuesana" que, aunque no es de su autoría, su versión es la más conocida y la más sonada en Estados Unidos, México y Centroamérica. Su ritmo muy particular y la mezcla de instrumentos de vientos, metales y madera con el acordeón le dieron la distinción entre los exponentes de la cumbia. Tuvo éxito en México, pero después de grabar “Josefina” y llegar a El Salvador, su éxito en el país centroamericano fue inevitable: compuso temas al público salvadoreño como “El peluquero”, “El garrobero”, “La fiesta cumbiambera“, entre otros..',
@@ -123,7 +176,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKADZG/aniceto-molina',
   },
   {
-    id: 5,
     title: 'La Tropa Vallenata',
     description:
       'La Tropa Vallenata, es una de las agrupaciones mas representativas de la musica tropical del norte de nuestro país. Originarios de Monterrey Nuevo León y actualmente radicados en la Unión Americana, La Tropa Vallenata ha sabido representar con creces el ritmo colombiano ballenato, un estilo que es muy popular y esta arraigado en toda la zona regiomontana. La Tropa Vallenata a sabido trascender generaciones desde su fundación, pues ya son dos decádas que bajo la dirección de Alfonso Rios, la agrupación se mantiene en el gusto del publico. Con mas de 20 producciones discograficas, La Tropa Vallenata a colocado grandes exitos en el gusto del publico: Los Caminos de la vida, Mi razon de ser, Quiero saber de ti, son entre otros muchos los temas que han quedado como repertorio inolvidable de la agrupacion.',
@@ -156,7 +208,6 @@ const CardData26 = [
   },
 
   {
-    id: 6,
     title: 'Grupo Quintanna',
     description:
       'Grupo Quintanna es un grupo de música mexicano formado en 2010. El grupo está compuesto por José Luis Pineda, Luis Ángel Pérez y Adrián Ramos. Los tres miembros son de la Ciudad de México y han estado tocando juntos durante más de 10 años,es conocido principalmente por su sonido de pop latino y baladas románticas. Su música ha sido presentada en varias películas y programas de televisión, incluyendo la exitosa película "Y Tu Mamá También" (2002). Han logrado un gran éxito con sus sencillos "Más Allá", "Esperanza", "Loco Por Ti" y "No Me Dejes Ir". Ha colaborado con varios otros artistas, incluyendo a Cristian Castro, Alejandro Fernández y Paulina Rubio. También han sido incluidos en la banda sonora de películas exitosas como "Un Hombre Busca Una Mujer" (2012) y "La Leyenda Del Charro Negro" (2015).',
@@ -187,7 +238,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B07N8H1SKB/grupo-quintanna',
   },
   {
-    id: 7,
     title: 'Raymix',
     description:
       'Edmundo Gómez Moreno (San José El Vidrio, Estado de México; 17 de febrero de 1991),2 mejor conocido como Raymix, es un ingeniero aeronáutico, compositor y cantante mexicano de electrocumbia y trance. Apodado El rey de la electrocumbia, Raymix comenzó su carrera musical a principios de la década de 2010, cuando se unió a un proyecto de trance llamado Light & Wave con otros dos músicos. Su canción «Feeling the city» apareció en el programa de radio de Armin van Buuren, A State of Trance. En 2013, Raymix fue invitado a trabajar en una pasantía educativa de la NASA, donde ayudó a desarrollar un satélite.',
@@ -217,7 +267,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B00GPQAIBO/raymix',
   },
   {
-    id: 8,
     title: 'La Sonora Dinamita',
     description:
       'La Sonora Dinamita es una agrupación Mexicana y Colombiana exponente de música tropical, principalmente de la cumbia. Se fundó en 1960, en Medellín, Colombia, por iniciativa de Antonio Fuentes, con la voz líder del fallecido cantante Lucho Argaín colombiano naturalizado mexicano. En la actualidad han vendido entre 45 y 50 millones de copias en todo el mundo..',
@@ -248,7 +297,6 @@ const CardData26 = [
     napster: 'https://web.napster.com/artist/la-sonora-dinamita',
   },
   {
-    id: 8,
     title: 'Fito Olivares',
     description:
       'Rodolfo Olivares (Camargo, Tamaulipas, México, 19 de abril de 1947) es un músico mexicano. Es hijo de María Cristina Olivares y Mucio Olivares. Pasó su infancia en un rancho de Rechinadores, Tamaulipas. En la escuela de este rancho aprendió a tocar la armónica que su padre le compró. Su padre Mucio Olivares era un buen saxofonista y empezaron a practicar juntos con el saxofón cuando tenía 12 años. Se graduó de la academia comercial en 1961 y comenzó a trabajar manteniendo cuentas de algunos negocios. Comenzó a jugar profesionalmente en 1963, a la edad de 16 años, en Camargo, Tamaulipas.',
@@ -281,7 +329,6 @@ const CardData26 = [
     napster: 'https://web.napster.com/artist/fito-olivares',
   },
   {
-    id: 9,
     title: 'La Sonora Santanera',
     description:
       'La Sonora Santanera, más conocida como La Única e Internacional Sonora Santanera, es una de las agrupaciones mexicanas más importantes y famosas de la música tropical mexicana, fundada en el año 1955, originaria de Tabasco, que se ha consolidado popularmente mediante un estilo singular influenciado por el danzón, el mambo, el bolero, la rumba, el chachachá, la guaracha y la cumbia, así como canciones que son parte de la memoria colectiva de México. El concepto fue creado por el músico y trompetista tabasqueño Carlos Colorado.',
@@ -311,7 +358,6 @@ const CardData26 = [
       'https://music.amazon.com.mx/artists/B00136DED0/la-sonora-santanera',
   },
   {
-    id: 10,
     title: 'Grupo Cañaveral de Humberto Pabon',
     description:
       ' GRUPO CAñAVERAL nace en enero de 1995, con la idea de crear un grupo que rescatara el auténtico sabor de la cumbia en México. Creado por el . Humberto Pabón Olivares, y por primera vez en México, se integra a una agrupación auténticamente mexicana, el famosísimo Tambor Alegre originario de Colombia..',
@@ -343,7 +389,6 @@ const CardData26 = [
       'https://music.amazon.com.mx/artists/B0065CKKD4/grupo-ca%C3%B1averal-de-humberto-pab%C3%B3n',
   },
   {
-    id: 11,
     title: 'Rayito Colombiano',
     description:
       ' Rayito Colombiano es una agrupación originaria de la Delegación de Iztapalapa, Ciudad de México, fundada en 1996 con un concepto musical que se perfiló por sí solo gracias a la magistral combinación de la sensibilidad mexicana con el folklore colombiano..',
@@ -372,7 +417,6 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B002UTE2Q2/rayito-colombiano',
   },
   {
-    id: 12,
     title: 'Celso Piña',
     description:
       'Celso Piña Arvizu (Monterrey; 6 de abril de 1953-ibídem. 21 de agosto de 2019) fue un cantante, compositor y acordeonista mexicano de música de distintos géneros. Fue pionero y uno de los principales exponentes en la composición e interpretación de música colombiana como cumbia colombiana y vallenato en su ciudad natal y su posterior expansión al norte de México y el sur de los Estados Unidos. También protagonista de la posterior fusión de dichos ritmos colombianos con sonidos tropicales y géneros populares de México como la música norteña y el sonidero y otros como el ska, el reggae, el rap y el hip-hop, entre otros..',
@@ -403,7 +447,6 @@ const CardData26 = [
     napster: 'https://web.napster.com/artist/celso-pina',
   },
   {
-    id: 13,
     title: 'Grupo Dezkontrol',
     description:
       ' Grupo Dezkontrol de Roberto Camacho, Tepeaca, Puebla, Mexico, La Huerfanita con Violines- Grupo Dezkontrol ... Cumbia Hidalgo - Video Oficial @Grupo Dezkontrol de Roberto Camacho  Los creadores del Cumviolin.',
@@ -430,65 +473,6 @@ const CardData26 = [
     ticketmaster: 'https://www.ticketmaster.com.mx/',
     tiktok: 'https://www.tiktok.com/@grupodezkontrol',
     napster: 'https://music.amazon.com.mx/artists/B079SXZ9NF/grupo-dezkontrol',
-  },
-  {
-    id: 14,
-    title: 'Tito Puente',
-    description:
-      'Ernesto Antonio Puente (Nueva York, 20 de abril de 1923-ibídem, 31 de mayo de 2000), conocido como Tito Puente, fue un legendario percusionista estadounidense de origen puertorriqueño. Nombre ineludible del jazz a nivel mundial, desarrolló su trabajo en el campo de la música cubana (son montuno, chachachá, mambo, bolero, pachanga, guaracha), y del jazz afrocubano, el jazz latino y la salsa.',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_lyzRM7XkStXcwWB6l9JM5jefPCaFjFWmc',
-    price: 36,
-    coverImg: 'TitoPuente.jpg',
-    category: 'Mambo',
-    location: 'Puerto Rico',
-    locationImg: 'puertorico.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://es.wikipedia.org/wiki/Tito_Puente',
-    youtube: 'https://www.youtube.com/channel/UC-80HNiK3Vwd0zcFcfB8hRw',
-    facebook: 'https://www.facebook.com/pages/Tito%20Puente/108467629176892/',
-    instagram: 'https://www.instagram.com/_tito_puente_/',
-    twitter: 'https://twitter.com/roberjba',
-    spotify: 'https://open.spotify.com/artist/6SPpCqM8gOzrtICAxN5NuX',
-    deezer: 'https://www.deezer.com/mx/artist/8661',
-    apple: 'https://music.apple.com/mx/artist/tito-puente/105119',
-    soundcloud: 'https://soundcloud.com/tito-puente-official',
-    tidal: 'https://listen.tidal.com/artist/1895',
-    wiki: 'https://en.wikipedia.org/wiki/Tito_Puente',
-    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Tito+Puente+JR',
-    tiktok: 'https://www.tiktok.com/search?q=Tito%20puente&t=1658084271449',
-    napster: 'https://web.napster.com/artist/tito-puente',
-  },
-  {
-    id: 15,
-    title: 'Celia Cruz',
-    description:
-      'Úrsula Hilaria Celia de la Caridad de la Santísima Trinidad Cruz Alfonso (La Habana, Cuba; 21 de octubre de 1925-Fort Lee, Nueva Jersey, Estados Unidos; 16 de julio de 2003), más conocida como Celia Cruz, fue una cantante cubana de música tropical. Apodada «La Reina de la Salsa»y «La Guarachera de Cuba», es ampliamente considerada una de las artistas latinas más populares e importantes del siglo XX y un icono de la música latina. Fue una de las máximas exponentes de su género, así como una de las artistas más influyentes de la música de su país.',
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlXagibiHOsWNzrXSIFZj6hq',
-    price: 36,
-    coverImg: 'CeliaCruz.jpg',
-    category: 'Mambo',
-    location: 'Cuba',
-    locationImg: 'cubaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://celiacruz.com/',
-    youtube: 'https://www.youtube.com/channel/UC0ici7PK6RBnCUQ2mqVGzKA',
-    facebook: 'https://www.facebook.com/CeliaCruzTheQueen',
-    instagram: 'https://www.instagram.com/celiacruz/',
-    twitter: 'https://twitter.com/CeliaCruz',
-    spotify: 'https://open.spotify.com/artist/2weA6hhVqTIN2gSn9PUB9U',
-    deezer: 'https://www.deezer.com/mx/artist/5024',
-    apple: 'https://music.apple.com/mx/artist/celia-cruz/105181',
-    soundcloud: 'https://soundcloud.com/celia-cruz-official',
-    tidal: 'https://listen.tidal.com/artist/6072',
-    wiki: 'https://en.wikipedia.org/wiki/Celia_Cruz',
-    ticketmaster:
-      'https://www.ticketmaster.com/Celia-Cruz-tickets/artist/760911',
-    napster: 'https://web.napster.com/artist/celia-cruz',
-    tiktok: 'https://www.tiktok.com/@soyceliacruz',
   },
 ]
 

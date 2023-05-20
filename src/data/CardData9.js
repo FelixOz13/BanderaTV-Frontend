@@ -1,6 +1,5 @@
 const CardData9 = [
   {
-    id: 249,
     title: 'Los Angeles Azules',
     description:
       'Los hermanos Mejía Avante incursionaron en la música en los años 70, tocando melodías sencillas de manera lírica en una estudiantina, forjando rápidamente su talento musical. Apoyados por sus padres Martha Avante Barrón y Porfirio Mejía García, quienes consiguieron préstamos de dinero empeñando algunas de sus propiedades, y con empleos como conductor de autobuses suburbanos (en el caso de su padre) lograron comprar, en pagos, el primer equipo de instrumentos musicales, bocinas y amplificadores.',
@@ -30,7 +29,6 @@ const CardData9 = [
       'https://music.amazon.com.mx/artists/B004WMEZEY/los-%C3%A1ngeles-azules',
   },
   {
-    id: 149,
     title: 'Raymix',
     description:
       'Edmundo Gómez Moreno (San José El Vidrio, Estado de México; 17 de febrero de 1991),2 mejor conocido como Raymix, es un ingeniero aeronáutico, compositor y cantante mexicano de electrocumbia y trance. Apodado El rey de la electrocumbia, Raymix comenzó su carrera musical a principios de la década de 2010, cuando se unió a un proyecto de trance llamado Light & Wave con otros dos músicos. Su canción «Feeling the city» apareció en el programa de radio de Armin van Buuren, A State of Trance. En 2013, Raymix fue invitado a trabajar en una pasantía educativa de la NASA, donde ayudó a desarrollar un satélite.',
@@ -60,7 +58,6 @@ const CardData9 = [
     napster: 'https://music.amazon.com.mx/artists/B00GPQAIBO/raymix',
   },
   {
-    id: 176,
     title: 'La Sonora Dinamita',
     description:
       'La Sonora Dinamita es una agrupación Mexicana y Colombiana exponente de música tropical, principalmente de la cumbia. Se fundó en 1960, en Medellín, Colombia, por iniciativa de Antonio Fuentes, con la voz líder del fallecido cantante Lucho Argaín colombiano naturalizado mexicano. En la actualidad han vendido entre 45 y 50 millones de copias en todo el mundo..',
@@ -91,7 +88,6 @@ const CardData9 = [
     napster: 'https://web.napster.com/artist/la-sonora-dinamita',
   },
   {
-    id: 150,
     title: 'Fito Olivares',
     description:
       'Rodolfo Olivares (Camargo, Tamaulipas, México, 19 de abril de 1947) es un músico mexicano. Es hijo de María Cristina Olivares y Mucio Olivares. Pasó su infancia en un rancho de Rechinadores, Tamaulipas. En la escuela de este rancho aprendió a tocar la armónica que su padre le compró. Su padre Mucio Olivares era un buen saxofonista y empezaron a practicar juntos con el saxofón cuando tenía 12 años. Se graduó de la academia comercial en 1961 y comenzó a trabajar manteniendo cuentas de algunos negocios. Comenzó a jugar profesionalmente en 1963, a la edad de 16 años, en Camargo, Tamaulipas.',
@@ -124,7 +120,6 @@ const CardData9 = [
     napster: 'https://web.napster.com/artist/fito-olivares',
   },
   {
-    id: 178,
     title: 'La Sonora Santanera',
     description:
       'La Sonora Santanera, más conocida como La Única e Internacional Sonora Santanera, es una de las agrupaciones mexicanas más importantes y famosas de la música tropical mexicana, fundada en el año 1955, originaria de Tabasco, que se ha consolidado popularmente mediante un estilo singular influenciado por el danzón, el mambo, el bolero, la rumba, el chachachá, la guaracha y la cumbia, así como canciones que son parte de la memoria colectiva de México. El concepto fue creado por el músico y trompetista tabasqueño Carlos Colorado.',
@@ -154,7 +149,6 @@ const CardData9 = [
       'https://music.amazon.com.mx/artists/B00136DED0/la-sonora-santanera',
   },
   {
-    id: 178,
     title: 'Grupo Cañaveral de Humberto Pabon',
     description:
       ' GRUPO CAñAVERAL nace en enero de 1995, con la idea de crear un grupo que rescatara el auténtico sabor de la cumbia en México. Creado por el . Humberto Pabón Olivares, y por primera vez en México, se integra a una agrupación auténticamente mexicana, el famosísimo Tambor Alegre originario de Colombia..',
@@ -187,7 +181,6 @@ const CardData9 = [
       'https://music.amazon.com.mx/artists/B0065CKKD4/grupo-ca%C3%B1averal-de-humberto-pab%C3%B3n',
   },
   {
-    id: 178,
     title: 'Rayito Colombiano',
     description:
       ' Rayito Colombiano es una agrupación originaria de la Delegación de Iztapalapa, Ciudad de México, fundada en 1996 con un concepto musical que se perfiló por sí solo gracias a la magistral combinación de la sensibilidad mexicana con el folklore colombiano..',
@@ -216,7 +209,6 @@ const CardData9 = [
     napster: 'https://music.amazon.com.mx/artists/B002UTE2Q2/rayito-colombiano',
   },
   {
-    id: 177,
     title: 'Celso Piña',
     description:
       'Celso Piña Arvizu (Monterrey; 6 de abril de 1953-ibídem. 21 de agosto de 2019) fue un cantante, compositor y acordeonista mexicano de música de distintos géneros. Fue pionero y uno de los principales exponentes en la composición e interpretación de música colombiana como cumbia colombiana y vallenato en su ciudad natal y su posterior expansión al norte de México y el sur de los Estados Unidos. También protagonista de la posterior fusión de dichos ritmos colombianos con sonidos tropicales y géneros populares de México como la música norteña y el sonidero y otros como el ska, el reggae, el rap y el hip-hop, entre otros..',
@@ -247,7 +239,6 @@ const CardData9 = [
     napster: 'https://web.napster.com/artist/celso-pina',
   },
   {
-    id: 178,
     title: 'Grupo Dezkontrol',
     description:
       ' Grupo Dezkontrol de Roberto Camacho, Tepeaca, Puebla, Mexico, La Huerfanita con Violines- Grupo Dezkontrol ... Cumbia Hidalgo - Video Oficial @Grupo Dezkontrol de Roberto Camacho  Los creadores del Cumviolin.',
@@ -274,65 +265,6 @@ const CardData9 = [
     ticketmaster: 'https://www.ticketmaster.com.mx/',
     tiktok: 'https://www.tiktok.com/@grupodezkontrol',
     napster: 'https://music.amazon.com.mx/artists/B079SXZ9NF/grupo-dezkontrol',
-  },
-  {
-    id: 178,
-    title: 'Tito Puente',
-    description:
-      'Ernesto Antonio Puente (Nueva York, 20 de abril de 1923-ibídem, 31 de mayo de 2000), conocido como Tito Puente, fue un legendario percusionista estadounidense de origen puertorriqueño. Nombre ineludible del jazz a nivel mundial, desarrolló su trabajo en el campo de la música cubana (son montuno, chachachá, mambo, bolero, pachanga, guaracha), y del jazz afrocubano, el jazz latino y la salsa.',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_lyzRM7XkStXcwWB6l9JM5jefPCaFjFWmc',
-    price: 36,
-    coverImg: 'TitoPuente.jpg',
-    category: 'Mambo',
-    location: 'Puerto Rico',
-    locationImg: 'puertorico.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://es.wikipedia.org/wiki/Tito_Puente',
-    youtube: 'https://www.youtube.com/channel/UC-80HNiK3Vwd0zcFcfB8hRw',
-    facebook: 'https://www.facebook.com/pages/Tito%20Puente/108467629176892/',
-    instagram: 'https://www.instagram.com/_tito_puente_/',
-    twitter: 'https://twitter.com/roberjba',
-    spotify: 'https://open.spotify.com/artist/6SPpCqM8gOzrtICAxN5NuX',
-    deezer: 'https://www.deezer.com/mx/artist/8661',
-    apple: 'https://music.apple.com/mx/artist/tito-puente/105119',
-    soundcloud: 'https://soundcloud.com/tito-puente-official',
-    tidal: 'https://listen.tidal.com/artist/1895',
-    wiki: 'https://en.wikipedia.org/wiki/Tito_Puente',
-    ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Tito+Puente+JR',
-    tiktok: 'https://www.tiktok.com/search?q=Tito%20puente&t=1658084271449',
-    napster: 'https://web.napster.com/artist/tito-puente',
-  },
-  {
-    id: 179,
-    title: 'Celia Cruz',
-    description:
-      'Úrsula Hilaria Celia de la Caridad de la Santísima Trinidad Cruz Alfonso (La Habana, Cuba; 21 de octubre de 1925-Fort Lee, Nueva Jersey, Estados Unidos; 16 de julio de 2003), más conocida como Celia Cruz, fue una cantante cubana de música tropical. Apodada «La Reina de la Salsa»y «La Guarachera de Cuba», es ampliamente considerada una de las artistas latinas más populares e importantes del siglo XX y un icono de la música latina. Fue una de las máximas exponentes de su género, así como una de las artistas más influyentes de la música de su país.',
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlXagibiHOsWNzrXSIFZj6hq',
-    price: 36,
-    coverImg: 'CeliaCruz.jpg',
-    category: 'Mambo',
-    location: 'Cuba',
-    locationImg: 'cubaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://celiacruz.com/',
-    youtube: 'https://www.youtube.com/channel/UC0ici7PK6RBnCUQ2mqVGzKA',
-    facebook: 'https://www.facebook.com/CeliaCruzTheQueen',
-    instagram: 'https://www.instagram.com/celiacruz/',
-    twitter: 'https://twitter.com/CeliaCruz',
-    spotify: 'https://open.spotify.com/artist/2weA6hhVqTIN2gSn9PUB9U',
-    deezer: 'https://www.deezer.com/mx/artist/5024',
-    apple: 'https://music.apple.com/mx/artist/celia-cruz/105181',
-    soundcloud: 'https://soundcloud.com/celia-cruz-official',
-    tidal: 'https://listen.tidal.com/artist/6072',
-    wiki: 'https://en.wikipedia.org/wiki/Celia_Cruz',
-    ticketmaster:
-      'https://www.ticketmaster.com/Celia-Cruz-tickets/artist/760911',
-    napster: 'https://web.napster.com/artist/celia-cruz',
-    tiktok: 'https://www.tiktok.com/@soyceliacruz',
   },
 ]
 

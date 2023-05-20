@@ -1,6 +1,5 @@
 const CardData18 = [
   {
-    id: 1,
     title: 'Gary Moore',
     description:
       'Robert William Gary Moore (Belfast, 4 de abril de 1952-Estepona, 6 de febrero de 2011) fue un músico, compositor y productor británico de blues rock y hard rock, conocido mayormente por haber sido guitarrista líder en bandas como Skid Row, Colosseum II y Thin Lizzy, y por su extensa carrera en solitario como vocalista.Influenciado por guitarristas de blues y rock, a los diez años comenzó a practicar la guitarra de manera autodidacta con el apoyo principalmente de su padre.',
@@ -31,7 +30,6 @@ const CardData18 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKSIQ2/gary-moore',
   },
   {
-    id: 2,
     title: 'Bob Dylan',
     description:
       'Bob Dylan (Duluth, Minesota; 24 de mayo de 1941), registrado al nacer como Robert Allen Zimmerman, es un músico, compositor, cantante y poeta estadounidense, ampliamente considerado como una de las figuras más prolíficas e influyentes en la música popular del siglo XX y de comienzos del siglo XXI. En 2016 recibió el Premio Nobel de Literatura..',
@@ -61,7 +59,6 @@ const CardData18 = [
     napster: 'https://app.napster.com/artist/bob-dylan',
   },
   {
-    id: 3,
     title: 'Eric Clapton',
     description:
       'Eric Patrick Clapton, más conocido como Eric Clapton, es un guitarrista, cantante y compositor de rock y blues británico, conocido por su magistral habilidad con la guitarra eléctrica, en concreto con su Stratocaster. Apodado Slowhand, desde su época en The Yardbirds, y God en su época con Cream, es miembro del Salón de la Fama del Rock and Roll por partida triple: como miembro de The Yardbirds y de Cream y por su carrera como solista. En opinión de muchos críticos, ha sido uno de los artistas de la cultura de masas más respetados e influyentes de todos los tiempos. Aparece en el puesto número 2 de la lista "Los 100 guitarristas más grandes de todos los tiempos" de la revista Rolling Stone y en el puesto número 55 de su especial "Inmortales: Los 100 artistas más grandes de todos los tiempos". Además, en 2005 la revista Guitar World incluyó cinco de sus canciones entre los mejores solos de guitarra de todos los tiempos..',
@@ -92,7 +89,6 @@ const CardData18 = [
     napster: 'https://mx.napster.com/artist/eric-clapton',
   },
   {
-    id: 4,
     title: 'ZZ Top',
     description:
       'ZZ Top es una banda estadounidense de blues rock y hard rock formada en 1969 en Houston, Texas. Este power trio lo conforman Billy Gibbons en la guitarra y la voz, Dusty Hill en el bajo, los teclados y la voz, y Frank Beard en la batería. Tienen el mérito de ser uno de los pocos grupos de rock que todavía conservaba sus miembros originales después de cincuenta años (hasta la muerte de Hill en el 2021), y además de haber mantenido un número casi similar de años al mismo mánager y productor, Bill Ham. Popularmente son conocidos gracias a su particular estilo, principalmente de Gibbons y Hill, quienes siempre son retratados llevando gafas de sol, ropa parecida o en ocasiones idéntica y larguísimas barbas.',
@@ -122,7 +118,6 @@ const CardData18 = [
     napster: 'https://app.napster.com/artist/zz-top',
   },
   {
-    id: 5,
     title: 'Creedence Clearwater Revival',
     description:
       'Creedence Clearwater Revival o Creedence fue una banda estadounidense de Rock, Blues y Soul, popular a fines de la década de 1960 y comienzos de los 70. Considerada una de las mejores bandas de la historia y una de las más populares e influyentes.',
@@ -155,7 +150,6 @@ const CardData18 = [
     napster: 'https://app.napster.com/artist/creedence-clearwater-revival',
   },
   {
-    id: 6,
     title: 'Ray Charles',
     description:
       'Ray Charles Robinson, más conocido como Ray Charles, fue un cantante, saxofonista y pianista estadounidense de soul y R&B. Entre sus amigos y músicos él prefería que le llamaran Hermano Ray y era frecuentemente referido como El Genio. Charles comenzó a perder la visión a la edad de 5 años y a los 7 años era ciego. Fue pionero de la música soul durante los años 1950 por la combinación del blues, rhythm and blues y el estilo gospel dentro de la música que grabó para el sello Atlantic. Contribuyó a la integración de la música country, rhythm and blues y música pop durante los años 1960 con su gran éxito en ABC Records, notable con sus dos álbumes de Modern Sound. Mientras estuvo con ABC, Ray Charles fue uno de los primeros músicos afroamericanos en tener control artístico en la compañía para la cual grababa.',
@@ -185,7 +179,6 @@ const CardData18 = [
   },
 
   {
-    id: 7,
     title: 'James Brown',
     description:
       'James Joseph Brown fue un cantante de soul y funk estadounidense. Progenitor de la música funk y una figura importante de la música y la danza del siglo XX, a menudo se le refiere por los apodos honoríficos Padrino del Soul, Sr. Dinamita y Hermano Soul No. 1',
@@ -215,7 +208,6 @@ const CardData18 = [
     napster: 'https://us.napster.com/artist/james-brown',
   },
   {
-    id: 8,
     title: 'Johnny Cash',
     description:
       'Johnny Cash fue un cantante, compositor, músico, y actor estadounidense. Considerado como uno de los músicos más influyentes del siglo XX. Considerado el Rey de la Música Country y un icono de ese género. Cantautor de country, gospel, rock and roll y rockabilly, fue y es uno de los máximos representantes de la música country, aunque creó su propio subgénero musical..',
@@ -246,7 +238,6 @@ const CardData18 = [
     napster: 'https://app.napster.com/artist/johnny-cash',
   },
   {
-    id: 9,
     title: 'BB.King',
     description:
       'Riley B. King o Riley Ben King (Itta Bena, Misisipi, 16 de septiembre de 1925–Las Vegas, 14 de mayo de 2015), más conocido como B.B. King, fue un músico, cantante y compositor estadounidense. Es ampliamente considerado uno de los músicos de blues más influyentes de todos los tiempos, recibiendo el apodo de «Rey del Blues» y el sobrenombre de «uno de los tres reyes (kings) de la guitarra blues» junto a Albert King y Freddie King. Según Edward M. Komara, King «introdujo un sofisticado estilo de solos basados en fluidas cuerdas [de guitarra] dobladas y brillantes vibratos que influirían prácticamente en todos los guitarristas de blues eléctrico que le siguieron». King tuvo una gran influencia en el aspecto musical y social sobre el cantante Elvis Presley habiéndose conocido y desarrollado una amistad en los pubs de Beale Street en Memphis a principios de los años 50s..',
@@ -275,7 +266,6 @@ const CardData18 = [
     napster: 'https://app.napster.com/artist/bb-king',
   },
   {
-    id: 10,
     title: 'Tina Turner',
     description:
       'Anna Mae Bullock, más conocida como Tina Turner, es una cantante, compositora, bailarina, actriz y coreógrafa de nacionalidad suiza y origen estadounidense, cuya carrera se desarrolló durante más de cincuenta años, además de ser una de las principales y mayores componentes de rock siendo considerada como la «Reina del Rock». Se retiró del escenario y la música en 2013 a la edad de setenta y tres años después de una carrera musical de cincuenta y cuatro años.',
@@ -306,7 +296,6 @@ const CardData18 = [
     napster: 'https://us.napster.com/artist/tina-turner',
   },
   {
-    id: 11,
     title: 'Elvis Presley',
     description:
       'Elvis Aaron Presley, también conocido simplemente como Elvis, fue un cantante y compositor estadounidense, considerado como uno de los iconos culturales más populares del siglo XX. Es apodado como el rey del rock and roll..',
@@ -336,7 +325,6 @@ const CardData18 = [
     napster: 'https://us.napster.com/artist/elvis-presley',
   },
   {
-    id: 12,
     title: 'Lauryn Hill',
     description:
       'Lauryn Hill (East Orange, Nueva Jersey, 26 de mayo de 1975) es una rapera, cantante, actriz y productora discográfica estadounidense galardonada 8 veces con el premio Grammy. Fue miembro de The Fugees antes de empezar una carrera en solitario.',

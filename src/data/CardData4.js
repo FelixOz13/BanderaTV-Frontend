@@ -1,6 +1,5 @@
 const CardData4 = [
   {
-    id: 82,
     title: 'OV7',
     description:
       'OV7 (conocido en sus inicios como La Onda Vaselina, luego Onda Vaselina) es un grupo musical pop mexicano formado en el año 1989. El grupo surgió en el año 1989 como una agrupación infantil creada por la cantante y actriz mexicana Julissa con el nombre de La Onda Vaselina. En el año 2000, el grupo se independiza de su fundadora y resurge con su nombre y concepto actual. En el año 2003, el grupo decide separarse para brindarle la oportunidad a sus integrantes de desarrollarse de forma independiente. En el año 2022 la famosa agrupación retoma sus presentaciones bajo el concepto de OV7 Treinta. Gira qué celebra más de 30 años de trayectoria',
@@ -29,7 +28,6 @@ const CardData4 = [
     napster: 'https://music.amazon.com.mx/artists/B0013A38NC/ov7',
   },
   {
-    id: 76,
     title: 'Shakira',
     description:
       'Shakira Isabel Mebarak Ripoll (Barranquilla, Atlántico, Colombia; 2 de febrero de 1977), conocida simplemente como Shakira, es una cantautora, bailarina, actriz, embajadora de buena voluntad de UNICEF y empresaria colombiana.',
@@ -57,7 +55,6 @@ const CardData4 = [
     napster: 'https://app.napster.com/artist/shakira',
   },
   {
-    id: 197,
     title: 'Jesse y Joy',
     description:
       'Jesse & Joy son un dúo mexicano de música pop, formado en 2005 por los hermanos Jesse (1982) 1​ y Joy Huerta (1986) en la Ciudad de México.El dúo ha lanzado seis álbumes de estudio, dos álbumes en vivo y un EP en Warner Music Latina. También ha realizado giras internacionales y ha ganado un Premio Grammy al Mejor Álbum Latino y cinco Premios Grammy Latinos en varias categorías.Jesse & Joy son probablemente unos de los artistas más puros y talentosos de nuestra generación, escribió Latin Times.',
@@ -87,7 +84,6 @@ const CardData4 = [
     napster: 'https://music.amazon.com.mx/artists/B001231YC2/jesse-joy',
   },
   {
-    id: 77,
     title: 'Camilo',
     description:
       'Camilo Andrés Echeverry Correa, conocido simplemente como Camilo, es un cantautor y músico colombiano. Debutó en 2008, después de ganar el concurso de talentos Factor X de su país en 2007.',
@@ -116,7 +112,6 @@ const CardData4 = [
     napster: 'https://app.napster.com/artist/camilo',
   },
   {
-    id: 1540,
     title: 'Dua Lipa',
     description:
       'Dua Lipa (Londres, 22 de agosto de 1995) es una cantante, compositora, modelo y actriz británica de origen albanokosovar. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017. El álbum alcanzó el número 3 en la UK Albums Chart y lanzó ocho sencillos, incluidos «Be the One» e «IDGAF», y el sencillo número 1 del Reino Unido «New Rules», que también llegó al puesto número 6 en Estados Unidos. En 2018, ganó dos premios Brit a la artista solista femenina británica y artista revelación británica.',
@@ -146,7 +141,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/dua-lipa',
   },
   {
-    id: 1540,
     title: 'Post Malone',
     description:
       'Austin Richard Post (Siracusa, Nueva York, Estados Unidos; 4 de julio de 1995), más conocido por su nombre artístico Post Malone, es un cantante y compositor estadounidense.1​ Ganó un gran reconocimiento en agosto de 2015 gracias al sencillo debut «White Iverson». Más adelante pasó a lanzar «Congratulations» y «Rockstar», que, respectivamente, alcanzaron los números 8 y 1 en el Billboard Hot 100, de los Estados Unidos. Posteriormente consiguió un contrato discográfico con Republic Records.',
@@ -176,7 +170,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/post-malone',
   },
   {
-    id: 1540,
     title: 'The Weeknd',
     description:
       'Abel Makkonen Tesfaye (Toronto, Ontario; 16 de febrero de 1990), conocido por su nombre artístico The Weeknd, es un cantante, compositor y productor canadiense, conocido por éxitos como «Save Your Tears», «Blinding Lights», «The Hills», «Starboy», «Earned It», entre otros.Empezó a ganar reconocimiento a finales de 2010, cuando subió de forma anónima varias canciones a YouTube bajo el nombre de The Weeknd. Durante el 2011 lanzó tres mixtapes de nueve pistas, titulados House of Balloons, Thursday y Echoes of Silence, que fueron muy aclamados por la crítica.1​ En el siguiente año, lanzó su primer trabajo recopilatorio titulado Trilogy, con treinta pistas remasterizadas de sus mixtapes y tres canciones más. Fue lanzado al mercado por la compañías discográficas Republic Records y XO..',
@@ -206,7 +199,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/the-weeknd',
   },
   {
-    id: 76,
     title: 'Glass Animals',
     description:
       'Glass Animals es una banda inglesa de indie rock originaria de Oxford. Sus miembros son Dave Bayley (vocalista principal, guitarra), Drew MacFarlane (guitarra, teclado, voces), Edmund Irwin-Singer (bajo, teclado, voces), y Joe Seaward (batería).1​ El grupo liberó su álbum debut Zaba en junio de 2014, bajo el sello Wolf Tone, del productor Paul Epworth, mientras que su segundo álbum How to Be a Human Being fue lanzado el 26 de agosto de 2016, siendo aclamado por la crítica. Su tercer álbum, Dreamland fue estrenado en agosto de 2020. La banda ha realizado tours internacionalmente y se ha presentado en festivales como Austin City Limits, Summer Well, Glastonbury, Coachella, Bonnaroo, Lollapalooza, Reading/Leeds, Falls Festival (Australia), Firefly Music Festival,2​ St Jerome Laneway Festival, Southbound y Bestival.',
@@ -236,7 +228,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/glass-animals',
   },
   {
-    id: 142,
     title: 'Rihanna',
     description:
       'Robyn Rihanna Fenty, conocida simplemente como Rihanna, es una cantante, empresaria, diseñadora de moda, actriz, diplomática, escritora y bailarina barbadense. Es conocida por fusionar algunos géneros caribeños con música pop y por reinventar su imagen a través de los años. Su impacto en la cultura popular la ha llevado a convertirse en un icono de la música y de la moda, por lo que se refieren a ella como la «Princesa del R&B» y «Reina de la Moda». Rihanna es además considerada la artista musical más influyente y exitosa del siglo XXI.',
@@ -266,7 +257,6 @@ const CardData4 = [
   },
 
   {
-    id: 143,
     title: 'Lady Gaga',
     description:
       'Stefani Joanne Angelina Germanotta, más conocida por su nombre artístico Lady Gaga, es una cantante, compositora, productora, bailarina, actriz, activista y diseñadora de moda estadounidense. Nacida y criada en la ciudad de Nueva York, estudió en la escuela Convent of the Sacred Heart y asistió por un tiempo breve a la Tisch School of the Arts, perteneciente a la Universidad de Nueva York, hasta que abandonó sus estudios para enfocarse en su carrera musical. Fue así como irrumpió en la escena del rock en el Lower East Side de Manhattan y firmó un contrato con Streamline Records hacia fines de 2007. En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution',
@@ -296,7 +286,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/lady-gaga',
   },
   {
-    id: 145,
     title: 'Demi Lovato',
     description:
       'Demetria Devonne Lovato, cuyo nombre artístico es Demi Lovato, es una celebridad estadounidense profesional en el canto, la actuación y la composición. Fundó junto con Nick Jonas el sello discográfico Safehouse Records..',
@@ -327,7 +316,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/demi-lovato',
   },
   {
-    id: 139,
     title: 'Adele',
     description:
       'Adele Laurie Blue Adkins (Londres, 5 de mayo de 1988), conocida simplemente como Adele, es una cantautora y multinstrumentista británica. Es una de las artistas musicales con mayores ventas del mundo, con más de 120 millones de ventas entre discos y sencillos.',
@@ -357,7 +345,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/adele',
   },
   {
-    id: 140,
     title: 'Avril Lavigne',
     description:
       'Avril Ramona Lavigne es una cantante, compositora, diseñadora de moda, productora musical, actriz y filántropa franco-canadiense. Algunos críticos de revistas como Billboard la llaman la princesa del pop punk. Comenzó su carrera musical en diciembre de 2001, cuando después de una presentación en una feria country, despertó el interés del productor L.A. Reid y firmó para Arista Records.',
@@ -387,7 +374,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/avril-lavigne',
   },
   {
-    id: 140,
     title: 'Taylor Swift',
     description:
       'Taylor Alison Swift (Reading, Pensilvania; 13 de diciembre de 1989) es una cantautora, productora, actriz, directora, diseñadora y empresaria estadounidense.Criada en Wyomissing (Pensilvania), se mudó a Nashville (Tennessee) a los 14 años para realizar una carrera de música country. Firmó con la compañía discográfica independiente Big Machine Records y se convirtió en la artista más joven contratada por Sony/ATV Music Publishing House. En 2006 lanzó su álbum debut homónimo Taylor Swift, el cual la estableció como una estrella en la música country. «Our Song», su tercer sencillo, la convirtió en la persona más joven en escribir temas sin ayuda de nadie e interpretar una canción número uno en la lista de Hot Country Songs. Recibió una nominación a mejor artista nuevo en los Premios Grammy de 2008.',
@@ -417,7 +403,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/taylor-swift',
   },
   {
-    id: 182,
     title: 'Elton John',
     description:
       'Sir Elton John es un cantante, pianista, compositor y músico británico. Con una carrera de más de 50 años, ha lanzado más de 30 álbumes de estudio y ha vendido más de 300 millones de copias en todo el mundo, siendo uno de los artistas musicales más exitosos de la historia.',
@@ -447,7 +432,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/elton-john',
   },
   {
-    id: 206,
     title: 'The Black Keys',
     description:
       'The Black Keys es un banda de rock estadounidense formada en Akron en 2001 y compuesta por dan Auerbach y Patrick Carney. El dúo comenzó de forma independiente, grabando música en sótanos y produciendo sus propios álbumes, antes de emerger como una de las bandas más populares de garage rock en la década de 2010. El crudo sonido de blues rock de la banda está relacionado directamente con las influencias de Auerbach, incluyendo a Howlin Wolf y Robert Johnson.',
@@ -478,7 +462,6 @@ const CardData4 = [
   },
 
   {
-    id: 208,
     title: 'The Black Eyed Peas',
     description:
       'Black Eyed Peas es una banda estadounidense de hip hop/pop formada en 1995 en Los Ángeles, California. Han sido ganadores del premio Grammy seis veces. El grupo está actualmente integrado por los vocalistas Will.i.am, Apl.de.Ap, Taboo y J. Rey Soul. Fergie fue la vocalista femenina hasta su salida en 2017.',
@@ -508,7 +491,6 @@ const CardData4 = [
     napster: 'https://mx.napster.com/artist/the-black-eyed-peas',
   },
   {
-    id: 217,
     title: 'Calvin Harris',
     description:
       'Adam Richard Wiles (Dumfries, Dumfries y Galloway, 17 de enero de 1984), más conocido como Calvin Harris, es un DJ, cantante y productor británico. Actualmente ocupa el puesto 16 de los 100 mejores DJ de la revista DJ Magazine. Su álbum debut, seleccionado por la Industria Fonográfica Británica, I Created Disco, fue lanzado en 2007 y contenía sencillos tales como Acceptable in the 80s y The Girls que ingresaron en el Top 10 del Reino Unido.',
@@ -539,7 +521,6 @@ const CardData4 = [
   },
 
   {
-    id: 217,
     title: 'Harry Styles',
     description:
       'Harry Edward Styles es un cantante, compositor y actor británico. Inició su carrera como cantante en 2010 como integrante de la boy band One Direction, con la que participó en el programa The X Factor y quedó en tercer lugar. Pese a no ganar, la agrupación firmó un contrato discográfico con el sello Syco, con el que publicaron los álbumes Up All Night, Take Me Home, Midnight Memories, Four y Made in the A.M., los cuales alcanzaron la primera posición en las listas de los más vendidos en numerosos países, entre estos los Estados Unidos y el Reino Unido, además de registrar altas ventas.',
@@ -569,7 +550,6 @@ const CardData4 = [
     tiktok: 'https://www.tiktok.com/@officialharry?lang=es',
   },
   {
-    id: 221,
     title: 'Sam Smith',
     description:
       'Samuel Frederick Smith, cuyo nombre artístico es Sam Smith, es una celebridad británica profesional en el canto y la composición. En 2019, Smith se declaró de género no binario y tener los pronombres they/them en inglés.',
@@ -599,7 +579,6 @@ const CardData4 = [
     tiktok: 'https://www.tiktok.com/@samsmith?lang=es',
   },
   {
-    id: 220,
     title: 'John Legend',
     description:
       "John Roger Stephens, conocido como John Legend, es un cantante, compositor, pianista y actor estadounidense. Ha ganado once premios Grammy, un Premio Globo de Oro y un Oscar. En 2007, Legend recibió el Premio 'Hal David Starlight'  del Salón de la Fama de los Compositores.",
@@ -629,7 +608,6 @@ const CardData4 = [
     tiktok: 'https://www.tiktok.com/@johnlegend570?lang=es',
   },
   {
-    id: 218,
     title: 'Justin Timberlake',
     description:
       "Justin Randall Timberlake (Memphis; 31 de enero de 1981) es un cantante, compositor, productor discográfico, actor, bailarín y empresario estadounidense. Criado en la comunidad de Shelby Forest, ubicada entre Memphis y Millington, comenzó su carrera como cantante en los programas de televisión Star Search y Mickey Mouse Club. A finales de los años 1990 adquirió fama internacional al pertenecer a la boy band 'N Sync, cuyos dos primeros álbumes fueron certificados con disco de diamante tras vender más de 10 millones de copias solo en los Estados Unidos, además de haber alcanzado la cima de numerosos listados alrededor del mundo",
@@ -659,7 +637,6 @@ const CardData4 = [
     tiktok: 'https://www.tiktok.com/@justintimberlake?lang=es',
   },
   {
-    id: 138,
     title: 'Bruno Mars',
     description:
       'Peter Gene Hernandez, conocido artísticamente como Bruno Mars, es un cantante, compositor, productor musical y bailarín estadounidense. Mars comenzó a crear música desde una edad muy temprana y actuó en muchos escenarios de su pueblo natal a lo largo de su niñez realizando imitaciones. Se graduó de la escuela secundaria y se mudó a Los Ángeles para proseguir con su carrera musical..',
@@ -690,7 +667,6 @@ const CardData4 = [
     napster: 'https://web.napster.com/artist/art.26871501',
   },
   {
-    id: 138,
     title: 'Britney Spears',
     description:
       'Britney Jean Spears (McComb, Misisipi; 2 de diciembre de 1981) es una cantante, bailarina, compositora, modelo, actriz, diseñadora de modas y empresaria estadounidense. Comenzó a actuar desde niña, a través de papeles en producciones teatrales. Después adquirió fama al participar en el programa de televisión The Mickey Mouse Club.',
@@ -720,7 +696,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/britney-spears',
   },
   {
-    id: 137,
     title: 'Michael Jackson',
     description:
       'Michael Joseph Jackson (Gary, Indiana, 29 de agosto de 1958-Los Ángeles, 25 de junio de 2009),1​ fue un cantante, compositor, productor y bailarín estadounidense.2​3​4​ Apodado como el Rey del Pop,5​ sus contribuciones y reconocimiento en la historia de la música y el baile durante más de cuatro décadas, así como su publicitada vida personal, lo convirtieron en una figura internacional en la cultura popular. Su música incluye una amplia acepción de géneros como el pop, rhythm and blues (soul y funk), rock, disco y dance, y es reconocido como el «artista musical más exitoso de todos los tiempos» por los Guinness World Records.',
@@ -750,7 +725,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/michael-jackson',
   },
   {
-    id: 136,
     title: 'Madonna',
     description:
       'Madonna Louise Ciccone, conocida simplemente como Madonna, es una cantante, bailarina, compositora, actriz, empresaria e icono estadounidense. Madonna pasó su infancia en Bay City y en 1978 se mudó a la ciudad de Nueva York para realizar una carrera de danza contemporánea. Después de participar en dos grupos musicales, Breakfast Club y Emmy, en 1982 firmó con Sire Records y lanzó su álbum debut Madonna al año siguiente.',
@@ -779,7 +753,6 @@ const CardData4 = [
     napster: 'https://us.napster.com/artist/madonna',
   },
   {
-    id: 137,
     title: 'Prince',
     description:
       'Prince Rogers Nelson (7 de junio de 1958 - 21 de abril de 2016), más comúnmente conocido como Prince , fue un cantautor, músico y productor discográfico estadounidense. Ganador de numerosos premios y nominaciones , es ampliamente considerado como uno de los mejores músicos de su generación. [3] Era conocido por su personalidad extravagante y andrógina ; [4] [5] su amplio rango vocal, que incluía un falsete de largo alcance y gritos agudos; y su habilidad como multiinstrumentista, a menudo prefiriendo tocar todos o la mayoría de los instrumentos en sus grabaciones. [6] Prince produjo sus propios álbumes, siendo pionero en laSonido de Mineápolis . Su música incorporó una amplia variedad de estilos, incluyendo funk , R&B , rock , new wave , soul , synth-pop , pop , jazz y hip hop ..',
@@ -811,7 +784,6 @@ const CardData4 = [
   },
 
   {
-    id: 219,
     title: 'Michael Buble',
     description:
       "Michael Steven Bublé es un cantante, compositor y actor canadiense. Ha ganado diversos premios, incluyendo cuatro Grammy y varios Juno. Los logros obtenidos alcanzaron modestas posiciones en las listas de los Estados Unidos, pero su álbum homónimo estuvo entre los diez primeros del Líbano, del Reino Unido y en su propio país. Pero no fue hasta 2005 en donde se convirtió en todo un éxito comercial en los Estados Unidos con su álbum It's time, del que vendió 8 millones de copias. Está casado con la actriz argentina Luisana Lopilato. Michael también ha aparecido en la serie Rove en cuatro ocasiones..",

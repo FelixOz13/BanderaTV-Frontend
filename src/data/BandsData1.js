@@ -1,6 +1,5 @@
 const BandsData1 = [
   {
-    id: 2,
     title: 'Thalia',
     description:
       'Ariadna Thalía Sodi Miranda (Ciudad de México, 26 de agosto de 1971),nota 1​ conocida como Thalía, es una cantante, actriz y empresaria mexicana.Inició su carrera musical a principios de los años 1980 como vocalista de un grupo infantil llamado Din-Din y en 1986 se integró a la banda Timbiriche, con la que grabó tres álbumes de estudio,3​ y de la que se separó en 1989.4​ Poco después viajó a Los Ángeles (California) para prepararse como solista.5​ Regresó a México en 1990 y publicó su primer álbum como solista titulado Thalía, bajo el sello discográfico Fonovisa, al que siguieron Mundo de cristal en 1991 y Love en 1992, los cuales lograron éxito en ventas en territorio mexicano',
@@ -29,7 +28,6 @@ const BandsData1 = [
     napster: 'https://music.amazon.com.mx/artists/B001JQEVBI/thalia',
   },
   {
-    id: 1,
     title: 'Peso Pluma',
     description:
       'Hassan Emilio Kabande Laija (Zapopan, Jalisco; 15 de junio de 1999), conocido como Peso Pluma, es un cantante mexicano. Se especializa en el subgénero de corridos tumbados.Su fama internacional comenzó en 2022, después de colaborar con cantantes como Luis R. Conriquez y Natanael Cano.3​ Algunos de sus éxitos son «El Belicón», «Siempre pendientes», «PRC», «Por las noches», «AMG», «Ella baila sola» y «La bebé (Remix)». Debido a su fama ha logrado colaborar también con artistas de éxito mundial como Becky G,5​ Nicki Nicole6​, Marshmello,7​y Ovy on the Drums.Su estilo musical se caracteriza por un toque acústico con influencias de la música urbana como el trap mezclados con sonido de los corridos',
@@ -60,7 +58,6 @@ const BandsData1 = [
     napster: 'https://music.amazon.com.mx/artists/B082C6RXYG',
   },
   {
-    id: 67,
     title: 'Gera MX',
     description:
       'Gerardo Daniel Torres Montante (San Nicolás de los Garza, Nuevo León; 15 de julio de 1994 ), mejor conocido por su nombr MX (anteriormente Gera MXM), es un rapero y compositor mexicano. Su nombre artístico proviene de las primeras cuatro letras de su nombre real, Gera (Gerardo) y la abreviatura del sello Mexamafia ( MXM ), la abreviatura MX proviene de México.e artístico Gera.',
@@ -90,7 +87,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/gera-mx',
   },
   {
-    id: 2,
     title: 'El Fantasma',
     description:
       "Alexander García was born in Las Canas, Durango. He worked as a gardener for six years before becoming a singer.He performs regional Mexican music[2] and corrido songs about hardworking people. On social media, fans nickname him the King from the Underground.His nickname began because his friends and family call him El Fanta.[3] He was finalist at the 2019 Billboard Latin Music Awards.In 2019, El Fantasma's single Encantadora charted number 1 on Regional Mexican Airplay. On August 14, 2021, his single Soy Buen Amigo charted number 1 on Regional Mexican Airplay. It also charted 27 on Hot Latin Songs",
@@ -120,7 +116,6 @@ const BandsData1 = [
     napster: 'https://music.amazon.com.mx/artists/B003DHLCDQ/el-fantasma',
   },
   {
-    id: 4,
     title: 'Rancho Humilde Records',
     description:
       'Jimmy Humilde, es considerado como “uno de los hombres que más misterio genera entorno a su persona” en el mundo del espectáculo musical.',
@@ -150,7 +145,6 @@ const BandsData1 = [
     napster: 'https://music.amazon.com.mx/albums/B08QHZ673C',
   },
   {
-    id: 5,
     title: 'Tercer Elemento',
     description:
       'T3R Elemento fue formado por tres jóvenes de origen mexicano y un cubano en Las Vegas, Estados Unidos. Dado que realizaron dos intentos previos de formar un grupo, ante esos fracasos decidieron llamar al grupo T3R Elemento en referencia a que era la tercera vez que lo intentaban.Kristopher Nava fue el fundador del grupo. En 2016 publicaron su primer disco llamado Rafa Caro en Vivo y en 2018 publicaron the green trip. En 2018 fueron nominados por Álbum Favorito-Regional Mexicano a los Premios Latin American Music debido a su creciente popularidad la cual se ha dado en plataformas como Youtube. Sus temas han sido incluidos en la lista Billboard en los Estados Unidos .',
@@ -180,7 +174,6 @@ const BandsData1 = [
     bandera: '/tercerelemento',
   },
   {
-    id: 80,
     title: 'Grupo Firme',
     description:
       'Grupo Firme es una agrupación de música regional mexicana. Empezaron cómo grupo norteño, pero también han grabado con banda sinaloense. Ha recibido nominaciones para una variedad de programas que incluyen: Premios Juventud y Premio Lo Nuestro, resultando ganador en 2021 de este último con cinco distinciones.El fundador de la agrupación musical es el Choixcense de 32 años, Jairo Corrales el cual creó a la banda después de conocerse en un evento en la ciudad de Tijuana.',
@@ -210,7 +203,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/grupo-firme',
   },
   {
-    id: 82,
     title: 'Natanael Cano',
     description: ' Auditorio Telmex - Jueves 01 Junio 21:00 hrs ',
     category: 'Sierreño',
@@ -239,7 +231,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/natanael-cano',
   },
   {
-    id: 197,
     title: 'Jesse y Joy',
     description: 'Auditorio Telmex  - Sábado 06 Mayo 21:00 hrs',
     videourl:
@@ -268,7 +259,6 @@ const BandsData1 = [
     napster: 'https://music.amazon.com.mx/artists/B001231YC2/jesse-joy',
   },
   {
-    id: 66,
     title: 'C Kan',
     description:
       'José Luis Maldonado Ramos (Guadalajara, Jalisco, 26 de julio de 1987),1​ más conocido por su nombre artístico C-Kan, es un rapero, compositor, productor y actor mexicano.2​ Su nombre artístico proviene de la palabra Can, (Perro)3​ y la letra C, de cancha: por el lugar en el que vivía La Cancha 98 C, Perro», estilizándose como C-Kan).4​ Ganó gran fama en 2012 con su álbum de estudio Voy por el sueño de muchos, alcanzando el número 1 de ventas en iTunes México​',
@@ -297,7 +287,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/c-kan',
   },
   {
-    id: 56,
     title: 'Santa Fe Klan',
     description:
       'Angel Jair Quezada Jasso (Guanajuato, Guanajuato, 29 de noviembre de 1999), más conocido por su nombre artístico Santa Fe Klan, es un rapero, cantante y compositor mexicano, que incorpora a su producción musical géneros como la cumbia y el rap mexicano.Nació y creció en la colonia Santa Fe de la ciudad de Guanajuato, de donde tomó su nombre artístico. Tuvo interés en la música desde muy pequeño luego de que sus padres le comprara instrumentos musicales. A los 13 años aprendió a grabar sus propias canciones y a los 14 ya contaba con un estudio propio. Se mudó de Guanajuato a Guadalajara para proseguir su carrera artística. En esa ciudad se unió a Alzada Récords, un grupo dedicado al impulso del rap mexicano, mismo con el que grabó sus primeras producciones, y que dejó en 2020. En ese año colaboró con Akwid y Neto Peña en el sencillo «Gallo de pelea».',
@@ -327,7 +316,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/santa-fe-klan',
   },
   {
-    id: 55,
     title: 'Cartel de Santa',
     description:
       'Cartel de Santa es una banda mexicana de hip hop creada en Santa Catarina, Nuevo León. El grupo comenzó sus actividades en 1996 bajo distintos nombres y miembros antes de tomar su nombre y alineación definitivos. el grupo está compuesto por el vocalista principal Eduardo Dávalos De Luna y Román Rodríguez, más conocido como Rowan Rabia, Monoplug o simplemente Mono, antes también formaba parte del grupo Dharius, pero se separa del mismo a mediados de 2013 por problemas personales.',
@@ -357,7 +345,6 @@ const BandsData1 = [
     napster: 'https://app.napster.com/artist/cartel-de-santa',
   },
   {
-    id: 123,
     title: 'Cristian Nodal',
     description:
       'Christian Jesús González Nodal (Caborca , Sonora; 11 de enero de 1999), conocido como Christian Nodal, es un cantante, compositor mexicano. Su primer sencillo, «Adiós amor», publicado en 2016 bajo el sello discográfico Fonovisa, lo lanzó a la fama en diversos medios de comunicación en México y Estados Unidos.',
@@ -389,7 +376,6 @@ const BandsData1 = [
     napster: 'https://web.napster.com/artist/christian-nodal',
   },
   {
-    id: 85,
     title: 'Eden Muñoz',
     description:
       'Rodolfo Edén Muñoz Cantú (Los Mochis, Sinaloa, 25 de septiembre de 1990), es un cantante, compositor y productor mexicano de música regional mexicana. Muñoz es el menor de 4 hermanos del matrimonio entre Rodolfo Muñoz e Isidora Cantú quienes por azares del destino la vida los traslada a la ciudad de Mazatlán, Sinaloa, donde más adelante su crianza y entorno lo llevaría de lleno a la música.Desde muy pequeño Edén comenzó a dar muestra que había nacido para esto, ya que sin ninguna pena interpretaba canciones y le cambiaba la letra a estas sin saber que más adelante serviría de plataforma para lograr grandes composiciones que han marcado el rumbo de la música regional mexicana en los últimos tiempos..',
@@ -418,7 +404,6 @@ const BandsData1 = [
     napster: 'https://web.napster.com/artist/eden-munoz-4',
   },
   {
-    id: 1540,
     title: 'The Weeknd',
     description:
       'Abel Makkonen Tesfaye (Toronto, Ontario; 16 de febrero de 1990), conocido por su nombre artístico The Weeknd, es un cantante, compositor y productor canadiense, conocido por éxitos como «Save Your Tears», «Blinding Lights», «The Hills», «Starboy», «Earned It», entre otros.Empezó a ganar reconocimiento a finales de 2010, cuando subió de forma anónima varias canciones a YouTube bajo el nombre de The Weeknd. Durante el 2011 lanzó tres mixtapes de nueve pistas, titulados House of Balloons, Thursday y Echoes of Silence, que fueron muy aclamados por la crítica.1​ En el siguiente año, lanzó su primer trabajo recopilatorio titulado Trilogy, con treinta pistas remasterizadas de sus mixtapes y tres canciones más. Fue lanzado al mercado por la compañías discográficas Republic Records y XO..',
@@ -448,7 +433,6 @@ const BandsData1 = [
     napster: 'https://us.napster.com/artist/the-weeknd',
   },
   {
-    id: 76,
     title: 'Glass Animals',
     description:
       'Glass Animals es una banda inglesa de indie rock originaria de Oxford. Sus miembros son Dave Bayley (vocalista principal, guitarra), Drew MacFarlane (guitarra, teclado, voces), Edmund Irwin-Singer (bajo, teclado, voces), y Joe Seaward (batería).1​ El grupo liberó su álbum debut Zaba en junio de 2014, bajo el sello Wolf Tone, del productor Paul Epworth, mientras que su segundo álbum How to Be a Human Being fue lanzado el 26 de agosto de 2016, siendo aclamado por la crítica. Su tercer álbum, Dreamland fue estrenado en agosto de 2020. La banda ha realizado tours internacionalmente y se ha presentado en festivales como Austin City Limits, Summer Well, Glastonbury, Coachella, Bonnaroo, Lollapalooza, Reading/Leeds, Falls Festival (Australia), Firefly Music Festival,2​ St Jerome Laneway Festival, Southbound y Bestival.',
@@ -478,7 +462,6 @@ const BandsData1 = [
     napster: 'https://us.napster.com/artist/glass-animals',
   },
   {
-    id: 142,
     title: 'Rihanna',
     description:
       'Robyn Rihanna Fenty, conocida simplemente como Rihanna, es una cantante, empresaria, diseñadora de moda, actriz, diplomática, escritora y bailarina barbadense. Es conocida por fusionar algunos géneros caribeños con música pop y por reinventar su imagen a través de los años. Su impacto en la cultura popular la ha llevado a convertirse en un icono de la música y de la moda, por lo que se refieren a ella como la «Princesa del R&B» y «Reina de la Moda». Rihanna es además considerada la artista musical más influyente y exitosa del siglo XXI.',
@@ -508,7 +491,6 @@ const BandsData1 = [
   },
 
   {
-    id: 91,
     title: 'Jesse Uribe',
     description:
       ' Yesid Eduardo Uribe Ordóñez (Bucaramanga, 22 de marzo de 1987), más conocido como Jessi Uribe, es un cantante y músico colombiano, reconocido principalmente por su participación en los realities La Voz Colombia y A otro nivel del Canal Caracol..',
@@ -538,7 +520,6 @@ const BandsData1 = [
   },
 
   {
-    id: 92,
     title: 'Luis Angel-El Flaco',
     description:
       'Luis Ángel Franco Rivera mejor conocido como Luis Angel El flaco” es un famoso cantante de música de banda y regional mexicano que ha logrado millones de fans por su gran talento vocal. Luis Angel -El flaco” nació el 7 de marzo de 1987 en Mazatlán Sinaloa y también es muy reconocido por haber sido vocalista de La Banda Los Recoditos por más de 16 años..',
@@ -570,7 +551,6 @@ const BandsData1 = [
     napster: 'https://web.napster.com/artist/luis-angel-el-flaco',
   },
   {
-    id: 106,
     title: 'Espinoza Paz',
     description:
       'Isidro Chávez Espinoza, conocido artísticamente como Espinoza Paz (29 de octubre de 1981, Angostura, Sinaloa), es un músico y cantautor mexicano, especializado en los estilos de banda, norteño, mariachi, duranguense y country en español.',
@@ -600,7 +580,6 @@ const BandsData1 = [
     napster: 'https://web.napster.com/artist/espinoza-paz',
   },
   {
-    id: 6,
     title: 'Grupo 360',
     description:
       'Conjunto de Musica Norteña ,Sierreña y Comica de la ciudad de Tijuana Baja California .SEGUIMOS LABORANDO,AQUILESORGANIGRAMA, THE PANIN ,LA BArDA , ZONA DE GUERRA ,SOMOS DE ACCIÓN ',

@@ -1,6 +1,5 @@
 const CardData10 = [
   {
-    id: 3,
     title: 'Red Hot Chili Peppers',
     description:
       'Red Hot Chili Peppers es una banda de rock estadounidense formada en 1983 en Los Ángeles, California. Sus integrantes son, el vocalista Anthony Kiedis, el guitarrista John Frusciante, el bajista Flea y el baterista Chad Smith. El estilo musical de la banda fusiona el funk tradicional con el rock y el rock alternativo incluyendo elementos de otros géneros como el rap, pop rock, heavy metal, dance, punk, hip hop e indie rock. Aunque en algunos sitios son considerados los inventores del punk funk.',
@@ -29,7 +28,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/red-hot-chili-peppers',
   },
   {
-    id: 228,
     title: 'Imagine Dragons',
     description:
       "Imagine Dragons es una banda estadounidense de Pop Rock originaria de Las Vegas, Nevada. Está compuesta por Dan Reynolds (vocalista), Daniel Wayne Sermon (guitarrista), Ben McKee (bajista) y Daniel Platzman (baterista). La banda ganó el reconocimiento mundial con el lanzamiento de su álbum de estudio debut Night Visions (2012), y con su canción 'It's Time'. Billboard colocó a Imagine Dragons en la cima de su ranking del 2013 'Year In Rock', además los llamó «la banda revelación del 2013».",
@@ -59,7 +57,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.41226138',
   },
   {
-    id: 228,
     title: 'Fallout Boy',
     description:
       'Fall Out Boy es una banda de rock estadounidense formada en Wilmette, Illinois, un suburbio de Chicago, en 2001. La banda está compuesta por el vocalista principal y guitarrista Patrick Stump, el bajista Pete Wentz, el baterista Andy Hurley y el guitarrista Joe Trohman. La banda se originó en la escena de hardcore punk de Chicago y fue formada por Wentz y Trohman como un proyecto paralelo de pop punk; Stump se unió poco después. El grupo pasó por varios bateristas antes de que Hurley se uniera. Su álbum debut, Take This to Your Grave (2003), se convirtió en un éxito underground y ayudó a la banda a obtener una base de seguidores dedicados a través de intensas giras. Take This to Your Grave es citado como un disco influyente en la música pop punk de los años 2000..',
@@ -88,7 +85,6 @@ const CardData10 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJNJRG/fall-out-boy',
   },
   {
-    id: 228,
     title: 'Gorillaz',
     description:
       'Gorillaz es una banda virtual inglesa creada en 1998 por Damon Albarn y Jamie Hewlett. La banda está compuesta por cuatro miembros ficticios: 2-D, Noodle, Murdoc Niccals y Russel Hobbs. La mayoría de sus canciones junto con todo su universo ficticio, se presentan a través de vídeos musicales animados, de animación tradicional y animación por computadora, entrevistas y pequeños cortos animados. En la realidad, Albarn es el único miembro permanente de la banda. El productor y ejecutivo Remi Kabaka Jr. empezaría a colaborar con el grupo en 2016 después de proveer por varios años la voz de Russel Hobbs y sería nombrado miembro oficial junto a Albarn y Hewlett en 2019 en el documental de Gorillaz.',
@@ -118,7 +114,6 @@ const CardData10 = [
   },
 
   {
-    id: 212,
     title: 'Foo Fighters',
     description:
       'Foo Fighters es una banda de rock estadounidense formada en la ciudad de Seattle en 1994 por Dave Grohl, exbaterista de Nirvana y Scream. El grupo debe su nombre a los ovnis y los diversos fenómenos aéreos que fueron reportados por los pilotos de los aviones aliados en la Segunda Guerra Mundial, que se conocen colectivamente como Foo Fighters. Antes del lanzamiento de su álbum debut en 1995, Grohl, como único miembro oficial, reclutó al bajista Nate Mendel y el baterista William Goldsmith, ambos anteriormente miembros de Sunny Day Real Estate, así como su compañero en las giras de Nirvana, Pat Smear como guitarrista para completar la alineación.',
@@ -148,7 +143,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/foo-fighters',
   },
   {
-    id: 7,
     title: 'Nirvana',
     description:
       'Nirvana fue una banda de grunge estadounidense procedente de Aberdeen, Washington, Estados Unidos fundada por el vocalista y guitarrista Kurt Cobain y el bajista Krist Novoselic en 1987. Desde su formación, Nirvana pasó por una serie de 6 cambios de baterista hasta que en 1990 se unió, de manera definitiva, el baterista Dave Grohl. Nirvana es catalogada como una de las bandas más famosas, importantes e influyentes de la historia de la música, siendo considerada como un símbolo de su generación.',
@@ -177,7 +171,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/nirvana',
   },
   {
-    id: 200,
     title: 'Smashing Pumpkins',
     description:
       "The Smashing Pumpkins es una banda estadounidense de rock alternativo formada en Chicago en 1988. Fundada en un inicio por el vocalista Billy Corgan (voz, guitarra) y James Iha (guitarra), poco después incluyeron a Jimmy Chamberlin (batería) y D'arcy Wretzky (bajo), completando su formación original. La banda ha sufrido muchos cambios en su formación a lo largo de su existencia, con Corgan y el guitarrista Jeff Schroeder siendo los únicos miembros oficiales a partir de 2014.",
@@ -206,7 +199,6 @@ const CardData10 = [
     napster: 'https://us.napster.com/artist/smashing-pumpkins',
   },
   {
-    id: 200,
     title: 'New Order',
     description:
       'New Order (en español, literalmente, «Nueva orden» o Nuevo orden es un grupo británico de rock y electrónica formado en 1980.La banda fue formada por los antiguos integrantes de Joy Division al desintegrarse esta tras el suicidio de su cantante, Ian Curtis. Desde entonces, se ha convertido en una de las bandas más aclamadas por la crítica y una de las más influyentes de la década de los 1980.',
@@ -235,7 +227,6 @@ const CardData10 = [
     napster: 'https://us.napster.com/artist/new-order',
   },
   {
-    id: 207,
     title: 'Kings of Lion',
     description:
       'Kings of Leon es grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formado por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill. Cada miembro de la familia es conocido por su segundo nombre en vez del primero.1​ El nombre del grupo deriva del padre y abuelo de Nathan, Caleb y Jared, los dos llamados Leon.',
@@ -266,7 +257,6 @@ const CardData10 = [
   },
 
   {
-    id: 202,
     title: ' The Jonas Brothers',
     description:
       "The Jonas Brothers (/ˈdʒoʊnəs/) are an American pop rock band. Formed in 2005, they gained popularity from their appearances on the Disney Channel television network. They consist of three brothers: Kevin Jonas, Joe Jonas, and Nick Jonas.[1][2][3] Raised in Wyckoff, New Jersey, the Jonas Brothers moved to Little Falls, New Jersey, in 2005, where they wrote their first record that made its Hollywood Records release.[4] They starred in the 2008 Disney Channel Original Movie Camp Rock and its 2010 sequel, Camp Rock 2: The Final Jam. They also starred in their own Disney Channel series Jonas, which was rebranded as Jonas L.A. for its second season. The band have released five albums: It's About Time (2006), Jonas Brothers (2007), A Little Bit Longer (2008), Lines, Vines and Trying Times (2009), and Happiness Begins (2019).",
@@ -295,7 +285,6 @@ const CardData10 = [
     napster: 'https://us.napster.com/blog/post/latino-collabs-en',
   },
   {
-    id: 210,
     title: 'Evanescence',
     description:
       'Evanescence is an American rock band founded in Little Rock, Arkansas in 1995 by singer and musician Amy Lee and guitarist Ben Moody.After recording independent albums, the band released their first full-length album, Fallen, on Wind-up Records in 2003. On the strength of hit singles Bring Me to Life and My Immortal, Fallen sold more than 17 million copies worldwide, and won the band two Grammy Awards out of six nominations. A year later, Evanescence released their first live album, Anywhere but Home, which sold over one million copies worldwide.',
@@ -327,7 +316,6 @@ const CardData10 = [
   },
 
   {
-    id: 200,
     title: 'Weezer',
     description:
       'Weezer es una banda estadounidense de rock alternativo formada en Los Ángeles en 1992. El grupo está formado, actualmente, por Rivers Cuomo (vocalista principal y guitarra líder), Brian Bell (guitarra rítmica, teclados y coros), Scott Shriner (bajo eléctrico y coros) y Patrick Wilson (batería y coros). La banda ha cambiado su formación varias veces desde su nacimiento en 1992.1​ Han publicado quince álbumes de estudio, seis EP y un DVD. Hasta la fecha han vendido más de nueve millones de discos en su país.',
@@ -356,7 +344,6 @@ const CardData10 = [
     napster: 'https://us.napster.com/artist/weezer',
   },
   {
-    id: 216,
     title: 'Sublime',
     description:
       "Sublime fue una banda estadounidense que combinaba el reggae, el hardcore punk y el ska punk, originaria de Long Beach (California), formada en 1988.1​ Los miembros de la banda, los cuales no cambiaron hasta su separación, eran Bradley Nowell (cantante y guitarra), Eric Wilson (bajo eléctrico) y Bud Gaugh en la batería.Lou Dog, el dálmata de Nowell, era la mascota de la banda. Michael 'Miguel' Happoldt y Marshall 'Field' Goodman contribuyeron con algunas canciones de la banda. El cantante Nowell murió de una sobredosis de heroína en 1996. Dos meses después el grupo tendría gran éxito comercial. En 1997, algunas canciones póstumas como -'Santeria', -'The Wrong Way', -'Doin Time' y 'April 29, 1992 (Miami)' fueron emitidas en la radio en los Estados Unidos",
@@ -385,7 +372,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.61779',
   },
   {
-    id: 9,
     title: 'Coldplay',
     description:
       'Coldplay es una banda británica de pop rock y rock alternativo formada en Londres en 1996. Está integrada por Chris Martin, Jon Buckland, Guy Berryman y Will Champion. Es uno de los grupos más relevantes de principios de la década de los 2000..',
@@ -414,7 +400,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/coldplay',
   },
   {
-    id: 10,
     title: 'Maroon 5',
     description:
       "Maroon 5 es una banda musical de pop rock estadounidense. Desde su debut en 2001, la banda ha vendido más de 30 millones de álbumes y 48 millones de sencillos mundialmente. Ganadores de tres Premios Grammy y trece nominaciones, la banda ha lanzado siete álbumes de estudio: Songs About Jane, It Won't Be Soon Before Long, Hands All Over, Overexposed, V, Red Pill Blues y su reciente álbum Jordi.",
@@ -442,7 +427,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/maroon-5',
   },
   {
-    id: 215,
     title: 'Smashing Pumpkins',
     description:
       "The Smashing Pumpkins es una banda estadounidense de rock alternativo formada en Chicago en 1988. Fundada en un inicio por el vocalista Billy Corgan y James Iha, poco después incluyeron a Jimmy Chamberlin y D'arcy Wretzky, completando su formación original. La banda ha sufrido muchos cambios en su formación a lo largo de su existencia, con Corgan y el guitarrista Jeff Schroeder siendo los únicos miembros oficiales a partir de 2014.",
@@ -472,7 +456,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.43119',
   },
   {
-    id: 215,
     title: 'Beastie Boys',
     description:
       'Beastie Boys fue un grupo musical de rap neoyorquino fundado en Brooklyn en 1981. Comenzaron tocando hardcore punk en sus primeras grabaciones para la disquera independiente Ratcage Records de David Parsons. Habiendo asimilado la cultura callejera de la gran manzana desde 1983 comenzaron a experimentar con hip hop y hacer rap. También han editado discos basados en el funk y el jazz y es frecuente que en sus discos de hip hop incluyan rock o punk o algún corte acústico. También son conocidas las actividades de turntablism y de producción musical de sus miembros. Según Mike D., Beastie quiere decir: Boys Entering Anarchistic States Towards Internal Excellence',
@@ -502,7 +485,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.4794',
   },
   {
-    id: 11,
     title: 'Green Day',
     description:
       'Green Day es una banda estadounidense de rock integrada por Billie Joe Armstrong, Mike Dirnt y Tré Cool. El grupo originario de Berkeley, California, se gestó prematuramente en 1986 bajo el nombre de Sweet Children, con el baterista John Kiffmeyer. En 1989 se cambiaron al nombre actual ya que el anterior se confundía con el de una banda local de esa época y poco después del lanzamiento de su primer álbum de estudio, Tré Cool reemplazó a Al Sobrante.',
@@ -531,7 +513,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/green-day',
   },
   {
-    id: 12,
     title: 'Rage Against The Machine',
     description:
       'Rage Against the Machine es un grupo musical estadounidense de rap metal fundado en el año 1991 por Tom Morello y Zack de la Rocha. Junto con Tim Commerford y Brad Wilk, el grupo tocó durante toda la década de 1990 hasta su disolución en 2000. Luego se tomaron un descanso indefinido hasta que en abril de 2007 y coincidiendo con la disolución de Audioslave anunciaron su regreso en el festival de música de Coachella en California, siendo la primera vez que tocaban todos juntos en siete años. A raíz de esto, la banda continuó dando conciertos en varios festivales alrededor del mundo hasta 2011, y no sería hasta 2019 que volverían a retomar la banda hasta la actualidad.',
@@ -562,7 +543,6 @@ const CardData10 = [
       'https://mx.napster.com/artist/rage-against-the-machine/album/rage-against-the-machine-bonus-tracks/track/killing-in-the-name-remastered-2-2',
   },
   {
-    id: 214,
     title: 'Nine Inch Nails',
     description:
       'Nine Inch Nails (abreviado NIN y estilizado NIИ) es una banda estadounidense de rock industrial fundada en 1988 por Trent Reznor en Cleveland, Ohio, Estados Unidos. Como su principal productor, cantante, compositor e instrumentista, Reznor es el único miembro oficial de Nine Inch Nails y el único responsable de la dirección de la banda.La música de Nine Inch Nails abarca un gran número de géneros musicales, aunque mantiene un sonido característico utilizando instrumentos electrónicos y procesamiento en el estudio de grabación. Después de grabar cada nuevo álbum de estudio, Reznor forma un grupo de músicos para las giras y conciertos. Suelen ser cambiantes y hacer arreglos en las canciones para ajustarlas a las actuaciones en directo. En el escenario, NIN suele utilizar elementos visuales espectaculares para sus actuaciones, entre las que destaca el espectáculo lumínico o enormes paneles de ledes y algunos táctiles que sirven como secuenciadores',
@@ -592,7 +572,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.1176',
   },
   {
-    id: 13,
     title: 'The White Stripes',
     description:
       'The White Stripes fue una banda estadounidense de rock alternativo, también algunas veces considerada dentro del movimiento del garage rock. Fue formada en 1997 en Detroit por la pareja compuesta por John Anthony Gillis bajo el nombre de Jack White y Meg White. Después de publicar sus primeras canciones y grabar dos álbumes de estudio, formaron parte del resurgimiento del garage rock de los años 60, caracterizado por su baja fidelidad de sonido y sus composiciones y arreglos simples inspirados principalmente por el punk rock, el blues rock, el folk rock y la música country. Su tercer y cuarto álbum White Blood Cells y Elephant de 2001 y 2003 respectivamente, los consagró en la escena musical internacional y llamó la atención de una gran variedad de medios de comunicación en los Estados Unidos y en Reino Unido con el sencillo «Seven Nation Army» que icónicamente se ha convertido en su mayor éxito.',
@@ -621,7 +600,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/the-white-stripes',
   },
   {
-    id: 213,
     title: '3 Doors Down',
     description:
       '3 Doors Down es un grupo estadounidense de rock alternativo fundado en Escatawpa, Misisipi, Estados Unidos en el año 1996. La banda originalmente estaba conformada por Brad Arnold (voz / batería), Todd Harrell (bajo) y Matt Roberts (guitarra). Más tarde, el guitarrista Chris Henderson se uniría a la banda en los primeros días de la creación de The Better Life, lanzando el álbum como una banda de cuatro integrantes.',
@@ -652,7 +630,6 @@ const CardData10 = [
   },
 
   {
-    id: 213,
     title: 'Twenty One Pilots',
     description:
       'Twenty One Pilots es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes se fueron en 2011. Desde su partida, la formación ha consistido en Tyler Joseph y el baterista Josh Dun. El dúo es principalmente conocido por los sencillos-Stressed Out, -Ride y Heathens. El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.',
@@ -684,7 +661,6 @@ const CardData10 = [
   },
 
   {
-    id: 204,
     title: 'Tool',
     description:
       'Tool es una banda estadounidense de metal progresivo surgida en 1990 en Los Ángeles, California. Ha vendido más de trece millones de álbumes solo en Estados Unidos y ha ganado tres premios Grammy y ha sido nominado a 6 de estos hasta la fecha; ha encabezado giras y prestigiosos festivales y ha producido exitosos álbumes que alcanzaron grandes niveles de ventas gracias a su estatus de culto en el mundo de la música. Está formada por el baterista Danny Carey, el guitarrista Adam Jones, el vocalista Maynard James Keenan y el bajista Justin Chancellor, que sustituyó a Paul D Amour en 1995.',
@@ -714,7 +690,6 @@ const CardData10 = [
   },
 
   {
-    id: 205,
     title: 'Daft Punk',
     description:
       'Daft Punk fue un dúo francés de french house formado por los DJ y productores Guy-Manuel de Homem-Christo y Thomas Bangalter. Daft Punk alcanzó una gran popularidad dentro del house a mediados de los años 90 en Francia y continuó con su éxito los años siguientes. El dúo también es acreditado por la producción de canciones que se consideran esenciales en el estilo french house.',
@@ -744,7 +719,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/daft-punk',
   },
   {
-    id: 205,
     title: 'Oasis',
     description:
       'Oasis fue una banda de rock inglesa, formada en Mánchester en 1990. En sus inicios, conocidos como Rain (Español: Lluvia), el grupo contaba en sus filas con el cantante Chris Hutton, el guitarrista Paul Arthurs, el bajista Paul McGuigan y el baterista Daniel Alexander, a los que más tarde se unirían, en 1991, Liam Gallagher en la voz y Tony McCarroll como batería. El último en unírseles fue el hermano mayor de Liam, Noel Gallagher (a petición de su hermano) quien obtuvo el papel de compositor principal, guitarrista principal y cantante secundario.',
@@ -773,7 +747,6 @@ const CardData10 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKJROE/oasis',
   },
   {
-    id: 18,
     title: 'Depeche Mode',
     description:
       'Depeche Mode  es una banda británica de música electrónica formada en 1980 por Vince Clarke, Andrew Fletcher, Martin Gore y David Gahan. . Según el documental Historia del rock de la BBC son los padres del rock electrónico; está considerado uno de los mejores exponentes del género, siendo importantes precursores del uso del sintetizador como instrumento y del sampler como recurso musical, así como de la realización de videos musicales. Ha vendido más de 120 millones de álbumes,5 sumando el total de ventas de sus discos en todo el mundo, incluyendo sencillos, convirtiéndose en el más exitoso grupo de música electrónica en la historia. También fue elegido entre los 50 mejores grupos de música de todos los tiempos y uno de los 10 más influyentes de la música contemporánea.',
@@ -803,7 +776,6 @@ const CardData10 = [
     napster: 'https://listen.tidal.com/artist/8877',
   },
   {
-    id: 19,
     title: 'The Cure',
     description:
       'The Cure es una banda británica de rock formada en 1976 en Crawley (Inglaterra).En sus orígenes, se llamó Easy Cure por un breve período, y ya figuraba en sus filas uno de sus tres fundadores y futuro líder, Robert Smith, como guitarra solista. El grupo alcanzó la cota más alta de su éxito comercial entre finales de la década de los ochenta y la primera mitad de la década de los noventa.',
@@ -833,7 +805,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/the-cure',
   },
   {
-    id: 20,
     title: 'U2',
     description:
       'U2 es una banda de rock alternativo originaria de Dublín, formada en 1976 por Bono, The Edge, Adam Clayton, y Larry Mullen Jr.. El sonido inicial de U2 tenía sus raíces en el post-punk, pero posteriormente irán incorporando a su música elementos de otros géneros: Su cancionero es extenso y está repleto de variaciones: desde el rock más clásico hasta el pop más redondo, pasando por el coqueteo con la electrónica o los homenajes al góspel. A lo largo de la búsqueda musical de la banda, han mantenido un sonido construido a base de instrumentales melódicos, destacados por la textura musical de The Edge y la voz expresiva de Bono, a las que se suma una base característica integrada por la batería de Mullen y el bajo de Clayton. Sus letras, a menudo ordenadas con imágenes espirituales, se centran en temas personales y temática de justicia social y paz..',
@@ -862,7 +833,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/u2',
   },
   {
-    id: 161,
     title: 'Blur',
     description:
       'Blur es una banda de rock británica formada en Londres en 1988. Está formada por el cantante Damon Albarn, el guitarrista Graham Coxon, el bajista Alex James y el baterista Dave Rowntree. Su álbum debut, Leisure (1991), incorporó los sonidos de madchester y shoegazing. Tras un cambio estilístico influenciado por bandas pop británicas como The Kinks, The Beatles y XTC, Blur lanzó Modern Life Is Rubbish (1993), Parklife (1994) y The Great Escape (1995). Como resultado, la banda ayudó a popularizar el género britpop y logró una gran popularidad en el Reino Unido, con la ayuda de una batalla en las listas de éxitos con la banda rival Oasis en 1995 denominada «La batalla del britpop',
@@ -891,7 +861,6 @@ const CardData10 = [
     napster: 'https://music.amazon.com.mx/artists/B000SA1AVU/blur',
   },
   {
-    id: 141,
     title: 'The Cranberries',
     description:
       "The Cranberries fue una banda irlandesa de rock alternativo que estuvo en activo desde 1989 hasta 2019. Fue fundada en Limerick, Irlanda en 1989 bajo el nombre The Cranberry Saw Us, denominación cambiada más tarde por la vocalista Dolores O'Riordan cuando entró a formar parte del grupo en 1990.Saltó a la fama internacional en la década de 1990 con su álbum debut, Everybody Else Is Doing It, So Why Can't We?, que se convirtió en un éxito comercial, vendiendo más de cinco millones de copias solo en Estados Unidos.",
@@ -920,7 +889,6 @@ const CardData10 = [
     napster: 'https://us.napster.com/artist/the-cranberries',
   },
   {
-    id: 21,
     title: 'Morrissey',
     description:
       'Steven Patrick Morrissey, o simplemente Morrissey, es un cantante, compositor y autor británico. Llegó a la prominencia como el líder de The Smiths, una banda de rock que estuvo activa desde 1982 hasta 1987. Desde entonces, ha creado una carrera comercialmente exitosa como solista. Su música se caracteriza por su estilo vocal barítono y su distintivo contenido lírico con temas recurrentes de aislamiento emocional y anhelo sexual, autodegradación y humor negro, y posturas antisistema.',
@@ -951,7 +919,6 @@ const CardData10 = [
   },
 
   {
-    id: 22,
     title: 'The Smiths',
     description:
       'The Smiths fue un grupo inglés de rock alternativo formado en Mánchester en 1982. ​ Estaba integrado por Morrissey (vocalista), Johnny Marr (guitarrista), Andy Rourke (bajista) y Mike Joyce (batería). Ha sido denominada por los críticos como la banda más importante de rock que surgió en la escena de música independiente británica de la década de 1980..',
@@ -982,7 +949,6 @@ const CardData10 = [
   },
 
   {
-    id: 23,
     title: 'Minor Threat',
     description:
       'Minor Threat fue una banda estadounidense de hardcore punk, activa desde 1980 hasta 1983, siendo participantes activos de la escena de Washington DC, denominada posteriormente DC Hardcore. Su actividad musical fue relativamente corta, pero pese a eso, su influencia en la escena punk mundial es enorme, tanto musical como ideológicamente, son responsables de expandir la ética do it yourself dentro del ambiente underground estadounidense, con ejemplos claros como la distribución y grabación de su música, la política de all ages para la inclusión a menores de edad en sus conciertos y una red independiente para salir de gira dentro o fuera de su país. All Music ha descrito la música de Minor Threat como icónica y señaló que su música se mantuvo y definió mejor en comparación a sus contemporáneos.',
@@ -1011,7 +977,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/minor-threat',
   },
   {
-    id: 202,
     title: 'AudioSlave',
     description:
       'Audioslave fue un supergrupo estadounidense de rock alternativo formado en Los Ángeles, California, en 2001 por el vocalista de Soundgarden Chris Cornell, y la sección instrumental de Rage Against the Machine: Tom Morello, Tim Commerford y Brad Wilk..',
@@ -1041,7 +1006,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/audioslave',
   },
   {
-    id: 8,
     title: 'Pearl Jam',
     description:
       'Pearl Jam es un grupo de grunge formado en Seattle, Estados Unidos, en el año 1990, con integrantes de las bandas Mother Love Bone y Temple of the Dog. Con la edición de su álbum debut Ten en 1991, Pearl Jam irrumpiría con fuerza en el ámbito musical alternativo. Junto a Nirvana, Alice in Chains, Stone Temple Pilots y Soundgarden están considerados como una de las bandas más grandes e influyentes de toda la escena del movimiento Grunge. Sus miembros fundadores y que aun siguen en el grupo son Eddie Vedder, Mike McCready, Stone Gossard y Jeff Ament.',
@@ -1071,7 +1035,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/pearl-jam',
   },
   {
-    id: 212,
     title: 'Soundgarden',
     description:
       'Soundgarden fue una banda estadounidense de grunge formada en Seattle, Washington, en 1984 por el vocalista Chris Cornell, el bajista Hiro Yamamoto y el guitarrista Kim Thayil. Matt Cameron se unió al grupo como batería permanente en 1986 y Ben Shepherd se convirtió en reemplazo definitivo de Yamamoto en 1990. Cornell se mantuvo en la banda hasta su muerte en mayo de 2017. Soundgarden fue una de las bandas pioneras del grunge, género musical derivado del rock alternativo que se desarrolló en Seattle. Fue la primera banda grunge en ser fichada por una compañía discográfica de renombre (A&M Records en 1988), aunque la banda no alcanzó el éxito comercial hasta que popularizaron el género a principio de los noventa junto a sus contemporáneos de Seattle: Nirvana, Pearl Jam o Alice in Chains.',
@@ -1101,7 +1064,6 @@ const CardData10 = [
     napster: 'https://web.napster.com/artist/art.4004',
   },
   {
-    id: 14,
     title: 'Offspring',
     description:
       'The Offspring es una banda de punk estadounidense, formada en Huntington Beach, California, en 1984 bajo el nombre de Manic Subsidal. Actualmente está integrada por Dexter Holland, Noodles y Todd Morse.',
@@ -1132,7 +1094,6 @@ const CardData10 = [
   },
 
   {
-    id: 15,
     title: 'System of a Down',
     description:
       'System of a Down es una banda de rock estadounidense de ascendencia armenia, formada en Glendale, California, en el año 1994. Está compuesta por Serj Tankian, Daron Malakian, Shavo Odadjian y John Dolmayan.',
@@ -1163,7 +1124,6 @@ const CardData10 = [
   },
 
   {
-    id: 16,
     title: 'The Killers',
     description:
       'The Killers es una banda de rock estadounidense formada en 2001 en Las Vegas (Nevada) por el vocalista, teclista y bajista Brandon Flowers y el guitarrista Dave Keuning. En sus inicios la formación de la banda sufrió diversos cambios, pero hacia 2002 se integraron el bajista y guitarrista Mark Stoermer y el baterista Ronnie Vannucci Jr., permaneciendo fija desde entonces. Después de llamar la atención de un busca talentos, el grupo firmó con el sello independiente británico Lizard King Records y el estadounidense Island Records.',
@@ -1193,7 +1153,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/the-killers',
   },
   {
-    id: 17,
     title: 'Linkin Park',
     description:
       'Linkin Park es una banda estadounidense de rock alternativo procedente de Agoura Hills, California. Se formó en 1996. Integrada por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Chester Bennington, este último como voz principal. La banda comenzó con sus primeros trabajos musicales de manera independiente, en la que grabaron su primer material, llamado Xero; sin embargo, no tuvieron éxito en la búsqueda de un sello discográfico, ya que nadie mostraba interés por su trabajo. Fue hasta 1999, que con el apoyo de Jeff Blue, el entonces vicepresidente de Warner Records, lograron firmar su primer contrato. El nombre del grupo es un juego de palabras que hace referencia al Lincoln Park en Santa Mónica.',
@@ -1224,7 +1183,6 @@ const CardData10 = [
     napster: 'https://mx.napster.com/artist/linkin-park',
   },
   {
-    id: 202,
     title: 'Rammstein',
     description:
       "Rammstein (German pronunciation: [ˈʁamʃtaɪn], lit. ramming stone) is a German Neue Deutsche Härte band formed in Berlin in 1994. The band's lineup—consisting of lead vocalist Till Lindemann, lead guitarist Richard Kruspe, rhythm guitarist Paul Landers, bassist Oliver Riedel, drummer Christoph Schneider, and keyboardist Christian Flake Lorenz—has remained unchanged throughout their history, along with their approach to songwriting, which consists of Lindemann writing and singing the lyrics over instrumental pieces the rest of the band has completed beforehand. Prior to their formation, some members were associated with the punk rock acts Feeling B and First Arsch..",

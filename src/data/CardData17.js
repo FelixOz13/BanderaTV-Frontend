@@ -1,6 +1,5 @@
 const CardData17 = [
   {
-    id: 197,
     title: 'Los Fabulosos Cadillacs',
     description: ' Auditorio Telmex - Sábado 11 Noviembre 21:00 hrs..',
     videourl:
@@ -31,7 +30,6 @@ const CardData17 = [
       'https://music.amazon.com.mx/artists/B000V6HK7Y/los-fabulosos-cadillacs',
   },
   {
-    id: 197,
     title: 'Gloria Trevi',
     description: 'Auditorio Telmex - Viernes 05 Mayo 2023 21:00 hrs .',
     videourl:
@@ -60,7 +58,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B00130DI78/gloria-trevi',
   },
   {
-    id: 197,
     title: 'Jesse y Joy',
     description: 'Auditorio Telmex  - Sábado 06 Mayo 21:00 hrs',
     videourl:
@@ -89,7 +86,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B001231YC2/jesse-joy',
   },
   {
-    id: 82,
     title: 'Natanael Cano',
     description: ' Auditorio Telmex - Jueves 01 Junio 21:00 hrs ',
     category: 'Sierreño',
@@ -118,7 +114,6 @@ const CardData17 = [
     napster: 'https://app.napster.com/artist/natanael-cano',
   },
   {
-    id: 1,
     title: 'Alicia Keys',
     description:
       'Alicia Augello Cook (Nueva York, 25 de enero de 1981) conocida como Alicia Keys, es una cantante compositora, productora musical y actriz estadounidense. Ha vendido más de 75 millones de discos a nivel mundial y ha ganado numerosos premios, incluyendo 16 Grammys, 17 Premios Billboard y tres American Music Awards. Su álbum debut Songs in A Minor (2001) ganó cinco Grammys.',
@@ -148,7 +143,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B000RHRHPM/alicia-keys',
   },
   {
-    id: 82,
     title: 'OV7',
     description:
       'Auditorio Telmex - Viernes 12 Mayo 21:00 hrs Sábado 13 Mayo 21:00 hrs',
@@ -177,7 +171,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B0013A38NC/ov7',
   },
   {
-    id: 85,
     title: 'Eden Muñoz',
     description: 'Auditorio Telmex-Sábado 19   Agosto 21: 00 hrs.',
     videourl:
@@ -205,7 +198,6 @@ const CardData17 = [
     napster: 'https://web.napster.com/artist/eden-munoz-4',
   },
   {
-    id: 23,
     title: 'Intocable',
     description:
       'Intocable es un grupo estadounidense de origen mexicano de música tejana y norteña de Zapata, Texas, Estados Unidos, fundado a principios de la década de los 90 por Ricky Muñoz y René Martínez.1​ Dentro de algunos años, la banda logró subir a la cima de la música tejana y norteña, con un estilo musical que fusionó la música conjunto de Texas y los ritmos folclóricos de la música norteña con baladas de letras modernas.',
@@ -235,7 +227,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B000SA1FUQ/intocable',
   },
   {
-    id: 1,
     title: 'Caifanes',
     description:
       'Auditorio Telmex - Sábado 25 Noviembre 21:00hrs Domingo 26 Noviembre 19:00 hrs.',
@@ -265,7 +256,6 @@ const CardData17 = [
     napster: 'https://music.amazon.com.mx/artists/B00137ENB6/caifanes',
   },
   {
-    id: 219,
     title: 'Michael Buble',
     description:
       "Michael Steven Bublé es un cantante, compositor y actor canadiense. Ha ganado diversos premios, incluyendo cuatro Grammy y varios Juno. Los logros obtenidos alcanzaron modestas posiciones en las listas de los Estados Unidos, pero su álbum homónimo estuvo entre los diez primeros del Líbano, del Reino Unido y en su propio país. Pero no fue hasta 2005 en donde se convirtió en todo un éxito comercial en los Estados Unidos con su álbum It's time, del que vendió 8 millones de copias. Está casado con la actriz argentina Luisana Lopilato. Michael también ha aparecido en la serie Rove en cuatro ocasiones..",

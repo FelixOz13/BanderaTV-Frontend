@@ -1,37 +1,50 @@
+import { useState } from 'react'
 import CardData19 from '../data/CardData19'
 import Card from './Card'
 import Navbar from './Navbar'
-
-import ButtonTreeCategories from "./ButtonTreeCategories";
-
-
- const cards19 = CardData19.map(item => {
-   
-     return (
-         <Card
-             key={item.id}
-             item={item}
-         />
-        )
- })
+import ButtonTreeCategories from './ButtonTreeCategories'
 
 function Jazz() {
+  const [searchQuery, setSearchQuery] = useState('')
+
+  const filteredData = CardData19.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase()),
+  )
+
+  const sortedData = [...filteredData].sort((a, b) => {
+    if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
+    if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
+    return 0
+  })
+
+  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+
+  const handleSearch = (event) => {
+    setSearchQuery(event.target.value)
+  }
+
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <h1 className="title2">Jazz Classico</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta? ?</h4>
-      
-      <ButtonTreeCategories/>
-      <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
+      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
+
+      <ButtonTreeCategories />
+
       <img className="indianaut" src="./images/jazzyjeff.jpg" alt="" />
-      <img className="indianaut2" src="./images/jazz.jpg" alt=""/>
-            <section className="cards-list">
-               {cards19}
-            </section>
-            
-        </div>
+      <img className="indianaut2" src="./images/jazz.jpg" alt="" />
+      <div className="search-bar">
+        <input
+          className="searchbar"
+          type="text"
+          value={searchQuery}
+          onChange={handleSearch}
+          placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
+        />
+      </div>
+      <h1 className="slidertext">←←Desliza para Navegar→→</h1>
+      <section className="cards-list">{cards}</section>
+    </div>
   )
 }
-
 export default Jazz

@@ -1,6 +1,5 @@
 const CardData6 = [
   {
-    id: 194,
     title: 'The Beatles',
     description:
       'The Beatles, también conocida en el mundo hispano como los Beatles, fue una banda de rock inglesa formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970 por John Lennon, Paul McCartney, George Harrison y Ringo Starr. Es ampliamente considerada como la banda más influyentes de todos los tiempos, siendo parte fundamental en el desarrollo del movimiento contracultural de la década de 1960 y el reconocimiento de la música popular como forma de arte.',
@@ -31,7 +30,6 @@ const CardData6 = [
     napster: 'https://mx.napster.com/search?query=tHE%20BEATLES',
   },
   {
-    id: 36,
     title: 'Led Zeppelin',
     description:
       'Led Zeppelin fue un grupo británico de rock fundado en Londres en 1968 por el guitarrista Jimmy Page, quien había pertenecido a The Yardbirds. La banda estuvo integrada por Jimmy Page en la guitarra, John Paul Jones como bajista y tecladista, el vocalista Robert Plant y John Bonham en la batería. Es considerada una de las bandas más importantes e influyentes de la década de los 70 y de la historia del rock.',
@@ -62,7 +60,6 @@ const CardData6 = [
   },
 
   {
-    id: 37,
     title: 'The Doors',
     description:
       'The Doors fue una banda de rock estadounidense, formada en Los Ángeles (California), en julio del año 1965 y disuelta en el año 1973.Aunque la carrera de The Doors terminó en 1973, su popularidad ha persistido. Según la RIAA, han vendido 33 millones de unidades certificadas en los Estados Unidos. La banda ha vendido más de 100 millones de álbumes en todo el mundo. En 2004, Rolling Stone clasificó a The Doors, en el puesto 41 en su lista de los 100 mejores artistas de todos los tiempos. Fue la primera banda estadounidense en acumular ocho discos de oro consecutivos. En 1993, The Doors fue incluido en el Rock and Roll Hall of Fame.',
@@ -93,7 +90,6 @@ const CardData6 = [
   },
 
   {
-    id: 40,
     title: 'Pink Floyd',
     description:
       'Pink Floyd fue una banda de rock británica, fundada en Londres en 1965. Considerada un ícono cultural del siglo XX y una de las bandas más influyentes, exitosas y aclamadas en la historia de la música popular, obtuvo gran popularidad dentro del circuito underground gracias a su música psicodélica y espacial, que con el paso del tiempo evolucionó hacia el rock progresivo y el rock sinfónico adquiriendo la popularidad con la que hoy son recordados. Es conocida por sus canciones de alto contenido filosófico, a veces de crítica política, junto a la experimentación sonora, las innovadoras portadas de sus discos y sus elaborados espectáculos en vivo. Sus ventas sobrepasan los 280 millones de álbumes vendidos en todo el mundo, 97.5 millones de ellos solamente en los Estados Unidos,convirtiéndose en una de las bandas con más ventas en la historia.',
@@ -122,7 +118,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/pink-floyd',
   },
   {
-    id: 169,
     title: 'Rush',
     description:
       'Rush fue una banda canadiense de rock progresivo formada en agosto de 1968 en el barrio de Willowdale de Toronto, Ontario. La formación se mantuvo estable desde 1974, cuando Neil Peart reemplazó al baterista original, John Rutsey, antes de su primera gira estadounidense. Estuvo integrada por el bajista, teclista y cantante Geddy Lee, el guitarrista Alex Lifeson y el batería y letrista Neil Peart..',
@@ -153,7 +148,6 @@ const CardData6 = [
   },
 
   {
-    id: 170,
     title: 'Jimi Hendrix',
     description:
       'James Marshall Hendrix, más conocido como Jimi Hendrix, fue un guitarrista, cantante y compositor estadounidense. A pesar de que su carrera profesional solo duró cuatro años, es considerado uno de los músicos y guitarristas más influyentes de la historia del rock. El Salón de la Fama del Rock and Roll lo describe como «Indiscutiblemente uno de los músicos más grandes de la historia del rock.',
@@ -183,7 +177,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/jimi-hendrix',
   },
   {
-    id: 212,
     title: 'Beach Boys',
     description:
       "The Beach Boys are an American rock band that formed in Hawthorne, California, in 1961. The group's original lineup consisted of brothers Brian, Dennis, and Carl Wilson, their cousin Mike Love, and friend Al Jardine. Distinguished by their vocal harmonies, adolescent-themed lyrics, and musical ingenuity, they are one of the most influential acts of the rock era. They drew on the music of older pop vocal groups, 1950s rock and roll, and black R&B to create their unique sound. Under Brian's direction, they often incorporated classical or jazz elements and unconventional recording techniques in innovative ways..",
@@ -214,7 +207,6 @@ const CardData6 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJPEL0/the-beach-boys',
   },
   {
-    id: 41,
     title: 'Santana',
     description:
       'Carlos Humberto Santana Barragan (Autlán de Navarro, Jalisco; 20 de julio de 1947) es un guitarrista mexicano nacionalizado estadounidense.En 1966 fundó la banda Santana, pionera en fusionar la música latina con el rock. Santana ha vendido más de 100 millones de álbumes en todo el mundo (contando las ventas de su banda y su carrera en solitario). Ha ganado diez premios Grammy y tres premios Grammy Latino.',
@@ -244,7 +236,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/santana',
   },
   {
-    id: 39,
     title: 'The Rolling Stones',
     description:
       'The Rolling Stones es una banda británica de rock originaria de Londres. La banda se formó en abril de 1962, por Brian Jones, Mick Jagger, Keith Richards e Ian Stewart, junto a varios bajistas y baterías que nunca fueron fijos hasta la llegada de Bill Wyman y Charlie Watts unos meses después, los cuales completarían la primera formación de la banda. Ian Stewart dejó de ser miembro oficial del grupo a mediados de 1963, aunque permaneció en el mismo hasta su fallecimiento en 1985. Brian Jones fue despedido en junio de 1969 (fallecería tres semanas después), y fue reemplazado por el guitarrista Mick Taylor, que dejaría el grupo en 1975 y sería, a su vez, reemplazado por Ronnie Wood. Con el retiro de Bill Wyman en 1993 se incluyó al bajista Darryl Jones que, aunque toca con la banda desde la grabación del álbum Voodoo Lounge en 1994, no es un miembro oficial.',
@@ -274,7 +265,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/the-rolling-stones',
   },
   {
-    id: 182,
     title: 'Elton John',
     description:
       'Sir Elton John es un cantante, pianista, compositor y músico británico. Con una carrera de más de 50 años, ha lanzado más de 30 álbumes de estudio y ha vendido más de 300 millones de copias en todo el mundo, siendo uno de los artistas musicales más exitosos de la historia.',
@@ -304,7 +294,6 @@ const CardData6 = [
     napster: 'https://us.napster.com/artist/elton-john',
   },
   {
-    id: 135,
     title: 'Sting',
     description:
       'Gordon Matthew Thomas Sumner, conocido artísticamente como Sting, es un músico británico que se desempeñó inicialmente como bajista, y más tarde como cantante y bajista del grupo musical The Police, formando luego su propia banda..',
@@ -333,7 +322,6 @@ const CardData6 = [
     napster: 'https://us.napster.com/artist/sting',
   },
   {
-    id: 181,
     title: 'Joe Satriani',
     description:
       "Joe 'Satch' Satriani (Westbury, Nueva York, 15 de julio de 1956) es un virtuoso guitarrista de rock instrumental estadounidense. Fue nominado en 15 ocasiones a los Premios Grammy y ha vendido más de 10 millones de discos en todo el mundo.Según otros guitarristas ha conseguido dominar casi todas las técnicas de ejecución de su instrumento, incluyendo tapping a dos manos, sweep picking, volume swells y tap harmonics. Además es reconocido como un gran profesor de guitarra, entre sus alumnos se incluyen: Tom Morello, Alex Skolnick, Larry LaLonde, Andy Timmons, Reb Beach, Rick Hunolt, Charlie Hunter, Kirk Hammett y Steve Vai.",
@@ -363,7 +351,6 @@ const CardData6 = [
     napster: 'https://mx.napster.com/artist/joe-satriani',
   },
   {
-    id: 229,
     title: 'Simply Red',
     description:
       "El grupo firmó con Elektra Records y realizó su primer álbum, Picture book, con el que Simply Red se colocó en el número 2 de las listas inglesas, en las que se mantuvieron durante 30 semanas consecutivas. Este LP contenía la versión de Valentine Brothers Money's too tight to mention y una composición de Mick en su primer grupo, The Frantic Elevators: Holding back the years. Estos fueron los primeros grandes éxitos del grupo.",
@@ -392,7 +379,6 @@ const CardData6 = [
     napster: 'https://web.napster.com/artist/art.4082',
   },
   {
-    id: 168,
     title: 'Dire Straits',
     description:
       'Dire Straits fue una banda de rock británica formada en Londres en 1977 por Mark Knopfler, David Knopfler, John Illsley y Pick Withers, estando activos hasta el año 1995. Dire Straits es considerado como uno de lo grupos musicales más exitosos de la historia de la música rock..',
@@ -450,7 +436,6 @@ const CardData6 = [
     napster: 'https://us.napster.com/artist/air-supply',
   },
   {
-    id: 214,
     title: 'Heart',
     description:
       'Heart es una banda estadounidense de Rock oriunda de Seattle formada por las hermanas Ann y Nancy Wilson, la banda fue fundada a principios de la década de 1970. Entre 1973 y 1976 la agrupación estuvo radicada en Vancouver, Canadá. Heart saltó a la fama a mediados de la década de 1970 con música influenciada por el hard rock, el heavy metal y la música folclórica. La banda gozó de gran popularidad alrededor del mundo desde mediados de los años 1970 hasta inicios de la década de 1980.',
@@ -480,7 +465,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/heart',
   },
   {
-    id: 209,
     title: 'Queen',
     description:
       'Queen es una banda británica de rock formada en 1970 en Londres por el cantante y pianista Freddie Mercury, el guitarrista Brian May y el baterista Roger Taylor. El bajista John Deacon llegaría un año después al grupo para completar la formación clásica. Tras el deceso de Mercury en 1991, y el retiro de Deacon en 1997, los integrantes restantes, Brian May y Roger Taylor, continúan trabajando bajo el nombre Queen o Queen +, por lo que la banda aún se considera activa.',
@@ -510,7 +494,6 @@ const CardData6 = [
     napster: 'https://us.napster.com/artist/queen',
   },
   {
-    id: 29,
     title: 'Eagles',
     description:
       'Eagles es una banda estadounidense de country rock y hard rock formada en Los Ángeles, California, EE. UU., en 1971, hasta el 2016, en que finalizó la carrera de la banda, con la muerte de uno de los fundadores y su vocalista Glenn Frey. La banda es mayormente conocida por su canción “Hotel California” de 1976, acreditada por Don Felder y Don Henley',
@@ -539,7 +522,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/eagles',
   },
   {
-    id: 30,
     title: 'Steely Dan',
     description:
       'Steely Dan es una banda de rock estadounidense fundada en 1971 en el Bard College en Annandale-on-Hudson, Nueva York por los miembros principales Walter Becker y Donald Fagen. Combinando elementos de rock, jazz, música latina, R&B, blues y una producción de estudio sofisticada con letras crípticas e irónicas, la banda disfrutó de un éxito comercial y de crítica desde principios de la década de 1970 hasta su separación en 1981. Inicialmente, la banda tenía una formación principal, pero en 1974, Becker y Fagen retiraron a la banda de las presentaciones en vivo por completo para convertirse en una banda de estudio solo, optando por grabar con un elenco rotatorio de músicos de sesión. Rolling Stone los ha llamado los antihéroes musicales perfectos para los años setenta.',
@@ -570,7 +552,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/steely-dan',
   },
   {
-    id: 31,
     title: 'The Doobie Brothers',
     description:
       'The Doobie Brothers es una banda estadounidense de rock, formada en 1970 por Tom Johnston, John Hartman y el bajista Greg Murph, que luego fue sustituido por Dave Shogren; todos ellos de California. En el año siguiente, ya transformados en quinteto, lanzaron su primer LP Doobie Brothers. El sonido que hacían era un estilo country rock, con algo de tendencia hacia el gospel y con la utilización de instrumentos de viento. En 1972, el LP Toulouse Street ganó el primer disco de oro, que sería una constante en la carrera del conjunto, de ahí en adelante.',
@@ -601,7 +582,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/the-doobie-brothers',
   },
   {
-    id: 32,
     title: 'Fleetwood Mac',
     description:
       'Fleetwood Mac es una banda de rock nacida en 1967 en Londres, que a lo largo de su carrera ha sufrido constantes cambios en sus miembros y ha tenido diversos períodos de popularidad. Fue fundada por los vocalistas y guitarristas Peter Green y Jeremy Spencer, el bajista Bob Brunning y el baterista Mick Fleetwood. Con la posterior llegada de John McVie y Danny Kirwan. El apellido de John McVie combinado con el de Mick Fleetwood fue escogido para titular la banda y junto a él son los únicos músicos que han estado en toda la carrera de la agrupación inglesa. En conjunto con sus primeros trabajos, se situaron como una de las bandas más importantes del boom del blues británico de fines de los sesenta y principios de los setenta.',
@@ -631,7 +611,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/fleetwood-mac',
   },
   {
-    id: 34,
     title: 'Lynyrd Skynyrd',
     description:
       "Lynyrd Skynyrd es una banda de rock estadounidense formada en 1964 por el vocalista Ronnie Van Zant, los guitarristas Gary Rossington y Allen Collins, el batería Bob Burns y el bajista Larry Junstrom en Jacksonville, Florida. Originalmente, el grupo adoptó distintos nombres antes de decidirse por Lynyrd Skynyrd, en referencia al profesor de gimnasia de algunos de sus miembros. Entre 1973 y 1977, tras la llegada del teclista Billy Powell, del bajista Leon Wilkeson, del batería Artimus Pyle, y de los guitarristas Ed King y Steve Gaines, el conjunto grabó cinco álbumes de estudio:, Second Helping, Nuthin' Fancy, Gimme Back My Bullets y Street Survivors, de los cuales se lanzaron como sencillos sus dos canciones más conocidas, «Sweet Home Alabama» y «Free Bird». La revista Guitar World ubica a esta última en la posición #3 en su lista de los 100 mejores solos de guitarra de la historia. Ambas canciones figuran en el Salón de la Fama de los Grammy.",
@@ -660,7 +639,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/lynyrd-skynyrd',
   },
   {
-    id: 35,
     title: 'Steve Miller Band',
     description:
       'The Steve Miller Band es una banda de rock estadounidense formada en 1966 en San Francisco, California. La banda está liderada por Steve Miller en la guitarra y la voz principal. El grupo tuvo una serie de sencillos exitosos de mediados a finales de la década de 1970 que son elementos básicos del rock clásico, así como varios álbumes anteriores de rock psicodélico. Miller dejó su primera banda para mudarse a San Francisco y formar la Steve Miller Blues Band. ',
@@ -690,7 +668,6 @@ const CardData6 = [
     napster: 'https://app.napster.com/artist/steve-miller-band',
   },
   {
-    id: 208,
     title: 'War',
     description:
       "War (llamada inicialmente Eric Burdon & War) es una banda estadounidense de funk originaria de Long Beach, California. Fundada en 1969 y que se encuentra vigente hasta el día de hoy. Es la banda del exvocalista de The Animals. Uno de sus grandes hits, es el sencillo Low Rider, además de la famosa canción de 1975: Why Can't We Be Friends?..",
@@ -719,7 +696,6 @@ const CardData6 = [
     napster: 'https://us.napster.com/artist/war',
   },
   {
-    id: 191,
     title: 'INXS',
     description:
       'INXS fue una banda australiana de rock, formada por los hermanos Farriss en 1977 en Sídney. Sus integrantes fueron: los hermanos Farriss, Andrew en teclados y compositor principal, Jon en batería y Tim en guitarra, Kirk Pengilly en guitarra y saxo, Garry Gary Beers en bajo y Michael Hutchence en voz, quien fue el letrista principal. El estilo musical de la banda fue inicialmente una mezcla de new wave, ska y pop, que luego evolucionó hacia un pop rock más duro, que incluía elementos de funk y dance..',
@@ -748,7 +724,6 @@ const CardData6 = [
     napster: 'https://mx.napster.com/artist/inxs',
   },
   {
-    id: 192,
     title: 'Men at Work',
     description:
       'Men at Work es una banda de rock australiana formada en 1978. Sus miembros fueron Colin Hay en la voz principal; Jerry Speiser en la batería y Ron Strykert en la guitarra. A ellos se les unieron Greg Ham en la flauta y teclados y luego John Rees en el bajo..',
@@ -782,7 +757,6 @@ const CardData6 = [
   },
 
   {
-    id: 193,
     title: 'The Outfield',
     description:
       'The Outfield fue una banda de rock británica, formada en Londres en 1984. La formación de la banda estaba compuesta por el guitarrista John Spinks, el vocalista y bajista Tony Lewis y el baterista Alan Jackman..',
@@ -810,7 +784,6 @@ const CardData6 = [
     napster: 'https://mx.napster.com/artist/the-outfield',
   },
   {
-    id: 134,
     title: 'Rod Stewart',
     description:
       'Roderick David Rod Stewart es un músico, compositor y productor británico de rock, conocido mundialmente por haber sido vocalista en las bandas The Jeff Beck Group y Faces, como también por su exitosa y extensa carrera como solista. Con su distinguida voz rasposa inició su carrera como músico callejero para luego participar en The Dimensions y en el supergrupo The Steampacket durante los primeros años de la década de los sesenta. Sin embargo alcanzó el éxito después de ingresar a The Jeff Beck Group, donde solo participó en sus dos primeros álbumes, y luego en Faces hasta 1975 cuando la agrupación inglesa se separó..',

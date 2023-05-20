@@ -1,6 +1,5 @@
 const CardData21 = [
   {
-    id: 25,
     title: 'Guns & Roses',
     description:
       "Guns N' Roses es una banda estadounidense de hard rock formada en Hollywood en la zona de Sunset Strip, alrededor de Santa Mónica, en el área metropolitana de Los Ángeles, California en 1985. El grupo fue fundado por el vocalista Axl Rose y el guitarrista Izzy Stradlin.",
@@ -30,7 +29,6 @@ const CardData21 = [
     napster: 'https://mx.napster.com/artist/guns-n-roses',
   },
   {
-    id: 24,
     title: 'Metallica',
     description:
       'Metallica es una banda estadounidense de thrash metal originaria de Los Ángeles, pero con base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney. Estos dos músicos fueron después sustituidos por el guitarrista Kirk Hammett y el bajista Cliff Burton respectivamente, Dave Mustaine fue despedido un año después de ingresar en la banda debido a su excesiva adicción al alcohol y su actitud violenta, siendo sustituido por Kirk Hammett.',
@@ -61,7 +59,6 @@ const CardData21 = [
   },
 
   {
-    id: 26,
     title: 'Mötley Crüe',
     description:
       'Mötley Crüe es una banda estadounidense de Glam metal/Heavy metal formada en Los Ángeles, California, en 1981 por el bajista Nikki Sixx y el baterista Tommy Lee a los que más tarde se les unirían el guitarrista Mick Mars y el vocalista Vince Neil. Con 25 millones de copias vendidas sólo en Estados Unidos y más de 100 millones en todo el mundo, es considerada como una de las bandas más importantes de la escena «glam» tanto en los años 1980 como en la actualidad y como una de las más influyentes en la escena mundial. La formación de la banda ha tenido varios cambios durante su carrera. Vince Neil salió en 1992 y fue reemplazado por John Corabi, aunque volvió en 1997. Tommy Lee salió en 1999 y fue reemplazado por Randy Castillo, quien murió en 2002 y fue sustituido por Samantha Maloney hasta 2004, cuando volvió Tommy Lee. Solo grabaron dos álbumes en que faltara alguno de los miembros originales.',
@@ -90,7 +87,6 @@ const CardData21 = [
     napster: 'https://mx.napster.com/artist/motley-crue',
   },
   {
-    id: 27,
     title: 'Def Leppard',
     description:
       "Def Leppard es una banda británica de rock originaria de Sheffield, Reino Unido, que dio inicio a su carrera a finales de los años setenta, alcanzando gran éxito mundial en la década de los ochenta, acercando al heavy metal a las emisoras de radio y al gran público en general, gracias a una mezcla rara de hard rock melódico con un gran trabajo vocal. Junto a otras bandas como Bon Jovi, Van Halen, Mötley Crüe, Scorpions, Metallica, Guns N' Roses, Iron Maiden, etcétera, es reconocida como una de las bandas de heavy metal superventas de los años 1980.​Junto a grupos como Iron Maiden o Saxon fueron una de las bandas de cabecera de la New Wave of British Heavy Metal. Def Leppard ha vendido más de 100 millones de álbumes en todo el mundo",
@@ -121,7 +117,6 @@ const CardData21 = [
     napster: 'https://mx.napster.com/artist/def-leppard',
   },
   {
-    id: 167,
     title: 'Van Halen',
     description:
       'Van Halen fue una banda de hard rock estadounidense, inicialmente nombrada Mammoth por los fundadores de la banda, formada en 1972 en Pasadena, California y disuelta en 2020. Luego se unirían al grupo el cantante David Lee Roth y el bajista Michael Anthony. Van Halen alcanzó la fama rápidamente con su álbum debut homónimo en 1978, ampliamente considerado como un hit del rock, alcanzando ventas en Estados Unidos superiores a las 10 millones de copias y siendo calificado en agosto de 1996 como disco de diamante.',
@@ -149,7 +144,6 @@ const CardData21 = [
     napster: 'https://mx.napster.com/artist/van-halen',
   },
   {
-    id: 25,
     title: 'Iron Maiden',
     description:
       'Iron Maiden es una banda británica de heavy metal fundada en 1975 por el bajista Steve Harris. Es considerada una de las bandas de metal más importantes de todos los tiempos. Ha vendido más de 100 millones de discos en todo el mundo, a pesar de haber contado con poco apoyo de la radio y la televisión comercial durante la mayor parte de su carrera. Sin embargo, la banda basó su éxito en llegar directamente a los aficionados, grabando discos de alta calidad y realizando destacadas actuaciones en vivo..',
@@ -178,7 +172,6 @@ const CardData21 = [
     napster: 'https://music.amazon.com.mx/artists/B000QK9EZQ/iron-maiden',
   },
   {
-    id: 169,
     title: 'Kiss',
     description:
       'Kiss (estilizado KISS) es una banda estadounidense de rock formada en Nueva York en enero de 1973 por el bajista Gene Simmons y el guitarrista Paul Stanley, a los que más tarde se unirían el batería Peter Criss y el guitarrista Ace Frehley.2​ Conocido por su maquillaje facial y su extravagante vestuario, el grupo se dio a conocer al público a mediados de los años 1970 gracias a sus actuaciones en directo, en las que incluían pirotecnia, llamaradas, cañones, baterías elevadoras, guitarras con humo y sangre falsa. Si se tienen en cuenta los álbumes en solitario de 1978, Kiss ha conseguido treinta discos de oro de la RIAA y es la banda estadounidense que ha recibido un mayor número de estas certificaciones..',
@@ -207,7 +200,6 @@ const CardData21 = [
     napster: 'https://us.napster.com/artist/kiss',
   },
   {
-    id: 28,
     title: 'AC/DC',
     description:
       'AC/DC es una banda de hard rock británica-australiana, formada en 1973 en Australia por los hermanos escoceses Malcolm Young y Angus Young.Sus álbumes se han vendido en un total estimado de 200 millones de copias, embarcándose en giras multitudinarias por todo el mundo y sus éxitos han musicalizado varias producciones cinematográficas sobresalientes. Son famosas sus actuaciones en vivo, resultando vibrantes y exultantes espectáculos de primer orden. Mucho de ello se debe al extravagante estilo de su guitarrista principal y símbolo visual, Angus Young, quien asume el rol de guitarrista principal durante los conciertos, gracias a sus dinámicos y adrenalínicos despliegues escénicos uniformado de colegial callejero.',
@@ -236,7 +228,6 @@ const CardData21 = [
     napster: 'https://app.napster.com/artist/acdc',
   },
   {
-    id: 209,
     title: 'Megadeth',
     description:
       'Megadeth es un grupo musical estadounidense de heavy metal y thrash metal, formado en Los Ángeles, California. Fue creada en 1983 por Dave Mustaine (vocalista, guitarrista y compositor principal), después de que fuera expulsado de Metallica, donde ocupaba el puesto de guitarrista principal. Es comúnmente mencionada como una de los cuatro grandes del thrash metal, junto a Metallica, Slayer y Anthrax.Megadeth ha tenido varios cambios en sus componentes, siendo Mustaine el único miembro permanente y el principal compositor; le sigue en duración el bajista y cofundador David Ellefson, que ha participado en la mayoría de sus álbumes y giras musicales.',
@@ -266,7 +257,6 @@ const CardData21 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJPK78/megadeth',
   },
   {
-    id: 209,
     title: 'Black Sabbath',
     description:
       'Black Sabbath fue una banda británica de heavy metal y hard rock formada en 1968 en Birmingham por Tony Iommi, Ozzy Osbourne, Geezer Butler y Bill Ward. Influenciados por la música de Blue Cheer, Cream o Vanilla Fudge, la agrupación incorporó desde sus inicios letras sobre ocultismo y terror con guitarras afinadas de modo más grave y consiguió varios discos de oro y platino en la década de 1970. Son los pioneros del heavy metal junto a otros grupos contemporáneos como Deep Purple, Budgie, Pentagram, Sir Lord Baltimore y Led Zeppelin. Al ser una de las primeras y más influyentes bandas de heavy metal de todos los tiempos, Black Sabbath ayudó a desarrollar el género con publicaciones tales como Paranoid, álbum que logró cuatro certificaciones de platino de la RIAA. Han vendido más de 75 millones de discos en todo el mundo, incluidos 15 millones de copias solo en los Estados Unidos.',

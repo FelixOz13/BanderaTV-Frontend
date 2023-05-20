@@ -1,6 +1,5 @@
 const CardData23 = [
   {
-    id: 119,
     title: 'Alejandro Fernandez',
     description:
       'Alejandro Fernández Abarca es un cantante de música ranchera y pop latino mexicano, hijo del fallecido cantante ranchero Vicente Fernández. En un principio se especializó en tipos tradicionales de música regional mexicana como mariachi. Posteriormente se ha diversificado hacia el pop latino con toques urbanos, la balada y el bolero.',
@@ -31,7 +30,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/alejandro-fernandez',
   },
   {
-    id: 118,
     title: 'Pepe Aguilar',
     description:
       'José Antonio Aguilar Jiménez, más conocido como Pepe Aguilar, es un cantante, compositor, músico, productor y empresario mexicano. Desde muy joven, Aguilar acompañó de gira a sus padres, los cantantes y actores mexicanos Antonio Aguilar y Flor Silvestre. Ahora hace lo mismo con sus propios hijos, Leonardo Aguilar y Ángela Aguilar, quienes también han seguido los pasos de su padre y abuelos..',
@@ -63,7 +61,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/pepe-aguilar',
   },
   {
-    id: 124,
     title: 'Angela Aguilar',
     description:
       'Ángela Aguilar Álvarez (Los Ángeles, California; 8 de octubre de 2003), es una cantante mexicana-estadounidense de música regional mexicana. Obtuvo un notable reconocimiento después de interpretar La Llorona en la 19.ª Entrega Anual de los Premios Grammy Latinos en 2018. Es nieta de El Charro de México, Antonio Aguilar.',
@@ -95,7 +92,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.66144484',
   },
   {
-    id: 123,
     title: 'Cristian Nodal',
     description:
       'Christian Jesús González Nodal (Caborca , Sonora; 11 de enero de 1999), conocido como Christian Nodal, es un cantante, compositor mexicano. Su primer sencillo, «Adiós amor», publicado en 2016 bajo el sello discográfico Fonovisa, lo lanzó a la fama en diversos medios de comunicación en México y Estados Unidos.',
@@ -127,7 +123,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/christian-nodal',
   },
   {
-    id: 23,
     title: 'Intocable',
     description:
       'Intocable es un grupo estadounidense de origen mexicano de música tejana y norteña de Zapata, Texas, Estados Unidos, fundado a principios de la década de los 90 por Ricky Muñoz y René Martínez.1​ Dentro de algunos años, la banda logró subir a la cima de la música tejana y norteña, con un estilo musical que fusionó la música conjunto de Texas y los ritmos folclóricos de la música norteña con baladas de letras modernas.',
@@ -158,7 +153,6 @@ const CardData23 = [
   },
 
   {
-    id: 191,
     title: 'Grupo Bronco',
     description:
       'Bronco es una agrupación de música regional mexicana especializada en el estilo grupero y famosa por sus baladas, cumbias, rancheras y huapangos. Sus miembros son originarios de Apodaca, Nuevo León. El grupo ha lanzado hasta la actualidad más de 20 álbumes..',
@@ -187,7 +181,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/bronco',
   },
   {
-    id: 125,
     title: 'Pedro Infante',
     description:
       'Pedro Infante Cruz (Mazatlán, Sinaloa, 18 de noviembre de 1917-Mérida, Yucatán, 15 de abril de 1957) fue un actor y cantante mexicano. Es considerado como uno de los actores más recordados del cine en México.Por su actuación en la película Tizoc (1956), fue ganador de un Oso de Plata​ del Festival Internacional de Cine de Berlín en la categoría a «mejor actor principal», y también obtuvo un premio Globo de Oro​ por mejor película extranjera, el cual se le fue otorgado por la prensa extranjera acreditada en Hollywood..',
@@ -219,7 +212,6 @@ const CardData23 = [
     tiktok: 'https://www.tiktok.com/@pedroinfanteidolo',
   },
   {
-    id: 125,
     title: 'Jorge Negrete',
     description:
       'Jorge Alberto Negrete Moreno (Guanajuato, 30 de noviembre de 1911-Los Ángeles, California, 5 de diciembre de 1953), conocido como El Charro Cantor, fue un actor y cantante mexicano. Fundó el Sindicato de Trabajadores de la Producción Cinematográfica de la República Mexicana1​ y reorganizó, junto con un grupo selecto de actores, la Asociación Nacional de Actores.',
@@ -249,7 +241,6 @@ const CardData23 = [
     tiktok: 'https://www.tiktok.com/search?q=Jorge%20Negrete&t=1667333198086',
   },
   {
-    id: 125,
     title: 'Rocio Durcal',
     description:
       'María de los Ángeles de las Heras Ortiz, conocida por su nombre artístico Rocío Dúrcal, fue una actriz y cantante española. Dúrcal es considerada como la «reina de las rancheras» y es una de las mujeres de habla hispana con más ventas en la industria. En 2005, un año antes de su muerte, recibió el Grammy Latino a la excelencia musical.',
@@ -282,7 +273,6 @@ const CardData23 = [
     tiktok: 'https://www.tiktok.com/@rociodurcal.oficial',
   },
   {
-    id: 126,
     title: 'Jose Alfredo Jimenez',
     description:
       'José Alfredo Jiménez Sandoval (Dolores Hidalgo, Guanajuato, 19 de enero de 1926-Ciudad de México, 23 de noviembre de 1973) fue un cantante y compositor mexicano. Jiménez fue el autor de varios temas musicales del género regional mexicano, específicamente de rancheras, sones, corridos, y huapangos a ritmo de mariachi.',
@@ -316,7 +306,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/jose-alfredo-jimenez',
   },
   {
-    id: 127,
     title: 'Juan Gabriel',
     description:
       'Alberto Aguilera Valadez, conocido como Juan Gabriel, fue un cantante, compositor, arreglista, productor musical, músico, filántropo y actor mexicano. Son notables sus contribuciones a la música popular en español en diferentes géneros como balada, ranchera, bolero, pop, música norteña, rumba flamenca, huapango, música chicana, salsa, cumbia, tango, polka, samba, vals, son de mariachi, joropo, banda sinaloense, disco, jazz, new age, country, rock and roll, big band y hasta canciones de cuna que escribió a cada uno de sus hijos.',

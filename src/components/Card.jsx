@@ -54,6 +54,7 @@ function Card(props) {
       />
       <p className="description">{props.item.description}</p>
       <div>
+        {!imageLoaded && <Spinner />}{' '}
         <ReactPlayer
           className="video"
           width="280px"
@@ -62,6 +63,7 @@ function Card(props) {
           controls
           url={props.item.videourl}
           playIcon=<BsFillPlayCircleFill />
+          onReady={handleImageLoad}
         />
       </div>
       <LikeButtons />

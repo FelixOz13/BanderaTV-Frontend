@@ -1,6 +1,5 @@
 const CardData3 = [
   {
-    id: 67,
     title: 'Gera MX',
     description:
       'Gerardo Daniel Torres Montante (San Nicolás de los Garza, Nuevo León; 15 de julio de 1994 ), mejor conocido por su nombr MX (anteriormente Gera MXM), es un rapero y compositor mexicano. Su nombre artístico proviene de las primeras cuatro letras de su nombre real, Gera (Gerardo) y la abreviatura del sello Mexamafia ( MXM ), la abreviatura MX proviene de México.e artístico Gera.',
@@ -30,7 +29,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B079V2DR9G/gera-mx',
   },
   {
-    id: 66,
     title: 'Alzada',
     description:
       'El colectivo Alzada por fin se estableció como sello discográfico, enfocándose en agencia de managers y creadora de contenido con el único propósito de reforzar el posicionamiento del género hip hop y llevarlo a la alza desde la bella ciudad de Guadalajara para todo el mundo.​',
@@ -60,7 +58,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B001NFOQWO/alzada',
   },
   {
-    id: 66,
     title: 'C Kan',
     description:
       'José Luis Maldonado Ramos (Guadalajara, Jalisco, 26 de julio de 1987),1​ más conocido por su nombre artístico C-Kan, es un rapero, compositor, productor y actor mexicano.2​ Su nombre artístico proviene de la palabra Can, (Perro)3​ y la letra C, de cancha: por el lugar en el que vivía La Cancha 98 C, Perro», estilizándose como C-Kan).4​ Ganó gran fama en 2012 con su álbum de estudio Voy por el sueño de muchos, alcanzando el número 1 de ventas en iTunes México​',
@@ -89,7 +86,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B00ETJ7P4M/ckan',
   },
   {
-    id: 56,
     title: 'Santa Fe Klan',
     description:
       'Angel Jair Quezada Jasso (Guanajuato, Guanajuato, 29 de noviembre de 1999), más conocido por su nombre artístico Santa Fe Klan, es un rapero, cantante y compositor mexicano, que incorpora a su producción musical géneros como la cumbia y el rap mexicano.Nació y creció en la colonia Santa Fe de la ciudad de Guanajuato, de donde tomó su nombre artístico. Tuvo interés en la música desde muy pequeño luego de que sus padres le comprara instrumentos musicales. A los 13 años aprendió a grabar sus propias canciones y a los 14 ya contaba con un estudio propio. Se mudó de Guanajuato a Guadalajara para proseguir su carrera artística. En esa ciudad se unió a Alzada Récords, un grupo dedicado al impulso del rap mexicano, mismo con el que grabó sus primeras producciones, y que dejó en 2020. En ese año colaboró con Akwid y Neto Peña en el sencillo «Gallo de pelea».',
@@ -119,7 +115,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B01KW2YAQA/santa-fe-klan',
   },
   {
-    id: 55,
     title: 'Cartel de Santa',
     description:
       'Cartel de Santa es una banda mexicana de hip hop creada en Santa Catarina, Nuevo León. El grupo comenzó sus actividades en 1996 bajo distintos nombres y miembros antes de tomar su nombre y alineación definitivos. el grupo está compuesto por el vocalista principal Eduardo Dávalos De Luna y Román Rodríguez, más conocido como Rowan Rabia, Monoplug o simplemente Mono, antes también formaba parte del grupo Dharius, pero se separa del mismo a mediados de 2013 por problemas personales.',
@@ -149,7 +144,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKFGH6/cartel-de-santa',
   },
   {
-    id: 59,
     title: ' Dharius',
     description:
       'Alan Alejandro Maldonado Tamez (Monterrey, Nuevo León, 24 de septiembre de 1984), más conocido por su nombre artístico Dharius (anteriormente MC Dharius), es un rapero y compositor mexicano.Es conocido por haber formado parte de la agrupación de Hip Hop Cartel de Santa desde 1999 hasta 2013. El video y canción Me Alegro de Su Odio, fue la última composición que hizo con Cartel de Santa.',
@@ -179,7 +173,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B009BKUZXM/dharius',
   },
   {
-    id: 62,
     title: 'Ill Zakiel',
     description:
       'Born in Guadalajara, Jalisco, Mexico and raised in Northern Nevada, ILL ZakieL has put years into his craft dating back to 2012 when he released his first solo single “Hate You All”. He has since released a large catalog of music and has been building a loyal following along the way.',
@@ -210,7 +203,6 @@ const CardData3 = [
   },
 
   {
-    id: 58,
     title: ' Aczino',
     description:
       'Mauricio Hernández González (Los Reyes, La Paz, Estado de México; 2 de julio de 1991), conocido comúnmente como Mau o Aczino, es un rapero y freestyler mexicano que cuenta con múltiples reconocimientos en torneos nacionales e internacionales.Es considerado por muchos aficionados y especialistas, como el mejor freestyler en la historia. En 2021 se convirtió en el primer bicampeón de Red Bull internacional.',
@@ -239,7 +231,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B00X4MSBNE/aczino',
   },
   {
-    id: 60,
     title: ' Millionario',
     description:
       'Cartel de Santa comenzó sus actividades desde 1996, pero se volvió famoso en 2002 y en 2011 formaron, junto con “Millonario”, que ya colaboraba con ellos y con Corona R.B.U., en la creación de su disquera Casa Babilonia Records.El 31 de julio de julio de 2015 se estrenó la película “Los Jefes”. En 2010, el canal de YouTube oficial del Cartel de Santa superó los 10.6 millones de suscriptores, convirtiéndose en el grupo de hip-hop con más seguidores en México.',
@@ -269,7 +260,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B00KUQWF0C/millonario',
   },
   {
-    id: 61,
     title: ' Aleman',
     description:
       'Erick Raúl Alemán Ramírez, mejor conocido como Alemán, es un rapero mexicano. Comenzó en el 2014 con el sello Homegrown Mafia lanzando su álbum debut Pase de Abordar. Su más conocido álbum Eclipse fue todo un éxito en varios países, realizando una gira por México, Chile, Argentina y España. Chapo Guzmán fue considerada una de las mejores canciones de rap mexicano por la revista Noisey Francia. La canción hace apología a la vida del narcotraficante sinaloense Joaquín Guzmán Loera.',
@@ -299,7 +289,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B0011XXHZA/aleman',
   },
   {
-    id: 66,
     title: 'Pat Boy',
     description:
       "LOS ÁNGELES, EEUU — Jesús 'Pat Boy' Chablé, se ha convertido en un referente en el mundo del rap, pero no de uno cualquiera, si no del Rap Maya.El deseo del artista de preservar su cultura indígena, le llevó por una travesía que le ha convertido en un pionero de dicho género musical más allá de sus fronteras y en el proceso ha logrado dar visibilidad a su comunidad dentro y fuera de México.Pat Boy, en entrevista con la Voz de América dijo ser un rapero con una misión, que es la de “promover y preservar” su lengua natal y su cultura.“Soy exponente de rap en lengua maya orgullosamente..",
@@ -328,7 +317,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B07DZ4S79Q/pat-boy',
   },
   {
-    id: 66,
     title: 'Bizzarap',
     description:
       'Gonzalo Julián Conde (nacido el 29 de agosto de 1998), conocido profesionalmente como Bizarrap , es un productor discográfico y DJ argentino . Se especializa en EDM , trap latino y rap . Es conocido por sus Bzrp Music Sessions, que graba con una amplia variedad de artistas.  Fue nominado a un Premio Grammy Latino a Mejor Productor en 2021.Gonzalo nació el 29 de agosto de 1998 en Ramos Mejía , Argentina. Se interesó por la música desde muy joven, y tenía interés en la música electrónica y los DJ , más que en cantar. Sus principales influencias fueron Skrillex , David Guetta y Martin Garrix . A los 14 años comenzó a estudiar solfeo, se matriculó en clases de piano y comenzó a producir sus primeras canciones. .',
@@ -357,7 +345,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B071VZ53VB/bizarrap',
   },
   {
-    id: 68,
     title: 'Quevedo',
     description:
       'Pedro Luis Domínguez Quevedo nació en Madrid .A la edad de un año, se trasladó a Brasil y regresó a España a la edad de cinco, instalándose en Las Palmas , Islas Canarias.Después de incursionar en el rap de estilo libre , Quevedo lanzó su carrera musical en 2020 junto al productor musical Linton. Su sencillo Ahora y Siempre (2021) alcanzó el decimonoveno y segundo puesto en las listas Global Viral 50 de Spotify y España Viral 50, respectivamente.',
@@ -389,7 +376,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B0029L8HTY/quevedo',
   },
   {
-    id: 66,
     title: 'Villano Antillano',
     description:
       'Villana Santiago Pacheco (Bayamón, 27 de marzo de 1995),1​ mejor conocida como Villano Antillano, es una rapera, cantante y compositora puertorriqueña.En 2022 salta a la fama mundial tras lanzar su colaboración «Villano Antillano: Bzrp Music Sessions, Vol. 51» junto a Bizarrap,6​7​8​9​10​ la cual logró posicionarse como undécima en el Argentina Hot 100 y como duodécima en el Spain Songs de Billboard.11​12​ Fue la primera artista transgénero y no binaria en entrar en la Top 50: Global de Spotify.',
@@ -420,7 +406,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B07K8WYMP9/villano-antillano',
   },
   {
-    id: 64,
     title: 'Cypress Hill',
     description:
       'Cypress Hill es un grupo de hip hop proveniente de South Gate. Fue formado en 1986 y a lo largo de su amplia y exitosa carrera han vendido más de 46 millones de álbumes en todo el mundo.',
@@ -451,7 +436,6 @@ const CardData3 = [
   },
 
   {
-    id: 63,
     title: 'Canserbero',
     description:
       'Tirone José González Orama, más conocido como Canserbero, fue un rapero y compositor venezolano. Fue uno de los intérpretes más significativos del rap independiente en su país de origen y en América Latina.',
@@ -482,7 +466,6 @@ const CardData3 = [
   },
 
   {
-    id: 65,
     title: 'Bascur',
     description:
       'La gran masacre es la tercera placa del rapero Chileno Bascur que consta de 20 canciones y las colaboraciones de Septimo Fragmento, Byrone, CHR, Massibo, Rayking, Margihuanero, A.R.B., B-zantino, Hechyzero, K320, Wensho, Masue, Grafy, Omega, Lord Sucio, Sejo, Liricistas, Jack Dee, De Killtros, Dj Kosmos, Rude, Mister pee, Brizy, Ley 20 mil, Aden y Adickta Sinfonia',
@@ -511,7 +494,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B00X4MSFB2/bascur',
   },
   {
-    id: 68,
     title: 'Neto Peña',
     description:
       'Alan Rodrigo Ledesma, mejor conocido en el medio artístico como Neto Peña, es un cantante de mexicano de rap y hip-hop. Nació en Guadalajara, Jalisco, México, el 8 de febrero de 1987. Neto Peña se ha convertido en unos de los artistas más influyentes de la nueva escena del rap en México, logrando colaborar con diferentes artistas de su país natal,',
@@ -540,7 +522,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B01HRAFT06/neto-pe%C3%B1a',
   },
   {
-    id: 69,
     title: 'Robot95',
     description:
       'Kevin Ramón Gutiérrez, –más conocido como Robot95– bajara el ritmo a su acelerada vida. Esta situación le dio el tiempo que necesitaba para pulir su gran trabajo concebido en 2019, el resultado es el álbum Siempre arriba, donde Gutiérrez, de la mano de su productor Beat Boy, muestra a su público su faceta más innovadora, pero sin perder su esencia. Se aleja del rap más puro que le lanzó a la fama para adentrarse en los ritmos del trap, la música electrónica y el reggaetón. El resumen de este álbum es pura buena onda, probablemente muy necesaria en esta vuelta a la normalidad que tanto se está haciendo de rogar. Robot nació en Mexicali, Baja California.',
@@ -570,7 +551,6 @@ const CardData3 = [
     napster: 'https://music.amazon.com.mx/artists/B08CM3B7MH/robot95',
   },
   {
-    id: 70,
     title: 'Control Machete',
     description:
       'Control Machete fue un grupo de hip hop mexicano originario de la ciudad de Monterrey, Nuevo León, México. Era integrado por el scratcher y tecladista Antonio "DJ Toy Selectah" Hernández, el vocalista Patricio Chapa Elizalde (también conocido como "Pato Machete") y el vocalista "Fermín IV" (Fermín Caballero).Control Machete combinaba cultura y música del norte de México con el género de hip hop, y formaron parte del movimiento musical denominado Avanzada Regia.',

@@ -1,10 +1,13 @@
 import React from 'react'
-import './Spinner.css'
 
 function Spinner() {
   return (
     <div className="spinner">
-      <img src="./images/spinner.gif" alt="Loading..." />
+      <img
+        src="./images/spinner.gif"
+        alt="Loading..."
+        style={{ maxWidth: '375px', maxHeight: '160px' }}
+      />
     </div>
   )
 }

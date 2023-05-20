@@ -1,6 +1,5 @@
 const CardData23 = [
   {
-    id: 161,
     title: 'South Central Cartel',
     description:
       ' Otra Compilacion Musical de Rap Americano con Integrantes como Snoop Dogg, el productor Dr. Dre. B-Real, DMX, Xzibit,Method Man, NateDogg, Eminem y Ice Cube',
@@ -30,7 +29,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/south-central-cartel',
   },
   {
-    id: 154,
     title: 'Snoop Dogg',
     description:
       'Calvin Cordozar Broadus Jr., conocido artísticamente como Snoop Dogg, y en raras ocasiones como Snoop Lion, es un cantante, productor y actor estadounidense. Es uno de los artistas de hip-hop con más éxito en el Gangsta rap. Además, es uno de los más notables amigos del productor Dr. Dre.',
@@ -61,7 +59,6 @@ const CardData23 = [
   },
 
   {
-    id: 215,
     title: 'Beastie Boys',
     description:
       'Beastie Boys fue un grupo musical de rap neoyorquino fundado en Brooklyn en 1981. Comenzaron tocando hardcore punk en sus primeras grabaciones para la disquera independiente Ratcage Records de David Parsons. Habiendo asimilado la cultura callejera de la gran manzana desde 1983 comenzaron a experimentar con hip hop y hacer rap. También han editado discos basados en el funk y el jazz y es frecuente que en sus discos de hip hop incluyan rock o punk o algún corte acústico. También son conocidas las actividades de turntablism y de producción musical de sus miembros. Según Mike D., Beastie quiere decir: Boys Entering Anarchistic States Towards Internal Excellence',
@@ -91,7 +88,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.4794',
   },
   {
-    id: 1236,
     title: 'Lil Nas x',
     description:
       'Montero Lamar Hill (Lithia Springs, Georgia; 9 de abril de 1999), más conocido por su nombre artístico Lil Nas X, es un rapero, cantante y compositor estadounidense. Ganó reconocimiento con el éxito de su tema «Old Town Road», el cual se hizo viral en TikTok y alcanzó el número 1 en al menos veinte países, entre estos Canadá y los Estados Unidos, donde también fue certificado con disco de diamante por sus ventas.3​4​ Con 18.4 millones de unidades, fue la segunda canción más vendida del 2019 a nivel mundial.5​ Además de ello, «Old Town Road» se alzó con un galardón en los American Music Awards y con dos en los premios Grammy y los MTV Video Music Awards.6​7​8​ Lil Nas X volvió a alcanzar el #1 en la mayoría de listas mundiales con su nuevo sencillo MONTERO (Call Me By Your Name). Sin embargo, esta vez fue objeto de una gran polémica en torno al vídeo oficial de la canción.',
@@ -121,7 +117,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/lil-nas-x',
   },
   {
-    id: 1235,
     title: 'Drake',
     description:
       'Aubrey Drake Graham (Toronto, 24 de octubre de 1986), conocido simplemente como Drake, es un rapero, cantante, compositor, productor discográfico y actor canadiense. Originalmente se hizo conocido por interpretar al personaje de Jimmy Brooks de la serie de televisión Degrassi: The Next Generation. Más tarde saltó a la fama como cantante de rap, lanzando varios mixtapes antes de firmar con Lil Wayne en la compañía discográfica estadounidense Young Money Entertainment en junio de 2006',
@@ -150,7 +145,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.231403288',
   },
   {
-    id: 156,
     title: 'Eminem',
     description:
       'Marshall Bruce Mathers III, conocido artísticamente como Eminem o como Slim Shady, es un rapero, productor discográfico y actor estadounidense. Su nombre artístico proviene de la unión de las iniciales de Marshall Mathers: M&M, mientras que su segundo nombre artístico se hizo conocer por primera vez en 1997 con su primer EP titulado The Slim Shady EP..',
@@ -179,7 +173,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/eminem',
   },
   {
-    id: 72,
     title: 'Daddy Yankee',
     description:
       'Ramón Luis Ayala Rodriguez (San Juan, 3 de febrero de 1977), mejor conocido como Daddy Yankee, es un cantante, rapero, compositor, actor, productor discográfico, locutor de radio y empresario puertorriqueño. Reconocido como el máximo exponente del reggaeton y del género urbano latino.Diversos sectores de la crítica le consideran el Rey del Reguetón,por ser uno de los pioneros del nacimiento del género durante la década de 1990 y haberlo popularizado en América Latina y el resto del mundo, tras haberse consolidado como uno de los artistas más respetados e influyentes del circuito urbano latino.De la misma manera, el portal estadounidense AllMusic afirma que el puertorriqueño «ayudó a establecer el reguetón como un estilo de música durante el siglo XXI',
@@ -209,7 +202,6 @@ const CardData23 = [
     napster: 'https://app.napster.com/artist/daddy-yankee',
   },
   {
-    id: 160,
     title: 'Long Beach Finest Hits',
     description:
       'Compilacion Musical de Rap Americano con Integrantes como Snoop Dogg, el productor Dr. Dre. B-Real, DMX, Xzibit,Method Man, NateDogg, Eminem y Ice Cube',
@@ -241,7 +233,6 @@ const CardData23 = [
   },
 
   {
-    id: 221,
     title: 'Mack 10',
     description:
       "David Rolison o D'Mon Rolison, más conocido como Mack 10, es un cantante de gangsta rap y actor de origen afroestadounidense y descendiente de padres mexicanos, nacido en Inglewood, California, el 9 de agosto de 1971. Es el exmiembro del trío Westside Connection, junto a Ice Cube y WC. A la edad de 24 lanzó su álbum debut, apodado del mismo nombre que él. Hasta la fecha se ha convertido en un personaje conocido en el mundo de la música y el cine. Aparte ha colaborado en numerosos temas de conocidos raperos como Ice Cube, Warren G, o Snoop Dogg. En 2005 publicó su último álbum hasta la fecha, Hustla's Handbook, junto con el conocido sencillo 'Like This', con Nate Dogg. Mack 10 se casó con Tionne Watkins 'T-Boz de TLC' en 2000 y tienen una hija, Chase Rolison, nacida ese mismo año. Es amigo íntimo de Snoop Dogg.",
@@ -270,7 +261,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.176',
   },
   {
-    id: 223,
     title: 'Westside Connection',
     description:
       'Westside Connection fue un grupo de west coast rap formado por Ice Cube, Mack 10 y WC. Su primer álbum, Bow Down, alcanzó el segundo puesto en Billboard 200 en el año 1996.',
@@ -301,7 +291,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.61493',
   },
   {
-    id: 159,
     title: 'Ice Cube',
     description:
       "O'Shea Jackson (Los Ángeles, California, 15 de junio de 1969), conocido artísticamente como Ice Cube, es un rapero y actor estadounidense. Comenzó su carrera a finales de los años 80 como miembro del polémico grupo de gangsta rap, N.W.A., y posteriormente lanzó su exitosa carrera en solitario en la música y en el cine.",
@@ -330,7 +319,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/ice-cube',
   },
   {
-    id: 155,
     title: 'Dr Dre',
     description:
       'Andre Romelle Young (Compton, California; 18 de febrero de 1965), más conocido por su nombre artístico Dr. Dre, es un rapero, productor y empresario estadounidense. Inspirado por la canción de Grandmaster Flash The Adventures Of Grandmaster Flash On The Wheels Of Steel, Young asistía a menudo a un club llamado The Eve After Dark para ver cómo tocaban los DJs y raperos en directo. Posteriormente se convertiría en DJ del club, inicialmente bajo el nombre Dr. J, basado en el apodo de Julius Erving, su jugador de baloncesto favorito. En el club conoció al aspirante a rapero Antoine Carraby, que más tarde pasaría a ser miembro de N.W.A. como DJ Yella. Poco después adoptó el apodo de Dr. Dre',
@@ -359,7 +347,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/dr-dre',
   },
   {
-    id: 222,
     title: 'TRU',
     description:
       " Tru 2 da Game is the fourth studio album released by New Orleans hip-hop group, TRU. It was released February 18, 1997 on No Limit Records and was produced by Beats By the Pound . The album found a large amount of success, peaking at #8 on the Billboard 200 and #2 on the Top R&B/Hip-Hop Albums selling 200,000 copies in its first week. A single from the album entitled 'I Always Feel Like...' also found some success, peaking at #71 on the Billboard Hot 100, #11 on the Hot Rap Singles and #42 on the Hot R&B/Hip-Hop Singles & Tracks. The same year the album was re-released with the song 'Smoking Green' removed. The re-released version included three new songs, a club mix version of 'No Limit Soldiers', a C-Murder solo song 'Eyes Of A Killa' and a Silkk The Shocker solo song 'Pimp Shit.' 'FEDz' samples Aaliyah's hit single 'If Your Girl Only Knew'. The album was certified 2× Platinum by the RIAA, on October 2, 1997, and remains the group's most successful album",
@@ -389,7 +376,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/album/alb.14936772',
   },
   {
-    id: 151,
     title: 'Master P',
     description:
       " Percy Robert Miller Sr. (born April 29, 1967), known by his stage name Master P, is an American rapper, record executive, actor, and entrepreneur. He is the founder of the record label No Limit Records, which was relaunched as New No Limit Records through Universal Records and Koch Records, and again as Guttar Music Entertainment, and currently, No Limit Forever Records. He is also the founder and CEO of P. Miller Enterprises and Better Black Television, which was a short-lived online television network. Miller initially gained fame in the mid-1990s with the success of his hip hop group TRU as well as his fifth solo rap album Ice Cream Man, which contained his first single- Mr. Ice Cream Man. Miller gained further popularity in 1997 after the success of his Platinum single Make 'Em Say Uhh!'. In total, Miller has released 15 studio albums.",
@@ -418,7 +404,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.585',
   },
   {
-    id: 224,
     description:
       "Silkk the Shocker rose to fame in the mid-late 1990s. After striking a deal with Priority, No Limit Records released Silkk's debut album The Shocker in August 1996, produced by Beats By The Pound, DJ Daryl, K-Lou and T-Bone.",
     title: 'Silk the Shocker',
@@ -449,7 +434,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.1745',
   },
   {
-    id: 225,
     title: 'Too Short',
     description:
       ' Todd Anthony Shaw (nacido el 28 de abril de 1966), más conocido por el nombre artístico Too Short (estilizado como Too $hort), es un rapero y productor discográfico estadounidense. Se hizo famoso en la escena hip hop de la costa oeste a fines de la década de 1980, con letras a menudo basadas en el proxenetismo y la promiscuidad, pero también en la cultura de las drogas y la supervivencia callejera; [6] este último en canciones como The Ghetto y el primero en canciones como Blow the Whistle',
@@ -479,7 +463,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/too-short',
   },
   {
-    id: 226,
     title: 'Suga Free',
     description:
       " Suga Free was born in Gardena and raised in Oakland, California,later becoming based in Pomona, California.He began his professional rapping career working with DJ Quik, with Quik serving as the producer on his debut album, Street Gospel, released in 1997, which reached number 37 on the Billboard Top R&B/Hip-Hop Albums chart.He made guest appearances on Xzibit's Restless and Snoop Dogg's Tha Last Meal in 2000, and released a second album in 2004, The New Testament, which peaked at number 72 on the Billboard 200.[4][5] Just Add Water followed in 2006, described by AllMusic: 'Just Add Water may not be the complete handbook to being a pimp, but it certainly is a kind of missive on the life of Suga Free'. The album saw Suga described as 'charismatic and funny, with a rapid- fire-yet-conversational style' by the Chicago Tribune.After a ten-year break Suga Free released the album The Resurrection on May 5, 2019.",
@@ -509,7 +492,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.52228',
   },
   {
-    id: 227,
     title: 'DJ Quick',
     description:
       "David Marvin Blake (born January 18, 1970), better known by his stage name DJ Quik, is an American rapper, songwriter, DJ, and record-producer,[3] known for his production in the G-funk style of West Coast hip-hop. Blake has collaborated with Snoop Dogg, Kurupt, Tupac, Erick Sermon, R.Kelly and Shaquille O'Neal, among others. Blake's stage name reflects his ability to produce songs in a short period of time.[4] Some of his top songs include 'Dollaz + Sense', 'Tonite', 'Born and Raised in Compton' and 'Jus Lyke Compton'.",
@@ -539,8 +521,7 @@ const CardData23 = [
   },
 
   {
-    id: 152,
-    title: '2pac',
+    title: 'Tupac',
     description:
       " Tupac Amaru Shakur born Lesane Parish Crooks, June 16, 1971 September 13, 1996), better known by his stage name 2Pac and later by his alias Makaveli, was an American rapper and actor. Considered one of the most influential rappers of all time, Shakur is among the best-selling music artists, having sold more than 75 million records worldwide. Much of Shakur's music has been noted for addressing contemporary social issues that plagued inner cities, and he is considered a symbol of activism against inequality.",
     videourl:
@@ -569,7 +550,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/2pac',
   },
   {
-    id: 157,
     title: '50 Cent',
     description:
       'Curtis James Jackson III (born July 6, 1975),[3] known professionally as 50 Cent, is an American rapper, actor, and businessman. Known for his impact in the hip hop industry, he has been described as a master of the nuanced art of lyrical brevity',
@@ -599,7 +579,6 @@ const CardData23 = [
     napster: 'https://web.napster.com/artist/art.44827',
   },
   {
-    id: 153,
     title: 'Notorious B.I.G',
     description:
       'Christopher George Latore Wallace (Brooklyn, Nueva York; 21 de mayo de 1972 - Los Ángeles, California; 9 de marzo de 1997), más conocido por su nombre artístico The Notorious B.I.G., Biggie Smalls o simplemente Biggie, fue un rapero y productor estadounidense. Es considerado como uno de los raperos más importantes de todos los tiempos, y de los más influyentes de la historia del rap. ',
@@ -629,7 +608,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/the-notorious-big',
   },
   {
-    id: 228,
     title: 'NWA',
     description:
       'N.W.A., fue un grupo estadounidense de hip hop de Compton, California, y está considerado de modo generalizado como el grupo pionero en la formación del subgénero musical gangsta rap..',
@@ -658,7 +636,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/nwa',
   },
   {
-    id: 158,
     title: 'Eazy E',
     description:
       'Eric Lynn Wright, más conocido por su nombre artístico Eazy-E, fue un cantante, productor y mánager estadounidense. Saltó a la fama con el grupo de gangsta rap N.W.A a finales de los 80. El estilo lírico y vocal de Eazy-E es reconocido al instante por su voz relativamente aguda y sus letras centradas en las armas, drogas, policía, actos violentos y sexo. Eazy-E es uno de los pioneros del gangsta rap y en la actualidad permanece como uno de los iconos más distintivos e influyentes del hip hop junto a 2pac y Notorious B.I.G..',
@@ -687,7 +664,6 @@ const CardData23 = [
     napster: 'https://us.napster.com/artist/eazy-e',
   },
   {
-    id: 156,
     title: 'Lil Wayne',
     description:
       "Dwayne Michael Carter Jr. (Nueva Orleans, Luisiana; 27 de septiembre de 1982), más conocido como Lil Wayne, es un rapero, cantante, compositor, productor y ejecutivo discográfico, actor y empresario estadounidense, ganador de cinco Grammys.A la temprana edad de nueve años, fue contratado por el sello discográfico Cash Money Records siendo el miembro más joven, para formar parte del dúo, The BG'z, junto con B.G, el rapero dice haberse sentido muy querido y que los considera sus hermanos mayores.",

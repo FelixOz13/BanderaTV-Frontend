@@ -1,41 +1,51 @@
-import React from 'react'
-import ButtonTreeCategories from "./ButtonTreeCategories";
-import CardData24 from '../data/CardData24'
-import Card from './Card'
 import Navbar from './Navbar'
-
+import { useState } from 'react'
+import SponsorContainer from './SponsorContainer'
+import CardData24 from '../data/CardData24'
+import ButtonTreeCategories from './ButtonTreeCategories'
+import Card from './Card'
 
 function Rancheras() {
-   const cards24 = CardData24.map(item => {
-        return (
-            <Card
-                key={item.id}
-                item={item}
-                
-                
-                           
-                        
-            />
-        )
-    })  
+  const [searchQuery, setSearchQuery] = useState('')
+
+  const filteredData = CardData24.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase()),
+  )
+
+  const sortedData = [...filteredData].sort((a, b) => {
+    if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
+    if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
+    return 0
+  })
+
+  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+
+  const handleSearch = (event) => {
+    setSearchQuery(event.target.value)
+  }
+
   return (
     <div>
-          <Navbar/>
-          <h1 className="title2">Rancheras Mexicanas</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta? ? </h4> 
-      
-           <ButtonTreeCategories/>
-      
-      <img className="indianaut" src="./images/hangloose.jpg" alt="" />
-          <img className="indianaut2" src="./images/hangloose.jpg" alt="" />
-          <h1 className="slidertext">◄◄◄◄Desliza para Navegar ►►►►</h1>
-            <div>
-            <section className="cards-list">
-               {cards24}
-            </section>
-            </div>
-        </div>
+      <Navbar />
+      <h1 className="title2">Rancheras Classicas</h1>
+      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
+
+      <ButtonTreeCategories />
+
+      <img className="indianaut" src="./images/mariachisombrero.jpg" alt="" />
+      <img className="indianaut2" src="./images/mariachi.jpeg" alt="" />
+      <div className="search-bar">
+        <input
+          className="searchbar"
+          type="text"
+          value={searchQuery}
+          onChange={handleSearch}
+          placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
+        />
+      </div>
+      <h1 className="slidertext">←←Desliza para Navegar→→</h1>
+      <section className="cards-list">{cards}</section>
+    </div>
   )
 }
-
 export default Rancheras

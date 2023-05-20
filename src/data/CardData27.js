@@ -1,6 +1,93 @@
 const CardData27 = [
   {
-    id: 1,
+    title: 'Piso 21',
+    description:
+      'Piso 21 es una boy band colombiana formada en Medellín en 2011.Son los pioneros de pop urbano en Latinoamérica, compuesto de David Escobar “DIM”, Juan David Huertas “El Profe”, Pablo Mejía “Pablito” y David Lorduy. Entraron en la escena musical con su primer álbum homónimo y lograron ser un fenómeno global con su segundo álbum Ubuntu con éxitos como Me Llamas (feat. Maluma), La Vida Sin Tí, Te Amo (feat. Paulo Londra), Puntos Suspensivos, “Besándote”, y “Déjala Que Vuelva (feat. Manuel Turizo)”.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nShyWYyitaXV5Ig0R_kWx9_MXmRkHcJQw',
+    price: 50,
+    coverImg: 'piso21.jpg',
+    category: 'Pop',
+    location: 'Colombia',
+    locationImg: 'coloflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.shakira.com/',
+    youtube: 'https://www.youtube.com/channel/UCEFNzT2RoVqGkV4e3Osyx4A',
+    facebook: 'https://www.facebook.com/piso21',
+    instagram: 'https://www.instagram.com/piso21/',
+    twitter: 'https://twitter.com/piso21music',
+    spotify: 'https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd',
+    deezer: 'https://www.deezer.com/en/artist/4038501',
+    apple: 'https://music.apple.com/us/artist/piso-21/403121923',
+    soundcloud: 'https://soundcloud.com/piso21official',
+    tidal: 'https://listen.tidal.com/artist/5032091',
+    wiki: 'https://es.wikipedia.org/wiki/Piso_21',
+    ticketmaster:
+      'https://www.ticketmaster.com./piso-21-tickets/artist/2364788',
+    tiktok: 'https://www.tiktok.com/@piso21music?lang=es',
+    napster: 'https://us.napster.com/artist/piso-21',
+  },
+  {
+    title: 'Bad Bunny',
+    description:
+      'Benito Antonio Martínez Ocasio (Almirante Sur, Vega Baja, 10 de marzo de 1994), conocido artísticamente como Bad Bunny, es un rapero, cantante, compositor y actor puertorriqueño.Su estilo de música es generalmente definido como trap latino y reguetón, pero también ha interpretado otros géneros como rock, kizomba y soul. Se caracteriza por su entonación grave y rasposa y su estilo de vestir, considerado uno de los artistas urbanos latinos más importantes de la historia',
+    videourl:
+      'https://www.youtube.com/playlist?list=PLRW7iEDD9RDStpKHAckdbGs3xaCChAL7Z',
+    price: 50,
+    coverImg: 'BadBunny.jpeg',
+    category: 'Trap ',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.badbunnytour.com/',
+    youtube: 'https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q',
+    facebook: 'https://www.facebook.com/BadBunnyOfficial',
+    instagram: 'https://www.instagram.com/badbunnyofficiials/',
+    twitter: 'https://twitter.com/badbunnyinfope',
+    spotify: 'https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X',
+    deezer: 'https://www.deezer.com/mx/artist/10583405',
+    apple: 'https://music.apple.com/mx/artist/bad-bunny/1126808565',
+    soundcloud: 'https://soundcloud.com/badbunny15',
+    tidal: 'https://listen.tidal.com/artist/8027279',
+    wiki: 'https://es.wikipedia.org/wiki/Bad_Bunny',
+    ticketmaster:
+      'https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395',
+    tiktok: 'https://www.tiktok.com/@badbunny?lang=es',
+    napster: 'https://web.napster.com/artist/art.231403288',
+  },
+  {
+    title: 'Maluma',
+    description:
+      'Maluma has a number of singles that have charted within the top ten on Billboard Hot Latin Songs, including Felices los 4, Borró Cassette, and Corazón. His collaborative efforts Chantaje with Shakira and Medellín with Madonna have reached the top of the Hot Latin Songs and the Dance Club Songs chart, respectively. He has worked with other international artists, such as Ricky Martin, J Balvin, and The Weeknd. Maluma has won a Latin Grammy Award, an MTV Video Music Award, two Latin American Music Awards, and been nominated for a Grammy Award for Best Latin Pop Album.',
+    videourl:
+      'http://youtube.com/playlist?list=PLI2uE28GO_poIPrHuSGt2Ru6Er5AzCyk5',
+    price: 36,
+    coverImg: 'maluma.jpg',
+    category: 'Bachatta',
+    location: 'Colombia',
+    locationImg: 'coloflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl:
+      'https://maluma.online/?fbclid=IwAR2kZKmUfqJ3sRMh-jl3eHSM0apR2-lEeKxsGC9d_VT1XsfmqCbVgyzZ5eY',
+    youtube: 'https://www.youtube.com/c/MalumaOfficialChannel',
+    facebook: 'https://www.facebook.com/MALUMAMUSIK',
+    instagram: 'https://www.instagram.com/maluma/?hl=en',
+    twitter:
+      'https://twitter.com/maluma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+    spotify: 'https://open.spotify.com/artist/1r4hJ1h58CWwUQe3MxPuau',
+    deezer: 'https://www.deezer.com/mx/artist/1424602',
+    apple: 'https://music.apple.com/mx/artist/maluma/448916501',
+    soundcloud: 'https://soundcloud.com/malumaofficial',
+    tidal: 'https://listen.tidal.com/artist/4098182',
+    wiki: 'https://es.wikipedia.org/wiki/Maluma',
+    ticketmaster: 'https://www.ticketmaster.com./maluma-tickets/artist/2095829',
+    tiktok: 'https://www.tiktok.com/@maluma1472?lang=es',
+    napster: 'https://app.napster.com/artist/maluma',
+  },
+  {
     title: 'Romeo Santos',
     description:
       'Anthony Santos (Bronx, Nueva York, 21 de julio de 1981),1​ conocido artísticamente como Romeo Santos, es un cantante estadounidense. Es considerado en la mayor parte de América como el Rey de la Bachata,2​3​ por ser el líder, vocalista y compositor principal de la agrupación Aventura.Como miembro de Aventura, Santos ha sido una figura clave en la popularización de la bachata a nivel internacional, llevando temas al top de las listas de Billboard Latino y a listas de Europa. Tras varios discos con la agrupación Aventura, Romeo anunció su separación de la agrupación para lanzarse como solista en abril de 2011. Como solista ha lanzado 5 álbumes de estudio: Fórmula, vol. 1 (2011), Fórmula, vol. 2 (2014), Golden (2017), Utopía (2019), Fórmula, vol. 3 (2022)..',
@@ -31,7 +118,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B004YXX1T6/romeo-santos',
   },
   {
-    id: 2,
     title: 'Aventura',
     description:
       'Aventura es una agrupación dominicana-estadounidense de bachata, fundada en el Bronx, Nueva York, Estados Unidos, en 1993 por los primos Romeo, Anthony Santos, Lenny Santos, Max Santos y Henry Santos.',
@@ -62,7 +148,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJWGM0/aventura',
   },
   {
-    id: 3,
     title: 'Prince Royce',
     description:
       'Geoffrey Royce Rojas​(Nueva York; 11 de mayo de 1989), conocido como Prince Royce, es un cantante, compositor y productor discográfico estadounidense de origen dominicano.5​6​5​6​ A los diecinueve años conoció a Andrés Hidalgo, quien tras escuchar una de sus maquetas musicales se convirtió en su mánager y firmó un contrato musical a través de su sello discográfico Top Stop Music.Su primer álbum, Prince Royce, fue publicado el 2 de marzo de 2010. Debutó en la décima quinta posición de la lista de Álbumes latinos de Billboard en Estados Unidos.7​ En el material se encuentran sus sencillos «Stand by Me» y «Corazón sin cara», los cuales alcanzaron la primera posición en la lista Tropical Songs de Billboard. Phase II su segundo álbum de estudio estrenado el 10 de abril de 2012, fue certificado con un disco de platino, en los Estados Unidos, seis meses después de su publicación,8​ además de ser nominado a los Grammy Latinos en la categoría de Mejor álbum tropical..',
@@ -92,7 +177,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B002RCJW0I/prince-royce',
   },
   {
-    id: 4,
     title: 'Monchy & Alexandra',
     description:
       'Ramón Rijo (Monchy) (1977, La Romana) y Alexandra Cabrera de la Cruz (Alexandra) (1978, Santo Domingo), conocidos como Monchy y Alexandra fueron un dúo dominicano de música bachata. Editaron su primer álbum en 1999 y se hicieron conocer, nacional e internacionalmente, con la canción Hoja en Blanco, y en el 2003 con la canción Dos locos. En el 2006, Alexandra fue invitada a participar, junto a Vladimir Dotel de Los Ilegales, en el tema Yo no soy la otra.El dúo se separó en 2008 para dedicarse a sus proyectos personales.En 2019, el dúo fue invitado por Romeo Santos, reuniéndose una vez más para grabar el tema Años Luz, para la producción discográfica de Santos titulada Utopía, donde Romeo también participa con diferentes exponentes de la bachata tradicional dominicana..',
@@ -122,7 +206,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B000QKH9C6/monchy-alexandra',
   },
   {
-    id: 5,
     title: 'Chanel',
     description:
       'Chanel de las Mercedes Terrero Martínez (La Habana, 28 de julio de 1991), conocida artísticamente como Chanel, es una cantante, actriz y bailarina hispano-cubana. En 2022 representó a España en el Festival de la Canción de Eurovisión con «SloMo», donde obtuvo el tercer puesto con 459 puntos.Nacida en La Habana, con tres años su familia se trasladó a España para instalarse en Olesa de Montserrat (Barcelona).1​ Desde los nueve años, recibió clases de canto y actuación, y clases de ballet según el sistema de la Royal Academy Of Dance.2​ Sus estudios de danza incluyeron aprendizaje con figuras del baile como Víctor Ullate, Coco Comín o Gloria Gella. A los dieciséis años comenzó a dar sus primeros pasos en el mundo del teatro musical..',
@@ -150,7 +233,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B0BKL8FLK2/chanel',
   },
   {
-    id: 6,
     title: 'Manuel Turizio',
     description:
       'Manuel Turizo Zapata (Montería, 12 de abril de 2000) es un cantante y compositor colombiano.Principalmente conocido por su canción «Una Lady como tú», tema con el cual logró obtener mayor reconocimiento internacional en América Latina, España, Italia y Portugal. En 2018, el vídeo oficial de la canción llegó a las mil millones de visualizaciones en YouTube.Una Lady Como Tú» fue la canción que lo hizo famoso a nivel internacional, y por la cual logró una nominación para los premios Kids Choice Awards Colombia como canción favorita en el año 2017, incluso recibió múltiples certificaciones en varios países de América Latina.',
@@ -180,7 +262,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B01MRX6UBP/manuel-turizo',
   },
   {
-    id: 7,
     title: 'Elvis Martinez',
     description:
       'Elvis Martínez (San Francisco de Macorís, 5 de enero del 1976) es un músico, compositor y guitarrista dominicano del género Bachata conocido popularmente como "El Camarón".Hijo de Juan Mateo Martínez e Hidalia González,1​ creció en una familia pobre con doce hermanos. De niño trabajó como limpiabotas y luego como asistente de panadería, entre otros trabajos que tuvo que realizar para ayudar en casa. Esto le impidió terminar la escuela.2​ Se mudó a Nueva York a principios de los 90. Allí conoció a Lenny Santos, uno de los miembros del grupo que pronto se conoció como Aventura, Santos le enseñó a Martínez a tocar la guitarra.',
@@ -209,7 +290,6 @@ const CardData27 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJSN54/elvis-martinez',
   },
   {
-    id: 8,
     title: 'Mr.DON',
     description:
       'Mr. Don es un cantante Chileno del genero bachata que esta calificado para ser una de las nuevas promesas del genero y a la vez tambiÈn marcar tendencias en la m˙sica a nivel Mundial. Ganador de los premios Blessing Awards MÈxico por dos Años consecutivos (2016 - 2017) en una de las categorÌas como mejor cantante del genero Bachata Cristiana.Samuel Ortega Villena es su nombre Real, nacido el 29 de Octubre del 1993 en la ciudad de Santiago, Chile. Proveniente de Ambos padres Chilenos, Nahum Ortega Gomez y Marcela Villena Morales.Actualmente su Discografia se Compone de ocho Albumes, cuatro de Reggaeton y 4 de Bachata, la cual fueron los que lo pocisionaron como cantante de Bachata de la Nueva Generacion.Su Primer Album de Bachata se titulo This Is My Time el cual fue lanzado el Año 2015, Sacando de ese album su primer Hit Mas conocido a Nivel Internacional, "Yo Te Prometo".Su Segundo album de Bachata se titulo Corazon, El Cual Fue Lanzado el año 2016.',
@@ -238,66 +318,6 @@ const CardData27 = [
       'https://www.ticketmaster.com./aventura-tickets/artist/973009',
     tiktok: 'https://www.tiktok.com/@aventura_dc?lang=es',
     napster: 'https://app.napster.com/artist/aventura',
-  },
-  {
-    id: 76,
-    title: 'Piso 21',
-    description:
-      'Piso 21 es una boy band colombiana formada en Medellín en 2011.Son los pioneros de pop urbano en Latinoamérica, compuesto de David Escobar “DIM”, Juan David Huertas “El Profe”, Pablo Mejía “Pablito” y David Lorduy. Entraron en la escena musical con su primer álbum homónimo y lograron ser un fenómeno global con su segundo álbum Ubuntu con éxitos como Me Llamas (feat. Maluma), La Vida Sin Tí, Te Amo (feat. Paulo Londra), Puntos Suspensivos, “Besándote”, y “Déjala Que Vuelva (feat. Manuel Turizo)”.',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_nShyWYyitaXV5Ig0R_kWx9_MXmRkHcJQw',
-    price: 50,
-    coverImg: 'piso21.jpg',
-    category: 'Pop',
-    location: 'Colombia',
-    locationImg: 'coloflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.shakira.com/',
-    youtube: 'https://www.youtube.com/channel/UCEFNzT2RoVqGkV4e3Osyx4A',
-    facebook: 'https://www.facebook.com/piso21',
-    instagram: 'https://www.instagram.com/piso21/',
-    twitter: 'https://twitter.com/piso21music',
-    spotify: 'https://open.spotify.com/artist/4bw2Am3p9ji3mYsXNXtQcd',
-    deezer: 'https://www.deezer.com/en/artist/4038501',
-    apple: 'https://music.apple.com/us/artist/piso-21/403121923',
-    soundcloud: 'https://soundcloud.com/piso21official',
-    tidal: 'https://listen.tidal.com/artist/5032091',
-    wiki: 'https://es.wikipedia.org/wiki/Piso_21',
-    ticketmaster:
-      'https://www.ticketmaster.com./piso-21-tickets/artist/2364788',
-    tiktok: 'https://www.tiktok.com/@piso21music?lang=es',
-    napster: 'https://us.napster.com/artist/piso-21',
-  },
-  {
-    id: 1235,
-    title: 'Bad Bunny',
-    description:
-      'Benito Antonio Martínez Ocasio (Almirante Sur, Vega Baja, 10 de marzo de 1994), conocido artísticamente como Bad Bunny, es un rapero, cantante, compositor y actor puertorriqueño.Su estilo de música es generalmente definido como trap latino y reguetón, pero también ha interpretado otros géneros como rock, kizomba y soul. Se caracteriza por su entonación grave y rasposa y su estilo de vestir, considerado uno de los artistas urbanos latinos más importantes de la historia',
-    videourl:
-      'https://www.youtube.com/playlist?list=PLRW7iEDD9RDStpKHAckdbGs3xaCChAL7Z',
-    price: 50,
-    coverImg: 'BadBunny.jpeg',
-    category: 'Rap ',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.badbunnytour.com/',
-    youtube: 'https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q',
-    facebook: 'https://www.facebook.com/BadBunnyOfficial',
-    instagram: 'https://www.instagram.com/badbunnyofficiials/',
-    twitter: 'https://twitter.com/badbunnyinfope',
-    spotify: 'https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X',
-    deezer: 'https://www.deezer.com/mx/artist/10583405',
-    apple: 'https://music.apple.com/mx/artist/bad-bunny/1126808565',
-    soundcloud: 'https://soundcloud.com/badbunny15',
-    tidal: 'https://listen.tidal.com/artist/8027279',
-    wiki: 'https://es.wikipedia.org/wiki/Bad_Bunny',
-    ticketmaster:
-      'https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395',
-    tiktok: 'https://www.tiktok.com/@badbunny?lang=es',
-    napster: 'https://web.napster.com/artist/art.231403288',
   },
 ]
 export default CardData27

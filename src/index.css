@@ -1008,3 +1008,29 @@
  .app-download-banner img {
    height: 40px;
  }
+ .searchbar{
+  background-color: black;
+  width:350px;
+  height:60px;
+  font-family: "Henny Penny";
+  color: goldenrod;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-color:goldenrod;
+  border-width: 3px;
+  border-radius: 10px;;
+ }
+ .search-bar {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   /* Adjust the margin as needed */
+ }
+ .searchbar::placeholder {
+   font-family: 'Henny Penny', sans-serif;
+   color:hotpink;
+   font-size: 1rem;;
+   /* Replace 'YourFontName' with the desired font name */
+   /* Add any other desired styles for the placeholder text */
+ }
