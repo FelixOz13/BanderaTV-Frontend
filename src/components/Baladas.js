@@ -8,7 +8,16 @@ import Card from './Card'
 function Baladas() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = BandsData2.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = BandsData2.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

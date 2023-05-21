@@ -8,7 +8,16 @@ import Card from './Card'
 function Home() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = BandsData1.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = BandsData1.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
@@ -18,7 +27,7 @@ function Home() {
     return 0
   })
 
-  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+  const bands = sortedData.map((item) => <Card key={item.id} item={item} />)
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
@@ -44,7 +53,7 @@ function Home() {
         />
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
-      <section className="cards-list">{cards}</section>
+      <section className="cards-list">{bands}</section>
     </div>
   )
 }

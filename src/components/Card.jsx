@@ -5,7 +5,7 @@ import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { FaFacebook } from 'react-icons/fa'
 import { FaSpotify } from 'react-icons/fa'
-import { FaDeezer } from 'react-icons/fa'
+
 import { SiApplemusic } from 'react-icons/si'
 import { FaTwitterSquare } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
@@ -14,7 +14,6 @@ import { FaTiktok } from 'react-icons/fa'
 import { SiTidal } from 'react-icons/si'
 import React, { useState } from 'react'
 import Spinner from './Spinner'
-import Comments from '../Comments/Comments'
 import { BsFillPlayCircleFill } from 'react-icons/bs'
 
 function Card(props) {
@@ -56,12 +55,13 @@ function Card(props) {
       <div>
         {!imageLoaded && <Spinner />}{' '}
         <ReactPlayer
+          url={props.item.videourl}
           className="video"
           width="280px"
           height="180px"
           light
+          autoPlay={false}
           controls
-          url={props.item.videourl}
           playIcon=<BsFillPlayCircleFill />
           onReady={handleImageLoad}
         />

@@ -7,7 +7,16 @@ import ButtonTreeCategories from './ButtonTreeCategories'
 function RapTrap() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData3.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData3.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

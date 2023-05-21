@@ -8,7 +8,16 @@ import Card from './Card'
 function Rancheras() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData24.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData24.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

@@ -7,7 +7,16 @@ import Navbar from './Navbar'
 function HipHop() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData23.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData23.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
@@ -22,7 +31,6 @@ function HipHop() {
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
-
   return (
     <div>
       <Navbar />

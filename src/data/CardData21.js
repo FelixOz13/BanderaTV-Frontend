@@ -232,7 +232,7 @@ const CardData21 = [
     description:
       'Megadeth es un grupo musical estadounidense de heavy metal y thrash metal, formado en Los Ángeles, California. Fue creada en 1983 por Dave Mustaine (vocalista, guitarrista y compositor principal), después de que fuera expulsado de Metallica, donde ocupaba el puesto de guitarrista principal. Es comúnmente mencionada como una de los cuatro grandes del thrash metal, junto a Metallica, Slayer y Anthrax.Megadeth ha tenido varios cambios en sus componentes, siendo Mustaine el único miembro permanente y el principal compositor; le sigue en duración el bajista y cofundador David Ellefson, que ha participado en la mayoría de sus álbumes y giras musicales.',
     videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_mdjj_zKQklQQvWts6sRqcza3CtvkyzjkI',
+      'https://youtube.com/playlist?list=PLFJaod-oManE5gpqkzyhbspshu6mL7drM',
     price: '$50',
     coverImg: 'megadeth.jpg',
     category: 'Rock Clasico',

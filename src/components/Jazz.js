@@ -7,7 +7,16 @@ import ButtonTreeCategories from './ButtonTreeCategories'
 function Jazz() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData19.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData19.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

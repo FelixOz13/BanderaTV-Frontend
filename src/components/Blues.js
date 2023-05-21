@@ -7,7 +7,16 @@ import Navbar from './Navbar'
 function Blues() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData18.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData18.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

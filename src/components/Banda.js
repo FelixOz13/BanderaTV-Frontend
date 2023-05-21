@@ -7,7 +7,16 @@ import Navbar from './Navbar'
 function Banda() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData13.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData13.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 

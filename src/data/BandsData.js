@@ -406,6 +406,8 @@ const BandsData = [
       'https://www.ticketmaster.com/michael-buble-tickets/artist/869115',
     napster: 'https://web.napster.com/artist/art.61479',
     tiktok: 'https://www.tiktok.com/@michaelbuble?lang=es',
+  },
+  {
     title: 'Alicia Keys',
     description:
       'Alicia Augello Cook (Nueva York, 25 de enero de 1981) conocida como Alicia Keys, es una cantante compositora, productora musical y actriz estadounidense. Ha vendido más de 75 millones de discos a nivel mundial y ha ganado numerosos premios, incluyendo 16 Grammys, 17 Premios Billboard y tres American Music Awards. Su álbum debut Songs in A Minor (2001) ganó cinco Grammys.',
@@ -461,7 +463,7 @@ const BandsData = [
     wiki: 'https://en.wikipedia.org/wiki/Keith_Sweat',
     ticketmaster:
       'https://www.ticketmaster.com/keith-sweat-tickets/artist/736235',
-    napster: 'https://us.napster.com/artist/keith-sweat',
+
     tiktok: 'https://www.tiktok.com/@keithsweat_official?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000RSC2HE/keith-sweat',
   },

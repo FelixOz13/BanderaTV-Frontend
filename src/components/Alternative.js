@@ -8,7 +8,16 @@ import Card from './Card'
 function Alternative() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData10.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData10.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
@@ -23,7 +32,6 @@ function Alternative() {
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
-
   return (
     <div>
       <Navbar />

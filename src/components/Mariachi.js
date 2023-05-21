@@ -7,7 +7,16 @@ import Navbar from './Navbar'
 function Mariachi() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredData = CardData2.filter((item) =>
+  const generateRandomId = () => {
+    return Math.random().toString(36).substring(2, 10)
+  }
+
+  const dataWithIds = CardData2.map((item) => ({
+    ...item,
+    id: generateRandomId(),
+  }))
+
+  const filteredData = dataWithIds.filter((item) =>
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
@@ -22,7 +31,6 @@ function Mariachi() {
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
-
   return (
     <div>
       <Navbar />
