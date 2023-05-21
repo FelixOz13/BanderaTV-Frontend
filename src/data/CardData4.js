@@ -203,7 +203,7 @@ const CardData4 = [
     description:
       'Glass Animals es una banda inglesa de indie rock originaria de Oxford. Sus miembros son Dave Bayley (vocalista principal, guitarra), Drew MacFarlane (guitarra, teclado, voces), Edmund Irwin-Singer (bajo, teclado, voces), y Joe Seaward (batería).1​ El grupo liberó su álbum debut Zaba en junio de 2014, bajo el sello Wolf Tone, del productor Paul Epworth, mientras que su segundo álbum How to Be a Human Being fue lanzado el 26 de agosto de 2016, siendo aclamado por la crítica. Su tercer álbum, Dreamland fue estrenado en agosto de 2020. La banda ha realizado tours internacionalmente y se ha presentado en festivales como Austin City Limits, Summer Well, Glastonbury, Coachella, Bonnaroo, Lollapalooza, Reading/Leeds, Falls Festival (Australia), Firefly Music Festival,2​ St Jerome Laneway Festival, Southbound y Bestival.',
     videourl:
-      'https://youtube.com/playlist?list=PL8tkzXKlhGxn8vedFOKUngfcdnz6MV40M',
+      'https://youtube.com/playlist?list=PL8tkzXKlhGxma29yf8aCx8F65q62pVtJZ',
     price: 50,
     coverImg: 'glassanimals.jpeg',
     category: 'Pop',
