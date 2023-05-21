@@ -40,9 +40,9 @@ function Sierreño() {
 
       <ButtonTreeCategories />
 
-      <img className="indianaut" src="./images/acordeon.png" alt="" />
-      <img className="indianaut2" src="./images/guitarrita2.png" alt="" />
-      <img className="indianaut" src="./images/acordeon.png" alt="" />
+      <img className="indianaut" src="./images/urus.jpeg" alt="" />
+      <img className="indianaut2" src="./images/aguiladorada.jpeg" alt="" />
+      <img className="indianaut2" src="./images/urus.jpeg" alt="" />
       <img className="indianaut2" src="./images/guitarrita2.png" alt="" />
       <div className="search-bar">
         <input

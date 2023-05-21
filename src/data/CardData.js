@@ -708,34 +708,7 @@ const CardData = [
     tiktok: 'https://www.tiktok.com/@edenmunoz1?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B003X2YJR2/eden-mu%C3%B1oz',
   },
-  {
-    title: 'Antonio Delgado',
-    description:
-      'Antonio Delgado es Originario de Tijuana. El Muchacho heredo su gran talento atravez de su padre quien tambien fue un gran cantante y tambien tuvo varios exitos musicales. El Joven ha demostrado ser muy Serio y Firme con Exitos como La 9 y Verde Veneno.',
-    videourl:
-      'http://youtube.com/playlist?list=PLF-cRDh2mrlUEifrg_eT-P0htj5fUBspN',
-    price: 50,
-    coverImg: 'antoniodelgado.jpg',
-    category: 'Sierreño',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'http://degomusic.biz/',
-    youtube: 'https://www.youtube.com/channel/UCxaRMrZC10TcK1dc2I5paFw',
-    facebook: 'https://www.facebook.com/DegoMusic/',
-    instagram: 'https://www.instagram.com/antonio_delgado_oficial/',
-    twitter: 'https://twitter.com/MusicDego',
-    spotify: 'https://open.spotify.com/album/4nzOCZMGXkxfhkaMhrIpr0',
-    deezer: 'https://www.deezer.com/mx/artist/4656364',
-    apple: 'https://music.apple.com/mx/artist/antonio-delgado/280737526',
-    soundcloud: 'https://soundcloud.com/antoniodelgadomusic',
-    tidal: 'https://listen.tidal.com/album/197732007',
-    wiki: 'https://www.facebook.com/jeronimo.velardedelgado',
-    ticketmaster: 'https://www.ticketmaster.com.mx/',
-    tiktok: 'https://www.tiktok.com/@antoniodelgadooficial0?lang=es',
-    napster: 'https://app.napster.com/artist/antonio-delgado',
-  },
+
   {
     title: 'El Mimoso',
     description:

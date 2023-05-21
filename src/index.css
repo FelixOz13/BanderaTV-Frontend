@@ -3,7 +3,7 @@
  }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Iceland&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Iceland&display=swap');
 
  body {
    margin: 0;
@@ -131,15 +131,15 @@
 
  }
 
-.navbar-logo {
-  border-width: 4px;
-  border-color: #dc9e02;
-  border-style: groove;
-  margin-left: -25px;
-  margin-top: -25px;
-  width:185px;
-  height:60px;
-}
+ .navbar-logo {
+   border-width: 4px;
+   border-color: #dc9e02;
+   border-style: groove;
+   margin-left: -25px;
+   margin-top: -25px;
+   width: 185px;
+   height: 60px;
+ }
 
 
 
@@ -458,24 +458,24 @@
  }
 
  .icons-ticketmaster {
-  margin-top: 4px;
-    margin-bottom: 2px;
-    margin-right: 20px;
-    font-size: 45px;
-    color: none;
-    background-color: none;
-    border-radius: 10%;
+   margin-top: 4px;
+   margin-bottom: 2px;
+   margin-right: 20px;
+   font-size: 45px;
+   color: none;
+   background-color: none;
+   border-radius: 10%;
  }
 
  .icons-ticketmaster :hover {
-    background-image: linear-gradient(to right, #dc9e02,
-          black,
-          #dc9e02);
-      max-width: 95px;
-      max-height: 95px;
-      padding: 5px;
-      border-radius: 10%;
-      cursor: pointer;
+   background-image: linear-gradient(to right, #dc9e02,
+       black,
+       #dc9e02);
+   max-width: 95px;
+   max-height: 95px;
+   padding: 5px;
+   border-radius: 10%;
+   cursor: pointer;
  }
 
  .icons-itunes {
@@ -641,7 +641,7 @@
    height: 48px;
    border-radius: 20%;
    margin: 9px;
-  margin-top: 20px;
+   margin-top: 20px;
  }
 
 
@@ -665,9 +665,9 @@
    margin: 5px;
  }
 
-    .sponsorcontainer1>* {
-      flex: 5 1 5%;
-    }
+ .sponsorcontainer1>* {
+   flex: 5 1 5%;
+ }
 
  .sponsor1 {
    width: 55px;
@@ -689,10 +689,10 @@
    cursor: pointer;
  }
 
- 
 
 
- 
+
+
 
  .tm-icon {
    width: 50px;
@@ -989,6 +989,7 @@
    cursor: pointer;
 
  }
+
  .app-download-banner {
    background-color: #f0f0f0;
    padding: 10px;
@@ -1008,29 +1009,34 @@
  .app-download-banner img {
    height: 40px;
  }
- .searchbar{
-  background-color: black;
-  width:350px;
-  height:60px;
-  font-family: "Henny Penny";
-  color: goldenrod;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-color:goldenrod;
-  border-width: 3px;
-  border-radius: 10px;;
+
+ .searchbar {
+   background-color: black;
+   width: 350px;
+   height: 60px;
+   font-family: "Henny Penny";
+   color: goldenrod;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-color: goldenrod;
+   border-width: 3px;
+   border-radius: 10px;
+   ;
  }
+
  .search-bar {
    display: flex;
    justify-content: center;
    margin-top: 20px;
    /* Adjust the margin as needed */
  }
+
  .searchbar::placeholder {
    font-family: 'Henny Penny', sans-serif;
-   color:hotpink;
-   font-size: 1rem;;
+   color: hotpink;
+   font-size: 1rem;
+   ;
    /* Replace 'YourFontName' with the desired font name */
    /* Add any other desired styles for the placeholder text */
  }
