@@ -5912,7 +5912,7 @@ const BandsData1 = [
     tiktok: 'https://www.tiktok.com/@sublimeofficial?lang=es',
     napster: 'https://web.napster.com/artist/art.61779',
   },
-  ,
+
   {
     title: 'Beastie Boys',
     description:
@@ -8708,7 +8708,6 @@ const BandsData1 = [
     tiktok: 'https://www.tiktok.com/@lupilloriveraoficial?lang=es',
     napster: 'https://web.napster.com/artist/lupillo-rivera',
   },
-  ,
   {
     title: 'Ariel Kamacho y Los Plebes del Rancho',
     description:

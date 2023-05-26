@@ -1,35 +1,5 @@
 const CardData2 = [
-  {
-    title: 'Top 100 Videos de Musica',
-    description:
-      '100 Videos Mixtos de Musica Regional Mexicana que hicieron el 2022 explotar con alegria , romance y sensaciones extraordinarias ..',
-    videourl:
-      'https://youtube.com/playlist?list=PLVZtocpycmEXG_s1xX7sml55L4wYfS4Uy',
-    price: '$50',
-    coverImg: 'musicamex.jpg',
-    category: 'Exitos 2022',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl:
-      'https://djmagmx.com/edc-mexico-revela-alineacion-a-traves-musica/',
-    youtube:
-      'https://www.youtube.com/results?search_query=top+100songs+in+mexico',
-    facebook: 'https://www.facebook.com/DjMagMex/',
-    instagram: 'https://www.instagram.com/djmagmex/',
-    twitter: 'https://twitter.com/DjMagMeX',
-    spotify: 'https://open.spotify.com/playlist/4SF351Y9lTzATQkz4vrpXT',
-    deezer: 'https://www.deezer.com/mx/playlist/10064138302',
-    apple:
-      'https://music.apple.com/us/playlist/top-100-mexico/pl.df3f10ca27b1479087de2cd3f9f6716b',
-    soundcloud: 'https://soundcloud.com/djmagmx',
-    tidal: 'https://listen.tidal.com/artist/4346014',
-    wiki: 'https://es.wikipedia.org/wiki/Sony_Music_M%C3%A9xico',
-    ticketmaster: 'https://www.ticketmaster.com.mx',
-    tiktok: 'https://www.tiktok.com/@musica.mexicana_',
-    napster: 'https://us.napster.com/blog/post/latino-collabs-en',
-  },
+  
   {
     title: 'Alex Fernandez',
     description:
@@ -334,67 +304,7 @@ const CardData2 = [
     tiktok: 'https://www.tiktok.com/@triolospanchosoficial',
     napster: 'https://web.napster.com/artist/trio-los-panchos',
   },
-  {
-    title: 'Vicente Fernandez',
-    description:
-      'Vicente Fernández Gómez, también conocido como El Charro de Huentitán o Chente, fue un cantante de ranchera, empresario, productor discográfico y actor mexicano. Su trabajo en la música le valió dos premios Grammy, ocho premios Grammy Latinos, catorce premios Lo Nuestro y una estrella en el paseo de la fama de Hollywood. En abril del 2010, alcanzó la cifra de 60 millones de copias vendidos en todo el mundo. Su hijo, Alejandro Fernández, también es cantante.',
-
-    videourl: 'https://youtube.com/playlist?list=PL47228A7CBC410B5F',
-    price: '$50',
-    coverImg: 'VicenteFernandez.jpg',
-    category: 'Mariachi',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.vicentefernandez.mx/',
-    youtube: 'https://www.youtube.com/channel/UCwPTC2n6D8asyi1G5uBZlpw',
-    facebook: 'https://www.facebook.com/VicenteFernandezOficial',
-    instagram: 'https://www.instagram.com/_vicentefdez/',
-    twitter: 'https://twitter.com/_VicenteFdez',
-    spotify: 'https://open.spotify.com/artist/4PPoI9LuYeFX8V674Z1R6l',
-    deezer: 'https://www.deezer.com/mx/artist/8798',
-    apple: 'https://music.apple.com/mx/artist/vicente-fern%C3%A1ndez/6742830',
-    soundcloud: 'https://soundcloud.com/vicentefernandez',
-    tidal: 'https://listen.tidal.com/artist/4030361',
-    wiki: 'https://en.wikipedia.org/wiki/Vicente_Fern%C3%A1ndez',
-    ticketmaster:
-      'https://www.ticketmaster.com.mx/vicente-fernandez-boletos/artist/754927',
-
-    tiktok: 'https://www.tiktok.com/@_vicentefdez',
-    napster: 'https://web.napster.com/artist/vicente-fernandez',
-  },
-  {
-    title: 'Antonio Aguilar',
-    description:
-      'Don Antonio Aguilar representa y encarna a la música mexicana. Es un símbolo y un referente cuando se habla de nuestras raíces culturales, ya sea con su amplio y exitoso repertorio musical o en sus inolvidables trabajos cinematográficos. Por algo orgullosamente se le conoce como El Charro de México.',
-
-    videourl:
-      'http://youtube.com/playlist?list=PLfjaVNeEP9fSdn5r0C6thkKVPs23g9rZ2',
-    price: '$50',
-    coverImg: 'AntonioAguilar.jpg',
-    category: 'Mariachi',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://found.ee/mmq-antonioaguilar-digital-lat',
-    youtube: 'https://music.youtube.com/channel/UCrudP827nGhBGLHCUDQzSPg',
-    facebook: 'https://www.facebook.com/AntonioAguilarFans1/',
-    instagram: 'https://www.instagram.com/el_charro_de.mexico/',
-    twitter: '',
-    spotify: 'https://open.spotify.com/artist/0PN0fbe41KbuzlRYnoajNm',
-    deezer: 'https://www.deezer.com/mx/artist/96684',
-    apple: 'https://music.apple.com/mx/artist/antonio-aguilar/6545576',
-    soundcloud: 'https://soundcloud.com/antonioaguilarofficial',
-    tidal: 'https://listen.tidal.com/artist/3665841',
-    wiki: 'https://en.wikipedia.org/wiki/Antonio_Aguilar',
-    ticketmaster:
-      'https://www.ticketmaster.com/antonio-aguilar-tickets/artist/754762',
-
-    tiktok: 'https://www.tiktok.com/@antonioaguilar.2022',
-    napster: 'https://web.napster.com/artist/antonio-aguilar',
-  },
+ 
   {
     title: 'Grupo Bronco',
     description:
@@ -874,6 +784,66 @@ const CardData2 = [
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Intocable',
     tiktok: 'https://www.tiktok.com/@grupo_intocable?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000SA1FUQ/intocable',
+  }, {
+    title: 'Vicente Fernandez',
+    description:
+      'Vicente Fernández Gómez, también conocido como El Charro de Huentitán o Chente, fue un cantante de ranchera, empresario, productor discográfico y actor mexicano. Su trabajo en la música le valió dos premios Grammy, ocho premios Grammy Latinos, catorce premios Lo Nuestro y una estrella en el paseo de la fama de Hollywood. En abril del 2010, alcanzó la cifra de 60 millones de copias vendidos en todo el mundo. Su hijo, Alejandro Fernández, también es cantante.',
+
+    videourl: 'https://youtube.com/playlist?list=PL47228A7CBC410B5F',
+    price: '$50',
+    coverImg: 'VicenteFernandez.jpg',
+    category: 'Mariachi',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.vicentefernandez.mx/',
+    youtube: 'https://www.youtube.com/channel/UCwPTC2n6D8asyi1G5uBZlpw',
+    facebook: 'https://www.facebook.com/VicenteFernandezOficial',
+    instagram: 'https://www.instagram.com/_vicentefdez/',
+    twitter: 'https://twitter.com/_VicenteFdez',
+    spotify: 'https://open.spotify.com/artist/4PPoI9LuYeFX8V674Z1R6l',
+    deezer: 'https://www.deezer.com/mx/artist/8798',
+    apple: 'https://music.apple.com/mx/artist/vicente-fern%C3%A1ndez/6742830',
+    soundcloud: 'https://soundcloud.com/vicentefernandez',
+    tidal: 'https://listen.tidal.com/artist/4030361',
+    wiki: 'https://en.wikipedia.org/wiki/Vicente_Fern%C3%A1ndez',
+    ticketmaster:
+      'https://www.ticketmaster.com.mx/vicente-fernandez-boletos/artist/754927',
+
+    tiktok: 'https://www.tiktok.com/@_vicentefdez',
+    napster: 'https://web.napster.com/artist/vicente-fernandez',
+  },
+  {
+    title: 'Antonio Aguilar',
+    description:
+      'Don Antonio Aguilar representa y encarna a la música mexicana. Es un símbolo y un referente cuando se habla de nuestras raíces culturales, ya sea con su amplio y exitoso repertorio musical o en sus inolvidables trabajos cinematográficos. Por algo orgullosamente se le conoce como El Charro de México.',
+
+    videourl:
+      'http://youtube.com/playlist?list=PLfjaVNeEP9fSdn5r0C6thkKVPs23g9rZ2',
+    price: '$50',
+    coverImg: 'AntonioAguilar.jpg',
+    category: 'Mariachi',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://found.ee/mmq-antonioaguilar-digital-lat',
+    youtube: 'https://music.youtube.com/channel/UCrudP827nGhBGLHCUDQzSPg',
+    facebook: 'https://www.facebook.com/AntonioAguilarFans1/',
+    instagram: 'https://www.instagram.com/el_charro_de.mexico/',
+    twitter: '',
+    spotify: 'https://open.spotify.com/artist/0PN0fbe41KbuzlRYnoajNm',
+    deezer: 'https://www.deezer.com/mx/artist/96684',
+    apple: 'https://music.apple.com/mx/artist/antonio-aguilar/6545576',
+    soundcloud: 'https://soundcloud.com/antonioaguilarofficial',
+    tidal: 'https://listen.tidal.com/artist/3665841',
+    wiki: 'https://en.wikipedia.org/wiki/Antonio_Aguilar',
+    ticketmaster:
+      'https://www.ticketmaster.com/antonio-aguilar-tickets/artist/754762',
+
+    tiktok: 'https://www.tiktok.com/@antonioaguilar.2022',
+    napster: 'https://web.napster.com/artist/antonio-aguilar',
   },
 ]
 
