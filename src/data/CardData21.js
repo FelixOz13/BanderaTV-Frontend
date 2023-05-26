@@ -32,8 +32,7 @@ const CardData21 = [
     title: 'Metallica',
     description:
       'Metallica es una banda estadounidense de thrash metal originaria de Los Ángeles, pero con base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney. Estos dos músicos fueron después sustituidos por el guitarrista Kirk Hammett y el bajista Cliff Burton respectivamente, Dave Mustaine fue despedido un año después de ingresar en la banda debido a su excesiva adicción al alcohol y su actitud violenta, siendo sustituido por Kirk Hammett.',
-    videourl:
-      'https://youtube.com/playlist?list=PLJvQXRgtxlulfgobV03gEln77XqgoidXa',
+    videourl: 'https://youtube.com/playlist?list=PL2D4A44B959D87893',
     price: 36,
     coverImg: 'Metallica.jpg',
     category: 'Rock Metal',
