@@ -1,5 +1,4 @@
 const CardData12 = [
-  ,
   {
     title: 'Los Tucanes de Tijuana',
     description:
@@ -174,36 +173,64 @@ const CardData12 = [
     napster: 'https://app.napster.com/artist/grupo-360',
   },
   {
-    title: 'Ernesto Cardenas Bazaldua',
+    title: 'Los Cadetes de Linares',
     description:
-      ' Ernesto Bazaldua  es un Cantautor de Origen Mexicano cual  radica en Guadalajara, Jalisco, Mexico, Su   musica es versatil,Regional y sus exitos son ,1:Por Ser Pobre, 2:Tu Conciencia Te hara Llorar, 3. Dia de las Madres 4.Ese Soy Yo 5: Te Esperare 7.Con una Llamada 7. Se te acabado el juego 8.Libro Cerrado 9.Tomados de la mano, 10.Carta de Retiro.',
+      ' Los Cadetes de Linares fue un dúo de música norteña, integrado por el cantante y bajo sextista Homero Guerreronota 1​ y el cantante y acordeonista Lupe Tijerinanota 2​ en el año de 1974.1​ Algunas de sus composiciones e interpretaciones son consideradas clásicas dentro de su género musical2​ y les allegaron éxito y reconocimientos,1​ al grado de ser considerados un conjunto emblemático del género norteño en particular y del género regional mexicano en general.3​ Este éxito y fama fueron alcanzados entre finales de los años setenta e inicios de los ochenta, cuando su trayectoria finalizó, debido a la muerte de su fundador, Homero Guerrero. El nombre: «Los Cadetes de Linares», ha sido muchas veces utilizado e incluso plagiado por un notable número de grupos musicales de corte o estilo norteño,4​2​ provocando por un lado una serie de conflictos, equívocos y confusiones, y por otro, una muestra o evidencia de la gran popularidad del dueto original..',
 
-    videourl: 'https://youtube.com/playlist?list=UUF0QfCEV_8ZpA0B2Yv56xBg',
+    videourl: 'https://youtube.com/playlist?list=UULFrCzQHlnP6iHB4od8lMcskA',
     price: '$50',
-    coverImg: 'ErnestoCardenas.jpg',
-    category: 'Regional',
+    coverImg: 'loscadetesdelinares.jpg',
+    category: 'Norteño',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl:
-      'https://wynk.in/music/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/bl_3617050935625',
-    youtube: 'https://www.youtube.com/@ernestocardenas5939',
-    facebook: 'https://www.facebook.com/ernesto.cardenasbazaldua.1',
-    instagram: '',
-    twitter: '',
-    spotify: 'https://open.spotify.com/artist/7KZNDFnwppqWlfoVcCh1bg',
-    deezer: 'https://www.deezer.com/en/artist/1822121',
-    apple:
-      'https://music.apple.com/us/album/las-inspiraciones-de-ernesto-c%C3%A1rdenas/1644034684',
-    soundcloud: 'https://soundcloud.com/search?q=Ernesto%20Crdenas%20Bazaldua',
-    tidal: 'https://listen.tidal.com/artist/6254720',
-    wiki: 'https://www.amazon.co.uk/Con-una-Llamada/dp/B0BDKTQJXJ',
-    ticketmaster: 'https://www.viagogo.com.mx/',
-    tiktok: 'https://www.tiktok.com/@ernestocardenasba',
-    napster: 'https://music.amazon.com.mx/albums/B0BDKM5VGD',
+    websiteurl: 'https://loscadetesdelinares.com/',
+    youtube: 'https://www.youtube.com/channel/UCrCzQHlnP6iHB4od8lMcskA',
+    facebook: 'https://www.facebook.com/profile.php?id=100077482343788',
+    instagram: 'https://www.instagram.com/loscadetesdelinares_oficial/',
+    twitter: 'https://twitter.com/CadetesDelin',
+    spotify: 'https://open.spotify.com/artist/1iIxNEvPPmdFIIP0tdpw6G',
+    deezer: 'https://www.deezer.com/mx/artist/323520',
+    apple: 'https://music.apple.com/mx/artist/los-cadetes-de-linares/135633187',
+    soundcloud: 'https://soundcloud.com/loscadetesdelinares',
+    tidal: 'https://listen.tidal.com/artist/3854270',
+    wiki: 'https://es.wikipedia.org/wiki/Los_Cadetes_de_Linares',
+    ticketmaster:
+      'https://www.ticketmaster.com/los-cadetes-de-linares-tickets/artist/760527',
+    tiktok: 'https://www.tiktok.com/@cadeteshistoria',
+    napster:
+      'https://music.amazon.com.mx/artists/B000TOOWC4/los-cadetes-de-linares',
   },
-
+  {
+    title: 'Chalino Sanchez',
+    description:
+      'Rosalino Sánchez Félix (Rancho el Guayabo, Sinaloa, 30 de agosto de 1960-Culiacán, Sinaloa, 16 de mayo de 1992), conocido como Chalino Sánchez o El rey del corrido, fue un cantante y compositor mexicano. Se especializó en el género de música regional mexicana.',
+    videourl:
+      'http://youtube.com/playlist?list=PLevztPGArk6flhsITZWCeTwjQ8Xdtbnyw',
+    price: '$50',
+    coverImg: 'ChalinoSanchez.jpg',
+    category: 'Norteño',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://en.wikipedia.org/wiki/Chalino_S%C3%A1nchez',
+    youtube: 'https://www.youtube.com/channel/UC5wwVhsK9j26eewBHAucumw',
+    facebook: 'https://www.facebook.com/ElReyDelosCorridos',
+    instagram: 'https://www.instagram.com/rosalinosanchezfelix/',
+    twitter: 'https://twitter.com/ElReyDeICorrido',
+    spotify: 'https://open.spotify.com/artist/7u9m43vPVTERaALXXOzrRq',
+    deezer: 'https://www.deezer.com/mx/artist/97125',
+    apple: 'https://music.apple.com/mx/artist/chalino-s%C3%A1nchez/55367740',
+    soundcloud: 'https://soundcloud.com/chalino-sanchez-official',
+    tidal: 'https://listen.tidal.com/artist/3665787',
+    wiki: 'https://en.wikipedia.org/wiki/Chalino_S%C3%A1nchez',
+    ticketmaster:
+      'https://www.ticketmaster.com/homenaje-a-chalino-sanchez-tickets/artist/Z7r9jZakxu',
+    tiktok: 'https://www.tiktok.com/@chalinosanchezoficial?lang=es',
+    napster: 'https://web.napster.com/artist/chalino-sanchez',
+  },
   {
     title: 'Los Hijos de Garcia',
     description:
@@ -580,6 +607,37 @@ const CardData12 = [
       'https://www.ticketmaster.com/el-mimoso-tickets/artist/2833728',
     tiktok: 'https://www.tiktok.com/@mimosoyo?lang=es',
     napster: 'https://web.napster.com/artist/art.45943024',
+  },
+  {
+    title: 'Los Rieleros del Norte',
+    description:
+      'Los Rieleros Del Norte son una banda mexicana de música regional mexicana nominada al Grammy en tres ocasiones. Son originarios de Ojinaga, Chihuahua, México, pero actualmente tienen su base en El Paso, Texas. Se especializan en el género Norteño-Sax.Formaron la banda en Ojinaga, Chihuahua, en 1980 y posteriormente se mudaron a Texas. Siguen siendo una de las bandas norteñas más antiguas que aún están activas hoy en día (junto con Conjunto Primavera, Los Tigres del Norte, Los Huracanes del Norte y Conjunto Río Grande). El nombre de la banda, "Los Rieleros", se basa en el trabajo que algunos miembros realizaron en los ferrocarriles de Pecos, Texas. A diferencia de muchas otras bandas norteñas, Los Rieleros del Norte utilizan tanto el saxofón como el acordeón en su música, creando un híbrido de dos instrumentos. Todos los miembros originales de la banda son originarios de Ojinaga, Chihuahua, una ciudad de la que también surgieron muchas otras bandas de Norteño-Sax.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_knbXnh1BOGjUsvrnebEGqBonLCKJ7ZDoo',
+    price: '$50',
+    coverImg: 'rieleros.jpg',
+    category: 'Norteño',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://rielerosdelnorte.com/',
+    youtube: 'https://www.youtube.com/channel/UCiqvumKhL3fgJRw7chlebYA',
+    facebook: 'https://www.facebook.com/RielerosDelNorte',
+    instagram: 'https://www.instagram.com/losrielerosdelnorte/',
+    twitter: 'https://twitter.com/losrieleros',
+    spotify:
+      'https://open.spotify.com/artist/59xlizZFIFUvLC0I8iV2Jv?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/320162',
+    apple: 'https://music.apple.com/mx/artist/los-rieleros-del-norte/65434848',
+    soundcloud: 'https://soundcloud.com/los-rieleros-del-norte',
+    tidal: 'https://listen.tidal.com/artist/3642157',
+    wiki: 'https://en.wikipedia.org/wiki/Los_Rieleros_del_Norte',
+    ticketmaster:
+      'https://www.ticketmaster.com/los-rieleros-del-norte-tickets/artist/763565',
+    tiktok: 'https://www.tiktok.com/@losrielerosdelnorte?lang=es',
+    napster:
+      'https://music.amazon.com.mx/artists/B000QKPGJE/los-rieleros-del-norte',
   },
 
   {

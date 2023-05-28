@@ -35,7 +35,7 @@ function Norteño() {
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Conjuntos Norteños de la Region</h1>
+      <h1 className="title2">Conjuntos Norteños Mexicanos</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
 
       <ButtonTreeCategories />

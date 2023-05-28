@@ -349,6 +349,36 @@ const CardData25 = [
     tiktok: 'https://www.tiktok.com/@sadeaduwife',
   },
   {
+    title: 'Selena',
+    description:
+      'Selena Quintanilla Pérez (Lake Jackson, Texas, 16 de abril de 1971-Corpus Christi, Texas, 31 de marzo de 1995), conocida monónimamente como Selena, fue una cantante estadounidense. Llamada la «Reina de la música tejana», sus contribuciones a la música y la moda la convirtieron en una de las artistas mexicanoestadounidenses más célebres de finales del siglo xx. En 2020, la revista Billboard la colocó en el tercer lugar de su lista de «Mejores artistas latinos de todos los tiempos», basado en la lista de álbumes latinos y canciones latinas.3​ Los medios de comunicación la llamaron la «Madonna tejana» por sus elecciones de ropa.A​ También se encuentra entre las artistas latinas más influyentes de todos los tiempos y se le atribuye haber catapultado el género tejano al mercado principal..',
+
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nZ2PDxHpWHOslsCoBGMvmh9mmRB8ZHCZo',
+    price: '$50',
+    coverImg: 'selena.jpg',
+    category: 'Regional',
+    location: 'UK',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://selena-official.com/',
+    youtube: 'https://www.youtube.com/@SelenaQOfficial',
+    facebook: 'https://www.facebook.com/selenalaleyenda',
+    instagram: 'https://www.instagram.com/selenaqofficial/',
+    twitter: 'https://twitter.com/SelenaLaLeyenda',
+    spotify: 'https://open.spotify.com/artist/6IE6z7DcZIT4Ml3Fh5Ivch',
+    deezer: 'https://www.deezer.com/mx/artist/5644',
+    apple: 'https://music.apple.com/mx/artist/selena/574870',
+    soundcloud: 'https://soundcloud.com/selenaquintanillanewsongs',
+    tidal: 'https://listen.tidal.com/artist/9541',
+    wiki: 'https://es.wikipedia.org/wiki/Selena',
+    ticketmaster:
+      'https://www.ticketmaster.com/almost-selena-tickets/artist/2622145',
+    napster: 'https://music.amazon.com.mx/artists/B000RHRQTY/selena',
+    tiktok: 'https://www.tiktok.com/@selenalaleyenda',
+  },
+  {
     title: 'Rocio Durcal',
     description:
       'María de los Ángeles de las Heras Ortiz, conocida por su nombre artístico Rocío Dúrcal, fue una actriz y cantante española. Dúrcal es considerada como la «reina de las rancheras» y es una de las mujeres de habla hispana con más ventas en la industria. En 2005, un año antes de su muerte, recibió el Grammy Latino a la excelencia musical.',
@@ -525,35 +555,7 @@ const CardData25 = [
     tiktok: 'https://www.tiktok.com/@thalia?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000QKKI2E/paulina-rubio',
   },
-  {
-    title: 'Belinda',
-    description:
-      'Belinda Peregrín Schüll (Madrid; 15 de agosto de 1989​), conocida monónimamente como Belinda, es una cantante y actriz hispanomexicana.Inició su carrera como actriz infantil cuando tenía apenas diez años de edad. En 2002, firmó con BMG y dos años más tarde lanzó su álbum debut, Belinda. Durante su primera década en la industria pop mexicana, Belinda se convirtió en una figura prominente de la música pop latina y de la cultura popular, con una vida personal muy publicitada, lo que la llevó a ser considerada «la princesa del pop latino».Canciones como «Boba niña nice» y «Ángel» se convirtieron en éxitos internacionales. En esta época colaboró con el grupo Moderatto para el tema «Muriendo lento». ',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_mdDHjusH-QjBJqHRXdDPiOwwiCVlkPKXs',
-    price: 50,
-    coverImg: 'belinda.jpg',
-    category: 'Pop',
-    location: 'España',
-    locationImg: 'spain.jpeg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://belinda.com/',
-    youtube: 'https://www.youtube.com/channel/UCUi-2UQydc8Ws5NgsnwkhFQ',
-    facebook: 'https://www.facebook.com/belindapop',
-    instagram: 'https://www.instagram.com/belindapop/',
-    twitter: 'https://twitter.com/belindapop',
-    spotify: 'https://open.spotify.com/artist/5LeiVcEnsZcwc133TUhJNW',
-    deezer: 'https://www.deezer.com/mx/artist/6329',
-    apple: 'https://music.apple.com/mx/artist/belinda/6489626',
-    soundcloud: 'https://soundcloud.com/belinda-official',
-    tidal: 'https://listen.tidal.com/artist/56270',
-    wiki: 'https://es.wikipedia.org/wiki/Belinda_(cantante)',
-    ticketmaster:
-      'https://www.ticketmaster.com.mx/belinda-tickets/artist/1170935',
-    tiktok: 'https://www.tiktok.com/@belindatok?lang=es',
-    napster: 'https://music.amazon.com.mx/artists/B000T17X9Q/belinda',
-  },
+
   {
     title: 'Angela Aguilar',
     description:
