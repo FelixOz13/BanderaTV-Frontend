@@ -33,7 +33,7 @@ import Mexicanas from './components/Mexicanas'
 import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
-import AdsComponent from './adsense/AdsComponent'
+
 import {
   BrowserRouter as Router,
   Routes,

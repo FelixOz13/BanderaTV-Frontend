@@ -66,12 +66,24 @@
  }
 
  .sharebutton {
-   font-size: 25px;
-   color: #dc9e02;
-   background-color: black;
-   position: absolute;
- }
-
+  display:flex;
+  flex-direction: row;
+   
+   }
+.sharebutton2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  color: limegreen;
+  margin: 15px;
+}
+.sharebutton1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  color: #dc9e02;
+  margin: 15px;
+}
  .headertext {
    color: #f4c44b;
 
@@ -690,7 +702,7 @@
  }
 
 
-
+.sharebutton
 
 
 

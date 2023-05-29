@@ -28,6 +28,7 @@ const CardData6 = [
       'https://www.ticketmaster.com/tribute-to-the-beatles-tickets/artist/2281760',
     tiktok: 'https://www.tiktok.com/@thebeatles?lang=es',
     napster: 'https://mx.napster.com/search?query=tHE%20BEATLES',
+    cardUrl: '/music-group/the-beatles',
   },
   {
     title: 'Led Zeppelin',
