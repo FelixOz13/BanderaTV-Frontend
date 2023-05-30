@@ -45,7 +45,8 @@ function Card({ item }) {
         const blob = await response.blob()
 
         const shareContent = {
-          title: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${shareUrl}`,
+          title: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
+          text: shareUrl,
           files: [new File([blob], 'image.jpg', { type: blob.type })],
         }
 
