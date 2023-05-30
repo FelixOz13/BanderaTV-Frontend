@@ -37,21 +37,26 @@ function Card({ item }) {
   const location = useLocation()
   const shareUrl = `${window.location.origin}${location.pathname}`
 
-  const handleShare = () => {
-    if (navigator.share) {
+  const handleShare = async () => {
+    if (navigator.canShare && navigator.canShare({ files: [item.coverImg] })) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
-      const shareContent = {
+      const response = await fetch(imageUrl)
+      const blob = await response.blob()
+
+      const filesArray = [new File([blob], item.coverImg, { type: blob.type })]
+
+      const shareData = {
+        files: filesArray,
         title: document.title,
-        text: `Check out this link!\n${imageUrl}\n${item.videourl}\nYour personalized message here`,
-        url: shareUrl,
+        text: 'Te Invitamos a conocer Bandera Musical!',
       }
 
       navigator
-        .share(shareContent)
+        .share(shareData)
         .then(() => console.log('Share successful'))
         .catch((error) => console.error('Error sharing:', error))
     } else {
-      console.warn('Web Share API not supported')
+      console.warn('Sharing files not supported')
     }
   }
 
