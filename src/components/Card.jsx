@@ -43,7 +43,7 @@ function Card({ item }) {
       const imageUrl = `${item.coverImg}`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a conocer Bandera Musical!\n${shareUrl}`,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${shareUrl}`,
         files: [imageUrl],
       }
 
