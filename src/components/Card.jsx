@@ -43,7 +43,8 @@ function Card({ item }) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageUrl}`,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical!`,
+        url: imageUrl,
       }
 
       navigator
