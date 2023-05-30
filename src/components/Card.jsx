@@ -42,7 +42,7 @@ function Card({ item }) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a conocer Bandera Musical!\n${imageUrl}\n`,
+        text: `Check out this link!\n${imageUrl}\n${item.videourl}\nYour personalized message here`,
         url: shareUrl,
       }
 
