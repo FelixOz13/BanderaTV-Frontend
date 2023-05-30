@@ -37,16 +37,12 @@ function Card({ item }) {
   const location = useLocation()
   const shareUrl = `${window.location.origin}`
 
-  const handleShare = async () => {
+  const handleShare = () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
-      const response = await fetch(imageUrl)
-      const blob = await response.blob()
-
       const shareContent = {
-        files: [new File([blob], 'image.jpg', { type: blob.type })],
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageUrl}`,
       }
 
       navigator
