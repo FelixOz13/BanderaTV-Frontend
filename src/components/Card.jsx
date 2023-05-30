@@ -42,7 +42,7 @@ function Card({ item }) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de\n${item.title}\n${imageUrl}\n con Bandera Musical`,
+        text: `Te Invitamos a conocer Bandera Musical!\n${imageUrl}\n`,
         url: shareUrl,
       }
 
@@ -54,7 +54,6 @@ function Card({ item }) {
       console.warn('Web Share API not supported')
     }
   }
-
   return (
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
