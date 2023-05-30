@@ -43,7 +43,7 @@ function Card({ item }) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a conocer Bandera Musical!\n${shareUrl}\n`,
+        text: `Te Invitamos a conocer Bandera Musical!\n${shareUrl}`,
         files: [imageUrl],
       }
 
