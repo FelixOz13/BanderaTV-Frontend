@@ -36,34 +36,37 @@ function Card({ item }) {
   }
 
   const shareUrl = `${window.location.origin}`
-  const imageUrl = `${window.location.origin}/images/${item.coverImg}`
 
-  fetch(imageUrl)
-    .then((response) => response.blob())
-    .then((blob) => {
-      const reader = new FileReader()
-      reader.onloadend = () => {
-        const imageDataUrl = reader.result
-        const shareContent = {
-          title: document.title,
-          text: `Te invitamos a disfrutar de ${item.title} con Bandera Musical`,
-          url: shareUrl,
+  const handleShare = () => {
+    const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+
+    fetch(imageUrl)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const reader = new FileReader()
+        reader.onloadend = () => {
+          const imageDataUrl = reader.result
+          const shareContent = {
+            title: document.title,
+            text: `Te invitamos a disfrutar de ${item.title} con Bandera Musical`,
+            url: shareUrl,
+          }
+
+          if (navigator.share && navigator.canShare({ files: [blob] })) {
+            shareContent.files = [blob]
+          } else {
+            shareContent.text += ` Imagen: ${imageDataUrl}`
+          }
+
+          navigator
+            .share(shareContent)
+            .then(() => console.log('Share successful'))
+            .catch((error) => console.error('Error sharing:', error))
         }
-
-        if (navigator.canShare && navigator.canShare({ files: [blob] })) {
-          shareContent.files = [blob]
-        } else {
-          shareContent.text += ` Imagen: ${imageDataUrl}`
-        }
-
-        navigator
-          .share(shareContent)
-          .then(() => console.log('Share successful'))
-          .catch((error) => console.error('Error sharing:', error))
-      }
-      reader.readAsDataURL(blob)
-    })
-    .catch((error) => console.error('Error fetching image:', error))
+        reader.readAsDataURL(blob)
+      })
+      .catch((error) => console.error('Error fetching image:', error))
+  }
 
   return (
     <div className="card">
