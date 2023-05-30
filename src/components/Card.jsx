@@ -35,6 +35,9 @@ function Card({ item }) {
     badgeText = 'Boletos Disponibles'
   }
 
+  const location = useLocation()
+  const shareUrl = `${window.location.origin}`
+
   const handleShare = () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
@@ -97,9 +100,16 @@ function Card({ item }) {
 
         <a
           className="sharebutton2"
-          href={`whatsapp://send?text=${encodeURIComponent(
-            `${window.location.origin}${currentLocation.pathname}`,
-          )}`}
+          href="#"
+          onClick={(e) => {
+            e.preventDefault()
+            handleShare()
+            window.open(
+              `whatsapp://send?text=${encodeURIComponent(
+                `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageUrl}\n${window.location.origin}${currentLocation.pathname}`,
+              )}`,
+            )
+          }}
         >
           <FaWhatsapp />
         </a>
