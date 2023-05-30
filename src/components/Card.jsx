@@ -44,7 +44,7 @@ function Card({ item }) {
       const shareContent = {
         title: document.title,
         text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical!`,
-        url: imageUrl,
+        files: [imageUrl],
       }
 
       navigator
