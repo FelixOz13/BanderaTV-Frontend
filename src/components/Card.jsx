@@ -42,7 +42,7 @@ function Card({ item }) {
       const imageTag = `<img src="${imageUrl}" alt="${item.title}" />`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageTag}`,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n`,
         url: shareUrl,
       }
 
