@@ -36,24 +36,34 @@ function Card({ item }) {
   }
 
   const shareUrl = `${window.location.origin}`
+  const imageUrl = `${window.location.origin}/images/${item.coverImg}`
 
-  const handleShare = () => {
-    if (navigator.share) {
-      const imageUrl = `${window.location.origin}/images/${item.coverImg}`
-      const shareContent = {
-        title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title}/n con Bandera Musical\n${imageUrl}`,
-        url: shareUrl,
+  fetch(imageUrl)
+    .then((response) => response.blob())
+    .then((blob) => {
+      const reader = new FileReader()
+      reader.onloadend = () => {
+        const imageDataUrl = reader.result
+        const shareContent = {
+          title: document.title,
+          text: `Te invitamos a disfrutar de ${item.title} con Bandera Musical`,
+          url: shareUrl,
+        }
+
+        if (navigator.canShare && navigator.canShare({ files: [blob] })) {
+          shareContent.files = [blob]
+        } else {
+          shareContent.text += ` Imagen: ${imageDataUrl}`
+        }
+
+        navigator
+          .share(shareContent)
+          .then(() => console.log('Share successful'))
+          .catch((error) => console.error('Error sharing:', error))
       }
-
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch((error) => console.error('Error sharing:', error))
-    } else {
-      console.warn('Web Share API not supported')
-    }
-  }
+      reader.readAsDataURL(blob)
+    })
+    .catch((error) => console.error('Error fetching image:', error))
 
   return (
     <div className="card">
