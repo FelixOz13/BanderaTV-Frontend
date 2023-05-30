@@ -39,9 +39,10 @@ function Card({ item }) {
   const handleShare = () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+      const imageTag = `<img src="${imageUrl}" alt="${item.title}" />`
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de \n{item.title}\n${imageUrl}\n con Bandera Musical`,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageTag}`,
         url: shareUrl,
       }
 
