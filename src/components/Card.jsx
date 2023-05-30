@@ -42,7 +42,7 @@ function Card({ item }) {
       navigator
         .share({
           title: document.title,
-          text: 'Check out this link!',
+          text: `Te invitamos a Bandera Musical!\n${item.coverImg}\n${item.videourl}\n`,
           url: shareUrl,
         })
         .then(() => console.log('Share successful'))
