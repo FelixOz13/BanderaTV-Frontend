@@ -40,9 +40,10 @@ function Card({ item }) {
   const handleShare = () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+      const imageName = item.coverImg.split('/').pop() // Extract the image file name
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a conocer Bandera Musical!`,
+        text: `Te Invitamos a conocer Bandera Musical!\n${imageName}\n`,
         url: shareUrl,
       }
 
