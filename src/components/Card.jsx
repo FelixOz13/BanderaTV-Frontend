@@ -37,13 +37,17 @@ function Card({ item }) {
   const location = useLocation()
   const shareUrl = `${window.location.origin}`
 
-  const handleShare = () => {
+  const handleShare = async () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+      const response = await fetch(imageUrl)
+      const blob = await response.blob()
+      const file = new File([blob], 'image.jpg', { type: blob.type })
+
       const shareContent = {
+        files: [file],
         title: document.title,
-        text: `Te Invitamos a conocer Bandera Musical!\n${imageUrl}\n`,
-        url: shareUrl,
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
       }
 
       navigator
@@ -54,6 +58,7 @@ function Card({ item }) {
       console.warn('Web Share API not supported')
     }
   }
+
   return (
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
