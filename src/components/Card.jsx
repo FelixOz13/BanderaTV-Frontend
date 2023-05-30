@@ -39,12 +39,15 @@ function Card({ item }) {
 
   const handleShare = () => {
     if (navigator.share) {
+      const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+      const shareContent = {
+        title: document.title,
+        text: `Te Invitamos a conocer Bandera Musical!\n${imageUrl}\n`,
+        url: shareUrl,
+      }
+
       navigator
-        .share({
-          title: document.title,
-          text: `Te invitamos a Bandera Musical!\n${item.coverImg}\n${item.videourl}\n`,
-          url: shareUrl,
-        })
+        .share(shareContent)
         .then(() => console.log('Share successful'))
         .catch((error) => console.error('Error sharing:', error))
     } else {
