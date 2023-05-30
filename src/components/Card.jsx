@@ -106,7 +106,7 @@ function Card({ item }) {
             handleShare()
             window.open(
               `whatsapp://send?text=${encodeURIComponent(
-                `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${imageUrl}\n${window.location.origin}${currentLocation.pathname}`,
+                `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${item.coverImg}\n${window.location.origin}${currentLocation.pathname}`,
               )}`,
             )
           }}
