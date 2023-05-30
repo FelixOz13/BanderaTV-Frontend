@@ -35,13 +35,15 @@ function Card({ item }) {
     badgeText = 'Boletos Disponibles'
   }
   const location = useLocation()
-  const shareUrl = `${window.location.origin}${location.pathname}`
+  const shareUrl = `${window.location.origin}`
 
   const handleShare = () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
       const shareContent = {
-        text: `Te Invitamos a disfrutar de\n${item.title}\n${imageUrl}\n Bandera Musical`,
+        title: document.title,
+        text: `Te Invitamos a conocer Bandera Musical!\n${imageUrl}\n`,
+        url: shareUrl,
       }
 
       navigator
