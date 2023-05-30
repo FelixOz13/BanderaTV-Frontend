@@ -1,16 +1,10 @@
-import Flipbox from "./Flipbox"
+import Flipbox from './Flipbox'
 
 function Navbar() {
-  
   return (
     <div>
-    <Flipbox/>
-      </div>
-     
-     
-     
-     
-    
+      <Flipbox />
+    </div>
   )
 }
 

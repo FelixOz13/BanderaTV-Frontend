@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ShareDialog from './shareDialog'
 
 function Flipbox() {
   return (
@@ -30,6 +31,7 @@ function Flipbox() {
             </div>
           </div>
         </div>
+        <ShareDialog />
       </div>
     </div>
   )

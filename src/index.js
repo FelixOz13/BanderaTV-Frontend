@@ -33,6 +33,7 @@ import Mexicanas from './components/Mexicanas'
 import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
+import ShareDialog from './components/shareDialog'
 
 import {
   BrowserRouter as Router,
