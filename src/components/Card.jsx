@@ -100,16 +100,9 @@ function Card({ item }) {
 
         <a
           className="sharebutton2"
-          href="#"
-          onClick={(e) => {
-            e.preventDefault()
-            handleShare()
-            window.open(
-              `whatsapp://send?text=${encodeURIComponent(
-                `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${item.coverImg}\n${window.location.origin}${currentLocation.pathname}`,
-              )}`,
-            )
-          }}
+          href={`whatsapp://send?text=${encodeURIComponent(
+            `${window.location.origin}${currentLocation.pathname}`,
+          )}`}
         >
           <FaWhatsapp />
         </a>
