@@ -36,20 +36,28 @@ function Card({ item }) {
   }
 
   const shareUrl = `${window.location.origin}`
-  const handleShare = () => {
+  const handleShare = async () => {
     if (navigator.share) {
       const imageUrl = `${window.location.origin}/images/${item.coverImg}`
-      const shareContent = {
-        title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
-        url: shareUrl,
-        files: [imageUrl],
-      }
 
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch((error) => console.error('Error sharing:', error))
+      try {
+        const response = await fetch(imageUrl)
+        const blob = await response.blob()
+
+        const shareContent = {
+          title: document.title,
+          text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
+          url: shareUrl,
+          files: [new File([blob], 'image.jpg', { type: blob.type })],
+        }
+
+        navigator
+          .share(shareContent)
+          .then(() => console.log('Share successful'))
+          .catch((error) => console.error('Error sharing:', error))
+      } catch (error) {
+        console.error('Error fetching image:', error)
+      }
     } else {
       console.warn('Web Share API not supported')
     }
