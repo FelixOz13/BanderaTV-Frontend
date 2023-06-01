@@ -565,6 +565,36 @@ const CardData9 = [
       'https://music.amazon.com.mx/artists/B0065CKKD4/grupo-ca%C3%B1averal-de-humberto-pab%C3%B3n',
   },
   {
+    title: 'Alberto Pedraza',
+    description:
+      ' En los años 50 el padre de Pedraza participó con su banda de viento en la película La oveja negra de 1949.Pedraza nació en San Juan de Aragón, colonia de la Ciudad de México donde han surgido artistas de la cumbia mexicana sonidera como el Super Grupo Colombia, mismo que fundó junto a su hermano Aarón e integró durante 24 años y donde compuso algunos de los éxitos de la agrupación como «La cumbia gabacha».En 2001 Pedraza decidió separarse del grupo para iniciar una carrera solista, grabando un primer disco en ese mismo año. Al año siguiente grabaría su más grande éxito «La guaracha sabrosona» en el disco De reventón. Sus canciones se han convertido en éxitos por sonidos como Sonido La Changa, Sonido Marisol y Sonido Conga.​En 2021 grabó un disco por los 50 años de carrera, mismo en el que grabó canciones con Alfredo Gutiérrez, Dr. Shenka de Panteón Rococó, Santa Fe Klan y María Barracuda, entre otros artistas.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_l8NqkjKCDLP7da7bubuuqPal-kCAruRxo',
+    price: 36,
+    coverImg: 'albertopedraza.jpg',
+    category: 'Tropical',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.grupocanaveral.com.mx/',
+    youtube: 'https://www.youtube.com/channel/UCIL91Rm-3nPLqwK65d51yIw',
+    facebook: 'https://www.facebook.com/AlbertoPedrazaOficial/',
+    instagram: 'https://www.instagram.com/albertopedrazaoficial/',
+    twitter: 'https://twitter.com/albertopedraza_',
+    spotify:
+      'https://open.spotify.com/artist/3TQh6LXI9ADgyZJTT19TeR?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/464881?autoplay=true',
+    apple: 'https://music.apple.com/mx/artist/alberto-pedraza/128905456',
+    soundcloud: 'https://soundcloud.com/albertopedraza',
+    tidal: 'https://listen.tidal.com/artist/3888511',
+    wiki: 'https://es.wikipedia.org/wiki/Alberto_Pedraza',
+    ticketmaster:
+      'https://www.ticketmaster.com/alberto-pedraza-tickets/artist/2337367',
+    tiktok: 'https://www.tiktok.com/@albertopedrazaoficial',
+    napster: 'https://music.amazon.com.mx/artists/B000RW4JNA/alberto-pedraza',
+  },
+  {
     title: 'Rayito Colombiano',
     description:
       ' Rayito Colombiano es una agrupación originaria de la Delegación de Iztapalapa, Ciudad de México, fundada en 1996 con un concepto musical que se perfiló por sí solo gracias a la magistral combinación de la sensibilidad mexicana con el folklore colombiano..',
