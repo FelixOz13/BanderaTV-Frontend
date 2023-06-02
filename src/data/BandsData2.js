@@ -123,8 +123,7 @@ const BandsData2 = [
     title: 'Luis Enrique',
     description:
       'Nació en Somoto, el 28 de septiembre de 1962. Proveniente de una familia de artistas musicales, hijo de Francisco Luis Mejía Godoy y sobrino de los cantautores nicaragüenses Luis Enrique Mejía Godoy y Carlos Mejía Godoy.Es conocido por su estilo de salsa romántica, Luis Enrique, ha ganado varios discos de oro y platino, tres (3) Grammy Latino, un (1) Grammy americano, cuatro Latin Billboards, tres premios Lo Nuestro, dos premios Ronda y también los premios Huaco, TV y Novelas, Aplausos, ACE y ASCAP.Debido a la compleja situación política en aquella época migra de Nicaragua hacia Estados Unidos junto a su hermano, en el año 1978, instalándose en Los Ángeles. Es ahí, donde inspirado por la música del Jazz y el Rhythm and Blues americano, fue agregando nuevos sonidos a sus composiciones...',
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_n4UIq0GiahYAyhVTdm5ja-JxZB_SnVF1M',
+    videourl: 'https://youtube.com/playlist?list=UULFtmkh9bWdLndBXNoRXqFy8A',
     price: 50,
     coverImg: 'luisenrique.jpg',
     category: 'Salsa',
@@ -183,7 +182,7 @@ const BandsData2 = [
     description:
       'Alberto Barros, conocido como “El Titán de la Salsa”, es uno de los artistas más representativos de la música colombiana a nivel internacional. Tiene una amplia trayectoria como productor musical, compositor, arreglista, trombonista y cantante. Nació el 30 de noviembre en Barranquilla, Colombia...',
     videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_nasHj9r9_2GOLMBGdtPSbh5MU-5wmeVWc',
+      'https://youtube.com/playlist?list=OLAK5uy_mtYbphlI3F8C0Ro2JBwjehzOJKQ85oXFM',
     price: 50,
     coverImg: 'albertobarros.jpg',
     category: 'Salsa',
