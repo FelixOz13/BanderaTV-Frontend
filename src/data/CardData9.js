@@ -577,7 +577,8 @@ const CardData9 = [
     locationImg: 'mexiflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://www.grupocanaveral.com.mx/',
+    websiteurl:
+      'https://www.auditorio.com.mx/cartelera/2024/marzo/alberto-pedraza.html',
     youtube: 'https://www.youtube.com/channel/UCIL91Rm-3nPLqwK65d51yIw',
     facebook: 'https://www.facebook.com/AlbertoPedrazaOficial/',
     instagram: 'https://www.instagram.com/albertopedrazaoficial/',
