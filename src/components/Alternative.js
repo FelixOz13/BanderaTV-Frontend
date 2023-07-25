@@ -1,6 +1,5 @@
 import Navbar from './Navbar'
 import { useState } from 'react'
-import SponsorContainer from './SponsorContainer'
 import CardData10 from '../data/CardData10'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
@@ -32,6 +31,7 @@ function Alternative() {
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
+
   return (
     <div>
       <Navbar />
@@ -53,7 +53,6 @@ function Alternative() {
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <section className="cards-list">{cards}</section>
-      <SponsorContainer />
     </div>
   )
 }
