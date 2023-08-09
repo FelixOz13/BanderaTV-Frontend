@@ -1,36 +1,4 @@
 const CardData2 = [
-  
-  {
-    title: 'Alex Fernandez',
-    description:
-      'Saltó a la fama en las redes sociales como hijo del reconocido cantante mexicano Alejandro Fernández. Ha heredado un seguimiento de Instagram de más de 650.000 fanáticos de miembros famosos de su familia. También es cantante y ha grabado dos discos. Nacido el 4 de noviembre de 1993, Alex Fernández Jr. es oriundo de México. Al igual que en 2022, la edad de Alex Fernández Jr. es de 29 años. Consulte a continuación para obtener más detalles sobre Alex Fernández Jr.. Esta página arrojará luz sobre la biografía, wiki, edad, cumpleaños, detalles familiares, aventuras, controversias, casta, altura, peso, rumores y hechos menos conocidos de Alex Fernández Jr. , y más.',
-    videourl:
-      'https://youtube.com/playlist?list=PLutFSHdaf1CL5TLFaNFDiAuYjsUoOlTKV',
-    price: 50,
-    coverImg: 'alexfernandez.jpg',
-    category: 'Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl:
-      'https://www.seitrack.mx/alexfernandez?fbclid=IwAR0gfNb2bj5mfqgc1tcd88sERPHwgp5OY5qkOxjeBh8NuqCA74x8LkIGqBI',
-    youtube: 'https://www.youtube.com/channel/UC5-ZtcsyTQNjrsR_9yRCZJg',
-    facebook: 'https://www.facebook.com/AlexFdezMusica/',
-    instagram: 'https://www.instagram.com/alexfernandez.g/',
-    twitter: 'https://twitter.com/AlexFdezMusica',
-    spotify: 'https://open.spotify.com/artist/4Xwvz864z2uP3bwPcjKJjC',
-    deezer: 'https://www.deezer.com/mx/artist/9896010',
-    apple: 'https://music.apple.com/mx/artist/alex-fern%C3%A1ndez/1453744801',
-    soundcloud: 'https://soundcloud.com/alexfernandez-music',
-    tidal: 'https://listen.tidal.com/artist/7622411',
-    wiki: 'https://celebs.filmifeed.com/wiki/alex-fernandez-jr/',
-    ticketmaster:
-      'https://www.ticketmaster.com/alex-fernandez-tickets/artist/2729965',
-    tiktok: 'https://www.tiktok.com/@alexfernandez.g?lang=es',
-    napster: 'https://us.napster.com/artist/alex-fernandez-2',
-  },
-
   {
     title: 'Gloria Trevi',
     description:
@@ -60,65 +28,7 @@ const CardData2 = [
     tiktok: 'https://www.tiktok.com/@gloriatrevioficial',
     napster: 'https://music.amazon.com.mx/artists/B00130DI78/gloria-trevi',
   },
-  {
-    title: 'Grupo Bronco',
-    description:
-      'Bronco es una agrupación de música regional mexicana especializada en el estilo grupero y famosa por sus baladas, cumbias, rancheras y huapangos. Sus miembros son originarios de Apodaca, Nuevo León. El grupo ha lanzado hasta la actualidad más de 20 álbumes..',
 
-    videourl: 'https://youtube.com/playlist?list=UUmXveBEdi2vv42Qs3sQYkow',
-    price: '$50',
-    coverImg: 'bronco.jpeg',
-    category: 'Grupo Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://broncoesbronco.com/',
-    youtube: 'https://www.youtube.com/channel/UCmXveBEdi2vv42Qs3sQYkow',
-    facebook: 'https://www.facebook.com/grupobronco/',
-    instagram: 'https://www.instagram.com/grupobronco/',
-    twitter: 'https://twitter.com/Grupo_Bronco',
-    spotify: 'https://open.spotify.com/user/31sb73idiytc2hl5vscywdaff4ue',
-    deezer: 'https://www.deezer.com/mx/artist/269769',
-    apple: 'https://music.apple.com/mx/artist/bronco/74585929',
-    soundcloud: 'https://soundcloud.com/bronco-official',
-    tidal: 'https://listen.tidal.com/artist/3617245',
-    wiki: 'https://es.wikipedia.org/wiki/Bronco_(banda)',
-    ticketmaster: 'https://www.ticketmaster.com/bronco-tickets/artist/743616',
-    tiktok: 'https://www.tiktok.com/@grupobronco',
-    napster: 'https://web.napster.com/artist/bronco',
-  },
-  {
-    title: 'Pedro Infante',
-    description:
-      'Pedro Infante Cruz (Mazatlán, Sinaloa, 18 de noviembre de 1917-Mérida, Yucatán, 15 de abril de 1957) fue un actor y cantante mexicano. Es considerado como uno de los actores más recordados del cine en México.Por su actuación en la película Tizoc (1956), fue ganador de un Oso de Plata​ del Festival Internacional de Cine de Berlín en la categoría a «mejor actor principal», y también obtuvo un premio Globo de Oro​ por mejor película extranjera, el cual se le fue otorgado por la prensa extranjera acreditada en Hollywood..',
-
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlVODBGJurCWQdYWZ7VH_Nhd',
-    price: '$50',
-    coverImg: 'pedroinfante.jpg',
-    category: 'Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl:
-      'https://www.biografiasyvidas.com/biografia/i/infante_pedro.htm#:~:text=Pedro%20Infante%20%28Mazatl%C3%A1n%2C%20Sinaloa%2C%201917%20-%20M%C3%A9rida%2C%20Yucat%C3%A1n%2C,musical%20que%20actuaba%20en%20la%20localidad%20de%20Guasave.',
-    youtube: 'https://www.youtube.com/channel/UCCZRmXAChQJF1P6xsX28TTQ',
-    facebook: 'https://www.facebook.com/profile.php?id=100052259945722',
-    instagram: 'https://www.instagram.com/pedro_infante_official/',
-    twitter: 'https://twitter.com/Pedro_Infante1',
-    spotify: 'https://open.spotify.com/artist/7y33enVLfDvft6HGNmcxdV',
-    deezer: 'https://www.deezer.com/mx/artist/264106',
-    apple: 'https://music.apple.com/mx/artist/pedro-infante/2137889',
-    soundcloud: 'https://soundcloud.com/pedro-infante-official',
-    tidal: 'https://listen.tidal.com/artist/13256',
-    wiki: 'https://es.wikipedia.org/wiki/Pedro_Infante',
-    ticketmaster:
-      'https://www.noroeste.com.mx/entretenimiento/espectaculos/llenaran-de-tributos-a-pedro-infante-PVNO1078632',
-    napster: 'https://web.napster.com/artist/pedro-infante',
-    tiktok: 'https://www.tiktok.com/@pedroinfanteidolo',
-  },
   {
     title: 'Jorge Negrete',
     description:
@@ -304,35 +214,7 @@ const CardData2 = [
     tiktok: 'https://www.tiktok.com/@triolospanchosoficial',
     napster: 'https://web.napster.com/artist/trio-los-panchos',
   },
- 
-  {
-    title: 'Grupo Bronco',
-    description:
-      'Bronco es una agrupación de música regional mexicana especializada en el estilo grupero y famosa por sus baladas, cumbias, rancheras y huapangos. Sus miembros son originarios de Apodaca, Nuevo León. El grupo ha lanzado hasta la actualidad más de 20 álbumes..',
 
-    videourl: 'https://youtube.com/playlist?list=UUmXveBEdi2vv42Qs3sQYkow',
-    price: '$50',
-    coverImg: 'bronco.jpeg',
-    category: 'Grupo Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://broncoesbronco.com/',
-    youtube: 'https://www.youtube.com/channel/UCmXveBEdi2vv42Qs3sQYkow',
-    facebook: 'https://www.facebook.com/grupobronco/',
-    instagram: 'https://www.instagram.com/grupobronco/',
-    twitter: 'https://twitter.com/Grupo_Bronco',
-    spotify: 'https://open.spotify.com/user/31sb73idiytc2hl5vscywdaff4ue',
-    deezer: 'https://www.deezer.com/mx/artist/269769',
-    apple: 'https://music.apple.com/mx/artist/bronco/74585929',
-    soundcloud: 'https://soundcloud.com/bronco-official',
-    tidal: 'https://listen.tidal.com/artist/3617245',
-    wiki: 'https://es.wikipedia.org/wiki/Bronco_(banda)',
-    ticketmaster: 'https://www.ticketmaster.com/bronco-tickets/artist/743616',
-    tiktok: 'https://www.tiktok.com/@grupobronco',
-    napster: 'https://web.napster.com/artist/bronco',
-  },
   {
     title: 'Marco Antonio Solis',
     description:
@@ -484,36 +366,6 @@ const CardData2 = [
     tiktok: 'https://www.tiktok.com/@musica.mexicana_',
     napster: 'https://us.napster.com/blog/post/latino-collabs-en',
   },
-  {
-    title: 'Alex Fernandez',
-    description:
-      'Saltó a la fama en las redes sociales como hijo del reconocido cantante mexicano Alejandro Fernández. Ha heredado un seguimiento de Instagram de más de 650.000 fanáticos de miembros famosos de su familia. También es cantante y ha grabado dos discos. Nacido el 4 de noviembre de 1993, Alex Fernández Jr. es oriundo de México. Al igual que en 2022, la edad de Alex Fernández Jr. es de 29 años. Consulte a continuación para obtener más detalles sobre Alex Fernández Jr.. Esta página arrojará luz sobre la biografía, wiki, edad, cumpleaños, detalles familiares, aventuras, controversias, casta, altura, peso, rumores y hechos menos conocidos de Alex Fernández Jr. , y más.',
-    videourl:
-      'https://youtube.com/playlist?list=PLutFSHdaf1CL5TLFaNFDiAuYjsUoOlTKV',
-    price: 50,
-    coverImg: 'alexfernandez.jpg',
-    category: 'Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl:
-      'https://www.seitrack.mx/alexfernandez?fbclid=IwAR0gfNb2bj5mfqgc1tcd88sERPHwgp5OY5qkOxjeBh8NuqCA74x8LkIGqBI',
-    youtube: 'https://www.youtube.com/channel/UC5-ZtcsyTQNjrsR_9yRCZJg',
-    facebook: 'https://www.facebook.com/AlexFdezMusica/',
-    instagram: 'https://www.instagram.com/alexfernandez.g/',
-    twitter: 'https://twitter.com/AlexFdezMusica',
-    spotify: 'https://open.spotify.com/artist/4Xwvz864z2uP3bwPcjKJjC',
-    deezer: 'https://www.deezer.com/mx/artist/9896010',
-    apple: 'https://music.apple.com/mx/artist/alex-fern%C3%A1ndez/1453744801',
-    soundcloud: 'https://soundcloud.com/alexfernandez-music',
-    tidal: 'https://listen.tidal.com/artist/7622411',
-    wiki: 'https://celebs.filmifeed.com/wiki/alex-fernandez-jr/',
-    ticketmaster:
-      'https://www.ticketmaster.com/alex-fernandez-tickets/artist/2729965',
-    tiktok: 'https://www.tiktok.com/@alexfernandez.g?lang=es',
-    napster: 'https://us.napster.com/artist/alex-fernandez-2',
-  },
 
   {
     title: 'Grupo Bronco',
@@ -574,35 +426,7 @@ const CardData2 = [
     napster: 'https://web.napster.com/artist/pedro-infante',
     tiktok: 'https://www.tiktok.com/@pedroinfanteidolo',
   },
-  {
-    title: 'Jorge Negrete',
-    description:
-      'Jorge Alberto Negrete Moreno (Guanajuato, 30 de noviembre de 1911-Los Ángeles, California, 5 de diciembre de 1953), conocido como El Charro Cantor, fue un actor y cantante mexicano. Fundó el Sindicato de Trabajadores de la Producción Cinematográfica de la República Mexicana1​ y reorganizó, junto con un grupo selecto de actores, la Asociación Nacional de Actores.',
 
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlVngSBUUO1Yyb7E9KNPUvjl',
-    price: '$50',
-    coverImg: 'jorgenegrete2.jpg',
-    category: 'Regional',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: '.',
-    youtube: 'https://www.youtube.com/c/jorgenegretefans',
-    facebook: 'https://www.facebook.com/profile.php?id=100059758101482',
-    instagram: 'https://www.instagram.com/jorgenegreteforever/',
-    twitter: 'https://twitter.com/DonJorgeNegrete',
-    spotify: 'https://open.spotify.com/artist/4W5RbLZybsLfAzE7QqdibE',
-    deezer: 'https://www.deezer.com/mx/artist/299515',
-    soundcloud: 'https://soundcloud.com/jorgenegreteofficial',
-    tidal: 'https://listen.tidal.com/artist/3661015',
-    wiki: 'https://es.wikipedia.org/wiki/Jorge_Negrete',
-    ticketmaster:
-      'https://www.ticketmaster.com.mx/teatro-jorge-negrete-boletos-mexico/venue/163990',
-    napster: 'https://web.napster.com/artist/art.50312',
-    tiktok: 'https://www.tiktok.com/search?q=Jorge%20Negrete&t=1667333198086',
-  },
   {
     title: 'Alejandro Fernandez',
     description:
@@ -784,7 +608,8 @@ const CardData2 = [
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Intocable',
     tiktok: 'https://www.tiktok.com/@grupo_intocable?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000SA1FUQ/intocable',
-  }, {
+  },
+  {
     title: 'Vicente Fernandez',
     description:
       'Vicente Fernández Gómez, también conocido como El Charro de Huentitán o Chente, fue un cantante de ranchera, empresario, productor discográfico y actor mexicano. Su trabajo en la música le valió dos premios Grammy, ocho premios Grammy Latinos, catorce premios Lo Nuestro y una estrella en el paseo de la fama de Hollywood. En abril del 2010, alcanzó la cifra de 60 millones de copias vendidos en todo el mundo. Su hijo, Alejandro Fernández, también es cantante.',

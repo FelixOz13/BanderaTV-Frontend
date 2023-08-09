@@ -33,7 +33,7 @@ import Mexicanas from './components/Mexicanas'
 import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
-import ShareDialog from './components/shareDialog'
+import Solistas from './components/Solistas'
 
 import {
   BrowserRouter as Router,
@@ -82,6 +82,7 @@ root.render(
         <Route path="/Sonidero" element={<Sonidero />} />
         <Route path="/baladas" element={<Baladas />} />
         <Route path="/bachatta" element={<Bachatta />} />
+        <Route path="/solistas" element={<Solistas />} />
       </Routes>
     </Router>
     {isMobile && (
