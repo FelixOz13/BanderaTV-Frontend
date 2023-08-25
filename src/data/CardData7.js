@@ -475,7 +475,7 @@ const CardData7 = [
     category: 'Rock en Español',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
-    openSpots: 1000,
+    openSpots: null,
     likes: 1000,
     websiteurl: 'https://www.caifanes.com.mx/',
     youtube: 'https://www.youtube.com/channel/UCYTPYsuIRSu7o9xmeB_L4_g',
