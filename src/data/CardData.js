@@ -207,7 +207,7 @@ const CardData = [
     tiktok: 'https://www.tiktok.com/@lupilloriveraoficial?lang=es',
     napster: 'https://web.napster.com/artist/lupillo-rivera',
   },
-  ,
+
   {
     title: 'Ariel Kamacho y Los Plebes del Rancho',
     description:
