@@ -1098,9 +1098,10 @@
   text-align: center;
   background-color: black;
   color: cyan;
-  width: 120px;
-  height: 120px;
-  margin-top: 145px;
+  width: 180px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
 }
 .socios{
   text-align: center;

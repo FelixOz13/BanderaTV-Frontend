@@ -12,12 +12,13 @@ function EveryNoise() {
           <GiMusicalNotes />
         </h6>
       </a>
-      <a className="gigmeoutbutton" href="https://gigmeout.io/en/">
-        <h6>
-          <GiMusicalNotes />
-          Gigmeout Social Media for Local Musicians
-          <GiMusicalNotes />
-        </h6>
+      <a href="https://gigmeout.io/en/" target="_blank" rel="noreferrer">
+        <img
+          src="../images/gigmeout.jpg"
+          className="gigmeoutbutton"
+          alt=""
+          media="(max-width: 400px)"
+        />
       </a>
     </div>
   )
