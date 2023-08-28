@@ -1088,20 +1088,33 @@
 }
 .everynoisebutton{
   text-align: center;
-  background-color:black;
-  color:hotpink;
-  width:120px;
-  height:120px;
-  margin-top: 145px;
+    width: 195px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.everynoisebutton:hover {
+  background-image: linear-gradient(to right, #dc9e02, black, #dc9e02);
+  max-width: 195px;
+  max-height: 45px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
 }
 .gigmeoutbutton {
   text-align: center;
-  background-color: black;
-  color: cyan;
-  width: 180px;
+  width: 195px;
   height: 40px;
   margin-top: 15px;
   border-radius: 10px;
+}
+.gigmeoutbutton:hover {
+  background-image: linear-gradient(to right, #dc9e02, black, #dc9e02);
+  max-width: 195px;
+  max-height: 45px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
 }
 .socios{
   text-align: center;
