@@ -1092,6 +1092,19 @@
   color:hotpink;
   width:120px;
   height:120px;
+  margin-top: 145px;
+}
+.gigmeoutbutton {
+  text-align: center;
+  background-color: black;
+  color: cyan;
+  width: 120px;
+  height: 120px;
+  margin-top: 145px;
+}
+.socios{
+  text-align: center;
+  margin-top:25px;
 }
 
 
