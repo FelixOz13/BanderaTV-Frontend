@@ -40,8 +40,8 @@ function Alternative() {
 
       <ButtonTreeCategories />
 
-      <img className="indianaut" src="./images/astrounaut.png" alt="" />
-      <img className="indianaut2" src="./images/rockguitarist.jpeg" alt="" />
+      <img className="indianaut" src="./images/astronaut.png" alt="" />
+      <img className="indianaut2" src="./images/rockguitarist.jpg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"

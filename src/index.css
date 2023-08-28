@@ -1082,6 +1082,16 @@
 .right-arrow {
   right: 10px;
 }
-
+.sharebutton1{
+  background-color: black;
+  border:10px;
+}
+.everynoisebutton{
+  text-align: center;
+  background-color:black;
+  color:hotpink;
+  width:120px;
+  height:120px;
+}
 
 

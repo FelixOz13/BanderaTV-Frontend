@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Navbar'
 import BandsData1 from '../data/BandsData1'
-import SponsorContainer from './SponsorContainer'
+
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 

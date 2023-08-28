@@ -5,6 +5,7 @@ import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { SiApplemusic } from 'react-icons/si'
 import { useLocation } from 'react-router-dom'
+import EveryNoise from './EveryNoise'
 import {
   FaTiktok,
   FaWhatsapp,
@@ -38,7 +39,7 @@ function Card({ item }) {
   const shareUrl = `${window.location.origin}`
   const handleShare = () => {
     if (navigator.share) {
-      const imageUrl = `${window.location.origin}/images/${item.coverImg}`
+      //const imageUrl = `${window.location.origin}/images/${item.coverImg}`//
       const shareContent = {
         title: document.title,
         text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${shareUrl}`,
@@ -92,9 +93,13 @@ function Card({ item }) {
       </div>
       <LikeButtons />
       <div className="sharebutton">
-        <a className="sharebutton1" href="#" onClick={handleShare}>
+        <button
+          className="sharebutton1"
+          onClick={handleShare}
+          role="link" // Add ARIA role to indicate this is a link-like element
+        >
           <FaShare />
-        </a>
+        </button>
 
         <a
           className="sharebutton2"
@@ -233,6 +238,7 @@ function Card({ item }) {
         </a>
       </div>
       <BanderaMedia />
+      <EveryNoise />
     </div>
   )
 }
