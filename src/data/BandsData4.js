@@ -1511,7 +1511,7 @@ const BandsData4 = [
     coverImg: 'billieOcean.jpg',
     category: ' Soft Rock',
     location: 'USA',
-    locationImg: 'trinidadytobago.jpg',
+    locationImg: 'trinidadytobago.png',
     openSpots: null,
     likes: 1000,
     websiteurl: 'https://www.billyocean.com/',

@@ -1039,7 +1039,7 @@ const CardData25 = [
     videourl:
       'https://youtube.com/playlist?list=PLsCPTY_MPoPbCftVtuvquFs9ayLDwD237&si=G_KtiHN0fRU8EeDC',
     price: '$50',
-    coverImg: 'TaylorSwift.jpg',
+    coverImg: 'billieeilish.jpg',
     category: 'Rock-Pop',
     location: 'USA',
     locationImg: 'usaflag.jpg',
