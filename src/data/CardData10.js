@@ -1211,6 +1211,67 @@ const CardData10 = [
     tiktok: 'https://www.tiktok.com/@rammstein',
     napster: 'https://us.napster.com/artist/rammstein',
   },
+  {
+    title: 'The Velvet Underground',
+    description:
+      'The Velvet Underground fue una banda de rock estadounidense, activa entre 1964 y 1973, formada en Nueva York por Lou Reed y John Cale, quienes también alcanzaron el éxito como artistas solistas.Aunque experimentando poco éxito comercial juntos, la banda es a menudo citada por muchos críticos como uno de los grupos más importantes e influyentes de la década de 1960.2​ En una entrevista en 1982, Brian Eno declaró repetidamente que mientras el primer álbum de Velvet Underground pudo haber vendido solo 30 000 copias en sus primeros años, «todos los que compraron uno de esos 30 000 ejemplares comenzaron una banda.',
+    videourl:
+      'https://youtube.com/playlist?list=PLVTLbc6i-h_iuhdwUfuPDLFLXG2QQnz-x',
+    price: '$50',
+    coverImg: 'velvetunderground.jpg',
+    category: 'Rock',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.velvetundergroundmusic.com/',
+    youtube: 'https://www.youtube.com/channel/UC_x7V9mdXWlXJ3PeCKtiMxA',
+    facebook: 'https://www.facebook.com/TheVelvetUnderground',
+    instagram: 'https://www.instagram.com/thevelvetundergroundofficial',
+    twitter: 'https://twitter.com/velvetunderbot',
+    spotify:
+      'https://open.spotify.com/artist/1nJvji2KIlWSseXRSlNYsC?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/1559',
+    apple: 'https://music.apple.com/us/artist/the-velvet-underground/136829',
+    soundcloud: 'https://soundcloud.com/thevelvetundergroundofficial',
+    tidal: 'https://listen.tidal.com/artist/13586',
+    wiki: 'https://es.wikipedia.org/wiki/The_Velvet_Underground',
+    ticketmaster: 'https://www.ticketmaster.com/',
+    tiktok:
+      'https://www.tiktok.com/@therealmusicoftheday/video/7207925541909974314?q=velvet%20underground&t=1693368472326',
+    napster:
+      'https://music.amazon.com.mx/artists/B00G9Y6HYO/the-velvet-underground',
+  },
+  {
+    title: 'Radiohead',
+    description:
+      "Radiohead es una banda británica de rock alternativo originaria de Abingdon-on-Thames, Inglaterra, formada en 1985 inicialmente como una banda de versiones. Está integrada por Thom Yorke (voz, guitarra, piano), Jonny Greenwood (guitarra solista, teclados, otros instrumentos), Ed O'Brien (guitarra, segunda voz), Colin Greenwood (bajo, teclados) y Phil Selway (batería, percusión).Radiohead lanzó su primer sencillo, «Creep», en 1992. Si bien la canción fue en un comienzo un fracaso comercial, se convirtió en un éxito mundial tras el lanzamiento de su álbum debut, Pablo Honey (1993) debido al auge comercial del rock alternativo. La popularidad de Radiohead en el Reino Unido aumentó con su segundo álbum, The Bends (1995). El tercero, OK Computer (1997), con un sonido expansivo y temáticas como la alienación y la globalización, les dio fama mundial y ha sido aclamado como un disco histórico de la década de 1990 y uno de los mejores álbumes de todos los tiempos..",
+    videourl:
+      'https://youtube.com/playlist?list=PLukmsaXDPJie7L7Ihn63HJhA6YMp7tUUr&si=4VGt8jRzr0MINF3B',
+    price: '$50',
+    coverImg: 'radiohead.jpg',
+    category: 'Rock',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.radiohead.com/',
+    youtube: 'https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA',
+    facebook: 'https://www.facebook.com/radiohead',
+    instagram: 'https://www.instagram.com/radiohead/',
+    twitter: 'https://twitter.com/radiohead',
+    spotify:
+      'https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/399',
+    apple: 'https://music.apple.com/us/artist/radiohead/657515',
+    soundcloud: 'https://soundcloud.com/radiohead',
+    tidal: 'https://listen.tidal.com/artist/64518',
+    wiki: 'https://music.apple.com/mx/artist/radiohead/657515',
+    ticketmaster:
+      'https://www.ticketmaster.com/radiohead-tickets/artist/763468',
+    tiktok: 'https://www.tiktok.com/@radiohead',
+    napster: 'https://music.amazon.com.mx/artists/B000QJXOGC/radiohead',
+  },
 ]
 
 export default CardData10
