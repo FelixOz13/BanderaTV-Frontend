@@ -1098,7 +1098,7 @@
   max-width: 195px;
   max-height: 45px;
   padding: 5px;
-  border-radius: 10%;
+  border-radius: 10px;
   cursor: pointer;
 }
 .gigmeoutbutton {
@@ -1113,7 +1113,25 @@
   max-width: 195px;
   max-height: 45px;
   padding: 5px;
-  border-radius: 10%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.maadbutton {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.maadbutton:hover {
+  background-image: linear-gradient(to right, #dc9e02, black, #dc9e02);
+  max-width: 65px;
+  max-height: 65px;
+  padding: 5px;
+  
+  border-radius: 10px;
   cursor: pointer;
 }
 .socios{
