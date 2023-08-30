@@ -1104,7 +1104,7 @@ const CardData10 = [
     description:
       'The Velvet Underground fue una banda de rock estadounidense, activa entre 1964 y 1973, formada en Nueva York por Lou Reed y John Cale, quienes también alcanzaron el éxito como artistas solistas.Aunque experimentando poco éxito comercial juntos, la banda es a menudo citada por muchos críticos como uno de los grupos más importantes e influyentes de la década de 1960.2​ En una entrevista en 1982, Brian Eno declaró repetidamente que mientras el primer álbum de Velvet Underground pudo haber vendido solo 30 000 copias en sus primeros años, «todos los que compraron uno de esos 30 000 ejemplares comenzaron una banda.',
     videourl:
-      'https://youtube.com/playlist?list=PLVTLbc6i-h_iuhdwUfuPDLFLXG2QQnz-x',
+      'https://youtube.com/playlist?list=PLUm_5Qy9GaTwDf2lfzIfh3vd_wmACRw2K&si=Gzfkhcjpw7nieFgY',
     price: '$50',
     coverImg: 'velvetunderground.jpg',
     category: 'Rock',
