@@ -1237,8 +1237,39 @@ const BandsData4 = [
     wiki: 'https://es.wikipedia.org/wiki/Sting',
     ticketmaster: 'https://www.ticketmaster.com/sting-tickets/artist/723578',
     tiktok: 'https://www.tiktok.com/@official_sting?lang=es',
-    napster: 'https://us.napster.com/artist/sting',
+    napster: 'https://music.amazon.com.mx/artists/B000QJNH82/sting',
   },
+  {
+    title: 'Stevie Ray Vaughan',
+    description:
+      'Stephen Stevie Ray Vaughan (Dallas, Texas; 3 de octubre de 1954 - East Troy, Wisconsin; 27 de agosto de 1990) fue un guitarrista, cantante, compositor y productor discográfico estadounidense que fusionó los géneros de blues y rock en la década de 1980. Desarrolló un sonido y estilo basado en artistas de blues como B. B. King, Albert King, Freddie King, Buddy Guy, Otis Rush y Jimmi Hendrix. Después formó su propia agrupación, Triple Threat Revue, cambiando su nombre a Double Trouble tras contratar al baterista Chris Layton y al bajista Tommy Shannon. Logró popularidad tras su participación en el Festival de Jazz de Montreux de 1982, y su álbum debut Texas Flood ocupó la posición número 38 en 1983, una exitosa producción que vendió cerca de medio millón de copias. Compartió escenario con Jeff Beck en 1989 y con Joe Cocker en 1990, pero falleció trágicamente en un accidente de helicóptero el 27 de agosto de 1990 a los 35 años...',
+    videourl:
+      'https://youtube.com/playlist?list=PLDsFO1NXFTIIYLXp2OZlxHiv7tSOJfTNf&si=VqQACR3bszgnXVYO',
+    price: '$50',
+    coverImg: 'stevierayvaughan.jpg',
+    category: 'Blues Rock',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.srvofficial.com/',
+    youtube: 'https://www.youtube.com/channel/UCxPlXqVP-0GvvGG-WrE_6Iw',
+    facebook: 'https://www.facebook.com/stevierayvaughan',
+    instagram: 'https://www.instagram.com/stevierayvaughan_official/',
+    twitter: 'https://twitter.com/SRVOfficial',
+    spotify: 'https://open.spotify.com/artist/5fsDcuclIe8ZiBD5P787K1',
+    deezer: 'https://www.deezer.com/mx/artist/12297',
+    apple: 'https://music.apple.com/us/artist/stevie-ray-vaughan/484957',
+    soundcloud: 'https://soundcloud.com/stevie-ray-vaughan-official',
+    tidal: 'https://listen.tidal.com/artist/111',
+    wiki: 'https://es.wikipedia.org/wiki/Stevie_Ray_Vaughan',
+    ticketmaster:
+      'https://www.ticketmaster.com/stevie-ray-vaughan-tribute-tickets/artist/834523',
+    tiktok: 'https://www.tiktok.com/@stevie_ray_vaughan?lang=es',
+    napster:
+      'https://music.amazon.com.mx/artists/B00123XBKK/stevie-ray-vaughan',
+  },
+
   {
     title: 'Joe Satriani',
     description:
@@ -1266,7 +1297,35 @@ const BandsData4 = [
     ticketmaster:
       'https://www.ticketmaster.com/joe-satriani-tickets/artist/736048',
     tiktok: 'https://www.tiktok.com/@joesatriani?lang=es',
-    napster: 'https://mx.napster.com/artist/joe-satriani',
+    napster: 'https://music.amazon.com.mx/artists/B0010VKX64/joe-satriani',
+  },
+  {
+    title: 'Seal',
+    description:
+      'Seal Henry Olusegun Olumide Adeola Samuel (nacido el 19 de febrero de 1963), mejor conocido por su nombre artístico Seal, es un cantante, compositor y productor musical británico. Ha vendido más de 20 millones de discos en todo el mundo.Estos incluyen canciones exitosas como Crazy y Killer, esta última llegó al número uno en el Reino Unido, y su canción más celebrada, Kiss from a Rose, que fue lanzada en 1994. Seal es reconocido por su distintiva y emotiva voz.A lo largo de su carrera, Seal ha ganado múltiples premios, incluidos tres Brit Awards; obtuvo el premio al Mejor Artista Británico Masculino en 1992. También ha ganado cuatro premios Grammy y un Premio MTV Video Music.Como compositor, Seal recibió dos premios Ivor Novello a la Mejor Canción Musical y Líricamente de la Academia Británica de Compositores, Autores y Compositores por Killer (1990) y Crazy (1991).',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_l9BlMERDcybcHbsuc1x9vtYVOhrvxvA_c&si=HCOu-LRUDl4KakDH',
+    price: 36,
+    coverImg: 'seal.jpg',
+    category: 'Rock ',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.sealofficial.com/',
+    facebook: 'https://www.facebook.com/Seal/',
+    instagram: 'https://www.instagram.com/seal/',
+    twitter: 'https://twitter.com/seal',
+    youtube: 'https://www.youtube.com/channel/UCzLsQjn1nZPRGmRdg0TX15g',
+    spotify: 'https://open.spotify.com/artist/5GtMEZEeFFsuHY8ad4kOxv',
+    deezer: 'https://www.deezer.com/mx/artist/1444',
+    apple: 'https://music.apple.com/mx/artist/seal/156209',
+    soundcloud: 'https://soundcloud.com/seal',
+    tidal: 'https://listen.tidal.com/artist/6889',
+    wiki: 'https://en.wikipedia.org/wiki/Seal_(musician)',
+    ticketmaster: 'https://www.ticketmaster.com/seal-tickets/artist/736073',
+    tiktok: 'https://www.tiktok.com/@seal',
+    napster: 'https://music.amazon.com.mx/artists/B000RSHBK2/seal',
   },
   {
     title: 'Michael Buble',
@@ -1293,10 +1352,10 @@ const BandsData4 = [
     wiki: 'https://es.wikipedia.org/wiki/Michael_Bubl%C3%A9',
     ticketmaster:
       'https://www.ticketmaster.com/michael-buble-tickets/artist/869115',
-    napster: 'https://web.napster.com/artist/art.61479',
+    napster:
+      'https://music.amazon.com.mx/artists/B0011Z76FK/michael-bubl%C3%A9',
     tiktok: 'https://www.tiktok.com/@michaelbuble?lang=es',
   },
-
   {
     title: 'Chet Atkins',
     description:
