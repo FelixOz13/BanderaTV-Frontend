@@ -1300,7 +1300,8 @@ const BandsData4 = [
     title: 'Chet Atkins',
     description:
       'Chester Burton "Chet" Atkins (20 de junio de 1924 – 30 de junio de 2001) fue un influyente guitarrista y productor de country. Su estilo —inspirado por Merle Travis, Django Reinhardt, George Barnes y Les Paul— le trajo admiradores dentro y fuera de la escena de EE. UU. Atkins produjo discos para Eddy Arnold, Don Gibson, Jim Reeves, Connie Smith, y Waylon Jennings. Creó, junto a Owen Bradley, el estilo de música country más suave y tranquilizador conocido como sonido Nashville, que llevó el gusto por la música country a admiradores de la música pop para adultos..',
-    videourl: 'https://youtu.be/P5fAxBhjipE?si=OnK9XJxuzuKAJ-cM',
+    videourl:
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlWh3XECQmwAggRs2-WMnlr0&si=_ajc7XmACic8_bnW',
     price: 80,
     coverImg: 'chetatkins.jpeg',
     category: 'Country Guitar',
@@ -1308,7 +1309,7 @@ const BandsData4 = [
     locationImg: 'usaflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://www.zztop.com/',
+    websiteurl: 'https://www.misterguitar.us/',
     youtube: 'https://www.youtube.com/channel/UCBH-9udLbWZBO3gIrWnwIiw',
     facebook: 'https://www.facebook.com/chet.atkins.121',
     instagram: 'https://www.instagram.com/officialchetatkins/',
