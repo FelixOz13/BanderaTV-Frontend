@@ -267,7 +267,7 @@ const BandsData3 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_mQ1A2DyWIj6vAIVXhPl3e7QSQu73cz6kI&si=QJSyfgtfBfZZPOkS',
     price: 50,
-    coverImg: 'kennyrogers.jpg',
+    coverImg: 'kennyRogers.jpg',
     category: 'Country',
     location: 'USA',
     locationImg: 'usaflag.jpg',
