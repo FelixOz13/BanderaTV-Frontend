@@ -1,5 +1,34 @@
 const CardData10 = [
   {
+    title: 'Papa Roach',
+    description:
+      'Papa Roach es una banda estadounidense de rock y nu metal fundada en 1993 en Vacaville, California. Se dio a conocer internacionalmente en el año 2000, con su álbum debut, Infest, reconocido tres veces como disco de platino. Los tres álbumes siguientes, continuaron su éxito: Lovehatetragedy en el año 2002, Getting Away With Murder en 2004 y The Paramour Sessions en 2006. A estos trabajos, les siguieron Metamorphosis en 2009, The Connection en 2012, F.E.A.R. en 2015, Crooked Teeth en 2017 y, cinco años después, el último álbum de Papa Roach hasta la fecha, Ego Trip.En sus primeros años, la banda era descrita como nu metal y rap metal. Con el tiempo, la agrupación añadió otros sonidos a su música, tales como el hard rock, el metal y el rock alternativo.',
+    videourl:
+      'https://youtube.com/playlist?list=UULFeekxg1vju_sjIK9KjJJLYg&si=THBh2docyHYz0PYY',
+    price: 36,
+    coverImg: 'paparoach.jpg',
+    category: 'Alternativo',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://paparoach.komi.io/',
+    facebook: 'https://www.facebook.com/paparoach',
+    instagram: 'https://www.instagram.com/paparoach/',
+    twitter: 'https://twitter.com/paparoach',
+    youtube: 'https://www.youtube.com/@paparoach',
+    spotify: 'https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X',
+    deezer: 'https://www.deezer.com/mx/artist/89',
+    apple: 'https://music.apple.com/mx/artist/papa-roach/3445763',
+    soundcloud: 'https://soundcloud.com/paparoach',
+    tidal: 'https://listen.tidal.com/artist/24961',
+    wiki: 'https://es.wikipedia.org/wiki/Papa_Roach',
+    ticketmaster:
+      'https://www.ticketmaster.com/papa-roach-tickets/artist/708795',
+    tiktok: 'https://www.tiktok.com/@paparoach?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000S9ZLSY/papa-roach',
+  },
+  {
     title: 'Red Hot Chili Peppers',
     description:
       'Red Hot Chili Peppers es una banda de rock estadounidense formada en 1983 en Los Ángeles, California. Sus integrantes son, el vocalista Anthony Kiedis, el guitarrista John Frusciante, el bajista Flea y el baterista Chad Smith. El estilo musical de la banda fusiona el funk tradicional con el rock y el rock alternativo incluyendo elementos de otros géneros como el rap, pop rock, heavy metal, dance, punk, hip hop e indie rock. Aunque en algunos sitios son considerados los inventores del punk funk.',
@@ -25,7 +54,8 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/red-hot-chili-peppers-tickets/artist/848229',
     tiktok: 'https://www.tiktok.com/@chilipeppers?lang=es',
-    napster: 'https://mx.napster.com/artist/red-hot-chili-peppers',
+    napster:
+      'https://music.amazon.com.mx/artists/B000SX8BBO/red-hot-chili-peppers',
   },
   {
     title: 'Imagine Dragons',
@@ -54,7 +84,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/imagine-dragons-tickets/artist/1435919',
     tiktok: 'https://www.tiktok.com/@imaginedragons?lang=es',
-    napster: 'https://web.napster.com/artist/art.41226138',
+    napster: 'https://music.amazon.com.mx/artists/B003AM1Q94/imagine-dragons',
   },
   {
     title: 'Fallout Boy',
@@ -110,7 +140,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Gorillaz',
     ticketmaster: 'https://www.ticketmaster.com/gorillaz-tickets/artist/807314',
     tiktok: 'https://www.tiktok.com/@gorillaz',
-    napster: 'https://web.napster.com/artist/art.41226138',
+    napster: 'https://music.amazon.com.mx/artists/B000S282KK/gorillaz',
   },
 
   {
@@ -140,7 +170,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/foo-fighters-tickets/artist/776005',
     tiktok: 'https://www.tiktok.com/@foofightersofficial?lang=es',
-    napster: 'https://mx.napster.com/artist/foo-fighters',
+    napster: 'https://music.amazon.com.mx/artists/B000QKAGGM/foo-fighters',
   },
   {
     title: 'Nirvana',
@@ -168,7 +198,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Nirvana_(banda)',
     ticketmaster: 'https://www.ticketmaster.com/nirvana-tickets/artist/997582',
     tiktok: 'https://www.tiktok.com/@nirvana356?lang=es',
-    napster: 'https://mx.napster.com/artist/nirvana',
+    napster: 'https://music.amazon.com.mx/artists/B000QKLV4I/nirvana',
   },
   {
     title: 'Smashing Pumpkins',
@@ -196,7 +226,8 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/The_Smashing_Pumpkins',
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Smashing+Pumpkins',
     tiktok: 'https://www.tiktok.com/@thesmashingpumpkins',
-    napster: 'https://us.napster.com/artist/smashing-pumpkins',
+    napster:
+      'https://music.amazon.com.mx/artists/B00G9QUPUO/the-smashing-pumpkins',
   },
   {
     title: 'New Order',
@@ -224,7 +255,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/New_Order',
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=New+Order',
     tiktok: 'https://www.tiktok.com/@neworder',
-    napster: 'https://us.napster.com/artist/new-order',
+    napster: 'https://music.amazon.com.mx/artists/B000QJNM3M/new-order',
   },
   {
     title: 'Kings of Lion',
@@ -253,7 +284,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/kings-of-leon-tickets/artist/862453',
     tiktok: 'https://www.tiktok.com/@kingsofleon',
-    napster: 'https://us.napster.com/artist/kings-of-leon',
+    napster: 'https://music.amazon.com.mx/artists/B000UOEVRE/kings-of-leon',
   },
 
   {
@@ -282,7 +313,7 @@ const CardData10 = [
     wiki: 'https://en.wikipedia.org/wiki/Jonas_Brothers',
     ticketmaster: 'https://boletos.lataquillamx.com/venta/es/jonasbrothersgdl',
     tiktok: 'https://www.tiktok.com/@jonasbrothers?lang=es',
-    napster: 'https://us.napster.com/blog/post/latino-collabs-en',
+    napster: 'https://music.amazon.com.mx/artists/B00137FSEC/jonas-brothers',
   },
   {
     title: 'Evanescence',
@@ -311,8 +342,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/evanescence-tickets/artist/857529',
     tiktok: 'https://www.tiktok.com/@evanescence',
-    napster:
-      'https://us.napster.com/artist/fred-hersch/album/personal-favorites/track/evanessence',
+    napster: 'https://music.amazon.com.mx/artists/B0013TI0CC/evanescence',
   },
 
   {
@@ -342,7 +372,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/beastie-boys-tickets/artist/702455',
     tiktok: 'https://www.tiktok.com/@beastieboys_tiktok?lang=es',
-    napster: 'https://web.napster.com/artist/art.4794',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPXG6/beastie-boys',
   },
   {
     title: 'Green Day',
@@ -370,7 +400,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/green-day-tickets/artist/768353',
     tiktok: 'https://www.tiktok.com/@greenday?lang=es',
-    napster: 'https://mx.napster.com/artist/green-day',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJOSO/green-day',
   },
   {
     title: 'Rage Against The Machine',
@@ -400,7 +430,7 @@ const CardData10 = [
       'https://www.ticketmaster.com/rage-against-the-machine-tickets/artist/750164',
     tiktok: 'https://www.tiktok.com/@rageagainstthemachine91?lang=es',
     napster:
-      'https://mx.napster.com/artist/rage-against-the-machine/album/rage-against-the-machine-bonus-tracks/track/killing-in-the-name-remastered-2-2',
+      'https://music.amazon.com.mx/artists/B000XEE3CO/rage-against-the-machine',
   },
   {
     title: 'Nine Inch Nails',
@@ -429,7 +459,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/nine-inch-nails-tickets/artist/735762',
     tiktok: 'https://www.tiktok.com/@nineinchnails_official?lang=es',
-    napster: 'https://web.napster.com/artist/art.1176',
+    napster: 'https://music.amazon.com.mx/artists/B000VZKOCS/nine-inch-nails',
   },
   {
     title: 'The White Stripes',
@@ -457,7 +487,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-white-stripes-tickets/artist/714425',
     tiktok: 'https://www.tiktok.com/@thewhitestripes0?lang=es',
-    napster: 'https://mx.napster.com/artist/the-white-stripes',
+    napster: 'https://music.amazon.com.mx/artists/B00GK8PAIS/the-white-stripes',
   },
   {
     title: '3 Doors Down',
@@ -486,7 +516,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/3-doors-down-tickets/artist/710683',
     tiktok: 'https://www.tiktok.com/@3doorsdownofficial?lang=es',
-    napster: 'https://web.napster.com/artist/art.44637',
+    napster: 'https://music.amazon.com.mx/artists/B000TDVVMO/3-doors-down',
   },
 
   {
@@ -517,7 +547,7 @@ const CardData10 = [
       'https://www.ticketmaster.com/twenty-one-pilots-tickets/artist/1495843',
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=twenty%20one%20pilots&t=1654149324526',
-    napster: 'https://mx.napster.com/artist/twenty-one-pilots',
+    napster: 'https://music.amazon.com.mx/artists/B0033LXVEU/twenty-one-pilots',
   },
 
   {
@@ -546,7 +576,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Tool',
     ticketmaster: 'https://www.ticketmaster.com/tool-tickets/artist/720703',
     tiktok: 'https://www.tiktok.com/@tool..band?lang=es',
-    napster: 'https://mx.napster.com/artist/tool',
+    napster: 'https://music.amazon.com.mx/artists/B003X7KSU4/tool',
   },
 
   {
@@ -576,7 +606,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/daft-punk-tickets/artist/807213',
     tiktok: 'https://www.tiktok.com/search?lang=es&q=Daft%20Punk&t=165416523',
-    napster: 'https://mx.napster.com/artist/daft-punk',
+    napster: 'https://music.amazon.com.mx/artists/B000S9ULT8/daft-punk',
   },
   {
     title: 'Oasis',
@@ -633,7 +663,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/depeche-mode-tickets/artist/734907',
     tiktok: 'https://www.tiktok.com/@depeche._.mode?lang=es',
-    napster: 'https://listen.tidal.com/artist/8877',
+    napster: 'https://music.amazon.com.mx/artists/B000QJNJP8/depeche-mode',
   },
   {
     title: 'The Cure',
@@ -662,7 +692,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-cure-tickets/artist/915776?sort=date%2Cname%2Casc&radius=75&unit=miles&daterange=all',
     tiktok: 'https://www.tiktok.com/@thecureargentina?lang=es',
-    napster: 'https://mx.napster.com/artist/the-cure',
+    napster: 'https://music.amazon.com.mx/artists/B00G9BXSCG/the-cure',
   },
   {
     title: 'U2',
@@ -690,7 +720,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/U2',
     ticketmaster: 'https://www.ticketmaster.com/u2-tickets/artist/736365',
     tiktok: 'https://www.tiktok.com/@u2?lang=es',
-    napster: 'https://mx.napster.com/artist/u2',
+    napster: 'https://music.amazon.com.mx/artists/B000QJP7SA/u2',
   },
   {
     title: 'Blur',
@@ -746,7 +776,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-cranberries-tickets/artist/760882',
     tiktok: 'https://www.tiktok.com/@thecranberrieslat?lang=es',
-    napster: 'https://us.napster.com/artist/the-cranberries',
+    napster: 'https://music.amazon.com.mx/artists/B00G72AOSS/the-cranberries',
   },
   {
     title: 'Morrissey',
@@ -775,7 +805,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/morrissey-tickets/artist/770791',
     tiktok: 'https://www.tiktok.com/@morrisseyreal?lang=es',
-    napster: 'https://mx.napster.com/artist/morrissey',
+    napster: 'https://music.amazon.com.mx/artists/B000QJNSZY/morrissey',
   },
 
   {
@@ -805,7 +835,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/panic-morrissey-and-smiths-tribute-tickets/artist/2739328',
     tiktok: 'https://www.tiktok.com/@thesmithsmusic?lang=es',
-    napster: 'https://mx.napster.com/artist/the-smiths',
+    napster: 'https://music.amazon.com.mx/artists/B00G7K9SNW/the-smiths',
   },
 
   {
@@ -834,7 +864,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Minor_Threat',
     ticketmaster: 'https://www.ticketmaster.com/search?q=Minor+Threat',
     tiktok: 'https://www.tiktok.com/tag/minorthreat?lang=es',
-    napster: 'https://mx.napster.com/artist/minor-threat',
+    napster: 'https://music.amazon.com.mx/artists/B000S2H5M6/minor-threat',
   },
   {
     title: 'AudioSlave',
@@ -863,7 +893,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/audioslave-tickets/artist/855060',
     tiktok: 'https://www.tiktok.com/@audioslave0?lang=es',
-    napster: 'https://mx.napster.com/artist/audioslave',
+    napster: 'https://music.amazon.com.mx/artists/B0012292WC/audioslave',
   },
   {
     title: 'Pearl Jam',
@@ -892,7 +922,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/pearl-jam-tickets/artist/735836',
     tiktok: 'https://www.tiktok.com/@pearljam?lang=es',
-    napster: 'https://mx.napster.com/artist/pearl-jam',
+    napster: 'https://music.amazon.com.mx/artists/B000RRFQPU/pearl-jam',
   },
   {
     title: 'Soundgarden',
@@ -921,7 +951,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/soundgarden-tickets/artist/2172',
     tiktok: 'https://www.tiktok.com/@soundgardenaudioslave?lang=es',
-    napster: 'https://web.napster.com/artist/art.4004',
+    napster: 'https://music.amazon.com.mx/artists/B000QKN9UM/soundgarden',
   },
   {
     title: 'Offspring',
@@ -950,7 +980,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-offspring-tickets/artist/753206',
     tiktok: 'https://www.tiktok.com/@offspring?lang=es',
-    napster: 'https://mx.napster.com/artist/the-offspring',
+    napster: 'https://music.amazon.com.mx/artists/B00GBG63PI/the-offspring',
   },
 
   {
@@ -980,7 +1010,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/system-of-a-down-tickets/artist/726146',
     tiktok: 'https://www.tiktok.com/@systemofadown_spider?lang=es',
-    napster: 'https://mx.napster.com/artist/system-of-a-down',
+    napster: 'https://music.amazon.com.mx/artists/B000QKPGGC/system-of-a-down',
   },
   {
     title: 'Deftones',
@@ -1038,7 +1068,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-killers-tickets/artist/924503',
     tiktok: 'https://www.tiktok.com/@thekillers?lang=es',
-    napster: 'https://mx.napster.com/artist/the-killers',
+    napster: 'https://music.amazon.com.mx/artists/B00G72A5Z0/the-killers',
   },
   {
     title: 'Linkin Park',
@@ -1068,7 +1098,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/linkin-park-tickets/artist/703831',
     tiktok: 'https://www.tiktok.com/@linkinpark?lang=es',
-    napster: 'https://mx.napster.com/artist/linkin-park',
+    napster: 'https://music.amazon.com.mx/artists/B000VK762Y/linkin-park',
   },
   {
     title: 'Rammstein',
@@ -1097,7 +1127,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/rammstein-tickets/artist/781114',
     tiktok: 'https://www.tiktok.com/@rammstein',
-    napster: 'https://us.napster.com/artist/rammstein',
+    napster: 'https://music.amazon.com.mx/artists/B000S9XUG4/rammstein',
   },
   {
     title: 'The Velvet Underground',
@@ -1131,6 +1161,210 @@ const CardData10 = [
       'https://music.amazon.com.mx/artists/B00G9Y6HYO/the-velvet-underground',
   },
   {
+    title: 'Sex Pistols',
+    description:
+      'Sex Pistols fue una banda de punk formada en Londres en 1975, considerada por algunas fuentes la responsable de haber iniciado el movimiento punk en el Reino Unido y de inspirar a muchos músicos de punk rock, heavy metal y el rock contemporáneo en general. Su primera etapa apenas duró dos años y medio y en ella produjo únicamente cuatro sencillos y un álbum de estudio: Never Mind the Bollocks, Here s the Sex Pistols (1977).Los miembros de Sex Pistols eran originalmente el vocalista Johnny Rotten, el guitarrista Steve Jones, el batería Paul Cook y el bajista Glen Matlock —este último reemplazado por Sid Vicious a principios de 1977—. Con el empresario Malcolm McLaren como mánager, la banda protagonizó diversos escándalos que la convirtieron en centro de atención de la opinión pública británica, esto gracias a sus letras con fuertes contenidos satíricos.',
+    videourl:
+      'https://youtube.com/playlist?list=PLaZ-C3Reyh5TElxXl5Dnop0ARZaskt4Lv&si=JuyRevjhLXpbeB1f',
+    price: '$50',
+    coverImg: 'sexpistols.jpg',
+    category: 'Rock',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.sexpistolsofficial.com/',
+    youtube: 'https://www.youtube.com/channel/UCcjWoLUPOkEVhevjI8DB5vQ',
+    facebook: 'https://www.facebook.com/sexpistolsofficial',
+    instagram: 'https://www.instagram.com/sexpistols/',
+    twitter: 'https://twitter.com/sexpistols',
+    spotify: 'https://open.spotify.com/artist/1u7kkVrr14iBvrpYnZILJR',
+    deezer: 'https://www.deezer.com/mx/artist/3299',
+    apple: 'https://music.apple.com/us/artist/sex-pistols/3184277',
+    soundcloud: 'https://soundcloud.com/sexpistolsofficial',
+    tidal: 'https://listen.tidal.com/artist/9219',
+    wiki: 'https://es.wikipedia.org/wiki/Sex_Pistols',
+    ticketmaster: 'https://www.ticketmaster.com/',
+    tiktok: 'https://www.tiktok.com/@sexpistols',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPXUW/sex-pistols',
+  },
+  {
+    title: 'Björk',
+    description:
+      'Björk Guðmundsdóttir Reikiavik, 21 de noviembre de 1965, conocida simplemente como Björk, es una cantante, compositora, multiinstrumentista, actriz, escritora, DJ y productora islandesa. Es reconocida por hacer música experimental, alternativa y vanguardista con la cual ha obtenido gran reconocimiento a nivel internacional, tanto de crítica como de público. Varios de sus álbumes han alcanzado el top 10 en la lista Billboard 200: el más reciente es Fossora (2022).Björk fue incluida en la lista de los 100 artistas más influyentes del siglo. Así mismo, también fue incluida por la revista Rolling Stone como una de las cantantes y compositoras más influyentes de la época actual, incluyendo su inclusión en la lista de los 200 artistas más influyentes de los últimos 25 años por Pitchfork en 2021.3​ Björk también ha sido nominada 16 veces a los Premios Grammy.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_neQVQ7L8dH5xV5QKsopBwMASWeFR0eSl8&si=exfbr8Vk6bUigsMq',
+    price: '$50',
+    coverImg: 'bjork.jpg',
+    category: 'Pop',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://bjorktour.com/',
+    youtube: 'https://www.youtube.com/channel/UCFbRdRGijPR4oBjQ0fVCSmw',
+    facebook: 'https://www.facebook.com/bjork',
+    instagram: 'https://www.instagram.com/bjork/',
+    twitter: 'https://twitter.com/bjork',
+    spotify: 'https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA',
+    deezer: 'https://www.deezer.com/mx/artist/630',
+    apple: 'https://music.apple.com/mx/artist/bj%C3%B6rk/295015',
+    soundcloud: 'https://soundcloud.com/bjork',
+    tidal: 'https://listen.tidal.com/artist/16992',
+    wiki: 'https://es.wikipedia.org/wiki/Bj%C3%B6rk',
+    ticketmaster: 'https://www.ticketmaster.com/bjork-tickets/artist/753508',
+    tiktok: 'https://www.tiktok.com/@bjorkofficial?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJK03W/bj%C3%B6rk',
+  },
+  {
+    title: 'The Misfits',
+    description:
+      'The Misfits son una banda estadounidense de punk rock reconocida a menudo como los pioneros del subgénero de horror punk, fusionando influencias del punk y otras corrientes musicales con temáticas e imágenes de películas de terror. El grupo fue fundado en 1977 en Lodi, Nueva Jersey, por el vocalista, compositor y tecladista Glenn Danzig. El primer recluta de Danzig para los Misfits fue el baterista Mr. Jim y la bajista Diane DiPazza, sin embargo, DiPiazza nunca se presentó. Mr. Jim fue reemplazado poco después por Manny Martinez. Jerry Only se unió como bajista poco después. Durante los siguientes seis años, la membresía cambiaría con frecuencia, siendo Danzig y Only los únicos miembros constantes.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nfnXwNY1vi9yULfGsK6KG9hddJB5kM-gw&si=s_XNM7WzJF-umrMN',
+    price: '$50',
+    coverImg: 'misfits.jpg',
+    category: 'Pop',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'http://www.misfits.com/',
+    youtube: 'https://www.youtube.com/channel/UCUAa1fv7JsIFuBUWtH0ZaOA',
+    facebook: 'https://www.facebook.com/Misfits/',
+    instagram: 'https://www.instagram.com/officialmisfits/',
+    twitter: 'https://www.instagram.com/officialmisfits',
+    spotify: 'https://open.spotify.com/artist/1cXi8ALPQCBHZbf0EgP4Ey',
+    deezer: 'https://www.deezer.com/mx/artist/957',
+    apple: 'https://music.apple.com/mx/artist/the-misfits/116250',
+    soundcloud: 'https://soundcloud.com/misfitsofficial',
+    tidal: 'https://listen.tidal.com/artist/16992',
+    wiki: 'https://es.wikipedia.org/wiki/Misfits_(banda)',
+    ticketmaster:
+      'https://www.ticketmaster.com/the-original-misfits-tickets/artist/735666',
+    tiktok: 'https://www.tiktok.com/@discordmisfits?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B00G89X1QM/misfits',
+  },
+  {
+    title: 'Siouxsie and the Banshees',
+    description:
+      'Siouxsie and the Banshees (pronunciado [suːzi æn ðə ˈbænʃiːz]) fue una banda británica formada en 1976 por la vocalista Siouxsie Sioux y el bajista Steven Severin. Pioneros del movimiento post-punk, su música evolucionó hacia el rock alternativo, con sencillos pop. Siouxsie and the Banshees fue una de las bandas más importantes, innovadoras e influyentes del movimiento post-punk.Lanzaron su primer sencillo, «Hong Kong Garden», en 1978; la canción, con una melodía original del guitarrista John McKay, fue un éxito en el Reino Unido, con una entrada en el top 10. Su álbum debut, The Scream, fue aclamado por la crítica británica.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lt6dACBH8ncgqjBg6D5Xu3u3rOFJDhF_U&si=WAJreONXA9I6HGz0',
+    price: '$50',
+    coverImg: 'siouxsieandthebanshees.jpg',
+    category: 'Pop',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl:
+      'https://www.alohacriticon.com/musica/grupos-y-solistas/siouxsie-the-banshees/',
+    youtube: 'https://www.youtube.com/channel/UCrSQ_CLYKSbQpw8Ol7xTrvQ',
+    facebook: 'https://www.facebook.com/siouxsieandthebanshees',
+    instagram: 'https://www.instagram.com/siouxsieandthebanshees/',
+    twitter: 'https://twitter.com/siouxsieandtheb',
+    spotify: 'https://open.spotify.com/artist/1n65zfwYIj5kKEtNgxUlWb',
+    deezer: 'https://www.deezer.com/mx/artist/1719',
+    apple: 'https://music.apple.com/mx/artist/siouxsie-the-banshees/92623',
+    soundcloud: 'https://soundcloud.com/siouxsie-and-the-banshees-official',
+    tidal: 'https://listen.tidal.com/artist/30182',
+    wiki: 'https://es.wikipedia.org/wiki/Siouxsie_And_The_Banshees',
+    ticketmaster:
+      'https://www.ticketmaster.com/siouxsie-and-the-banshees-tickets/artist/821070',
+    tiktok: 'https://www.tiktok.com/@siouxsie.and.thebanshees?lang=es',
+    napster:
+      'https://music.amazon.com.mx/artists/B000QKPILK/siouxsie-and-the-banshees',
+  },
+  {
+    title: 'Bauhaus',
+    description:
+      'Bauhaus fue una banda de rock inglesa formada en Northampton en 1978. Conocidos por su imagen oscura y su sonido melancólico, Bauhaus son uno de los pioneros del rock gótico, aunque mezclaron muchos géneros, incluyendo dub, glam rock, psicodelia y funk. El grupo estaba compuesto por Daniel Ash (guitarra, saxofón), Peter Murphy (voz, instrumentos ocasionales), Kevin Haskins (batería) y David J (bajo)..',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_k6kcaEg-3XSGwKTghrMY9DIEV5sfDIFIg&si=8BIrYX-W4QXP1_LB',
+    price: '$50',
+    coverImg: 'bauhaus.jpg',
+    category: 'Gothic Rock',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.discogs.com/artist/85897-Bauhaus',
+    youtube: 'https://www.youtube.com/channel/UCxtEHoDaGH83DiqzFR6nMcw',
+    facebook: 'https://www.facebook.com/Bauhaustheband/',
+    instagram: 'https://www.instagram.com/bauhausthebandofficial/',
+    twitter: 'https://twitter.com/BauhausMovement',
+    spotify:
+      'https://open.spotify.com/artist/5N5tQ9Dx1h8Od7aRmGj7Fi?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/3657',
+    apple: 'https://music.apple.com/mx/artist/bauhaus/93888',
+    soundcloud: 'https://soundcloud.com/bauhaus-official',
+    tidal: 'https://listen.tidal.com/artist/3565987',
+    wiki: 'https://es.wikipedia.org/wiki/Bauhaus_(banda)',
+    ticketmaster: 'https://www.ticketmaster.com/bauhaus-tickets/artist/967677',
+    tiktok: 'https://www.tiktok.com/@bauhaus.movement?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000S2B6NK/bauhaus',
+  },
+  {
+    title: 'Love & Rockets',
+    description:
+      'Love and Rockets es una banda de rock inglesa formada en 1985 por antiguos miembros de Bauhaus: Daniel Ash (voz, guitarra y saxofón), David J (bajo y voz) y Kevin Haskins (batería y sintetizadores), después de que ese grupo se separara en 1983. Ash y Haskins habían grabado y actuado en otra banda, Tones on Tail, entre 1982 y 1984.La fusión de la música de rock underground de Love and Rockets con elementos de la música pop proporcionó un catalizador temprano para el rock alternativo. Su sencillo de 1989 "So Alive" llegó al puesto número 3 en la lista Billboard Hot 100.[1] Lanzaron siete álbumes de estudio antes de separarse en 1999 y se reunieron brevemente en 2007 para algunos conciertos en vivo, antes de separarse nuevamente en 2009. Se reunieron en 2023 y anunciaron varias fechas de gira..',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_n88zd_mjhDOD7X4JxI5wD8ierONa3DrpY&si=jPM6i5if57ebWnXA',
+    price: '$50',
+    coverImg: 'loveandrockets.jpg',
+    category: 'Gothic Rock',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.loveandrockets.com/',
+    youtube: 'https://www.youtube.com/channel/UCv5aAiPnLnu7S5t6HxEYbNQ',
+    facebook: 'https://www.facebook.com/LoveandRocketspage',
+    instagram: 'https://www.instagram.com/loveandrocketsofficial/',
+    twitter: 'https://twitter.com/newtalestotell',
+    spotify:
+      'https://open.spotify.com/artist/09mvgMBvJkxarNIDGdwPWg?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/artist/9106',
+    apple: 'https://music.apple.com/mx/artist/love-and-rockets/3023070',
+    soundcloud: 'https://soundcloud.com/loveandrocketsofficial',
+    tidal: 'https://listen.tidal.com/artist/3566187',
+    wiki: 'https://en.wikipedia.org/wiki/Love_and_Rockets_(band)',
+    ticketmaster:
+      'https://www.ticketmaster.com/love-and-rockets-tickets/artist/1105877',
+    tiktok:
+      'https://www.tiktok.com/search?lang=es&q=Love%20and%20rockets&t=1693516753203',
+    napster: 'https://music.amazon.com.mx/artists/B000S2CZZ8/love-and-rockets',
+  },
+  {
+    title: 'The Ramones',
+    description:
+      'Ramones fue una banda estadounidense de punk formada en Forest Hills, en el distrito de Queens (Nueva York, Estados Unidos) en 1974, y disuelta veintidós años más tarde, en 1996. Pioneros y líderes del naciente punk,​ cimentaron las bases de este género musical con composiciones simples, minimistas, repetitivas y letras muy simples o incluso sin sentido, en clara oposición a la pomposidad y la fastuosidad de las bandas que triunfaban en el mercado de los años 1970​ con sus largos solos de guitarra, las complejas canciones de rock progresivo y sus enigmáticas letras.5​ Su sonido se caracteriza por ser rápido y directo, con influencias del rockabilly de los años 1950, el surf rock, The Beatles, The Who, The Velvet Underground, las bandas de chicas de los años 1960 como The Shangri-Las y el garage protopunk de MC5 y The Stooges.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_n974sK3BaqCpJasG-u9-FxEW-0aB2lc8w&si=MM--bQLcTEbksLEX',
+    price: '$50',
+    coverImg: 'ramones.jpg',
+    category: 'Punk Rock',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.ramones.com/',
+    youtube: 'https://www.youtube.com/@ramones',
+    facebook: 'https://www.facebook.com/theramones',
+    instagram: 'https://www.instagram.com/ramones/',
+    twitter: 'https://twitter.com/Ramones',
+    spotify: 'https://open.spotify.com/artist/1co4F2pPNH8JjTutZkmgSm',
+    deezer: 'https://www.deezer.com/mx/artist/1725',
+    apple: 'https://music.apple.com/mx/artist/ramones/60715',
+    soundcloud: 'https://soundcloud.com/ramones',
+    tidal: 'https://listen.tidal.com/artist/14283',
+    wiki: 'https://es.wikipedia.org/wiki/Ramones',
+    ticketmaster: 'https://www.ticketmaster.com/ramones-tickets/artist/933298',
+    tiktok: 'https://www.tiktok.com/@ramones_forever?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJY8O/ramones',
+  },
+  {
     title: 'Weezer',
     description:
       'Weezer es una banda estadounidense de rock alternativo formada en Los Ángeles en 1992. El grupo está formado, actualmente, por Rivers Cuomo (vocalista principal y guitarra líder), Brian Bell (guitarra rítmica, teclados y coros), Scott Shriner (bajo eléctrico y coros) y Patrick Wilson (batería y coros). La banda ha cambiado su formación varias veces desde su nacimiento en 1992.1​ Han publicado quince álbumes de estudio, seis EP y un DVD. Hasta la fecha han vendido más de nueve millones de discos en su país.',
@@ -1156,7 +1390,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Weezer',
     ticketmaster: 'https://www.ticketmaster.com/weezer-tickets/artist/766591',
     tiktok: 'https://www.tiktok.com/@weezer',
-    napster: 'https://us.napster.com/artist/weezer',
+    napster: 'https://music.amazon.com.mx/artists/B000QJO1PU/weezer',
   },
   {
     title: 'Sublime',
@@ -1184,7 +1418,7 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/sublime-with-rome-tickets/artist/1417095',
     tiktok: 'https://www.tiktok.com/@sublimeofficial?lang=es',
-    napster: 'https://web.napster.com/artist/art.61779',
+    napster: 'https://music.amazon.com.mx/artists/B000QJSQA6/sublime',
   },
   {
     title: 'Coldplay',
@@ -1212,7 +1446,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Coldplay',
     ticketmaster: 'https://www.ticketmaster.com/coldplay-tickets/artist/806431',
     tiktok: 'https://www.tiktok.com/@coldplay?lang=es',
-    napster: 'https://mx.napster.com/artist/coldplay',
+    napster: 'https://music.amazon.com.mx/artists/B000QKGN8W/coldplay',
   },
   {
     title: 'Maroon 5',
@@ -1239,7 +1473,7 @@ const CardData10 = [
     wiki: 'https://es.wikipedia.org/wiki/Maroon_5',
     ticketmaster: 'https://www.ticketmaster.com/maroon-5-tickets/artist/824144',
     tiktok: 'https://www.tiktok.com/@maroon5?lang=es',
-    napster: 'https://mx.napster.com/artist/maroon-5',
+    napster: 'https://music.amazon.com.mx/artists/B000V6KIMI/maroon-5',
   },
   {
     title: 'Smashing Pumpkins',
@@ -1268,7 +1502,8 @@ const CardData10 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-smashing-pumpkins-tickets/artist/736143',
     tiktok: 'https://www.tiktok.com/@thesmashingpumpkins',
-    napster: 'https://web.napster.com/artist/art.43119',
+    napster:
+      'https://music.amazon.com.mx/artists/B00G9QUPUO/the-smashing-pumpkins',
   },
   {
     title: 'Radiohead',

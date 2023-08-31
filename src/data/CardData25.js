@@ -1,5 +1,33 @@
 const CardData25 = [
   {
+    title: 'Björk',
+    description:
+      'Björk Guðmundsdóttir Reikiavik, 21 de noviembre de 1965, conocida simplemente como Björk, es una cantante, compositora, multiinstrumentista, actriz, escritora, DJ y productora islandesa. Es reconocida por hacer música experimental, alternativa y vanguardista con la cual ha obtenido gran reconocimiento a nivel internacional, tanto de crítica como de público. Varios de sus álbumes han alcanzado el top 10 en la lista Billboard 200: el más reciente es Fossora (2022).Björk fue incluida en la lista de los 100 artistas más influyentes del siglo. Así mismo, también fue incluida por la revista Rolling Stone como una de las cantantes y compositoras más influyentes de la época actual, incluyendo su inclusión en la lista de los 200 artistas más influyentes de los últimos 25 años por Pitchfork en 2021.3​ Björk también ha sido nominada 16 veces a los Premios Grammy.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_neQVQ7L8dH5xV5QKsopBwMASWeFR0eSl8&si=exfbr8Vk6bUigsMq',
+    price: '$50',
+    coverImg: 'bjork.jpg',
+    category: 'Pop',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://bjorktour.com/',
+    youtube: 'https://www.youtube.com/channel/UCFbRdRGijPR4oBjQ0fVCSmw',
+    facebook: 'https://www.facebook.com/bjork',
+    instagram: 'https://www.instagram.com/bjork/',
+    twitter: 'https://twitter.com/bjork',
+    spotify: 'https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA',
+    deezer: 'https://www.deezer.com/mx/artist/630',
+    apple: 'https://music.apple.com/mx/artist/bj%C3%B6rk/295015',
+    soundcloud: 'https://soundcloud.com/bjork',
+    tidal: 'https://listen.tidal.com/artist/16992',
+    wiki: 'https://es.wikipedia.org/wiki/Bj%C3%B6rk',
+    ticketmaster: 'https://www.ticketmaster.com/bjork-tickets/artist/753508',
+    tiktok: 'https://www.tiktok.com/@bjorkofficial?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJK03W/bj%C3%B6rk',
+  },
+  {
     title: 'Britney Spears',
     description:
       'Britney Jean Spears (McComb, Misisipi; 2 de diciembre de 1981) es una cantante, bailarina, compositora, modelo, actriz, diseñadora de modas y empresaria estadounidense. Comenzó a actuar desde niña, a través de papeles en producciones teatrales. Después adquirió fama al participar en el programa de televisión The Mickey Mouse Club.',
@@ -26,7 +54,7 @@ const CardData25 = [
     ticketmaster:
       'https://www.ticketmaster.com/britney-spears-tickets/artist/723427',
     tiktok: 'https://www.tiktok.com/@britneyspears?lang=es',
-    napster: 'https://us.napster.com/artist/britney-spears',
+    napster: 'https://music.amazon.com.mx/artists/B000QJO2TU/britney-spears',
   },
   {
     title: 'Madonna',
