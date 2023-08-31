@@ -418,7 +418,7 @@ const BandsData = [
     category: 'Rythm & Blues',
     location: 'USA',
     locationImg: 'usaflag.jpg',
-    openSpots: 1000,
+    openSpots: null,
     likes: 1000,
     websiteurl: 'https://www.aliciakeys.com/',
     youtube: 'https://www.youtube.com/channel/UCK5X3f0fxO4YnVKVZP8p6hg',
