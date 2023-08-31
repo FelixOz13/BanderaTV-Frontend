@@ -353,65 +353,6 @@ const CardData25 = [
   },
 
   {
-    title: 'Angela Aguilar',
-    description:
-      'Ángela Aguilar Álvarez (Los Ángeles, California; 8 de octubre de 2003), es una cantante mexicana-estadounidense de música regional mexicana. Obtuvo un notable reconocimiento después de interpretar La Llorona en la 19.ª Entrega Anual de los Premios Grammy Latinos en 2018. Es nieta de El Charro de México, Antonio Aguilar.',
-
-    videourl:
-      'http://youtube.com/playlist?list=OLAK5uy_kSBDJlpXRi2Cy2v5fYI8ag4M1ku2STWAE',
-    price: '$50',
-    coverImg: 'AngelaAguilar.jpg',
-    category: 'Mariachi',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.angelaaguilaroficial.com/',
-    youtube: 'https://www.youtube.com/channel/UCugX5B6n1jtQq2ihzhRk-Ag',
-    facebook: 'https://www.facebook.com/AngelaAguilarOficial/',
-    instagram: 'https://www.instagram.com/angela_aguilar_/?hl=en',
-    twitter: 'https://twitter.com/AngelaAguilar__',
-    spotify: 'https://open.spotify.com/artist/3abT87tqQ4Q5PA5nw6CYyH',
-    deezer: 'https://www.deezer.com/mx/artist/4028765',
-    apple: 'https://music.apple.com/mx/artist/%C3%A1ngela-aguilar/565880444',
-    soundcloud: 'https://soundcloud.com/angelaaguilarofficial',
-    tidal: 'https://listen.tidal.com/artist/4734467',
-    wiki: 'https://en.wikipedia.org/wiki/%C3%81ngela_Aguilar',
-    ticketmaster:
-      'https://www.ticketmaster.com/angela-aguilar-tickets/artist/2584974',
-
-    tiktok: 'https://www.tiktok.com/@angelaaguilar676',
-    napster: 'https://music.amazon.com.mx/artists/B009IAAD46/angela-aguilar',
-  },
-  {
-    title: 'Beyonce',
-    description:
-      "Beyoncé Giselle Knowles-Carter (Houston, 4 de septiembre de 1981),​ conocida simplemente como Beyoncé, es una cantautora, productora, actriz, directora, diseñadora y empresaria estadounidense.En su ciudad natal se presentó a diversos concursos de canto y baile cuando era niña y saltó a la fama a finales de los años 1990 como vocalista principal del grupo femenino de R&B, Destiny's Child. Dirigido por su padre, Mathew Knowles, se convirtió en uno de los grupos femeninos con mayores ventas de la historia.",
-    videourl:
-      'https://youtube.com/playlist?list=PLHFeMk_LSwG5WMlOMrny0r3SQyFYx7W2M',
-    price: '$50',
-    coverImg: 'beyonce.jpeg',
-    category: 'Rythm & Blues',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.beyonce.com/',
-    youtube: 'https://www.youtube.com/channel/UCuHzBCaKmtaLcRAOoazhCPA',
-    facebook: 'https://www.facebook.com/beyonce',
-    instagram: 'https://www.instagram.com/beyonce/',
-    twitter: 'https://twitter.com/Beyonce',
-    spotify: 'https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m',
-    deezer: 'https://www.deezer.com/mx/artist/145',
-    apple: 'https://music.apple.com/mx/artist/beyonc%C3%A9/1419227',
-    soundcloud: 'https://soundcloud.com/beyonce',
-    tidal: 'https://listen.tidal.com/artist/1566',
-    wiki: 'https://es.wikipedia.org/wiki/Beyonc%C3%A9',
-    ticketmaster: 'https://www.ticketmaster.com/beyonce-tickets/artist/894191',
-    tiktok: 'https://www.tiktok.com/@beyonce?lang=en',
-    napster: 'https://music.amazon.com.mx/artists/B000T2D81C/beyonc%C3%A9',
-  },
-  {
     title: 'Mary J Blige',
     description:
       'Mary Jane Blige (El Bronx, Nueva York, 11 de enero de 1971)​ es una actriz y cantante estadounidense de R&B contemporáneo, de soul y hip-hop, influida por Chaka Khan, Aretha Franklin y Anita Baker entre otras muchas figuras de la música soul.Nació en Nueva York y pasó parte de su infancia en Savannah, para en su juventud volver a Yonkers en su ciudad natal.3​ Cuando vivía en White Plains (Nueva York) se grabó en un karaoke cantando el tema de Anita Baker Caught Up in the Rapture. La grabación resultante fue enviada a Andre Harrel, gerente de Uptown Records, por el padrastro de Mary. Harrel se quedó impresionado por su voz y la contrató para que hiciera los coros a Father MC..',
@@ -738,36 +679,7 @@ const CardData25 = [
     tiktok: 'https://www.tiktok.com/@mon.laferte',
     napster: 'https://music.amazon.com.mx/artists/B0059FCKVS/mon-laferte',
   },
-  {
-    title: 'Natalia Lafourcade',
-    description:
-      'María Natalia Lafourcade Silva (Ciudad de México, 26 de febrero de 1984), conocida como Natalia Lafourcade, es una cantante,​ compositora,​actriz,​productora musical,​ arreglista,​ diseñadora​ y activista mexicana.En su trayectoria artística ha ganado numerosos reconocimientos nacionales e internacionales, entre ellos tres Premios Grammy,​ quince premios Grammy Latino,​ cinco premios MTV Video Music Awards Latinoamérica,​ entre otros.Natalia fue la primera persona educada musicalmente bajo el Método Macarsi desarrollado por su madre para ayudarla en la rehabilitación tras un accidente con un caballo que sufrió a los 6 años.​ Sus éxitos iniciales llegaron en la década de los 2000 con apariciones sonoras en películas como Amar te duele y sus primeros sencillos, además de su álbum debut, que llegaron a los primeros lugares de popularidad en México y son considerados como algunas de las canciones más influyentes de esa época.',
 
-    videourl: 'https://youtube.com/playlist?list=PL5F92A5550F076B41',
-    price: '$50',
-    coverImg: 'natalialafourcade.jpg',
-    category: 'Baladas',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'http://www.lafourcade.com.mx/',
-    youtube: 'https://www.youtube.com/channel/UCKw8oP0rF37jTEq_3R8O5Mg',
-    facebook: 'https://www.facebook.com/NataliaLafourcadeMx',
-    instagram: 'https://www.instagram.com/natalialafourcade/',
-    twitter: 'https://twitter.com/lafourcade',
-    spotify: 'https://open.spotify.com/artist/1hcdI2N1023RvSwLzTtdsp',
-    deezer: 'https://www.deezer.com/mx/artist/6722',
-    apple: 'https://music.apple.com/mx/artist/natalia-lafourcade/14937569',
-    soundcloud: 'https://soundcloud.com/natalialafourcade',
-    tidal: 'https://listen.tidal.com/artist/3618024',
-    wiki: 'https://es.wikipedia.org/wiki/Natalia_Lafourcade',
-    ticketmaster:
-      'https://www.ticketmaster.com/natalia-lafourcade-tickets/artist/1492041',
-    tiktok: 'https://www.tiktok.com/@natalialafourcadeoficial',
-    napster:
-      'https://music.amazon.com.mx/artists/B000WXQ8L0/natalia-lafourcade',
-  },
   {
     title: 'Julieta Venegas',
     description:
