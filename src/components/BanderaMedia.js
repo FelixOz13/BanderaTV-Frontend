@@ -9,7 +9,7 @@ import { FaEnvelope } from 'react-icons/fa'
 import { FaWhatsappSquare } from 'react-icons/fa'
 import '../App.css'
 
-import React from 'react'
+
 
 function BanderaMedia() {
   return (

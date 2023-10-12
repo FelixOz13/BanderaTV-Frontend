@@ -239,7 +239,7 @@ const CardData22 = [
     description:
       'Achille Claude Debussya​ (pronunciado /aʃil(ə) klod(ə) dəbysi/; Saint-Germain-en-Laye, 22 de agosto de 1862-París, 25 de marzo de 1918) fue un compositor francés, uno de los más influyentes de finales del siglo xix y principios del xx. Algunos autores lo consideran el primer compositor impresionista, aunque él rechazaba categóricamente el término.Nacido en el seno de una familia de recursos modestos y escasa participación cultural, mostró suficiente talento musical para ser admitido en el mejor centro de estudios musicales de Francia, el Conservatorio de París, a la edad de diez años.. ',
     category: 'Classica',
-    videourl: 'https://youtu.be/qRZmdzCGLYw',
+    videourl: 'https://www.youtube.com/live/UqTC8NJP2pM?si=T7TNTnvcuX2Vj0YC',
     price: 80,
     coverImg: 'claudedebussy.jpeg',
     location: 'France',
