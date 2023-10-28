@@ -692,5 +692,34 @@ const CardData23 = [
     tiktok: 'https://www.tiktok.com/@lilwayne?lang=es',
     napster: 'https://us.napster.com/artist/lil-wayne',
   },
+  {
+    title: 'Baby Bash',
+    description:
+      'Baby Bash es el nombre artístico de Ronnie Ray Bryant, un rapero y cantante estadounidense. Es conocido por sus contribuciones a los géneros de hip-hop y rap latino. Baby Bash nació el 18 de octubre de 1975 en Vallejo, California. Ganó reconocimiento a principios de los años 2000 con éxitos como "Suga Suga" y "Cyclone.',
+    videourl: 'https://youtube.com/playlist?list=OLAK5uy_lrPr95cVcuabXCSo9gOcTEzyyHxwa-OOM&si=Pf99gm1fd5_A__BC',
+    price: '$50',
+    coverImg: 'babybash.png',
+    category: 'Hip Hop',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://solo.to/babybash',
+    youtube: 'https://www.youtube.com/channel/UC8Zk6x3hswEM4woanLVT7BA',
+    facebook: 'https://www.facebook.com/babybash/',
+    instagram: 'https://www.instagram.com/babybash/?hl=en',
+    twitter: 'https://twitter.com/BabyBash?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+    spotify: 'https://open.spotify.com/artist/12PSlydMSjEHzSCj9X5qv7',
+    deezer: 'https://www.deezer.com/mx/artist/5099',
+    apple: 'https://music.apple.com/mx/artist/baby-bash/2013484',
+    soundcloud: 'https://soundcloud.com/bash-town',
+    tidal: 'https://listen.tidal.com/artist/32024',
+    wiki:
+      'https://es.wikipedia.org/wiki/Baby_Bash',
+    ticketmaster:
+      'https://www.ticketmaster.com/baby-bash-tickets/artist/895168',
+    tiktok: 'https://www.tiktok.com/@babybashofficial?lang=en',
+    napster: 'https://music.amazon.com.mx/artists/B000QK63G4/baby-bash',
+  },
 ]
 export default CardData23
