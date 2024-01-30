@@ -11,6 +11,14 @@ function EveryNoise() {
           media="(max-width: 400px)"
         />
       </a>
+      <a href="https://gigmeout.com/" target="_blank" rel="noreferrer">
+        <img
+          src="../images/gigmeout.jpg"
+          className="everynoisebutton"
+          alt=""
+          media="(max-width: 400px)"
+        />
+      </a>
     </div>
   )
 }
