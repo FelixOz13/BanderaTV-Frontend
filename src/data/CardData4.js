@@ -116,7 +116,7 @@ const CardData4 = [
     description:
       'Dua Lipa (Londres, 22 de agosto de 1995) es una cantante, compositora, modelo y actriz británica de origen albanokosovar. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017. El álbum alcanzó el número 3 en la UK Albums Chart y lanzó ocho sencillos, incluidos «Be the One» e «IDGAF», y el sencillo número 1 del Reino Unido «New Rules», que también llegó al puesto número 6 en Estados Unidos. En 2018, ganó dos premios Brit a la artista solista femenina británica y artista revelación británica.',
     videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlUKA-troAfBM-xSZzJAz5Uw',
+      'https://youtube.com/playlist?list=PLNrotoZZ8BaoXT_LJuwEyESQlctWNDCwD&si=CD9RJAMy-wfQy72w',
     price: '$50',
     coverImg: 'dualipa.jpg',
     category: 'Pop Americano',
