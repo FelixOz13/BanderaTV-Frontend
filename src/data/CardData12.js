@@ -705,7 +705,7 @@ const CardData12 = [
     description:
       'Los Tigres del Norte son un grupo de música regional mexicana, especializado en el estilo de la música norteña, fundado en Mocorito, Sinaloa, México. Con ventas que ascienden a las 60 millones de copias es una de las agrupaciones más reconocidas del género, debido a su larga trayectoria y a sus éxitos a nivel de la comunidad mexicana en la diáspora. Su campo principal son los corridos, los cuales han sido censurados en varias ocasiones, incluso en su propio país. Es la única agrupación mexicana que ha logrado ganar 6 premios Grammy y 12 Grammy latino y también su música ha traspasado fronteras llegando a conquistar los cinco continentes, aparte han filmado 40 películas al lado de los hermanos Almada entre otros actores de altísima trayectoria.',
     videourl:
-      'http://youtube.com/playlist?list=OLAK5uy_kJ5AizQuObUTIu65sr1wXNEw2Sft1-D1M',
+      'https://youtube.com/playlist?list=PLkEA9yu8jg8qBqXzqkf6NDErKix8rF_8y&si=MumqX45nBsseBNGO',
     price: '$50',
     coverImg: 'LosTigresDelNorte.jpg',
     category: 'Norteño',
