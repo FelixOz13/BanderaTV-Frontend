@@ -40,8 +40,8 @@ function Norteño() {
 
       <ButtonTreeCategories />
 
-      <img className="indianaut" src="./images/aguiladorada.jpg" alt="" />
-      <img className="indianaut2" src="./images/aguiladorada.jpg" alt="" />
+      <img className="indianaut" src="./images/aguiladorada.jpeg" alt="" />
+      <img className="indianaut2" src="./images/aguiladorada.jpeg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
