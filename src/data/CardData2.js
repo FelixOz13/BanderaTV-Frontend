@@ -562,7 +562,7 @@ const CardData2 = [
     locationImg: 'mexiflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'http://www.christiannodal.com/',
+    websiteurl: 'https://shop.christiannodal.com/',
     youtube: 'https://www.youtube.com/channel/UCtqOng3GVhQVu1Gl-3UlyAQ',
     facebook: 'https://www.facebook.com/christiannodaloficialmx/',
     instagram: 'https://www.instagram.com/nodal/',
