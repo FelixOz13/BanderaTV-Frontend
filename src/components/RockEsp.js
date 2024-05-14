@@ -27,7 +27,9 @@ function RockEsp() {
     return 0
   })
 
-  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+  const cards = sortedData
+    .reverse()
+    .map((item) => <Card key={item.id} item={item} />)
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
