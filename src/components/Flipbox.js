@@ -8,7 +8,7 @@ function Flipbox() {
         <Link to="/intro">
           <img
             className="navbar-logo"
-            src="../images/mobileregistered.png"
+            src="../images/mobileregi6.jpg"
             alt=""
           ></img>
         </Link>

@@ -8,7 +8,7 @@
  body {
    margin: 0;
    max-width: fit-content;
-   background-image: url("bgimages/universewallpaper2.jpg");
+   background-image: url("bgimages/sky2.avif");
    background-size: 100%;
 
  }
@@ -86,13 +86,16 @@
   margin: 15px;
 }
  .headertext {
-   color: #f4c44b;
-
+   color: rgb(34, 231, 8);
+  font-style: bold;
    font-family: 'Henny Penny';
    font-size: 1.5rem;
    margin-top: 10px;
    text-align: center;
-
+   
+   padding: 10px 20px;
+   border-radius: 20px;
+   
  }
 
 
@@ -124,7 +127,7 @@
    text-align: center;
    font-family: 'Notable';
    font-size: 1.5rem;
-   color: white;
+   color: rgb(241, 21, 223);
 
  }
 
@@ -146,7 +149,7 @@
 
  .navbar-logo {
    border-width: 4px;
-   border-color: #dc9e02;
+   border-color:rgb(19, 242, 242);
    border-style: groove;
    margin-left: -25px;
    margin-top: -25px;
@@ -352,7 +355,7 @@
    text-decoration: none;
 
  }
-
+.navbar-logo
  .icons-bandera :hover {
    background-image: linear-gradient(to right, #dc9e02,
        black,
