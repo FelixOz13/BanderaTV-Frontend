@@ -111,7 +111,7 @@ function Card({ item }) {
           <FaWhatsapp />
         </a>
       </div>
-      <div>
+      <div style={{ marginTop: '-65px' }}>
         <Comments
           commentsUrl="http://localhost:3004/comments"
           currentUserId="1"
