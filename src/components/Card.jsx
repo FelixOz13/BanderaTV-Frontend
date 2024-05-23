@@ -6,6 +6,7 @@ import { GiBlackFlag } from 'react-icons/gi'
 import { SiApplemusic } from 'react-icons/si'
 import { useLocation } from 'react-router-dom'
 import EveryNoise from './EveryNoise'
+import Comments from '../Comments/Comments'
 import {
   FaTiktok,
   FaWhatsapp,
@@ -110,12 +111,12 @@ function Card({ item }) {
           <FaWhatsapp />
         </a>
       </div>
-      {/*<div>
+      <div>
         <Comments
           commentsUrl="http://localhost:3004/comments"
           currentUserId="1"
         />
-       </div>*/}
+      </div>
       <div className="slidertextdiv">
         <h1 className="slidertext">
           Presiona un Link para visitar la red social del artista
@@ -238,7 +239,6 @@ function Card({ item }) {
         </a>
       </div>
       <BanderaMedia />
-      <EveryNoise />
     </div>
   )
 }
