@@ -9,16 +9,12 @@ import { FaEnvelope } from 'react-icons/fa'
 import { FaWhatsappSquare } from 'react-icons/fa'
 import '../App.css'
 
-
-
 function BanderaMedia() {
   return (
-    <div>
-      <div className="bandera-icons">
-        <img className="flag-logo2" src="../images/aguiladorada.jpeg" alt="" />
-        <img className="flag-logo2" src="../images/goldmusic2.png" alt="" />
-      </div>
-      <h4 className="contact">Contactos para Bandera Musical</h4>
+    <div style={{ marginTop: '45px' }}>
+      <h6 className="contact">
+        Contactos de <br></br> Bandera Musical
+      </h6>
 
       <div className="bandera">
         <a
