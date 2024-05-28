@@ -12,7 +12,7 @@ const CardData27 = [
     locationImg: 'coloflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://www.shakira.com/',
+    websiteurl: 'https://www.facebook.com/piso21/?locale=es_LA',
     youtube: 'https://www.youtube.com/channel/UCEFNzT2RoVqGkV4e3Osyx4A',
     facebook: 'https://www.facebook.com/piso21',
     instagram: 'https://www.instagram.com/piso21/',
@@ -320,4 +320,5 @@ const CardData27 = [
     napster: 'https://app.napster.com/artist/aventura',
   },
 ]
+
 export default CardData27

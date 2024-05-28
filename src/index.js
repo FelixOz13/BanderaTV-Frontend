@@ -34,6 +34,7 @@ import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
 import Solistas from './components/Solistas'
+import Funk from './components/Funk'
 
 import {
   BrowserRouter as Router,
@@ -83,6 +84,7 @@ root.render(
         <Route path="/baladas" element={<Baladas />} />
         <Route path="/bachatta" element={<Bachatta />} />
         <Route path="/solistas" element={<Solistas />} />
+        <Route path="/funk" element={<Funk />} />
       </Routes>
     </Router>
     {isMobile && (

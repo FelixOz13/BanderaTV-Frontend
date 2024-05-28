@@ -5,7 +5,6 @@ import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { SiApplemusic } from 'react-icons/si'
 import { useLocation } from 'react-router-dom'
-import EveryNoise from './EveryNoise'
 import Comments from '../Comments/Comments'
 import {
   FaTiktok,

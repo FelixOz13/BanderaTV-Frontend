@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaShare } from 'react-icons/fa'
 
 const ShareDialog = ({ item }) => {
-  const [isDialogOpen, setIsDialogOpen] = useState(false)
+ 
 
   const handleShare = () => {
     const shareUrl = `${window.location.origin}`
@@ -24,9 +24,9 @@ const ShareDialog = ({ item }) => {
   return (
     <div>
       <div className="share-dialog">
-        <a className="sharebutton1" onClick={handleShare}>
+        <button className="sharebutton1" onClick={handleShare}>
           <FaShare />
-        </a>
+        </button>
       </div>
     </div>
   )

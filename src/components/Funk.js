@@ -1,17 +1,17 @@
 import Navbar from './Navbar'
 import { useState } from 'react'
-import CardData24 from '../data/CardData24'
+import CardData28 from '../data/CardData28'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 
-function Rancheras() {
+function Funk() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData24.map((item) => ({
+  const dataWithIds = CardData28.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
@@ -20,13 +20,15 @@ function Rancheras() {
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
-  const sortedData = [...filteredData].sort((a, b) => {
+  const sortedData = [...filteredData].sort((b, a) => {
     if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
     if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
     return 0
   })
 
-  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+  const cards = sortedData
+    .reverse()
+    .map((item) => <Card key={item.id} item={item} />)
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
@@ -35,13 +37,13 @@ function Rancheras() {
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Rancheras Classicas</h1>
+      <h1 className="title2">Funk , Soul & Disco</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
 
       <ButtonTreeCategories />
 
-      <img className="indianaut" src="./images/mariachisombrero.jpg" alt="" />
-      <img className="indianaut2" src="./images/mariachi.jpeg" alt="" />
+      <img className="indianaut" src="./images/astronaut.png" alt="" />
+      <img className="indianaut2" src="./images/rockguitarist.jpg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
@@ -56,4 +58,5 @@ function Rancheras() {
     </div>
   )
 }
-export default Rancheras
+
+export default Funk

@@ -85,7 +85,6 @@ const CardData5 = [
     tiktok: 'https://www.tiktok.com/@sublimeofficial?lang=es',
     napster: 'https://web.napster.com/artist/art.61779',
   },
-  ,
   {
     title: 'Beastie Boys',
     description:

@@ -269,6 +269,14 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
+      <Link className="btn" to="/funk">
+      <img
+        src="../images/funk.jpg"
+        className="sponsor1"
+        alt=""
+        media="(max-width: 400px)"
+      />
+    </Link>
     </div>
   )
 }

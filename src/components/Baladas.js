@@ -1,6 +1,5 @@
 import Navbar from './Navbar'
 import { useState } from 'react'
-import SponsorContainer from './SponsorContainer'
 import BandsData2 from '../data/BandsData2'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
