@@ -14,12 +14,13 @@ import {
   FaShare,
   FaSpotify,
   FaFacebook,
-  FaTwitterSquare,
+
 } from 'react-icons/fa'
+
 import { SiTidal } from 'react-icons/si'
 import React, { useState } from 'react'
 import Spinner from './Spinner'
-import { BsFillPlayCircleFill } from 'react-icons/bs'
+import { BsFillPlayCircleFill , BsTwitterX} from 'react-icons/bs'
 
 function Card({ item }) {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -169,7 +170,8 @@ function Card({ item }) {
           className="icons-twitter"
           id="third-party-grid"
         >
-          <FaTwitterSquare />
+        <BsTwitterX />
+
         </a>
 
         <a

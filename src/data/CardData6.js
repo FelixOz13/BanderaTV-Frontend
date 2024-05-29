@@ -970,6 +970,7 @@ const CardData6 = [
     locationImg: 'england.jpg',
     openSpots: null,
     likes: 1000,
+    websiteurl: 'https://www.pinkfloyd.com/',
     youtube: 'https://www.youtube.com/channel/UCY2qt3dw2TQJxvBrDiYGHdQ',
     facebook: 'https://www.facebook.com/pinkfloyd',
     instagram: 'https://www.instagram.com/pinkfloyd/',

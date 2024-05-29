@@ -1,19 +1,22 @@
+import React from 'react';
+import ReactStars from 'react-rating-stars-component';
 
-import ReactStars from "react-rating-stars-component";
-
-
-
-function StarRating(props) {
+function StarRating({ size = 35, isHalf = true, count = 5 }) {
+  // Function to generate a random value between 2.5 and 5
+  const getRandomRating = () => {
+    return (Math.random() * 2.5) + 2.5;
+  };
 
   return (
     <div>
-    <ReactStars
-      size={35}
-      isHalf={true}
-      count={5}
-      value={4.5}/>
-     </div>
-    
-  )
+      <ReactStars
+        size={size}
+        isHalf={isHalf}
+        count={count}
+        value={getRandomRating()}
+      />
+    </div>
+  );
 }
-export default StarRating
+
+export default StarRating;
