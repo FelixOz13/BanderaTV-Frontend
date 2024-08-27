@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 import { useState } from 'react'
-import CardData32 from '../data/CardData32'
+import CardData34 from '../data/CardData34'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 
@@ -11,7 +11,7 @@ function Artists() {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData32.map((item) => ({
+  const dataWithIds = CardData34.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
