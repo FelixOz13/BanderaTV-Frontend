@@ -79,8 +79,8 @@ const BandDetail = () => {
       <Link to={`/band/${encodeURIComponent(band.title)}`} target="_blank" rel="noreferrer">
        
       </Link>
-      <div className="card--titler" >
-      <h2 className="card--titler">{band.title}</h2>
+      <div className="title-name" >
+      <h2 className="title-name">{band.title}</h2>
       </div>
       <div className="card--titler">
       <p className="card--titler">{band.category}</p>
