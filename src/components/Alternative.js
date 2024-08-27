@@ -4,6 +4,7 @@ import CardData10 from '../data/CardData10'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 
+
 function Alternative() {
   const [searchQuery, setSearchQuery] = useState('')
 
@@ -30,9 +31,13 @@ function Alternative() {
     .reverse()
     .map((item) => <Card key={item.id} item={item} />)
 
+
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
+
+  
+
 
   return (
     <div>

@@ -12,7 +12,7 @@ import '../App.css'
 function BanderaMedia() {
   return (
     <div style={{ marginTop: '45px' }}>
-      <h6 className="contact">
+      <h6 className="contact" style={{color:"goldenrod"}}>
         Contactos de <br></br> Bandera Musical
       </h6>
 

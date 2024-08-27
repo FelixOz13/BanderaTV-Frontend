@@ -1039,7 +1039,7 @@ const CardData25 = [
     locationImg: 'canada.jpeg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://www.taylorswift.com/',
+    websiteurl: 'https://elf.tech/connect',
     youtube: 'https://www.youtube.com/@grimes',
     facebook: 'https://www.facebook.com/Grimes',
     instagram: 'https://www.instagram.com/grimes/',

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
-import BandsData from '../data/BandsData'
+import CardData29 from '../data/CardData29'
 import Card from './Card'
 import Navbar from './Navbar'
 
@@ -11,7 +11,7 @@ function Rythm() {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = BandsData.map((item) => ({
+  const dataWithIds = CardData29.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))

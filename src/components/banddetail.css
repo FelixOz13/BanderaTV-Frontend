@@ -1,0 +1,167 @@
+/* General Styles */
+ * {
+   box-sizing: border-box;
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Iceland&display=swap');
+
+ body {
+   margin: 0;
+   max-width: fit-content;
+   background-image: url("images/universewallpaper2.jpg");
+   background-size: 100%;
+
+ }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Video Container */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    margin-bottom: 20px;
+  }
+  
+  .video-container .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Band Card */
+  .band-card {
+    background-image: url("images/universewallpaper2.jpg");
+   background-size: 100%;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .band-card h2 {
+    font-size: 100px;
+    font-family: "Henny Penny";
+    margin: 10px 0;
+    color: goldenrod ;
+  }
+  
+  .band-card p {
+    font-size: 18px;
+    color: goldenrod ;
+  }
+  
+  .band-card img.coverImg {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.band-card img.locationImg {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 200px;
+   position: relative;
+   bottom: 300px;
+}
+
+  /* Share Button */
+  .sharebutton {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .sharebutton button,
+  .sharebutton a {
+    background-color: black;
+    color: goldenrod;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sharebutton button:hover,
+  .sharebutton a:hover {
+    background-color: goldenrod;
+  }
+  
+  /* Third-Party Icons */
+  .third-party-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .third-party-icons a,
+  .third-party-icons img {
+    font-size: 45px;
+    color: goldenrod;
+    transition: transform 0.3s;
+  }
+  
+  .third-party-icons a:hover,
+  .third-party-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .third-party-icons img.sponsor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Comments Section */
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  /* Slider Text */
+  .slidertextdiv {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .slidertext {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Star Rating */
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  img.locationImg {
+    width:"210px";
+    height:"80px";
+  }
+ 
+  

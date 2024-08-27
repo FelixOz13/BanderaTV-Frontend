@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
-import CardData from '../data/CardData'
+import CardData1 from '../data/CardData1'
 import Card from './Card'
 import Navbar from './Navbar'
 
@@ -11,7 +11,7 @@ function Sierreño() {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData.map((item) => ({
+  const dataWithIds = CardData1.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))

@@ -4,8 +4,9 @@ import BanderaMedia from './BanderaMedia'
 import StarRating from './StarRating'
 import { GiBlackFlag } from 'react-icons/gi'
 import { SiApplemusic } from 'react-icons/si'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import Comments from '../Comments/Comments'
+
 import {
   FaTiktok,
   FaWhatsapp,
@@ -128,17 +129,20 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.websiteurl}
           className="icons-bandera"
-          id="third-party-grid"
+          
         >
           <GiBlackFlag />
         </a>
-
+        <Link  className="icons-bandera" to={`/Bandera/${item.title}`}>
+          
+        <BsFillPlayCircleFill/>
+      </Link>
         <a
           target="_blank"
           rel="noreferrer"
           href={item.facebook}
           className="icons-fb"
-          id="third-party-grid"
+          
         >
           <FaFacebook />
         </a>
@@ -148,7 +152,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.youtube}
           className="icons-YT"
-          id="third-party-grid"
+          
         >
           <FaYoutube />
         </a>
@@ -158,7 +162,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.instagram}
           className="icons-instagram"
-          id="third-party-grid"
+          
         >
           <FaInstagramSquare />
         </a>
@@ -168,7 +172,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.twitter}
           className="icons-twitter"
-          id="third-party-grid"
+          
         >
         <BsTwitterX />
 
@@ -179,7 +183,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.tiktok}
           className="icons-tiktok"
-          id="third-party-grid"
+          
         >
           <FaTiktok />
         </a>
@@ -205,7 +209,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.spotify}
           className="icons-spotify"
-          id="third-party-grid"
+          
         >
           <FaSpotify />
         </a>
@@ -215,7 +219,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.apple}
           className="icons-itunes"
-          id="third-party-grid"
+          
         >
           <SiApplemusic />
         </a>
@@ -225,7 +229,7 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.tidal}
           className="icons-tidal"
-          id="third-party-grid"
+          
         >
           <SiTidal />
         </a>

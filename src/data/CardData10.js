@@ -1,33 +1,5 @@
 const CardData10 = [
-  {
-    title: 'Papa Roach',
-    description:
-      'Papa Roach es una banda estadounidense de rock y nu metal fundada en 1993 en Vacaville, California. Se dio a conocer internacionalmente en el año 2000, con su álbum debut, Infest, reconocido tres veces como disco de platino. Los tres álbumes siguientes, continuaron su éxito: Lovehatetragedy en el año 2002, Getting Away With Murder en 2004 y The Paramour Sessions en 2006. A estos trabajos, les siguieron Metamorphosis en 2009, The Connection en 2012, F.E.A.R. en 2015, Crooked Teeth en 2017 y, cinco años después, el último álbum de Papa Roach hasta la fecha, Ego Trip.En sus primeros años, la banda era descrita como nu metal y rap metal. Con el tiempo, la agrupación añadió otros sonidos a su música, tales como el hard rock, el metal y el rock alternativo.',
-    videourl:
-      'https://youtube.com/playlist?list=UULFeekxg1vju_sjIK9KjJJLYg&si=THBh2docyHYz0PYY',
-    price: 36,
-    coverImg: 'paparoach.jpg',
-    category: 'Alternativo',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://paparoach.komi.io/',
-    facebook: 'https://www.facebook.com/paparoach',
-    instagram: 'https://www.instagram.com/paparoach/',
-    twitter: 'https://twitter.com/paparoach',
-    youtube: 'https://www.youtube.com/@paparoach',
-    spotify: 'https://open.spotify.com/artist/4RddZ3iHvSpGV4dvATac9X',
-    deezer: 'https://www.deezer.com/mx/artist/89',
-    apple: 'https://music.apple.com/mx/artist/papa-roach/3445763',
-    soundcloud: 'https://soundcloud.com/paparoach',
-    tidal: 'https://listen.tidal.com/artist/24961',
-    wiki: 'https://es.wikipedia.org/wiki/Papa_Roach',
-    ticketmaster:
-      'https://www.ticketmaster.com/papa-roach-tickets/artist/708795',
-    tiktok: 'https://www.tiktok.com/@paparoach?lang=es',
-    napster: 'https://music.amazon.com.mx/artists/B000S9ZLSY/papa-roach',
-  },
+  
   {
     title: 'Red Hot Chili Peppers',
     description:
@@ -1475,36 +1447,7 @@ const CardData10 = [
     tiktok: 'https://www.tiktok.com/@maroon5?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000V6KIMI/maroon-5',
   },
-  {
-    title: 'Smashing Pumpkins',
-    description:
-      "The Smashing Pumpkins es una banda estadounidense de rock alternativo formada en Chicago en 1988. Fundada en un inicio por el vocalista Billy Corgan y James Iha, poco después incluyeron a Jimmy Chamberlin y D'arcy Wretzky, completando su formación original. La banda ha sufrido muchos cambios en su formación a lo largo de su existencia, con Corgan y el guitarrista Jeff Schroeder siendo los únicos miembros oficiales a partir de 2014.",
-    videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_meh35Hhh_1U50Fcskgu8vhXHoIDRJiDd8',
-    price: 36,
-    coverImg: 'smashingpumpkins.jpeg',
-    category: 'Alternativo',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://smashingpumpkins.com/',
-    youtube: 'https://www.youtube.com/channel/UCnGcjQlLO8x7jsfw3r6U9ww',
-    facebook: 'https://www.facebook.com/smashingpumpkins',
-    instagram: 'https://www.instagram.com/smashingpumpkins/',
-    twitter: 'https://twitter.com/SmashingPumpkin',
-    spotify: 'https://open.spotify.com/artist/40Yq4vzPs9VNUrIBG5Jr2i',
-    deezer: 'https://www.deezer.com/mx/artist/193331',
-    apple: 'https://music.apple.com/mx/artist/the-smashing-pumpkins/1646302',
-    soundcloud: 'https://soundcloud.com/smashingpumpkins',
-    tidal: 'https://listen.tidal.com/artist/27807',
-    wiki: 'https://es.wikipedia.org/wiki/The_Smashing_Pumpkins',
-    ticketmaster:
-      'https://www.ticketmaster.com/the-smashing-pumpkins-tickets/artist/736143',
-    tiktok: 'https://www.tiktok.com/@thesmashingpumpkins',
-    napster:
-      'https://music.amazon.com.mx/artists/B00G9QUPUO/the-smashing-pumpkins',
-  },
+ 
   {
     title: 'Radiohead',
     description:

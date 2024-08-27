@@ -638,7 +638,7 @@
    width: 55px;
    height: 55px;
    border-radius: 20%;
-   margin: 6px;
+   margin: 2px;
  }
 
 
@@ -653,10 +653,10 @@
  }
 
  .sponsor {
-   width: 48px;
-   height: 48px;
+   width: 40px;
+   height: 40px;
    border-radius: 20%;
-   margin: 9px;
+   margin: 1px;
    margin-top: 20px;
  }
 
@@ -668,7 +668,7 @@
        #dc9e02);
    max-width: 95px;
    max-height: 95px;
-   padding: 5px;
+   padding: 1px;
    border-radius: 10%;
    cursor: pointer;
  }
@@ -678,7 +678,7 @@
  .sponsorcontainer1 {
    display: flex;
    flex-wrap: wrap;
-   margin: 5px;
+   margin: 10px;
  }
 
  .sponsorcontainer1>* {
@@ -698,9 +698,9 @@
    background-image: linear-gradient(to right, #dc9e02,
        black,
        #dc9e02);
-   max-width: 95px;
-   max-height: 95px;
-   padding: 5px;
+   max-width: 45px;
+   max-height: 45px;
+   padding: 1px;
    border-radius: 10%;
    cursor: pointer;
  }
@@ -1141,5 +1141,4 @@
   text-align: center;
   margin-top:25px;
 }
-
 

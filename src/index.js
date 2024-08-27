@@ -35,6 +35,9 @@ import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
 import Solistas from './components/Solistas'
 import Funk from './components/Funk'
+import BandDetail from './components/BandDetail'
+
+
 
 import {
   BrowserRouter as Router,
@@ -85,22 +88,27 @@ root.render(
         <Route path="/bachatta" element={<Bachatta />} />
         <Route path="/solistas" element={<Solistas />} />
         <Route path="/funk" element={<Funk />} />
+        <Route path="/Bandera/:title" element={<BandDetail />} />
       </Routes>
     </Router>
-    {isMobile && (
-      <div className="headertext">
-        <p>Descarga nuestra App Movil para una mejor Experiencia!</p>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.banderamusical.site"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="images/google-play-badge.png"
-            alt="Descarga nuestra app movile en Google Play"
-          />
-        </a>
-      </div>
-    )}
-  </div>,
+    <div>
+
+{isMobile && (
+  <div className="headertext">
+    <p>Descarga nuestra App Movil para una mejor Experiencia!</p>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.banderamusical.site"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="images/google-play-badge.png"
+        alt="Descarga nuestra app movil en Google Play"
+      />
+    </a>
+  </div>
+)}
+
+  </div>
+  </div>
 )

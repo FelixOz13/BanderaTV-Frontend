@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
-import BandsData4 from '../data/BandsData4'
+import CardData33 from '../data/CardData33'
 import Card from './Card'
 import Navbar from './Navbar'
 
@@ -11,7 +11,7 @@ function Solistas() {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = BandsData4.map((item) => ({
+  const dataWithIds = CardData33.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
