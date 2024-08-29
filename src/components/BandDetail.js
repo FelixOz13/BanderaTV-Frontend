@@ -124,7 +124,7 @@ const BandDetail = () => {
       </button>
     
       <a
-      className="sharebutton"
+      className="sharebutton-button"
       href={`whatsapp://send?text=${encodeURIComponent(
         `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. Mira la imagen del álbum: ${coverImgUrl}\nVisita la página: ${shareUrl}`
       )}`}
