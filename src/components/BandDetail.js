@@ -113,23 +113,24 @@ const BandDetail = () => {
        
         
       <div className="sharebutton">
-        <button
-          className="sharebutton"
-          onClick={handleShare}
-          role="link" // Add ARIA role to indicate this is a link-like element
-        >
-          <FaShare />
-        </button>
-
-        <a
-          className="sharebutton"
-          href={`whatsapp://send?text=${encodeURIComponent(
-            `${window.location.origin}${currentLocation.pathname}`,
-          )}`}
-        >
-          <FaWhatsapp />
-        </a>
-      </div>
+      <button
+        className="sharebutton-button"
+        onClick={handleShare}
+        role="link" // ARIA role for link-like elements
+      >
+        <FaShare />
+      </button>
+    
+      <a
+        className="sharebutton-link"
+        href={`whatsapp://send?text=${encodeURIComponent(
+          `${window.location.origin}${currentLocation.pathname}`
+        )}`}
+      >
+        <FaWhatsapp />
+      </a>
+    </div>
+    
       
       <div className="video-container">
       <ReactPlayer

@@ -81,30 +81,28 @@
    bottom: 300px;
 }
 
-  /* Share Button */
-  .sharebutton {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 65px;
-    
-   
-  }
-  
-  .sharebutton button,
-  .sharebutton a {
-    background-color: black;
-    color: goldenrod;
-    border: none;
-    font-size: 40px;
-  
-   
-  }
-  
-  .sharebutton button:hover,
-  .sharebutton a:hover {
-    background-color: black;
-  }
+.sharebutton {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adjust as needed */
+  margin-top: 65px;
+}
+
+.sharebutton-button,
+.sharebutton-link {
+  background-color: black;
+  color: goldenrod;
+  border: none;
+  font-size: 40px;
+  cursor: pointer; /* Indicate interactive elements */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.sharebutton-button:hover,
+.sharebutton-link:hover {
+  color: white; /* Optional: Change color on hover for better UX */
+}
+
   
   /* Third-Party Icons */
   .third-party-icons {
