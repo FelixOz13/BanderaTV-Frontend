@@ -85,8 +85,10 @@
   .sharebutton {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
+    gap: 100px;
+    margin-top: 65px;
+    
+   
   }
   
   .sharebutton button,
@@ -94,19 +96,14 @@
     background-color: black;
     color: goldenrod;
     border: none;
-    padding: 10px 15px;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 40px;
+  
+   
   }
   
   .sharebutton button:hover,
   .sharebutton a:hover {
-    background-color: goldenrod;
+    background-color: black;
   }
   
   /* Third-Party Icons */
@@ -159,9 +156,13 @@
     margin: 20px 0;
   }
 
-  img.locationImg {
-    width:"210px";
-    height:"80px";
-  }
+  
+  
+  .origin-flag {
+    width: 108px;
+    height: 75px;
+    border-radius: 10px;; /* Adjust this to the desired height */
+}
+
  
   

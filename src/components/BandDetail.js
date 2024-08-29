@@ -19,7 +19,7 @@ import {
 } from 'react-icons/fa';
 import { SiTidal } from 'react-icons/si';
 import { BsTwitterX } from 'react-icons/bs';
-import { loadCardData } from '../utils/loadCardData'; // Import the function
+import { loadCardData } from '../utils/loadCardData'; 
 import "./banddetail.css"
 
 
@@ -53,15 +53,17 @@ const BandDetail = () => {
   if (!band) {
     return <div>Band not found</div>;
   }
-
-  const shareUrl = `${window.location.origin}`;
+  const shareUrl = `${window.location.origin}/Bandera/${encodeURIComponent(band.title)}`;
+  const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+  
   const handleShare = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical\n${shareUrl}`,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. Mira la imagen del álbum: ${coverImgUrl}\nVisita la página: ${shareUrl}`,
+        url: shareUrl, // Include the URL so it can be opened directly
       };
-
+  
       navigator
         .share(shareContent)
         .then(() => console.log('Share successful'))
@@ -70,6 +72,7 @@ const BandDetail = () => {
       console.warn('Web Share API not supported');
     }
   };
+  
   return (
     <div>
     <Navbar />
@@ -82,21 +85,23 @@ const BandDetail = () => {
       <div className="title-name" >
       <h2 className="title-name">{band.title}</h2>
       </div>
+      
       <div className="card--titler">
       <p className="card--titler">{band.category}</p>
       </div>
       <div><img
-      src={`../images/${band.coverImg}`}
-      className="coverImg"
-      alt="location"
-    />
-    </div>
-     {/*<div><img
      src={`../images/${band.locationImg}`}
-     className="locationImg"
+     className="origin-flag"
      alt="location"
    />
-   </div>*/}
+   </div>
+      <div><img
+      src={`../images/${band.coverImg}`}
+      className="coverImg"
+      alt="cover"
+    />
+    </div>
+     
 <div>
 
 <StarRating/>
@@ -109,7 +114,7 @@ const BandDetail = () => {
         
       <div className="sharebutton">
         <button
-          className="sharebutton1"
+          className="sharebutton"
           onClick={handleShare}
           role="link" // Add ARIA role to indicate this is a link-like element
         >
@@ -117,7 +122,7 @@ const BandDetail = () => {
         </button>
 
         <a
-          className="sharebutton2"
+          className="sharebutton"
           href={`whatsapp://send?text=${encodeURIComponent(
             `${window.location.origin}${currentLocation.pathname}`,
           )}`}

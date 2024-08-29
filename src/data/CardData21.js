@@ -199,7 +199,7 @@ const CardData21 = [
     napster: 'https://us.napster.com/artist/kiss',
   },
   {
-    title: 'AC/DC',
+    title: 'AC🗲DC',
     description:
       'AC/DC es una banda de hard rock británica-australiana, formada en 1973 en Australia por los hermanos escoceses Malcolm Young y Angus Young.Sus álbumes se han vendido en un total estimado de 200 millones de copias, embarcándose en giras multitudinarias por todo el mundo y sus éxitos han musicalizado varias producciones cinematográficas sobresalientes. Son famosas sus actuaciones en vivo, resultando vibrantes y exultantes espectáculos de primer orden. Mucho de ello se debe al extravagante estilo de su guitarrista principal y símbolo visual, Angus Young, quien asume el rol de guitarrista principal durante los conciertos, gracias a sus dinámicos y adrenalínicos despliegues escénicos uniformado de colegial callejero.',
     videourl:
@@ -208,7 +208,7 @@ const CardData21 = [
     coverImg: 'acdc.jpg',
     category: "80's Rock",
     location: 'USA',
-    locationImg: 'usaflag.jpg',
+    locationImg: 'australia.jpg',
     openSpots: null,
     likes: 1000,
     websiteurl: 'https://www.acdc.com/',

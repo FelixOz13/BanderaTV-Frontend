@@ -38,23 +38,25 @@ function Card({ item }) {
     badgeText = 'Boletos Disponibles'
   }
 
-  const shareUrl = `${window.location.origin}`
+  const shareUrl = `${window.location.origin}/Bandera/${encodeURIComponent(item.title)}`;
+
   const handleShare = () => {
     if (navigator.share) {
-      //const imageUrl = `${window.location.origin}/images/${item.coverImg}`//
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical\n${shareUrl}`,
-      }
-
+        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
+        url: shareUrl, // Include the full URL here
+      };
+  
       navigator
         .share(shareContent)
         .then(() => console.log('Share successful'))
-        .catch((error) => console.error('Error sharing:', error))
+        .catch(error => console.error('Error sharing:', error));
     } else {
-      console.warn('Web Share API not supported')
+      console.warn('Web Share API not supported');
     }
-  }
+  };
+  
 
   return (
     <div className="card">
