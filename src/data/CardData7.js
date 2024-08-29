@@ -503,7 +503,7 @@ const CardData7 = [
     coverImg: 'heroesdelsilencio.jpeg',
     category: 'Rock en Español',
     location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
+    locationImg: 'spain.jpeg',
     openSpots: null,
     likes: 1000,
     websiteurl: 'http://www.heroesdelsilencio.es/',

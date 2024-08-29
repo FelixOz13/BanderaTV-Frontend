@@ -5,7 +5,7 @@ import LikeButtons from './LikeButtons';
 import StarRating from './StarRating';
 import { GiBlackFlag } from 'react-icons/gi';
 import { SiApplemusic } from 'react-icons/si';
-import { useParams, useLocation, Link } from 'react-router-dom';
+import { useParams,  Link } from 'react-router-dom';
 import Comments from '../Comments/Comments';
 import BanderaMedia from './BanderaMedia';
 import {
@@ -27,7 +27,6 @@ import "./banddetail.css"
 const BandDetail = () => {
   const [band, setBand] = useState(null);
   const [loading, setLoading] = useState(true);
-  const currentLocation = useLocation();
   const { title } = useParams();
 
   useEffect(() => {

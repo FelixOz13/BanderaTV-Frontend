@@ -229,6 +229,34 @@ const CardData34 = [
       tiktok: 'https://www.tiktok.com/@kanebrown?lang=es',
       napster: 'https://music.amazon.com.mx/artists/B00OMRI16M/kane-brown',
     },
+    {
+      title: 'William Beckman',
+      description:
+        'William Beckmann está atraído por cosas que tienen historias que contar: edificios históricos, guitarras antiguas, la máquina de escribir vintage en la que escribe todas sus letras. Y si llamas al cantautor de Texas un “alma vieja”, el joven de 28 años lo tomará como un cumplido. Beckmann — un emocionante vocalista que canta tanto en inglés como en español — ha estado grabando y actuando con un tipo de música country vibrante y moderna que también rinde homenaje a lo que vino antes. Originario del pequeño pueblo fronterizo de Del Rio, TX, William Beckmann creció con el country clásico, así como con los sonidos de mariachi y Norteño del norte de México. Su álbum de 2022, Faded Memories, presenta el sencillo de ritmo lento “Bourbon Whiskey,” la hipnótica versión de “I’m On Fire” de Bruce Springsteen, y el inquietante “In The Dark.” El álbum recibió elogios de críticos como American Songwriter, Billboard, CMT y más. El álbum de 2023, Here’s To You, Here’s To Me, incluyó el favorito de los fans, “Tennessee Drinkin’,” y fue la quinta canción consecutiva de Beckmann en alcanzar el Top 20 en el Texas Regional Radio Chart. Ha pasado el último año de gira con artistas como Parker McCollum, Hank Williams Jr., Charley Crockett y la Randy Rogers Band, además de agotar cinco de sus propios conciertos en el legendario Gruene Hall y ser cabeza de cartel en Billy Bob’s Texas. En la primavera de 2023, Beckmann debutó en el Grand Ole Opry y un año después firmó un contrato discográfico con Warner Music Nashville.',
+      videourl:
+        'https://youtube.com/playlist?list=PLpa-6y72uD3t5eVedM6KpXtmF-6xhgOxw',
+      price: 50,
+      coverImg: 'williambeckman.jpg',
+      category: 'Country',
+      location: 'USA',
+      locationImg: 'usaflag.jpg',
+      openSpots: null,
+      likes: 1000,
+      websiteurl: 'https://williambeckmann.com/',
+      youtube: 'https://www.youtube.com/channel/UCqY_qkhSgoR7B1ptXV3K8fg',
+      facebook: '',
+      instagram: 'https://www.instagram.com/williambeckmann/',
+      twitter: 'https://x.com/thewillbeckmann',
+      spotify: 'https://open.spotify.com/artist/3AJURVT7BuD01gl1nQS5tb',
+      deezer: 'https://www.deezer.com/mx/artist/53687082',
+      apple: 'https://music.apple.com/us/artist/william-beckmann/1441328489',
+      soundcloud: 'https://soundcloud.com/william-beckman-879705738',
+      tidal: 'https://listen.tidal.com/artist/10553883',
+      wiki: 'https://williambeckmann.com/',
+      ticketmaster: 'https://www.ticketmaster.com/william-beckmann-tickets/artist/2826144',
+      tiktok: 'https://www.tiktok.com/@william_beckmann?lang=es',
+      napster: 'https://music.amazon.com.mx/artists/B07K6Y7J2V/william-beckmann',
+    },
   ]
   export default CardData34
   
