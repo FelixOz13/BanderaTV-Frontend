@@ -53,15 +53,17 @@ const BandDetail = () => {
   if (!band) {
     return <div>Band not found</div>;
   }
-  const shareUrl = `${window.location.origin}/Bandera/${encodeURIComponent(band.title)}`;
+  const encodedTitle = encodeURIComponent(band.title);
+  const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
   const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+  
   
   const handleShare = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
         text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. Mira la imagen del álbum: ${coverImgUrl}\nVisita la página: ${shareUrl}`,
-        url: shareUrl,
+        url: shareUrl, // Include the URL so it can be opened directly
       };
   
       navigator
@@ -122,13 +124,13 @@ const BandDetail = () => {
       </button>
     
       <a
-        className="sharebutton-link"
-        href={`whatsapp://send?text=${encodeURIComponent(
-          `${window.location.origin}${currentLocation.pathname}`
-        )}`}
-      >
-        <FaWhatsapp />
-      </a>
+      className="sharebutton"
+      href={`whatsapp://send?text=${encodeURIComponent(
+        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. Mira la imagen del álbum: ${coverImgUrl}\nVisita la página: ${shareUrl}`
+      )}`}
+    >
+      <FaWhatsapp />
+    </a>
     </div>
     
       
