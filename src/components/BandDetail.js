@@ -56,44 +56,22 @@ const BandDetail = () => {
   const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
   const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
   
-  const handleShare = async () => {
-    try {
-      // Encode the band title for the URL
-      const encodedTitle = encodeURIComponent(band.title);
-      const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
-      
-      // Retrieve the cover image URL from the band object
-      const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
-      
-      // Fetch the image and convert it to a blob
-      const response = await fetch(coverImgUrl);
-      const blob = await response.blob();
-      
-      // Extract the file name from the coverImg value
-      const fileName = band.coverImg; // Use the dynamic file name here
-  
-      const shareData = {
-        files: [
-          new File([blob], fileName, { // Use the dynamic file name here
-            type: blob.type,
-          }),
-        ],
-        title: band.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.\n\n${shareUrl}`, // Embed the URL in the text
+  const handleShare = () => {
+    if (navigator.share) {
+      const shareContent = {
+        title: document.title,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
+        url: shareUrl, // Include the URL so it can be opened directly
       };
-  
-      // Check if the device can share the data
-      if (navigator.canShare && navigator.canShare(shareData)) {
-        await navigator.share(shareData);
-        console.log('Share successful');
-      } else {
-        console.warn("Your device doesn't support sharing this type of data.");
-      }
-    } catch (error) {
-      console.error('Error sharing:', error);
+      
+      navigator
+        .share(shareContent)
+        .then(() => console.log('Share successful'))
+        .catch(error => console.error('Error sharing:', error));
+    } else {
+      console.warn('Web Share API not supported');
     }
   };
-  
   
 
   
