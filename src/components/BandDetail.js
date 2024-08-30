@@ -61,7 +61,7 @@ const BandDetail = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.${coverImgUrl}\nVisita la página: ${shareUrl}`,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}\n${shareUrl}`,
         url: shareUrl, // Include the URL so it can be opened directly
       };
   
