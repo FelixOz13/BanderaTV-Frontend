@@ -58,15 +58,12 @@ const BandDetail = () => {
  
   const handleShare = () => {
     if (navigator.share) {
-      const fileType = coverImgUrl.split('.').pop(); // Get the file extension
-      const mimeType = `image/${fileType}`; // Set the MIME type
-  
       const shareContent = {
         title: document.title,
         text: `Te invitamos a disfrutar de ${band.title} con Bandera Musical.`,
         url: shareUrl,
         files: [
-          new File([coverImgUrl], `${band.title}.${fileType}`, { type: mimeType })
+          new File([coverImgUrl], `${band.title}.jpg`, { type: 'image/jpeg' })
         ]
       };
   
@@ -78,7 +75,6 @@ const BandDetail = () => {
       console.warn('Web Share API not supported');
     }
   };
-  
 
   
   return (
