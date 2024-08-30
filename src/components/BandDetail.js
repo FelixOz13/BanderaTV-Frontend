@@ -61,15 +61,20 @@ const BandDetail = () => {
       // Encode the band title for the URL
       const encodedTitle = encodeURIComponent(band.title);
       const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
+      
+      // Retrieve the cover image URL from the band object
       const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
-  
+      
       // Fetch the image and convert it to a blob
       const response = await fetch(coverImgUrl);
       const blob = await response.blob();
+      
+      // Extract the file name from the coverImg value (assuming it's something like 'imageName.png')
+      const fileName = band.coverImg; // This will use the actual file name from your JSON
   
       const shareData = {
         files: [
-          new File([blob], 'coverImg.png', {
+          new File([blob], fileName, { // Use the dynamic file name here
             type: blob.type,
           }),
         ],
