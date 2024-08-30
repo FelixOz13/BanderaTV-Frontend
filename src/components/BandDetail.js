@@ -54,14 +54,15 @@ const BandDetail = () => {
   }
   const encodedTitle = encodeURIComponent(band.title);
   const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
-  const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+  const coverImgUrl = `${window.location.origin}${band.coverImg}`;
+
   
   
   const handleShare = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `${coverImgUrl} Te Invitamos a disfrutar de ${band.title} con Bandera Musical. \n -Visita la página: ${shareUrl}`,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. \n -Visita la página:`,
         url: shareUrl, // Include the URL so it can be opened directly
       };
   
