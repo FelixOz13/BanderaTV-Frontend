@@ -69,8 +69,8 @@ const BandDetail = () => {
       const response = await fetch(coverImgUrl);
       const blob = await response.blob();
       
-      // Extract the file name from the coverImg value (assuming it's something like 'imageName.png')
-      const fileName = band.coverImg; // This will use the actual file name from your JSON
+      // Extract the file name from the coverImg value
+      const fileName = band.coverImg; // Use the dynamic file name here
   
       const shareData = {
         files: [
@@ -79,8 +79,7 @@ const BandDetail = () => {
           }),
         ],
         title: band.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
-        url: shareUrl, // Include the URL so it can be opened directly
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.\n\n${shareUrl}`, // Embed the URL in the text
       };
   
       // Check if the device can share the data
