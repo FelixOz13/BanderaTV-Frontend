@@ -97,6 +97,14 @@
   cursor: pointer; /* Indicate interactive elements */
   transition: color 0.3s ease; /* Smooth color transition on hover */
 }
+.sharebutton-button-2 {
+  background-color: black;
+  color: green;
+  border: none;
+  font-size: 40px;
+  cursor: pointer; /* Indicate interactive elements */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
 
 .sharebutton-button:hover,
 .sharebutton-link:hover {
@@ -116,7 +124,7 @@
   .third-party-icons a,
   .third-party-icons img {
     font-size: 45px;
-    color: goldenrod;
+  
     transition: transform 0.3s;
   }
   
@@ -162,5 +170,300 @@
     border-radius: 10px;; /* Adjust this to the desired height */
 }
 
- 
+.icons-bandera {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: red;
+  border-radius: 10%;
+  text-decoration: none;
+
+}
+.navbar-logo
+.icons-bandera :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-fb {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: blue;
+  border-radius: 10%;
+  text-decoration: none;
+
+}
+
+.icons-fb :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-YT {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: red;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-YT :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-twitter {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  padding: 1px;
+  font-size: 45px;
+  color: white;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-twitter :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-instagram {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: rgb(243, 9, 138);
+  border-radius: 10%;
+}
+
+.icons-instagram :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-spotify {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: rgb(9, 243, 9);
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-spotify :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-ticketmaster {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+  font-size: 45px;
+  color: none;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-ticketmaster :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-itunes {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: hotpink;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-itunes :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+
+
+.icons-tiktok {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: white;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-tiktok :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-wiki {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: grey;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-wiki :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-tidal {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: white;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-tidal :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-soundcloud {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: orange;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-soundcloud :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.icons-napster {
+  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: red;
+  background-color: none;
+  border-radius: 10%;
+}
+
+.icons-napster :hover {
+  background-image: linear-gradient(to right, #dc9e02,
+      black,
+      #dc9e02);
+  max-width: 95px;
+  max-height: 95px;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+
+
+
+.third-party-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.third-party-icons>* {
+  flex: 0 1 20%;
+}
+
+#third-party-grid {
+  width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  margin: 2px;
+}
+
   

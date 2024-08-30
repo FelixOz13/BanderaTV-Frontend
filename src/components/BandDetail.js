@@ -5,7 +5,7 @@ import LikeButtons from './LikeButtons';
 import StarRating from './StarRating';
 import { GiBlackFlag } from 'react-icons/gi';
 import { SiApplemusic } from 'react-icons/si';
-import { useParams,  Link } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import Comments from '../Comments/Comments';
 import BanderaMedia from './BanderaMedia';
 import {
@@ -54,13 +54,13 @@ const BandDetail = () => {
   }
   const encodedTitle = encodeURIComponent(band.title);
   const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
-  const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+
   
   const handleShare = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${band.coverImg}`,
         url: shareUrl, // Include the URL so it can be opened directly
       };
       
@@ -74,6 +74,55 @@ const BandDetail = () => {
   };
   
 
+// Function to share only the image
+const handleImage = async () => {
+  try {
+    // Retrieve the cover image URL from the band object
+    const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+    
+    // Fetch the image and convert it to a blob
+    const response = await fetch(coverImgUrl);
+    const blob = await response.blob();
+    
+    // Extract the file name from the coverImg value
+    const fileName = band.coverImg; // Use the dynamic file name here
+
+    const shareData = {
+      files: [
+        new File([blob], fileName, {
+          type: blob.type,
+        }),
+      ],
+      title: band.title,
+    };
+
+    // Check if the device can share the data
+    if (navigator.canShare && navigator.canShare(shareData)) {
+      await navigator.share(shareData);
+      console.log('Image shared successfully');
+    } else {
+      console.warn("Your device doesn't support sharing this type of data.");
+    }
+  } catch (error) {
+    console.error('Error sharing image:', error);
+  }
+};
+
+const handleShareButtonClick = async () => {
+  await handleImage();  // Wait for the image to be shared
+  await handleShare();  // Then share the text and URL
+};
+
+
+// Button element
+<button
+  className="sharebutton-button"
+  onClick={handleShareButtonClick}
+  role="link" // ARIA role for link-like elements
+>
+  <FaShare />
+</button>
+
   
   return (
     <div>
@@ -81,9 +130,14 @@ const BandDetail = () => {
     
   
     <div className="band-card">
-      <Link to={`/band/${encodeURIComponent(band.title)}`} target="_blank" rel="noreferrer">
-       
-      </Link>
+      
+      <div>
+      <img
+      src={`../images/${band.coverImg}`}
+      className="coverImg"
+      alt="cover"
+    />
+    </div>
       <div className="title-name" >
       <h2 className="title-name">{band.title}</h2>
       </div>
@@ -97,12 +151,7 @@ const BandDetail = () => {
      alt="location"
    />
    </div>
-      <div><img
-      src={`../images/${band.coverImg}`}
-      className="coverImg"
-      alt="cover"
-    />
-    </div>
+      
      
 <div>
 
@@ -126,10 +175,11 @@ const BandDetail = () => {
       <a
       className="sharebutton-button"
       href={`whatsapp://send?text=${encodeURIComponent(
-        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. Mira la imagen del álbum: ${coverImgUrl}\nVisita la página: ${shareUrl}`
+        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.${handleImage}\n ${shareUrl}`
       )}`}
     >
-      <FaWhatsapp />
+      
+      <FaWhatsapp className="sharebutton-button-2"  />
     </a>
     </div>
     

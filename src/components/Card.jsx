@@ -6,7 +6,7 @@ import { GiBlackFlag } from 'react-icons/gi'
 import { SiApplemusic } from 'react-icons/si'
 import { useLocation, Link } from 'react-router-dom'
 import Comments from '../Comments/Comments'
-
+import { RiFullscreenLine } from "react-icons/ri";
 import {
   FaTiktok,
   FaWhatsapp,
@@ -104,7 +104,10 @@ function Card({ item }) {
         >
           <FaShare />
         </button>
-
+        <Link  className="sharebutton1" to={`/Bandera/${item.title}`}>
+          
+        <RiFullscreenLine/>
+      </Link>
         <a
           className="sharebutton2"
           href={`whatsapp://send?text=${encodeURIComponent(
@@ -113,6 +116,7 @@ function Card({ item }) {
         >
           <FaWhatsapp />
         </a>
+        
       </div>
       <div style={{ marginTop: '-65px' }}>
         <Comments
@@ -135,10 +139,7 @@ function Card({ item }) {
         >
           <GiBlackFlag />
         </a>
-        <Link  className="icons-bandera" to={`/Bandera/${item.title}`}>
-          
-        <BsFillPlayCircleFill/>
-      </Link>
+        
         <a
           target="_blank"
           rel="noreferrer"
