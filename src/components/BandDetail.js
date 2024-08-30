@@ -60,7 +60,8 @@ const handleShare = () => {
 if (navigator.share) {
 const shareContent = {
 title: document.title,
-text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
+text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
+img: coverImgUrl,
 url: shareUrl, // Include the URL so it can be opened directly
 };
 navigator
