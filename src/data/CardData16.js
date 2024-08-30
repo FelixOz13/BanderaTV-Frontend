@@ -2,7 +2,7 @@ const CardData16 = [
   {
     title: 'Royal Tj Band',
     description:
-      ' Royal Tj es una banda de Oldies y Exitos Versatiles es cordinada por el Sr.Carlos Denton Casillas quien ha llevado una gran trayectoria como Artista y Compositor en Estados Unidos y Mexico.',
+      ' Royal Tj es una destacada banda especializada en Oldies y Éxitos Versátiles, dirigida por el talentoso Sr. Carlos Denton Casillas. Con una amplia trayectoria como artista y compositor en Estados Unidos y México, el Sr. Casillas ha sabido imprimir su experiencia y pasión en cada presentación de la banda. Bajo su liderazgo, Royal Tj ofrece una experiencia musical que combina lo mejor de los clásicos con un toque versátil, cautivando a audiencias en ambos lados de la frontera.',
 
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_nJTYEMSZNMPkeNEvxBsYk_pb4nWbWj7cE',
