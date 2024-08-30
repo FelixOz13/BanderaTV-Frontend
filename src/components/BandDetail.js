@@ -56,22 +56,40 @@ const BandDetail = () => {
   const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
   const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
   
-  const handleShare = () => {
-    if (navigator.share) {
-      const shareContent = {
-        title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
+  const handleShare = async () => {
+    try {
+      // Encode the band title for the URL
+      const encodedTitle = encodeURIComponent(band.title);
+      const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
+      const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+  
+      // Fetch the image and convert it to a blob
+      const response = await fetch(coverImgUrl);
+      const blob = await response.blob();
+  
+      const shareData = {
+        files: [
+          new File([blob], 'coverImg.png', {
+            type: blob.type,
+          }),
+        ],
+        title: band.title,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
         url: shareUrl, // Include the URL so it can be opened directly
       };
-      
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch(error => console.error('Error sharing:', error));
-    } else {
-      console.warn('Web Share API not supported');
+  
+      // Check if the device can share the data
+      if (navigator.canShare && navigator.canShare(shareData)) {
+        await navigator.share(shareData);
+        console.log('Share successful');
+      } else {
+        console.warn("Your device doesn't support sharing this type of data.");
+      }
+    } catch (error) {
+      console.error('Error sharing:', error);
     }
   };
+  
   
 
   
