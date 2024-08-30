@@ -57,12 +57,13 @@ const BandDetail = () => {
   const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
   
   
-  const handleShare = () => {
+  const handleShare = async () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}\n${shareUrl}`,
-        url: shareUrl, // Include the URL so it can be opened directly
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
+        url: shareUrl,
+        files: [new File([await fetch(coverImgUrl).then(response => response.blob())], 'image.jpg', { type: 'image/jpeg' })],
       };
   
       navigator
