@@ -56,21 +56,29 @@ const BandDetail = () => {
   const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
   const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
  
-    const handleShare = () => {
-        if (navigator.share) {
-         const shareContent = {
-         title: document.title,
-         text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
-         url: shareUrl, // Include the URL so it can be opened directly
- };
-    navigator
-    .share(shareContent)
-      .then(() => console.log('Share successful'))
-      .catch(error => console.error('Error sharing:', error));
-     } else {
+  const handleShare = () => {
+    if (navigator.share) {
+      const fileType = coverImgUrl.split('.').pop(); // Get the file extension
+      const mimeType = `image/${fileType}`; // Set the MIME type
+  
+      const shareContent = {
+        title: document.title,
+        text: `Te invitamos a disfrutar de ${band.title} con Bandera Musical.`,
+        url: shareUrl,
+        files: [
+          new File([coverImgUrl], `${band.title}.${fileType}`, { type: mimeType })
+        ]
+      };
+  
+      navigator
+        .share(shareContent)
+        .then(() => console.log('Share successful'))
+        .catch(error => console.error('Error sharing:', error));
+    } else {
       console.warn('Web Share API not supported');
-     }
-   };
+    }
+  };
+  
 
   
   return (

@@ -713,7 +713,7 @@ const CardData13 = [
     description:
       'Banda Sinaloense El Recodo de Don Cruz Lizárraga es una banda sinaloense formada en El Recodo, un pueblo en el Municipio de Mazatlán, Sinaloa, en 1938 por Don Cruz Lizárraga, la cual se puede considerar como la pionera en la divulgación del género, que ya se venía gestando desde décadas atrás, por lo que se le conoce como La Madre de Todas las Bandas. En un principio, se dedicó a tocar corridos, sones, polkas y marchas, pero con el tiempo introdujo un nuevo estilo, empleando la tambora como instrumento principal y generando así piezas más populares. Ha tocado al lado de personajes de la talla de José Alfredo Jiménez, Lola Beltrán y Juan Gabriel. Actualmente cuenta con gran reconocimiento internacional, ha grabado más de 180 álbumes y ha vendido más de 20 millones de discos, llegando su música a los 5 continentes. Actualmente la banda es liderada por Luis Alfonso Lizárraga Lizárraga, uno de los hijos de Don Cruz Lizárraga.',
     videourl:
-      'http://youtube.com/playlist?list=PLx981osccJ4mQS5yTs6tUqRiwSJ8FRr9H',
+      'https://youtube.com/playlist?list=OLAK5uy_mxtBbvgtIMG_kal6T6-tPXQZLmKx98H3U&si=4IvaGDygynehdY8r',
     price: 51,
     coverImg: 'elRecodo.jpg',
     category: 'Banda',
