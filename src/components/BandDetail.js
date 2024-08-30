@@ -53,28 +53,24 @@ const BandDetail = () => {
     return <div>Band not found</div>;
   }
   const encodedTitle = encodeURIComponent(band.title);
-  const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
-  const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
- 
-  const handleShare = () => {
-    if (navigator.share) {
-      const shareContent = {
-        title: document.title,
-        text: `Te invitamos a disfrutar de ${band.title} con Bandera Musical.`,
-        url: shareUrl,
-        files: [
-          new File([coverImgUrl], `${band.title}.jpg`, { type: 'image/jpeg' })
-        ]
-      };
-  
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch(error => console.error('Error sharing:', error));
-    } else {
-      console.warn('Web Share API not supported');
-    }
-  };
+const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
+const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
+
+const handleShare = () => {
+if (navigator.share) {
+const shareContent = {
+title: document.title,
+text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${coverImgUrl}`,
+url: shareUrl, // Include the URL so it can be opened directly
+};
+navigator
+.share(shareContent)
+.then(() => console.log('Share successful'))
+.catch(error => console.error('Error sharing:', error));
+} else {
+console.warn('Web Share API not supported');
+}
+};
 
   
   return (
