@@ -52,8 +52,8 @@
   }
   
   .band-card h2 {
-    font-size: 3rem;
-    font-family: "Henny Penny";
+    font-size: 4rem;
+    font-family: "Iceland";
     margin: 10px 0;
     color: goldenrod ;
   }
@@ -61,6 +61,7 @@
   .band-card p {
     font-size: 18px;
     color: goldenrod ;
+
   }
   
   .band-card img.coverImg {
