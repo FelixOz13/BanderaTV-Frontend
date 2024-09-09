@@ -5,7 +5,7 @@ function ButtonTreeCategories() {
     <div className="sponsorcontainer1">
       <Link className="btn" to="/home">
         <img
-          src="../images/ExitosMusicales.png"
+          src="../images/hits.jpeg"
           className="sponsor1"
           alt=""
           media="(max-width: 400px)"
