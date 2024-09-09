@@ -61,7 +61,7 @@ const CardData14 = [
   {
     title: 'Tycho',
     description:
-      'Scott Hansen (born February 7, 1977), known professionally as Tycho (/ˈtaɪkoʊ/ TY-koh), is an American musician, record producer, composer, and songwriter based in San Francisco. He is also known as ISO50 for his photographic and design work.[4][5] His music blends multiple stylistic components, including downtempo guitar, analogue synthesis, and ambient elements such as breathing and found sounds of weather broadcasts and dialogue.',
+      'Scott Hansen (nacido el 7 de febrero de 1977), conocido profesionalmente como Tycho (/ˈtaɪkoʊ/ TY-koh), es un músico, productor discográfico, compositor y autor de canciones estadounidense radicado en San Francisco. También es conocido como ISO50 por su trabajo fotográfico y de diseño. Su música combina múltiples componentes estilísticos, incluyendo guitarra downtempo, síntesis analógica y elementos ambientales como sonidos de respiración, transmisiones meteorológicas y diálogos encontrados.',
     videourl:
       'https://youtube.com/playlist?list=PL7oQgtXrnU0BYskZRr5gOQLGNcxp2dCPL',
     price: 80,
@@ -118,7 +118,7 @@ const CardData14 = [
   {
     title: 'Bonobo',
     description:
-      'Simon Green, known by his stage name Bonobo, is a British musician, producer, and DJ based in Los Angeles. He debuted with a trip hop aesthetic, and has since explored more upbeat approaches as well as jazz and world music influences.',
+      'Simon Green, conocido por su nombre artístico Bonobo, es un músico, productor y DJ británico radicado en Los Ángeles. Debutó con una estética trip hop y, desde entonces, ha explorado enfoques más animados, así como influencias del jazz y la música del mundo.',
     videourl:
       'https://youtube.com/playlist?list=PLXEYOK9pTABDJgg_q6ikyRM5q4go-N4wm',
     price: 80,
@@ -146,7 +146,7 @@ const CardData14 = [
   {
     title: 'The ORB',
     description:
-      "The Orb are an English electronic music group founded in 1988 by Alex Paterson and Jimmy Cauty. Known for their psychedelic sound, the Orb developed a cult following among clubbers coming down from drug-induced highs.Their influential 1991 debut album The Orb's Adventures Beyond the Ultraworld pioneered the UK's nascent ambient house movement,while its UK chart-topping follow-up U.F.Orb represented the genre's commercial peak.",
+      "The Orb es un grupo de música electrónica inglés fundado en 1988 por Alex Paterson y Jimmy Cauty. Conocidos por su sonido psicodélico, The Orb desarrolló un culto de seguidores entre los asistentes a clubes que se recuperaban de subidones inducidos por drogas. Su influyente álbum debut de 1991, The Orb's Adventures Beyond the Ultraworld, fue pionero en el incipiente movimiento ambient house del Reino Unido, mientras que su sucesor, U.F.Orb, que alcanzó el número uno en las listas británicas, representó el apogeo comercial del género.",
     videourl:
       'https://youtube.com/playlist?list=PLYBrBkAlaX-VZM_mjalsjWLlszRFEGTCW',
     price: 80,
@@ -205,7 +205,7 @@ const CardData14 = [
   {
     title: 'The KLF',
     description:
-      'The KLF(also known as the Justified Ancients of Mu Mu, the JAMs, the Timelords and other names) are a British electronic band formed in London in 1987. Bill Drummond (alias King Boy D) and Jimmy Cauty (alias Rockman Rock) began by releasing hip hop-inspired and sample-heavy records as the JAMs. As the Timelords, they recorded the British number-one single Doctorin the Tardis, and documented the process of making a hit record in a book The Manual (How to Have a Number One the Easy Way). As the KLF, Drummond and Cauty pioneered stadium house (rave music with a pop-rock production and sampled crowd noise) and, with their 1990 LP Chill Out, the ambient house genre. The KLF released a series of international hits on their own KLF Communications record label and became the biggest selling singles act in the world in 1991.',
+      'The KLF (también conocidos como los Justified Ancients of Mu Mu, los JAMs, los Timelords y otros nombres) son una banda electrónica británica formada en Londres en 1987. Bill Drummond (alias King Boy D) y Jimmy Cauty (alias Rockman Rock) comenzaron lanzando discos inspirados en el hip hop y cargados de samples bajo el nombre de los JAMs. Como los Timelords, grabaron el sencillo número uno en Gran Bretaña Doctorin the Tardis y documentaron el proceso de hacer un disco exitoso en el libro The Manual (How to Have a Number One the Easy Way). Como The KLF, Drummond y Cauty fueron pioneros del stadium house (música rave con una producción pop-rock y ruido de multitudes sampleado) y, con su LP de 1990 Chill Out, del género ambient house. The KLF lanzaron una serie de éxitos internacionales bajo su propio sello discográfico, KLF Communications, y se convirtieron en el acto de sencillos más vendido del mundo en 1991.',
     videourl:
       'https://youtube.com/playlist?list=PLF-cRDh2mrlWXgCc3uyinqNHrNoQhuw30',
     price: 80,
@@ -233,8 +233,7 @@ const CardData14 = [
   },
   {
     title: 'Late Night Alumni',
-    description:
-      'Late Night Alumni is an American house group composed of Becky Jean Williams, John Hancock, Finn Bjarnson (Finnstagram), and Ryan Raddon (Kaskade). They are primarily known for mixing dance music with strings and soft trance-like vocals.',
+    description:'Late Night Alumni es un grupo estadounidense de house compuesto por Becky Jean Williams, John Hancock, Finn Bjarnson (Finnstagram) y Ryan Raddon (Kaskade). Son principalmente conocidos por mezclar música dance con cuerdas y voces suaves de estilo trance.',
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_k7CpXF8Q9tks2rmQ4sOC_CGhyDCsLZu14',
     price: 80,
@@ -261,32 +260,58 @@ const CardData14 = [
     napster: 'https://music.amazon.com.mx/artists/B000S2HIQY/late-night-alumni',
   },
   {
-    title: 'Air',
+    "title": "Air",
+    "description": "Air es un dúo musical francés de Versalles, compuesto por Nicolas Godin y Jean-Benoît Dunckel. Su aclamado álbum debut, Moon Safari, que incluye la canción Sexy Boy, fue un éxito internacional en 1998. Su siguiente trabajo, The Virgin Suicides, fue la banda sonora de la primera película del mismo nombre dirigida por Sofia Coppola. Desde entonces, la banda ha lanzado los álbumes 10 000 Hz Legend, Talkie Walkie, Pocket Symphony, Love, Le voyage dans la lune y Music for Museum. El grupo se inspira en una amplia variedad de estilos musicales y artistas.",
+    "videourl": "https://youtube.com/playlist?list=PLSf4nhQYhfbB6H0PRRcnLao3QI_7Kvy7V",
+    "price": 80,
+    "coverImg": "air.jpg",
+    "category": "Electro Dub",
+    "location": "France",
+    "locationImg": "france.jpg",
+    "openSpots": null,
+    "likes": 1000,
+    "websiteurl": "http://www.airfrenchband.com/",
+    "youtube": "https://www.youtube.com/channel/UCjXmNnJm9jwtGg094LRoFOw",
+    "facebook": "https://www.facebook.com/intairnet",
+    "instagram": "https://www.instagram.com/airfrenchband/",
+    "twitter": "https://twitter.com/airofficial",
+    "spotify": "https://open.spotify.com/artist/1P6U1dCeHxPui5pIrGmndZ",
+    "deezer": "https://www.deezer.com/mx/artist/369",
+    "apple": "https://music.apple.com/us/artist/air/5641488",
+    "soundcloud": "https://soundcloud.com/officialair",
+    "tidal": "https://listen.tidal.com/artist/9101",
+    "wiki": "https://en.wikipedia.org/wiki/Air_(French_band)",
+    "ticketmaster": "https://www.ticketmaster.com/air-tickets/artist/1396753",
+    "tiktok": "https://www.tiktok.com/@air.band?lang=es",
+    "napster": "https://music.amazon.com.mx/artists/B000SA14KM/air"
+  },
+  {
+    title: 'Glass Beams',
     description:
-      "Air is a French music duo from Versailles, consisting of Nicolas Godin and Jean-Benoît Dunckel.[1] Their critically acclaimed debut album, Moon Safari, including the track Sexy Boy, was an international success in 1998. Its follow-up, The Virgin Suicides, was the score to Sofia Coppola's first movie of the same name. The band has since released the albums 10 000 Hz Legend, Talkie Walkie, Pocket Symphony, Love 2, Le voyage dans la lune and Music for Museum. The band is influenced by a wide variety of musical styles and artists.",
+      "Glass Beams es un trío musical australiano de Melbourne, Australia. La banda fue fundada por Rajan Silva en 2020 durante la pandemia de COVID-19, junto con otros dos miembros no identificados. Su EP debut, Mirage, fue lanzado en junio de 2021. La banda combina sintetizadores, rock, psicodelia, guitarra eléctrica, instrumentales orientales y sutiles voces susurrantes. En todas sus apariciones públicas, han usado máscaras de vidrio adornadas con joyas doradas.",
     videourl:
-      'https://youtube.com/playlist?list=PLSf4nhQYhfbB6H0PRRcnLao3QI_7Kvy7V',
+      'https://youtube.com/playlist?list=UULFz2BbywXgCxZcpAiXPlKT4Q&si=4M8gEi_q7otoNRFL',
     price: 80,
-    coverImg: 'air.jpg',
+    coverImg: 'glassbeams.jpg',
     category: 'Electro Dub',
-    location: 'France',
-    locationImg: 'france.jpg',
+    location: 'Australia',
+    locationImg: 'australia.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'http://www.airfrenchband.com/',
-    youtube: 'https://www.youtube.com/channel/UCjXmNnJm9jwtGg094LRoFOw',
-    facebook: 'https://www.facebook.com/intairnet',
-    instagram: 'https://www.instagram.com/airfrenchband/',
-    twitter: 'https://twitter.com/airofficial',
-    spotify: 'https://open.spotify.com/artist/1P6U1dCeHxPui5pIrGmndZ',
-    deezer: 'https://www.deezer.com/mx/artist/369',
-    apple: 'https://music.apple.com/us/artist/air/5641488',
-    soundcloud: 'https://soundcloud.com/officialair',
-    tidal: 'https://listen.tidal.com/artist/9101',
-    wiki: 'https://en.wikipedia.org/wiki/Air_(French_band)',
-    ticketmaster: 'https://www.ticketmaster.com/air-tickets/artist/1396753',
-    tiktok: 'https://www.tiktok.com/@air.band?lang=es',
-    napster: 'https://music.amazon.com.mx/artists/B000SA14KM/air',
+    websiteurl: 'https://glassbeams.com/',
+    youtube: 'https://www.youtube.com/@GlassBeams',
+    facebook: 'https://www.facebook.com/GlassBeams/',
+    instagram: 'https://www.instagram.com/glass_beams',
+    twitter: 'https://x.com/glass_beams',
+    spotify: 'https://open.spotify.com/artist/1LTFJvVvRw7ghAyThxYmnF',
+    deezer: 'https://www.deezer.com/mx/artist/126351422',
+    apple: 'https://music.apple.com/us/artist/glass-beams/1558093934',
+    soundcloud: 'https://soundcloud.com/glassbeams',
+    tidal: 'https://listen.tidal.com/artist/23927301',
+    wiki: 'https://en.wikipedia.org/wiki/Glass_Beams',
+    ticketmaster: 'https://www.ticketmaster.com/glass-beams-tickets/artist/3116805',
+    tiktok: 'https://www.tiktok.com/@glass_beams',
+    napster: 'https://music.amazon.com.mx/artists/B08YQGTM8M/glass-beams',
   },
 ]
 
