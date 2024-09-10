@@ -1539,10 +1539,10 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLukmsaXDPJie7L7Ihn63HJhA6YMp7tUUr&si=4VGt8jRzr0MINF3B',
     price: '$50',
-    coverImg: 'radiohead.jpg',
+    coverImg: 'radiohead.gif',
     category: 'Rock',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
+    location: 'UK',
+    locationImg: 'england.jpg',
     openSpots: null,
     likes: 1000,
     websiteurl: 'https://www.radiohead.com/',
@@ -1590,36 +1590,7 @@ const CardData10 = [
     tiktok: 'https://www.tiktok.com/@arcticmonkeysmusic',
     napster: 'https://music.amazon.com.mx/artists/B00122BV7Q/arctic-monkeys',
   },
-  {
-    title: 'Radiohead',
-    description:
-      "Radiohead es una banda británica de rock alternativo originaria de Abingdon-on-Thames, Inglaterra, formada en 1985 inicialmente como una banda de versiones. Está integrada por Thom Yorke (voz, guitarra, piano), Jonny Greenwood (guitarra solista, teclados, otros instrumentos), Ed O'Brien (guitarra, segunda voz), Colin Greenwood (bajo, teclados) y Phil Selway (batería, percusión).Radiohead lanzó su primer sencillo, «Creep», en 1992. Si bien la canción fue en un comienzo un fracaso comercial, se convirtió en un éxito mundial tras el lanzamiento de su álbum debut, Pablo Honey (1993) debido al auge comercial del rock alternativo. La popularidad de Radiohead en el Reino Unido aumentó con su segundo álbum, The Bends (1995). El tercero, OK Computer (1997), con un sonido expansivo y temáticas como la alienación y la globalización, les dio fama mundial y ha sido aclamado como un disco histórico de la década de 1990 y uno de los mejores álbumes de todos los tiempos..",
-    videourl:
-      'https://youtube.com/playlist?list=PLukmsaXDPJie7L7Ihn63HJhA6YMp7tUUr&si=4VGt8jRzr0MINF3B',
-    price: '$50',
-    coverImg: 'radiohead.jpg',
-    category: 'Rock',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.radiohead.com/',
-    youtube: 'https://www.youtube.com/channel/UCq19-LqvG35A-30oyAiPiqA',
-    facebook: 'https://www.facebook.com/radiohead',
-    instagram: 'https://www.instagram.com/radiohead/',
-    twitter: 'https://twitter.com/radiohead',
-    spotify:
-      'https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb?autoplay=true',
-    deezer: 'https://www.deezer.com/mx/artist/399',
-    apple: 'https://music.apple.com/us/artist/radiohead/657515',
-    soundcloud: 'https://soundcloud.com/radiohead',
-    tidal: 'https://listen.tidal.com/artist/64518',
-    wiki: 'https://music.apple.com/mx/artist/radiohead/657515',
-    ticketmaster:
-      'https://www.ticketmaster.com/radiohead-tickets/artist/763468',
-    tiktok: 'https://www.tiktok.com/@radiohead',
-    napster: 'https://music.amazon.com.mx/artists/B000QJXOGC/radiohead',
-  },
+  
   {
     title: 'Foster The People',
     description: 'Foster the People es una banda estadounidense de indie rock formada en Los Ángeles, California, en 2009.​ El grupo está compuesto por Mark Foster (voz, teclados, piano, sintetizador, guitarra, programación y percusión), Isom Innis (teclados) y Sean Cimino (guitarras). Como antiguos miembros de la banda también se encuentran Jacob "Cubbie" Fink (bajo) y Mark Pontius (batería).La música del grupo incorpora instrumentos acústicos y sonidos electrónicos, o ha sido descrita como una infusión de danza melódica con pop y rock, abarcando muchos géneros. Foster fundó la banda en 2009 después de pasar varios años en Los Ángeles como músico en apuros y trabajando como escritor de jingles comerciales . Después de que la canción de Foster " Pumped Up Kicks " se convirtiera en un éxito viral en 2010, el grupo recibió un contrato discográfico con Startime International y ganó una base de fans a través de espectáculos en pequeños clubes y apariciones en festivales de música. Después de lanzar su álbum debut Torches en mayo de 2011, "Pumped Up Kicks" se convirtió en un éxito cruzado en la radio comercial a mediados de 2011 y finalmente alcanzó el número tres en el Billboard.',

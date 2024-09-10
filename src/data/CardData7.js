@@ -181,7 +181,7 @@ const CardData7 = [
     videourl:
       'http://youtube.com/playlist?list=PLMoz13LLcTU8UdhM79EEXTsUyW8CoVb4o',
     price: 80,
-    coverImg: 'sodastereo.jpg',
+    coverImg: 'sodastereo.gif',
     category: 'Rock',
     location: 'Argentina',
     locationImg: 'argentinaflag.jpg',

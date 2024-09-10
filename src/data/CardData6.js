@@ -757,7 +757,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_nDMPXRotjxJ2k77CTaUXdq_NVPTMv9gwc',
     price: '$50',
-    coverImg: 'RodStewart.jpg',
+    coverImg: 'rodstewart.gif',
     category: 'Jazz',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -843,7 +843,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_mJY4gNUuqGNblQy5A_u65z2E-q8LicU1c&si=hlM4eK-74Ll-WrWW',
     price: 36,
-    coverImg: 'blueoystercult.jpg',
+    coverImg: 'blueoystercult.gif',
     category: 'Classic Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -1110,7 +1110,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_ko1hfHaOk_8Okr9OHID6m2KuAWJh7STnM&si=4847CFu8c1uNWZNH',
     price: 80,
-    coverImg: 'thewho.jpg',
+    coverImg: 'who.jpg',
     category: 'Rock Clasico',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -1138,7 +1138,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=PLAxT_DkSwQLvmCcBG7LIu6k0aen1dGjxa&si=0ytfNpOUrWLMa4-E',
     price: 80,
-    coverImg: 'gratefuldead.jpeg',
+    coverImg: 'gratefuldead.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
