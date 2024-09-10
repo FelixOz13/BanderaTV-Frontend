@@ -873,7 +873,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=PL0jp-uZ7a4g8b4orD6OrbsVBigPO-EX9d',
     price: 36,
-    coverImg: 'TheBeatles.jpg',
+    coverImg: 'beatles.gif',
     category: 'Rock',
     location: 'Uk',
     locationImg: 'england.jpg',
@@ -904,7 +904,7 @@ const CardData6 = [
     videourl:
       'http://youtube.com/playlist?list=PLMmd10177iHvLG5bgCGb-wxSbWD7TLRNf',
     price: 36,
-    coverImg: 'ledzeppelin.jpg',
+    coverImg: 'ledzepellin.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -934,7 +934,7 @@ const CardData6 = [
     videourl:
       'http://youtube.com/playlist?list=PLaomso0d9kl6k8eO2Yl4bVtqbQ3wqgmt1',
     price: 80,
-    coverImg: 'doors.jpg',
+    coverImg: 'doors.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -964,7 +964,7 @@ const CardData6 = [
     videourl:
       'http://youtube.com/playlist?list=PL0SqtI95X6o32fHymKzjz9uNVAFfd8ikk',
     price: 80,
-    coverImg: 'pinkfloyd.jpg',
+    coverImg: 'pinkfloyd.gif',
     category: 'Rock',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -993,7 +993,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=PLyzOXHX-1l7dNOm_KqOqM9q-W76gVPclW',
     price: '$50',
-    coverImg: 'Rush.jpg',
+    coverImg: 'rush.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -1023,7 +1023,7 @@ const CardData6 = [
     videourl:
       'https://youtube.com/playlist?list=PLF-cRDh2mrlVsOwjLHHJTyFmL6D1GDA6e',
     price: '$50',
-    coverImg: 'Hendrix.jpg',
+    coverImg: 'jimi-hendrix.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -1052,7 +1052,7 @@ const CardData6 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_nFhKKg7Ch_9lnfxTogq0VhkZZdvB7wBg4',
     price: 50,
-    coverImg: 'santana.jpg',
+    coverImg: 'santana.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -1081,7 +1081,7 @@ const CardData6 = [
     videourl:
       'http://youtube.com/playlist?list=PLIEx7PjdcpR5exzF_rQHxlP7Y7tqN2srX',
     price: 80,
-    coverImg: 'stones.jpg',
+    coverImg: 'rollingstones.gif',
     category: 'Rock Clasico',
     location: 'UK',
     locationImg: 'england.jpg',

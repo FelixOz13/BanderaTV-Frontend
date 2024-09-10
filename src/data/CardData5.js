@@ -266,7 +266,7 @@ const CardData5 = [
     videourl:
       'https://youtube.com/playlist?list=PLnvVNd96RFMT5rWGICoE6jyokwwS4foUM',
     price: 36,
-    coverImg: 'bobmarley.jpg',
+    coverImg: 'bobmarley.gif',
     category: 'Reggae',
     location: 'Jamaica',
     locationImg: 'jamaicaflag.jpg',

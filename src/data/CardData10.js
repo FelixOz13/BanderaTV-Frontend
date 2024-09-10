@@ -6,7 +6,7 @@ const CardData10 = [
       'Red Hot Chili Peppers es una banda de rock estadounidense formada en 1983 en Los Ángeles, California. Sus integrantes son, el vocalista Anthony Kiedis, el guitarrista John Frusciante, el bajista Flea y el baterista Chad Smith. El estilo musical de la banda fusiona el funk tradicional con el rock y el rock alternativo incluyendo elementos de otros géneros como el rap, pop rock, heavy metal, dance, punk, hip hop e indie rock. Aunque en algunos sitios son considerados los inventores del punk funk.',
     videourl: 'http://youtube.com/playlist?list=PL1343579D67ED4740',
     price: 36,
-    coverImg: 'redhotchili.jpg',
+    coverImg: 'rhcp.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -36,7 +36,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLG7Rcw-np_6fJKgE9Lhu2gW-cq4bolc2B',
     price: 36,
-    coverImg: 'ImagineDragons.jpg',
+    coverImg: 'imaginedragons.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -64,7 +64,7 @@ const CardData10 = [
       'Fall Out Boy es una banda de rock estadounidense formada en Wilmette, Illinois, un suburbio de Chicago, en 2001. La banda está compuesta por el vocalista principal y guitarrista Patrick Stump, el bajista Pete Wentz, el baterista Andy Hurley y el guitarrista Joe Trohman. La banda se originó en la escena de hardcore punk de Chicago y fue formada por Wentz y Trohman como un proyecto paralelo de pop punk; Stump se unió poco después. El grupo pasó por varios bateristas antes de que Hurley se uniera. Su álbum debut, Take This to Your Grave (2003), se convirtió en un éxito underground y ayudó a la banda a obtener una base de seguidores dedicados a través de intensas giras. Take This to Your Grave es citado como un disco influyente en la música pop punk de los años 2000..',
     videourl: 'https://youtube.com/playlist?list=PLB43607A7266FA847',
     price: 36,
-    coverImg: 'falloutboy.jpg',
+    coverImg: 'falloutboy.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -93,7 +93,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLtKoi37ubAW0tpP93-fO4FQ9memrbcXnO',
     price: 36,
-    coverImg: 'gorillaz.jpg',
+    coverImg: 'gorillaz.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -122,7 +122,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLyjqnQsvvnpLDEXLf58J39uJTfTXjmVzx',
     price: 36,
-    coverImg: 'FooFighters.jpg',
+    coverImg: 'foo.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -151,7 +151,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLQXcAyvY0ao6DjukeNbIRv7XKdUR2elCW',
     price: 36,
-    coverImg: 'Nirvana.jpg',
+    coverImg: 'nirvana.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -179,7 +179,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_meh35Hhh_1U50Fcskgu8vhXHoIDRJiDd8',
     price: '$50',
-    coverImg: 'smashingpumpkins.jpg',
+    coverImg: 'smashingpumpkins.gif',
     category: 'Alternativo',
     location: 'United States',
     locationImg: 'usaflag.jpg',
@@ -208,7 +208,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLpTxN0bsTsj5GSZ4xME8tbhxez793WTob',
     price: '$50',
-    coverImg: 'neworder.jpg',
+    coverImg: 'neworder.gif',
     category: 'Retro',
     location: 'England',
     locationImg: 'england.jpg',
@@ -230,13 +230,13 @@ const CardData10 = [
     napster: 'https://music.amazon.com.mx/artists/B000QJNM3M/new-order',
   },
   {
-    title: 'Kings of Lion',
+    title: 'Kings of Leon',
     description:
       'Kings of Leon es grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formado por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill. Cada miembro de la familia es conocido por su segundo nombre en vez del primero.1​ El nombre del grupo deriva del padre y abuelo de Nathan, Caleb y Jared, los dos llamados Leon.',
     videourl:
       'https://youtube.com/playlist?list=PLcaPdH-BvlV-H3MqKzUpvqj4TLL58ZATU',
     price: '$50',
-    coverImg: 'KingsofLeon.jpeg',
+    coverImg: 'leon.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -266,7 +266,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLISjWix87QOmCbVCUY5g-vEMSgUITz575',
     price: '$50',
-    coverImg: 'jonasbrothers.jpeg',
+    coverImg: 'jonas.gif',
     category: 'Pop-Americano',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -324,7 +324,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_mv36h4Y-yvaQcMMpsH3vNWKRDMFuhUhkY',
     price: 36,
-    coverImg: 'beastieboys.jpeg',
+    coverImg: 'beastieboys.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -352,7 +352,7 @@ const CardData10 = [
       'Green Day es una banda estadounidense de rock integrada por Billie Joe Armstrong, Mike Dirnt y Tré Cool. El grupo originario de Berkeley, California, se gestó prematuramente en 1986 bajo el nombre de Sweet Children, con el baterista John Kiffmeyer. En 1989 se cambiaron al nombre actual ya que el anterior se confundía con el de una banda local de esa época y poco después del lanzamiento de su primer álbum de estudio, Tré Cool reemplazó a Al Sobrante.',
     videourl: 'http://youtube.com/playlist?list=PL5150F38E402FACE8',
     price: 36,
-    coverImg: 'greenday.jpg',
+    coverImg: 'greenday.gif',
     category: 'Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -381,7 +381,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_lEr5UKXA2UoinNIDdZ8Pd3BshVWIvYB3U',
     price: 36,
-    coverImg: 'rage.jpg',
+    coverImg: 'ratm.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -411,7 +411,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLF-cRDh2mrlWe5i3Hpws_YZM4-cfnyJQz',
     price: 36,
-    coverImg: 'nineinchnails.jpeg',
+    coverImg: 'nin.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -439,7 +439,7 @@ const CardData10 = [
       'The White Stripes fue una banda estadounidense de rock alternativo, también algunas veces considerada dentro del movimiento del garage rock. Fue formada en 1997 en Detroit por la pareja compuesta por John Anthony Gillis bajo el nombre de Jack White y Meg White. Después de publicar sus primeras canciones y grabar dos álbumes de estudio, formaron parte del resurgimiento del garage rock de los años 60, caracterizado por su baja fidelidad de sonido y sus composiciones y arreglos simples inspirados principalmente por el punk rock, el blues rock, el folk rock y la música country. Su tercer y cuarto álbum White Blood Cells y Elephant de 2001 y 2003 respectivamente, los consagró en la escena musical internacional y llamó la atención de una gran variedad de medios de comunicación en los Estados Unidos y en Reino Unido con el sencillo «Seven Nation Army» que icónicamente se ha convertido en su mayor éxito.',
     videourl: 'http://youtube.com/playlist?list=PLAC9127A72919F8DC',
     price: 36,
-    coverImg: 'whiteStripes.jpg',
+    coverImg: 'whitestripes.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -468,7 +468,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_mN84txxkmTCfryqZwmG2iUaDPDXkuMohc',
     price: 36,
-    coverImg: '3doorsdown.jpeg',
+    coverImg: 'threedoorsdown.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -497,7 +497,7 @@ const CardData10 = [
       'Twenty One Pilots es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes se fueron en 2011. Desde su partida, la formación ha consistido en Tyler Joseph y el baterista Josh Dun. El dúo es principalmente conocido por los sencillos-Stressed Out, -Ride y Heathens. El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.',
     videourl: 'https://youtube.com/playlist?list=PL0A42C164824B74F9',
     price: 36,
-    coverImg: 'twentyonepilots.jpg',
+    coverImg: 'twentyonepilots.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -529,7 +529,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLESF6Vbm19P2wpGKnhaIoivBvjmuTBZJp',
     price: 36,
-    coverImg: 'tool.jpg',
+    coverImg: 'tool.gif',
     category: 'Rock ',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -558,7 +558,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLSdoVPM5WnneERBKycA1lhN_vPM6IGiAg',
     price: 36,
-    coverImg: 'daftpunk.jpg',
+    coverImg: 'daftpunk.gif',
     category: 'Rock ',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -587,7 +587,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_l8QP4rw8e6AhfXuViy2iaV_iiMNrPSfXI',
     price: 36,
-    coverImg: 'oasis.jpeg',
+    coverImg: 'oasis.gif',
     category: 'Rock ',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -615,7 +615,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=PLzFp3qeLQkzew0gMq8Tfcc-hlQnMXLCJt',
     price: 36,
-    coverImg: 'depechemode.jpg',
+    coverImg: 'depeche.gif',
     category: 'Rock Alternativo',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -644,7 +644,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_liOBEKtOLF16_O1XBslp0F1UUIeMRz_k8',
     price: 80,
-    coverImg: 'cure.jpg',
+    coverImg: 'thecure.gif',
     category: 'Rock',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -673,7 +673,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PL80sr_OFD9CG16KAPA3GA2dQcAeFFpNUc',
     price: 80,
-    coverImg: 'U2.jpg',
+    coverImg: 'u2.gif',
     category: 'Rock',
     location: 'Irlanda',
     locationImg: 'ireland.jpg',
@@ -701,7 +701,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLETB5bOsgcnI73WMhyN8HN7OUT9AKAqas',
     price: '$50',
-    coverImg: 'blur.png',
+    coverImg: 'blur.gif',
     category: 'Alternative Rock',
     location: 'UK',
     locationImg: 'england.jpg',
@@ -728,7 +728,7 @@ const CardData10 = [
       "The Cranberries fue una banda irlandesa de rock alternativo que estuvo en activo desde 1989 hasta 2019. Fue fundada en Limerick, Irlanda en 1989 bajo el nombre The Cranberry Saw Us, denominación cambiada más tarde por la vocalista Dolores O'Riordan cuando entró a formar parte del grupo en 1990.Saltó a la fama internacional en la década de 1990 con su álbum debut, Everybody Else Is Doing It, So Why Can't We?, que se convirtió en un éxito comercial, vendiendo más de cinco millones de copias solo en Estados Unidos.",
     videourl: 'http://youtube.com/playlist?list=PL4088FD8D60584979',
     price: '$50',
-    coverImg: 'theCranberries.jpg',
+    coverImg: 'cran.gif',
     category: 'Alternative Rock',
     location: 'Irlanda',
     locationImg: 'ireland.jpg',
@@ -757,7 +757,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_ml3JsJ5B_yeAkg2BE6OmZreuWqEYviuZo',
     price: 36,
-    coverImg: 'morrisey.jpg',
+    coverImg: 'morrissey.gif',
     category: 'Alernative',
     location: 'Uk',
     locationImg: 'england.jpg',
@@ -787,7 +787,7 @@ const CardData10 = [
     videourl:
       'https://youtube.com/playlist?list=PLFIhsqj9dojqMSmDjAf6xLl9limlz95-e',
     price: 36,
-    coverImg: 'TheSmiths.jpg',
+    coverImg: 'thesmiths.gif',
     category: 'Alernative',
     location: 'Uk',
     locationImg: 'england.jpg',
@@ -817,7 +817,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_nR5qqYxWEFViIO08fo8GhARWjeh0ZspUA',
     price: 36,
-    coverImg: 'minorThreat.jpg',
+    coverImg: 'minorthreat.gif',
     category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -874,7 +874,7 @@ const CardData10 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_mCep8SGo3FYVTr9ynJDif8zxissBh020g',
     price: 36,
-    coverImg: 'pearljam.jpg',
+    coverImg: 'pearljam.gif',
     category: 'Rock Alternativo',
     location: 'USA',
     locationImg: 'usaflag.jpg',
