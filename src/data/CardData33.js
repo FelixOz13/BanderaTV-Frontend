@@ -1184,6 +1184,35 @@ const CardData33
     tiktok: 'https://www.tiktok.com/@johnlegend570?lang=es',
   },
   {
+    title: 'Chris Issak',
+    description:
+      "Christopher Joseph Isaak (nacido el 26 de junio de 1956) es un cantante, compositor, guitarrista y ocasional actor estadounidense. Conocido por su estilo revivalista de rockabilly cargado de reverberación y su amplio rango vocal, es popularmente conocido por su éxito revelador y canción distintiva Wicked Game, así como por éxitos internacionales como Blue Hotel, Baby Did a Bad Bad Thing y Somebody's Crying.Con una carrera que abarca cuatro décadas, Isaak ha lanzado un total de 13 álbumes de estudio, ha realizado extensas giras con su banda Silvertone y ha recibido numerosas nominaciones a premios. Su sonido e imagen a menudo se comparan con los de Roy Orbison, Elvis Presley, Ricky Nelson y Duane Eddy.",
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_m-ZNDwDmQf8YHK94j1TVvOu93sjC4iEJU&si=znHlrATfAG-waIzW',
+    price: '$50',
+    coverImg: 'chrisissak.jpg',
+    category: 'Rythm & Blues',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://chrisisaak.com/',
+    youtube: 'https://www.youtube.com/channel/UCSCS5v9K-fNc9oS0AZx-OqA',
+    facebook: 'https://www.facebook.com/chrisisaak/',
+    instagram: 'https://www.instagram.com/chrisisaak/',
+    twitter: 'https://x.com/ChrisIsaak',
+    spotify: 'https://open.spotify.com/artist/7290H8m1Dwt8G7jm1y9CQx?autoplay=true',
+    deezer: 'https://www.deezer.com/mx/playlist/13048441063',
+    apple: 'https://music.apple.com/mx/artist/chris-isaak/151329',
+    soundcloud: 'https://soundcloud.com/chrisisaak',
+    tidal: 'https://listen.tidal.com/artist/6891',
+    wiki: 'https://es.wikipedia.org/wiki/John_Legend',
+    ticketmaster:
+      'https://www.ticketmaster.com/chris-isaak-tickets/artist/735342',
+    napster: 'https://music.amazon.com/artists/B000QJHLZM/chris-isaak',
+    tiktok: 'https://www.tiktok.com/@chrisisaakfanpage?lang=es',
+  },
+  {
     title: 'Elton John',
     description:
       'Sir Elton John es un cantante, pianista, compositor y músico británico. Con una carrera de más de 50 años, ha lanzado más de 30 álbumes de estudio y ha vendido más de 300 millones de copias en todo el mundo, siendo uno de los artistas musicales más exitosos de la historia.',

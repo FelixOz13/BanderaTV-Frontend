@@ -233,6 +233,35 @@ const CardData8 = [
     napster: 'https://www.deezer.com/mx/artist/3968561',
   },
   {
+    title: 'Route 94',
+    description:
+      "Rowan Tyler Jones (nacido el 21 de mayo de 1993), conocido por su nombre artístico Route 94, es un productor y remezclador inglés originario de Richmond, Londres. Inicialmente produciendo dubstep bajo el nombre de Dream, Jones colaboró con artistas como Skream, Benga y Katy B. Posteriormente, comenzó a producir música house. Su sencillo My Love fue un éxito comercial, alcanzando el número uno en tres listas de éxitos.",
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nki6gG8EU8cuI14_44rzZc5V3thZ_5NEg&si=s9YZqTsilEDvxqZ4',
+    price: 80,
+    coverImg: 'route94.jpg',
+    category: 'Electronica',
+    location: 'England',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://route94.com/',
+    youtube: 'https://www.youtube.com/channel/UCg6sxFhxjLz8Xp2ZKzbLCWQ',
+    facebook: 'https://www.facebook.com/route94',
+    instagram: 'https://www.instagram.com/route94/',
+    twitter: 'https://x.com/route_94',
+    spotify: 'https://open.spotify.com/artist/1dgdvbogmctybPrGEcnYf6',
+    deezer: 'https://www.deezer.com/mx/artist/251450062',
+    apple: 'https://music.apple.com/gb/artist/route-94/650435297',
+    soundcloud: 'https://soundcloud.com/route94',
+    tidal: 'https://listen.tidal.com/artist/4928123',
+    wiki: 'https://en.wikipedia.org/wiki/Route_94_(musician)',
+    ticketmaster:
+      'https://www.ticketmaster.com/route-94-tickets/artist/1974233',
+    tiktok: 'https://www.tiktok.com/@route94music?lang=es',
+    napster: 'https://music.amazon.com/artists/B00CVO38O8/route-94',
+  },
+  {
     title: 'Deep Nation',
     description:
       'Deep house (110~125 BPM) is a subgenre of house music that originated in the 1980s, initially fusing elements of Chicago house with the lush chords of 1980s jazz-funk and touches of soul music. Its origins are attributed to the early recordings of Larry Heard (aka Mr. Fingers), including his influential track Can You Feel It.',

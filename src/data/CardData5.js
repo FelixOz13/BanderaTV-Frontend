@@ -202,6 +202,35 @@ const CardData5 = [
     napster: 'https://www.napster.com/mx',
   },
   {
+    title: 'Steel Pulse',
+    description:
+      'Steel Pulse (en castellano: Pulso de Acero) es una banda británica de reggae formada en 1975. Lanzaron doce discos de estudio y ganaron múltiples premios, además de haber vendido millones de álbumes.Fueron el primer grupo no jamaicano en ganar un premio Grammy a la categoría Mejor Disco de Reggae. Además, recibieron otras cinco nominaciones. Cuentan con doce álbumes de estudio, y son una de las bandas más importantes dentro del género',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_k4cMCSF-4r2RbA023_3RtRcERHd2GFsf8&si=Tbo9xwRtukiQcQNF',
+    price: '$50',
+    coverImg: 'steelpulse.gif',
+    category: 'Reggae',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://steelpulse.com/',
+    youtube: 'https://www.youtube.com/channel/UC03Lkvcs07JBeLLz_6Q0N8g',
+    facebook: 'https://www.facebook.com/SteelPulse',
+    instagram: 'https://www.instagram.com/steelpulseofficial',
+    twitter: 'https://x.com/steelpulse',
+    spotify: 'https://open.spotify.com/artist/6UL7BodGc5iVmQGlMwHR0g',
+    deezer: 'https://www.deezer.com/mx/artist/6542',
+    apple: 'https://music.apple.com/mx/artist/steel-pulse/77420',
+    soundcloud: 'https://soundcloud.com/steelpulseofficial',
+    tidal: 'https://listen.tidal.com/artist/18906',
+    wiki: 'https://es.wikipedia.org/wiki/Steel_Pulse',
+    ticketmaster:
+      'https://www.ticketmaster.com/steel-pulse-tickets/artist/733929',
+    tiktok: 'https://www.tiktok.com/@paradisea.fest?lang=es',
+    napster: 'https://music.amazon.com/artists/B000QJP8RA/steel-pulse',
+  },
+  {
     title: 'B-Side Players',
     description:
       " B-Side Players is an American band formed in 1994. The band incorporates the sounds of Cuba, Jamaica, Mexico and Brazil with the funk, rock, jazz and hip-hop rhythms of their homeland. The band also drops a bit of Cumbia, gritty street Samba, Son Montuno and Jarocho into the mix. Described as War meets Lenny Kravitz by way of Ben Harper, the players have expanded their sound by playing with the likes of Harper, Ozomatli, The Wailers, James Brown, War and some of Cuba's best bands. They are signed to Jazz label Concord Music Group.",
