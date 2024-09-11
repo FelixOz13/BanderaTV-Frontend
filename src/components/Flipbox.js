@@ -17,7 +17,7 @@ function Flipbox() {
             <div className="flip-box-front">
               <img
                 className="flag-logo3"
-                src="../images/goldmusic2.png"
+                src="../images/icon.png"
                 alt="Mexico"
               />
             </div>

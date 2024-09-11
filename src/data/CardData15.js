@@ -1,62 +1,34 @@
 const CardData15 = [
+  
   {
-    title: 'Sin Bandera',
+    title: 'Marco Antonio Solis',
     description:
-      'Sin Bandera es un dúo argentino-mexicano formado por el argentino Noel Schajris y el mexicano Leonel García en 2000. Se separaron por única vez en 2008, volviéndose a juntar en noviembre de 2015 para realizar una gira de conciertos.1​2​ Hasta la fecha han lanzando seis álbumes de estudio: Sin Bandera (2002), De viaje (2003), Mañana (2005), Pasado (2006), Una última vez (Deluxe Edition) (2016) y Frecuencia (2022).',
+      'Marco Antonio Solís Sosa (Ario de Rosales, Michoacán, México; 29 de diciembre de 1959) es un músico, cantante, compositor, productor musical, actor y empresario mexicano. Junto a su primo Joel Solís, fue fundador de la agrupación musical grupera mexicana Los Bukis, del cual fue vocalista, músico, productor y autor de la mayoría de sus canciones; al inicio tocaba los teclados y posteriormente los timbales y la guitarra.[cita requerida] Es en donde se hizo conocido por su música y por ser uno de los integrantes de la agrupación.',
     videourl:
-      'https://youtube.com/playlist?list=PLEIi2hdHFECyaqn3iyPIlx9kgdgt1BgW4',
-    price: '$50',
-    coverImg: 'sinBandera.jpg',
-    category: 'Baladas',
-    location: 'mEXICO',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://sinbandera.com.mx/',
-    youtube: 'https://www.youtube.com/channel/UC74jt8Y_Yc5YRzJr6-Ipi9g',
-    facebook: 'https://www.facebook.com/sinbanderaoficial',
-    instagram: 'https://www.instagram.com/sinbandera/',
-    twitter: 'https://twitter.com/sinbandera',
-    spotify: 'https://open.spotify.com/artist/7xeM7V59cA1X8GKyKKQV87',
-    deezer: 'https://www.deezer.com/mx/artist/1461',
-    apple: 'https://music.apple.com/mx/artist/sin-bandera/14483319',
-    soundcloud: 'https://soundcloud.com/sinbanderaofficial',
-    tidal: 'https://listen.tidal.com/artist/35406',
-    wiki: 'https://es.wikipedia.org/wiki/Sin_Bandera',
-    ticketmaster:
-      'https://www.ticketmaster.com/sin-bandera-tickets/artist/849520',
-    tiktok: 'https://www.tiktok.com/@sinbanderaoficial',
-    napster: 'https://us.napster.com/search?query=sIN%20bANDERA',
-  },
-  {
-    title: 'Luis Miguel',
-    description:
-      'Luis Miguel Gallego Basteri (San Juan, 19 de abril de 1970),conocido como Luis Miguel y apodado en ocasiones como «El Sol de México», es un cantante y productor musical mexicano.',
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlUMRA7E0-zntqkMrhNKwYri',
+      'https://youtube.com/playlist?list=PLjJ34Xnquyyc6jWm19jqCBS7SP49S3yyK&si=AeIyItwRaCR-CSmB',
     price: 80,
-    coverImg: 'luismiguel.jpg',
+    coverImg: 'marcoantonio.jpg',
     category: 'Romantica',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'http://luismigueloficial.com/',
-    youtube: 'https://www.youtube.com/c/LuisMiguelOfficial',
-    facebook: 'https://www.facebook.com/luismiguelofficial',
-    instagram: 'https://www.instagram.com/lmxlm/',
-    twitter: 'https://twitter.com/LMXLM',
-    spotify: 'https://open.spotify.com/artist/2nszmSgqreHSdJA3zWPyrW',
-    deezer: 'https://www.deezer.com/mx/artist/6123',
-    apple: 'https://music.apple.com/mx/artist/luis-miguel/336904',
-    soundcloud: 'https://soundcloud.com/luismiguel_oficial',
-    tidal: 'https://listen.tidal.com/artist/11993',
-    wiki: 'https://en.wikipedia.org/wiki/Luis_Miguel',
+    websiteurl: 'https://www.marcoantoniosolis.com/',
+    youtube: 'https://www.youtube.com/channel/UCIKg4QVg91aCWxXWlUkKDLw',
+    facebook: 'https://www.facebook.com/marcoantoniosolis',
+    instagram: 'https://www.instagram.com/marcoantoniosolis_oficial/',
+    twitter: 'https://x.com/MarcoASolis',
+    spotify: 'https://open.spotify.com/artist/3tJnB0s6c3oXPq1SCCavnd',
+    deezer: 'https://www.deezer.com/mx/artist/9032',
+    apple: 'https://music.apple.com/mx/artist/marco-antonio-sol%C3%ADs/332900',
+    soundcloud: 'https://soundcloud.com/marco-antonio-solis-official',
+    tidal: 'https://listen.tidal.com/artist/3675096',
+    wiki: 'https://es.wikipedia.org/wiki/Marco_Antonio_Sol%C3%ADs',
     ticketmaster:
-      'https://www.ticketmaster.com/luis-miguel-tickets/artist/762874',
+      'https://www.ticketmaster.com/marco-antonio-solis-tickets/artist/781016',
 
-    tiktok: 'https://www.tiktok.com/@lmxlm',
-    napster: 'https://web.napster.com/artist/luis-miguel',
+    tiktok: 'https://www.tiktok.com/@marcoasolis_oficial',
+    napster: 'https://music.amazon.com/artists/B000V65U8A/marco-antonio-sol%C3%ADs',
   },
   {
     title: 'Neto Bernal',
@@ -86,7 +58,7 @@ const CardData15 = [
       'https://laletrade.com/biografias/regional-mexicano/18635-neto-bernal',
     ticketmaster: 'https://www.ticketmaster.com.mx/',
     tiktok: 'https://www.tiktok.com/@netobernal?lang=es',
-    napster: 'https://web.napster.com/artist/neto-bernal',
+    napster: 'https://music.amazon.com/artists/B01ICX89MW/neto-bernal',
   },
   {
     title: 'Reyli',
@@ -114,7 +86,7 @@ const CardData15 = [
     ticketmaster:
       'https://www.ticketmaster.com.mx/reyli-barba-boletos/artist/1197375',
     tiktok: 'https://www.tiktok.com/@reylibarbaoficial?lang=es',
-    napster: 'https://app.napster.com/artist/reyli-barba',
+    napster: 'https://music.amazon.com/artists/B000S2BG8U/reyli-barba',
   },
   {
     title: 'Horacio Palencia',
@@ -142,7 +114,7 @@ const CardData15 = [
     ticketmaster:
       'https://www.ticketmaster.com/horacio-palencia-tickets/artist/1968743',
     tiktok: 'https://www.tiktok.com/@horaciopalenciatiktok?lang=es',
-    napster: 'https://web.napster.com/artist/art.58205375',
+    napster: 'https://music.amazon.com/artists/B000VXKY3O/horacio-palencia',
   },
   {
     title: 'Sin Bandera',
@@ -171,7 +143,7 @@ const CardData15 = [
     ticketmaster:
       'https://www.ticketmaster.com/sin-bandera-tickets/artist/849520',
     tiktok: 'https://www.tiktok.com/@sinbanderaoficial',
-    napster: 'https://us.napster.com/search?query=sIN%20bANDERA',
+    napster: 'https://music.amazon.com/artists/B0013692GI/sin-bandera',
   },
   {
     title: 'Luis Miguel',
@@ -201,38 +173,9 @@ const CardData15 = [
       'https://www.ticketmaster.com/luis-miguel-tickets/artist/762874',
 
     tiktok: 'https://www.tiktok.com/@lmxlm',
-    napster: 'https://web.napster.com/artist/luis-miguel',
+    napster: 'https://music.amazon.com/artists/B000SA3BTE/luis-miguel',
   },
-  {
-    title: 'Neto Bernal',
-    description:
-      'Ernesto Bernal Contreras, mejor conocido como Neto Bernal, es un cantante de música regional, procedente de Mexicali, Baja California, México. El joven, que nació el 1 de octubre de 1997, comparte junto con su madre el origen en la ciudad fronteriza, Mexicali, mientras que su padre viene de Sonora. El artista, de tan sólo 19 años, creció allí junto con su hermano menor, Alexis Bernal.',
-    videourl:
-      'http://youtube.com/playlist?list=PLaSnKw4FFePPPOXaDVDk3SObo2PbAeqbp',
-    price: 50,
-    coverImg: 'NetoBernal.jpg',
-    category: 'Banda',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: '',
-    youtube: 'https://www.youtube.com/channel/UC0tWKR_TBob21vJTEO67UfA',
-    facebook: 'https://www.facebook.com/NetoBernalOficial',
-    instagram: 'https://www.instagram.com/netobernaloficial/?hl=en',
-    twitter: 'https://twitter.com/elnetillobernal',
-    spotify:
-      'https://open.spotify.com/artist/0X8PwlFMDK85fIadwq3cA5?si=wQEx4ri9Q_yhkyqLdv1t5w&nd=1',
-    deezer: 'https://www.deezer.com/mx/artist/10693157',
-    apple: 'https://music.apple.com/mx/artist/neto-bernal/1133791209',
-    soundcloud: 'https://soundcloud.com/neto-bernal',
-    tidal: 'https://listen.tidal.com/artist/7990895',
-    wiki:
-      'https://laletrade.com/biografias/regional-mexicano/18635-neto-bernal',
-    ticketmaster: 'https://www.ticketmaster.com.mx/',
-    tiktok: 'https://www.tiktok.com/@netobernal?lang=es',
-    napster: 'https://web.napster.com/artist/neto-bernal',
-  },
+  
 ]
 
 export default CardData15
