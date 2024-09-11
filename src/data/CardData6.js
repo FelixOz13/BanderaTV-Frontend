@@ -807,6 +807,36 @@ const CardData6 = [
     napster: 'https://music.amazon.com/artists/B000QJPE1K/joe-walsh',
   },
   {
+    title: 'Ted Nugent',
+    description:
+      'Theodore Anthony - Ted Nugent (Redford, Míchigan; 13 de diciembre de 1948) es un guitarrista, cantante, compositor y activista republicano estadounidense. Obtuvo reconocimiento inicialmente como guitarrista de la banda The Amboy Dukes, una agrupación formada en 1963 que tocaba rock psicodélico y hard rock. Tras su experiencia con The Amboy Dukes, inició una exitosa carrera en solitario,​',
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_kX4qeyYgQnLP5DI67HUGY7aQIHcK7MKRk',
+    price: 36,
+    coverImg: 'tednugent.jpg',
+    category: 'Rock Clasico',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.tednugent.com/',
+    youtube: 'https://www.youtube.com/channel/UCB6clUGV3bIoHJ5IzNF4y0Q',
+    facebook: 'https://www.facebook.com/tednugentamerican',
+    instagram: 'https://www.instagram.com/tednugentofficial/',
+    twitter: 'https://x.com/TedNugent',
+    spotify:
+      'https://open.spotify.com/artist/21ysNsPzHdqYN2fQ75ZswG',
+    deezer: 'https://www.deezer.com/mx/artist/7178',
+    apple: 'https://music.apple.com/mx/artist/ted-nugent/462527',
+    soundcloud: 'https://soundcloud.com/ted-nugent-official',
+    tidal: 'https://listen.tidal.com/artist/1012',
+    wiki: 'https://es.wikipedia.org/wiki/Ted_Nugent',
+    ticketmaster:
+      'https://www.ticketmaster.com/ted-nugent-tickets/artist/735775',
+    tiktok: 'https://www.tiktok.com/@officialtednuguent?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJR4LI/ted-nugent',
+  },
+  {
     title: 'Little River Band',
     description:
       'Little River Band o LRB es una banda de soft rock australiana formada en Melbourne a marzo de 1975. El grupo eligió el nombre después de pasar por una carretera que conduce al municipio de Victoria de Little River, cerca de Geelong, mientras se dirigían a una presentación. Little River Band han disfrutado de un extenso éxito comercial, no solo en Australia, sino también en Estados Unidos. Durante su carrera, la banda vendió más de 25 millones de discos y lograron tener 13 éxitos en el U.S. Top 40 hits agregando todos los premios ganados en Australia.Los miembros originales eran: Glenn Shorrock; Graham Goble; Beeb Birtles; Ric Formosa; Roger McLachlan y Derek Pellicci.​',

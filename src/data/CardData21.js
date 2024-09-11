@@ -282,7 +282,37 @@ const CardData21 = [
     ticketmaster:
       'https://www.ticketmaster.com/black-sabbath-tickets/artist/734569',
     tiktok: 'https://www.tiktok.com/@blacksabbath999?lang=es',
-    napster: 'https://app.napster.com/artist/black-sabbath',
+    napster: 'https://music.amazon.com.mx/artists/B000V8GO24/black-sabbath',
+  },
+  {
+    title: 'Yngwie Malmsteem',
+    description:
+      'Yngwie Johann Malmsteen (Estocolmo, 30 de junio de 1963), de nombre real Lars Johan Yngve Lannerbäck;1​ es un guitarrista de heavy metal y compositor sueco, que participó activamente en grupos como Steeler o Alcatrazz; y al que se le atribuye ser la mayor influencia en la creación del subgénero conocido como metal neoclásico, siendo uno de los grandes exponentes de las técnicas de shred en la guitarra eléctrica durante las décadas de 1970 - 1980,​',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_kilw_t8MjzO63RIb-cEKSMW4A_e7V1dQY&si=lz9xwWFGCNc74uT5',
+    price: 36,
+    coverImg: 'yngwiemalsteem.png',
+    category: 'Rock Clasico',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.yngwiemalmsteen.com/',
+    youtube: 'https://www.youtube.com/@officialyngwiemalmsteen622',
+    facebook: 'https://www.facebook.com/officialyngwiemalmsteen',
+    instagram: 'https://www.instagram.com/yngwiemalmsteen_official/',
+    twitter: 'https://x.com/OfficialYJM',
+    spotify:
+      'https://open.spotify.com/artist/5DpSoH5zCXNRqYai7pmcGG',
+    deezer: 'https://www.deezer.com/mx/artist/2089',
+    apple: 'https://music.apple.com/mx/artist/yngwie-malmsteen/41769',
+    soundcloud: 'https://soundcloud.com/yngwiemalmsteen',
+    tidal: 'https://listen.tidal.com/search?q=yngwie%20malmsteen',
+    wiki: 'https://es.wikipedia.org/wiki/Yngwie_Malmsteen',
+    ticketmaster:
+      'https://www.ticketmaster.com/yngwie-malmsteen-tickets/artist/735576',
+    tiktok: 'https://www.tiktok.com/@yngwiemalmsteen_official?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QKKNA6/yngwie-malmsteen',
   },
 ]
 

@@ -10,7 +10,7 @@ const CardData2 = [
     category: 'Regional Latino',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
-    openSpots: 1000,
+    openSpots: null,
     likes: 1000,
     websiteurl: 'https://gloriatrevi.lnk.to/IslaDivinaAlbum!YTD',
     youtube: 'https://www.youtube.com/channel/UCNZazBoobtvziOGR65QQVog',

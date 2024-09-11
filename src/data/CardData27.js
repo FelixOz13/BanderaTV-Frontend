@@ -319,6 +319,35 @@ const CardData27 = [
     tiktok: 'https://www.tiktok.com/@aventura_dc?lang=es',
     napster: 'https://app.napster.com/artist/aventura',
   },
+  {
+    title: 'Juan Luis Guerra',
+    description:
+      'Juan Luis Guerra Seijas (Ciudad Trujillo, 7 de junio de 1957) es un cantautor, arreglista, músico, productor musical y empresario dominicano. Con más de 40 años de carrera, ha vendido más de 30 millones de discos1​2​3​ y ganado numerosos premios, incluidos 27 Grammy Latinos, dos Grammy estadounidenses y once Premios Latin Billboard;4​ fue honrado como Icono de BMI en la 13.ª edición de los Premios Latinos de BMI, nombrado Compositor Latino del Año de 1995 de BMI, las composiciones de Guerra han ganado 14 Premios Latinos de BMI.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_leZQSTI4LI2dIGVBATGLuif1aIS-pjvoc&si=clraczIF5G2z1yAb',
+    price: '$50',
+    coverImg: 'juanluisguerra.jpg',
+    category: 'Bachatta',
+    location: 'Republica Dominicana',
+    locationImg: 'dominican.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://juanluisguerra.com/',
+    youtube: 'https://www.youtube.com/channel/UColz1FbIlymB0lfzhESxtow',
+    facebook: 'https://www.facebook.com/juanluisguerra440/',
+    instagram: 'https://www.instagram.com/juanluisguerra/',
+    twitter: 'https://x.com/JuanLuisGuerra/',
+    spotify: 'https://open.spotify.com/artist/3nlpTZci9O5W8RsNoNH559',
+    deezer: 'https://www.deezer.com/mx/artist/4527779',
+    apple: 'https://music.apple.com/us/artist/juan-luis-guerra/6786499',
+    soundcloud: 'https://soundcloud.com/juan-luis-guerra-official',
+    tidal: 'https://listen.tidal.com/artist/10564',
+    wiki: 'https://es.wikipedia.org/wiki/Juan_Luis_Guerra',
+    ticketmaster:
+      'https://www.ticketmaster.com/juan-luis-guerra-tickets/artist/769172',
+    tiktok: 'https://www.tiktok.com/@juanluisguerra',
+    napster: 'https://music.amazon.com/artists/B000QJHP5I/juan-luis-guerra-4-40',
+  },
 ]
 
 export default CardData27
