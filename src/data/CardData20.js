@@ -27,7 +27,7 @@ const CardData20 = [
     wiki: 'https://es.wikipedia.org/wiki/Pedro_Infante',
     ticketmaster:
       'https://www.noroeste.com.mx/entretenimiento/espectaculos/llenaran-de-tributos-a-pedro-infante-PVNO1078632',
-    napster: 'https://web.napster.com/artist/pedro-infante',
+    napster: 'https://music.amazon.com.mx/artists/B000QKD2XQ/pedro-infante',
     tiktok: 'https://www.tiktok.com/@pedroinfanteidolo',
   },
   {
@@ -56,7 +56,7 @@ const CardData20 = [
     wiki: 'https://es.wikipedia.org/wiki/Jorge_Negrete',
     ticketmaster:
       'https://www.ticketmaster.com.mx/teatro-jorge-negrete-boletos-mexico/venue/163990',
-    napster: 'https://web.napster.com/artist/art.50312',
+    napster: 'https://music.amazon.com.mx/artists/B000QK2D7C/jorge-negrete',
     tiktok: 'https://www.tiktok.com/search?q=Jorge%20Negrete&t=1667333198086',
   },
   {
@@ -88,7 +88,7 @@ const CardData20 = [
     wiki: 'https://en.wikipedia.org/wiki/Roc%C3%ADo_D%C3%BArcal',
     ticketmaster:
       'https://www.ticketmaster.com/rocio-durcal-tickets/artist/754908',
-    napster: 'https://web.napster.com/artist/rocio-durcal-latin',
+    napster: 'https://music.amazon.com.mx/artists/B00386NT7O/roc%C3%ADo-d%C3%BArcal',
     tiktok: 'https://www.tiktok.com/@rociodurcal.oficial',
   },
   {
@@ -122,7 +122,7 @@ const CardData20 = [
 
     tiktok:
       'https://www.tiktok.com/search?q=Jos%C3%A9%20Alfredo%20Jim%C3%A9nez&t=1658091294171',
-    napster: 'https://web.napster.com/artist/jose-alfredo-jimenez',
+    napster: 'https://music.amazon.com.mx/artists/B000RHNATE/jos%C3%A9-alfredo-jim%C3%A9nez',
   },
   {
     title: 'Juan Gabriel',
@@ -153,7 +153,7 @@ const CardData20 = [
       'https://www.ticketmaster.com/juan-gabriel-tickets/artist/761622',
 
     tiktok: 'https://www.tiktok.com/@soyjuangabriel',
-    napster: 'https://web.napster.com/artist/juan-gabriel',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJM6I/juan-gabriel',
   },
   {
     title: 'Jose Jose',
@@ -182,7 +182,7 @@ const CardData20 = [
     ticketmaster:
       'https://www.ticketmaster.com/jose-jose-tickets/artist/756645',
     tiktok: 'https://www.tiktok.com/@josejoseoficial',
-    napster: 'https://web.napster.com/artist/jose-jose',
+    napster: 'https://music.amazon.com.mx/artists/B001369092/jos%C3%A9-jos%C3%A9',
   },
   {
     title: 'Los Panchos',
@@ -213,7 +213,7 @@ const CardData20 = [
       'https://www.ticketmaster.com/los-panchos-tickets/artist/2250936',
 
     tiktok: 'https://www.tiktok.com/@triolospanchosoficial',
-    napster: 'https://web.napster.com/artist/trio-los-panchos',
+    napster: 'https://music.amazon.com.mx/artists/B000QJSJBC/los-panchos',
   },
   {
     title: 'Vicente Fernandez',
@@ -243,7 +243,7 @@ const CardData20 = [
       'https://www.ticketmaster.com.mx/vicente-fernandez-boletos/artist/754927',
 
     tiktok: 'https://www.tiktok.com/@_vicentefdez',
-    napster: 'https://web.napster.com/artist/vicente-fernandez',
+    napster: 'https://www.ticketmaster.com/vicente-fernandez-tickets/artist/754927',
   },
   {
     title: 'Armando Manzanero',
@@ -271,10 +271,10 @@ const CardData20 = [
     tidal: 'https://listen.tidal.com/artist/12584',
     wiki: 'https://es.wikipedia.org/wiki/Armando_Manzanero',
     ticketmaster:
-      'https://www.ticketmaster.com/antonio-aguilar-tickets/artist/754762',
+      'https://www.ticketmaster.com/armando-manzanero-tickets/artist/1170744',
 
-    tiktok: 'https://www.tiktok.com/@antonioaguilar.2022',
-    napster: 'https://web.napster.com/artist/antonio-aguilar',
+    tiktok: 'https://www.tiktok.com/@armando.manzaner',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJTJ8/armando-manzanero',
   },
   {
     title: 'Antonio Aguilar',
@@ -305,7 +305,7 @@ const CardData20 = [
       'https://www.ticketmaster.com/antonio-aguilar-tickets/artist/754762',
 
     tiktok: 'https://www.tiktok.com/@antonioaguilar.2022',
-    napster: 'https://web.napster.com/artist/antonio-aguilar',
+    napster: 'https://music.amazon.com.mx/artists/B000S2F8JI/antonio-aguilar',
   },
   {
     title: 'Julio Jaramillo',
@@ -483,7 +483,94 @@ const CardData20 = [
     wiki: 'https://en.wikipedia.org/wiki/Tito_Puente',
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Tito+Puente+JR',
     tiktok: 'https://www.tiktok.com/search?q=Tito%20puente&t=1658084271449',
-    napster: 'https://web.napster.com/artist/tito-puente',
+    napster: 'https://music.amazon.com.mx/artists/B000QJW6N4/tito-puente',
+  },
+  {
+    title: 'Buena Vista Social Club',
+    description:
+      'Buena Vista Social Club es el nombre de un club social muy popular de La Habana, Cuba, cuyos miembros practicaban el baile y la música. También es el nombre de una agrupación musical creada en la década de 1990, casi 50 años después de que el club cerrase, que inspiró una grabación hecha por el músico cubano Juan de Marcos González y por el guitarrista y folclorista estadounidense Ry Cooder con músicos cubanos tradicionales, muchos de ellos antiguos miembros del club en el que se presentaron cuando su popularidad estaba en la cumbre.',
+
+    videourl:
+      'https://youtube.com/playlist?list=PLfdBj3OfNtmwqvW93GyDyeAGq6dFsoB8i&si=FNwlGb9rJr8FpPNY',
+    price: '$50',
+    coverImg: 'buenavista.jpg',
+    category: 'Mambo',
+    location: 'Cuba',
+    locationImg: 'cubaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.buenavistasocialclub.com/',
+    youtube: 'https://www.youtube.com/channel/UCJYl3tOsrTkCCidMjhxdAeQ',
+    facebook: 'https://www.facebook.com/buenavistasocialclubofficial',
+    instagram: 'https://www.instagram.com/buenavistasocialclubofficial',
+    twitter: 'https://x.com/buenavistasc?lang=en',
+    spotify: 'https://open.spotify.com/artist/11kBu957KTYoAltZHDm8gW',
+    deezer: 'https://www.deezer.com/mx/artist/2799',
+    apple: 'https://music.apple.com/mx/artist/buena-vista-social-club/5620149',
+    soundcloud: 'https://soundcloud.com/buena-vista-social-club',
+    tidal: 'https://listen.tidal.com/artist/3521820',
+    wiki: 'https://es.wikipedia.org/wiki/Buena_Vista_Social_Club',
+    ticketmaster:'https://www.ticketmaster.com/hommage-a-buena-vista-social-club-tickets/artist/2501195',
+    tiktok: 'https://www.tiktok.com/@bvscofficial',
+    napster: 'https://music.amazon.com.mx/artists/B0011ZOQNA/buena-vista-social-club',
+  },
+  {
+    title: 'Buena Vista Social Club',
+    description:
+      'Buena Vista Social Club es el nombre de un club social muy popular de La Habana, Cuba, cuyos miembros practicaban el baile y la música. También es el nombre de una agrupación musical creada en la década de 1990, casi 50 años después de que el club cerrase, que inspiró una grabación hecha por el músico cubano Juan de Marcos González y por el guitarrista y folclorista estadounidense Ry Cooder con músicos cubanos tradicionales, muchos de ellos antiguos miembros del club en el que se presentaron cuando su popularidad estaba en la cumbre.',
+
+    videourl:
+      'https://youtube.com/playlist?list=PLfdBj3OfNtmwqvW93GyDyeAGq6dFsoB8i&si=FNwlGb9rJr8FpPNY',
+    price: '$50',
+    coverImg: 'buenavista.jpg',
+    category: 'Mambo',
+    location: 'Cuba',
+    locationImg: 'cubaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.buenavistasocialclub.com/',
+    youtube: 'https://www.youtube.com/channel/UCJYl3tOsrTkCCidMjhxdAeQ',
+    facebook: 'https://www.facebook.com/buenavistasocialclubofficial',
+    instagram: 'https://www.instagram.com/buenavistasocialclubofficial',
+    twitter: 'https://x.com/buenavistasc?lang=en',
+    spotify: 'https://open.spotify.com/artist/11kBu957KTYoAltZHDm8gW',
+    deezer: 'https://www.deezer.com/mx/artist/2799',
+    apple: 'https://music.apple.com/mx/artist/buena-vista-social-club/5620149',
+    soundcloud: 'https://soundcloud.com/buena-vista-social-club',
+    tidal: 'https://listen.tidal.com/artist/3521820',
+    wiki: 'https://es.wikipedia.org/wiki/Buena_Vista_Social_Club',
+    ticketmaster:'https://www.ticketmaster.com/hommage-a-buena-vista-social-club-tickets/artist/2501195',
+    tiktok: 'https://www.tiktok.com/@bvscofficial',
+    napster: 'https://music.amazon.com.mx/artists/B0011ZOQNA/buena-vista-social-club',
+  },
+  {
+    title: 'Sylvio Rodriguez',
+    description:
+      'Silvio Rodríguez Domínguez (San Antonio de los Baños, Cuba; 29 de noviembre de 1946), conocido como Silvio Rodríguez, El Aprendiz o El Escaramujo, es un cantautor, guitarrista, poeta y político cubano, exponente característico de la música de su país surgida con la Revolución cubana, conocida como la Nueva Trova, que comparte con otros reconocidos cantautores tales como Pablo Milanés, Noel Nicola y Vicente Feliú.',
+
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nkSWrqjiIW2Mpw5SUNiDlPF9Llu9nx7TY&si=EuoZqgCVG25ZJgDO',
+    price: '$50',
+    coverImg: 'buenavista.jpg',
+    category: 'Mambo',
+    location: 'Cuba',
+    locationImg: 'cubaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.zurrondelaprendiz.com/',
+    youtube: 'https://www.youtube.com/channel/UC16aF70kysMIJdz51HdMx9Q',
+    facebook: 'https://www.facebook.com/buenavistasocialclubofficial',
+    instagram: 'https://www.instagram.com/buenavistasocialclubofficial',
+    twitter: 'https://x.com/buenavistasc?lang=en',
+    spotify: 'https://open.spotify.com/artist/4rUyBlggM5tZUH5QZn9ZuO',
+    deezer: 'https://www.deezer.com/mx/artist/2799',
+    apple: 'https://music.apple.com/mx/artist/buena-vista-social-club/5620149',
+    soundcloud: 'https://soundcloud.com/buena-vista-social-club',
+    tidal: 'https://listen.tidal.com/artist/3521820',
+    wiki: 'https://es.wikipedia.org/wiki/Silvio_Rodr%C3%ADguez',
+    ticketmaster:'https://www.ticketmaster.com/hommage-a-buena-vista-social-club-tickets/artist/2501195',
+    tiktok: 'https://www.tiktok.com/@bvscofficial',
+    napster: 'https://music.amazon.com.mx/artists/B0011ZOQNA/buena-vista-social-club',
   },
   {
     title: 'Celia Cruz',
@@ -511,7 +598,7 @@ const CardData20 = [
     wiki: 'https://en.wikipedia.org/wiki/Celia_Cruz',
     ticketmaster:
       'https://www.ticketmaster.com/Celia-Cruz-tickets/artist/760911',
-    napster: 'https://web.napster.com/artist/celia-cruz',
+    napster: 'https://music.amazon.com.mx/artists/B000QJTBT6/celia-cruz',
     tiktok: 'https://www.tiktok.com/@soyceliacruz',
   },
   {
@@ -540,7 +627,7 @@ const CardData20 = [
     ticketmaster:
       'https://www.ticketmaster.com/ray-charles-tickets/artist/857437',
     tiktok: 'https://www.tiktok.com/search?q=Ray%20Charles&t=1660884101665',
-    napster: 'https://us.napster.com/artist/ray-charles',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPWRG/ray-charles',
   },
 
   {
@@ -570,7 +657,7 @@ const CardData20 = [
     ticketmaster:
       'https://www.ticketmaster.com/james-brown-tickets/artist/734650',
     tiktok: 'https://www.tiktok.com/@jamesbrown?lang=es',
-    napster: 'https://us.napster.com/artist/james-brown',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPCU8/james-brown',
   },
   {
     title: 'Johnny Cash',

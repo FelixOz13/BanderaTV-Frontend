@@ -21,7 +21,7 @@ import Chill from './components/Chill'
 import Romantica from './components/Romantica'
 import Local from './components/Local'
 import Blues from './components/Blues'
-import Classical from './components/Classical'
+import Clasicas from './components/Clasicas'
 import Jazz from './components/Jazz'
 import Sierreño from './components/Sierreño'
 import Rhythm from './components/Rhythm'
@@ -72,7 +72,7 @@ root.render(
         <Route path="/romantica" element={<Romantica />} />
         <Route path="/local" element={<Local />} />
         <Route path="/blues" element={<Blues />} />
-        <Route path="/classical" element={<Classical />} />
+        <Route path="/clasicas" element={<Clasicas />} />
         <Route path="/jazz" element={<Jazz />} />
         <Route path="/Metal" element={<Metal />} />
         <Route path="/Sierreño" element={<Sierreño />} />

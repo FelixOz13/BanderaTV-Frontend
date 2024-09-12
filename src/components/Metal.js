@@ -20,13 +20,16 @@ function Metal() {
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
-  const sortedData = [...filteredData].sort((a, b) => {
+  const sortedData = [...filteredData].sort((b, a) => {
     if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
     if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
     return 0
   })
 
-  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+  const cards = sortedData
+    .reverse()
+    .map((item) => <Card key={item.id} item={item} />)
+
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)

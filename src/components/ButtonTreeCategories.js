@@ -166,7 +166,7 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-      <Link className="btn" to="/classical">
+      <Link className="btn" to="/clasicas">
         <img
           src="../images/Classica!.png"
           className="sponsor1"
