@@ -45,7 +45,22 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-
+      <Link className="btn" to="/rancheras">
+      <img
+        src="../images/ranchera.jpeg"
+        className="sponsor1"
+        alt=""
+        media="(max-width: 400px)"
+      />
+    </Link>
+    <Link className="btn" to="/romantica">
+        <img
+          src="../images/romantica.jpg"
+          className="sponsor1"
+          alt=""
+          media="(max-width: 400px)"
+        />
+      </Link>
       <Link className="btn" to="/cumbias">
         <img
           src="../images/cumbialogo.png"
@@ -54,7 +69,14 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-
+      <Link className="btn" to="/sonidero">
+      <img
+        src="../images/sonidero.png"
+        className="sponsor1"
+        alt=""
+        media="(max-width: 400px)"
+      />
+    </Link>
       <Link className="btn" to="/rockesp">
         <img
           src="../images/rockesp.jpeg"
@@ -120,6 +142,15 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
+
+      <Link className="btn" to="/rhythm">
+        <img
+          src="../images/rythm.jpg"
+          className="sponsor1"
+          alt=""
+          media="(max-width: 400px)"
+        />
+      </Link>
       <Link className="btn " to="/reggaeton">
         <img
           src="../images/reggaetonlogo.png"
@@ -128,7 +159,22 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-
+      <Link className="btn" to="/baladas">
+      <img
+        src="../images/salsa.jpg"
+        className="sponsor1"
+        alt=""
+        media="(max-width: 400px)"
+      />
+    </Link>
+    <Link className="btn" to="/bachatta">
+      <img
+        src="../images/bachatta.jpg"
+        className="sponsor1"
+        alt=""
+        media="(max-width: 400px)"
+      />
+    </Link>
       <Link className="btn" to="/reggae">
         <img
           src="../images/reggaelogo.jpg"
@@ -167,22 +213,8 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-      <Link className="btn" to="/romantica">
-        <img
-          src="../images/romantica.jpg"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
-      <Link className="btn" to="/local">
-        <img
-          src="../images/local.png"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
+      
+      
       
       <Link className="btn" to="/blues">
         <img
@@ -217,14 +249,7 @@ function ButtonTreeCategories() {
         />
       </Link>
       
-      <Link className="btn" to="/rhythm">
-        <img
-          src="../images/rythm.jpg"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
+      
       <Link className="btn" to="/baroque">
         <img
           src="../images/classica.png"
@@ -234,14 +259,7 @@ function ButtonTreeCategories() {
         />
       </Link>
       
-      <Link className="btn" to="/rancheras">
-        <img
-          src="../images/ranchera.jpeg"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
+      
       <Link className="btn" to="/mexicanas">
         <img
           src="../images/cantantes.png"
@@ -258,30 +276,8 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-      <Link className="btn" to="/sonidero">
-        <img
-          src="../images/sonidero.png"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
-      <Link className="btn" to="/baladas">
-        <img
-          src="../images/salsa.jpg"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
-      <Link className="btn" to="/bachatta">
-        <img
-          src="../images/bachatta.jpg"
-          className="sponsor1"
-          alt=""
-          media="(max-width: 400px)"
-        />
-      </Link>
+      
+      
       <Link className="btn" to="/artists">
         <img
           src="../images/country.jpeg"
@@ -306,6 +302,14 @@ function ButtonTreeCategories() {
         media="(max-width: 400px)"
       />
     </Link>
+    <Link className="btn" to="/local">
+        <img
+          src="../images/local.png"
+          className="sponsor1"
+          alt=""
+          media="(max-width: 400px)"
+        />
+      </Link>
     
     </div>
   )
