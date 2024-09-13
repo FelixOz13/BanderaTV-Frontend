@@ -288,34 +288,7 @@ const CardData6 = [
     tiktok: 'https://www.tiktok.com/@gentlegiantband?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000W06QTM/gentle-giant',
   },
-  {
-    title: 'Simply Red',
-    description:
-      "El grupo firmó con Elektra Records y realizó su primer álbum, Picture book, con el que Simply Red se colocó en el número 2 de las listas inglesas, en las que se mantuvieron durante 30 semanas consecutivas. Este LP contenía la versión de Valentine Brothers Money's too tight to mention y una composición de Mick en su primer grupo, The Frantic Elevators: Holding back the years. Estos fueron los primeros grandes éxitos del grupo.",
-    videourl:
-      'https://youtube.com/playlist?list=PLmAbK4bxt0zG4QjnGrxMcq164yO86Rdxj',
-    price: 36,
-    coverImg: 'SimplyRed.jpg',
-    category: 'Soul',
-    location: 'UK',
-    locationImg: 'england.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'http://www.simplyred.com/',
-    facebook: 'https://www.facebook.com/simplyred',
-    instagram: 'https://www.instagram.com/simplyredofficial/',
-    twitter: 'https://twitter.com/SimplyRedHQ',
-    spotify: 'https://open.spotify.com/artist/1fa0cOhromAZdq2xRA4vv8',
-    deezer: 'https://www.deezer.com/mx/artist/1516',
-    apple: 'https://music.apple.com/mx/artist/simply-red/163002',
-    soundcloud: 'https://soundcloud.com/official-simply-red',
-    tidal: 'https://listen.tidal.com/artist/8372',
-    wiki: 'https://es.wikipedia.org/wiki/Simply_Red',
-    ticketmaster:
-      'https://www.ticketmaster.com/simply-red-tickets/artist/736121',
-    tiktok: 'https://www.tiktok.com/@simplyredofficial?lang=es',
-    napster: 'https://web.napster.com/artist/art.4082',
-  },
+  
   {
     title: 'Dire Straits',
     description:

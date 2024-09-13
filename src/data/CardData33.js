@@ -1,6 +1,124 @@
 const CardData33
  = [
   {
+    title: 'Joan Manuel Serrat',
+    description:
+      'Joan Manuel Serrat Teresa​ (Barcelona; 27 de diciembre de 1943), conocido como Joan Manuel Serrat, es un cantautor, compositor, actor, escritor, poeta y guitarrista español, premiado con la Gran Cruz de la Orden Civil de Alfonso X el Sabio «por su brillante carrera y su contribución a la cultura y el arte españoles»​ y el Premio Princesa de Asturias de las Artes 2024, por un "trabajo (que), de honda raíz mediterránea, se aúna el arte de la poesía y la música al servicio de la tolerancia, los valores compartidos, la riqueza de la diversidad de lenguas y culturas, así como un necesario afán de libertad.',
+    category: 'Trova',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_mbCNJwbFM-XfK9t4POOH3x-KUDo4h3PI8&si=ZEVODxPoEz-0vasN',
+    price: 80,
+    coverImg: 'joanmanuelserrat.jpg',
+    location: 'España',
+    locationImg: 'spain.jpeg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.fdelgadillo.com.mx/',
+    youtube: 'https://www.youtube.com/channel/UC9twmdozj_iXRhX_FRZMwzw',
+    facebook: 'https://www.facebook.com/joanmanuelserrat.oficial',
+    instagram: 'https://www.instagram.com/joanmanuelserrat/',
+    twitter: 'https://x.com/SerratEscribe',
+    spotify:
+      'https://open.spotify.com/artist/1t7t8q4zoYHp22JLIx3FM7',
+    deezer: 'https://www.deezer.com/mx/artist/3289',
+    apple: 'https://music.apple.com/mx/artist/joan-manuel-serrat/6604936',
+    soundcloud: 'https://soundcloud.com/joan-manuel-serrat-official',
+    tidal: 'https://listen.tidal.com/artist/4588',
+    wiki: 'https://es.wikipedia.org/wiki/Joan_Manuel_Serrat',
+    ticketmaster:
+      'https://www.ticketmaster.com/joan-manuel-serrat-tickets/artist/1171021',
+    tiktok: 'https://www.tiktok.com/@joan.mauelserrat',
+    napster: 'https://music.amazon.com.mx/artists/B000QKP4BE/joan-manuel-serrat',
+  },
+  {
+    title: 'Fernando Delgadillo',
+    description:
+      'Fernando Delgadillo González (Tlalnepantla, 11 de noviembre de 1965) es un cantautor mexicano del género trova o nueva canción. Estudió en la Escuela de Música Libre José F. Vázquez y en la escuela de la Sociedad de Autores y Compositores de México. A los 16 años fue percusionista en una agrupación de música andina llamada Huancayo, con los cuales se presentaba en la peña El Sapo Cancionero;4​ e integró el colectivo SEYMUS.1​ Comenzó actividad artística en 1985. En 1997, Delgadillo fue invitado a China para participar en el Beijing International Film Festival. Después de dicho festival, algunas de sus canciones fueron traducidas al chino. Más tarde, en agosto, lo invitaron al Festival Internacional de la Juventud, con sede en La Habana, Cuba',
+    category: 'Trova',
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_nzInDmkRTLzFkkj-lLHjOvQj9YpR9rKug',
+    price: 80,
+    coverImg: 'fernandodelgadillo.jpg',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.fdelgadillo.com.mx/',
+    youtube: 'https://www.youtube.com/channel/UCVeaNTYY8SGCMqiY31Kc-tA',
+    facebook: 'https://www.facebook.com/FernandoDelgadilloOficial/',
+    instagram: 'https://www.instagram.com/fernandodelgadillooficial/?hl=es-la',
+    twitter: 'https://x.com/DelgadilloFer',
+    spotify:
+      'https://open.spotify.com/artist/12GqGscKJx3aE4t07u7eVZ?si=u4gDkNCrR_-gnhy-aFtWJQ&nd=1',
+    deezer: 'https://www.deezer.com/mx/artist/14801',
+    apple: 'https://music.apple.com/mx/artist/fernando-delgadillo/145982983',
+    soundcloud: 'https://soundcloud.com/search?q=Fernando%20Delgadillo',
+    tidal: 'https://listen.tidal.com/artist/4159503',
+    wiki: 'https://es.wikipedia.org/wiki/Fernando_Delgadillo',
+    ticketmaster:
+      'https://www.ticketmaster.com/fernando-delgadillo-tickets/artist/1174042',
+    tiktok: 'https://www.tiktok.com/search?q=Fernando%20Delgadillo&t=1726170971501',
+    napster: 'https://music.amazon.com.mx/artists/B000QKD32G/fernando-delgadillo',
+  },
+{
+  title: 'Silvio Rodriguez',
+  description:
+    'Silvio Rodríguez Domínguez (San Antonio de los Baños, Cuba; 29 de noviembre de 1946), conocido como Silvio Rodríguez, El Aprendiz o El Escaramujo, es un cantautor, guitarrista, poeta y político cubano, exponente característico de la música de su país surgida con la Revolución cubana, conocida como la Nueva Trova, que comparte con otros reconocidos cantautores tales como Pablo Milanés, Noel Nicola y Vicente Feliú.',
+
+  videourl:
+    'https://youtube.com/playlist?list=OLAK5uy_nkSWrqjiIW2Mpw5SUNiDlPF9Llu9nx7TY&si=EuoZqgCVG25ZJgDO',
+  price: '$50',
+  coverImg: 'sylvio.jpg',
+  category: 'Trova',
+  location: 'Cuba',
+  locationImg: 'cubaflag.jpg',
+  openSpots: null,
+  likes: 1000,
+  websiteurl: 'https://www.zurrondelaprendiz.com/',
+  youtube: 'https://www.youtube.com/channel/UC16aF70kysMIJdz51HdMx9Q',
+  facebook: 'https://www.facebook.com/zurrondelaprendiz',
+  instagram: 'https://www.instagram.com/zurron_del_aprendiz',
+  twitter: 'https://x.com/zurron_aprendiz',
+  spotify: 'https://open.spotify.com/artist/4rUyBlggM5tZUH5QZn9ZuO',
+  deezer: 'https://www.deezer.com/mx/artist/4340',
+  apple: 'https://music.apple.com/mx/artist/silvio-rodr%C3%ADguez/303508',
+  soundcloud: 'https://soundcloud.com/silviorodriguezofficial',
+  tidal: 'https://listen.tidal.com/artist/3521820',
+  wiki: 'https://es.wikipedia.org/wiki/Silvio_Rodr%C3%ADguez',
+  ticketmaster:'https://www.ticketmaster.com/silvio-rodriguez-tickets/artist/1171066',
+  tiktok: 'https://www.tiktok.com/@silviorodriguesmusic',
+  napster: 'https://music.amazon.com.mx/artists/B000QKFHVQ/silvio-rodr%C3%ADguez',
+},
+{
+  title: 'Pablo Milanes',
+  description:
+    'Pablo Milanés Arias (Bayamo, 24 de febrero de 1943-Madrid, 22 de noviembre de 2022) Nació en Bayamo, provincia de Oriente, actual provincia de Granma, Cuba. Estudió música en el Conservatorio Municipal de La Habana. En sus comienzos estuvo muy influido por la música tradicional cubana y por el feeling (sentimiento, en inglés). El feeling es un estilo musical que se inició en Cuba en los años 1940 y suponía una nueva manera de afrontar la canción, donde el sentimiento definía la interpretación y estaba influido por las corrientes estadounidenses de la canción romántica y del jazz. El feeling se acompañaba de una guitarra, al estilo de los viejos trovadores pero enriquecido por armonizaciones jazzísticas. Así se establecía esta nueva forma de comunicación o "feeling" con el público.',
+
+  videourl:
+    'https://youtube.com/playlist?list=OLAK5uy_l47ADXdJJJQvnrxx6LkL9dNH30KN1aa84&si=A10mr6MWXZqDMWjO',
+  price: '$50',
+  coverImg: 'pablomilanes.jpg',
+  category: 'Trova',
+  location: 'Cuba',
+  locationImg: 'cubaflag.jpg',
+  openSpots: null,
+  likes: 1000,
+  websiteurl: 'https://www.milanespablo.com/',
+  youtube: 'https://www.youtube.com/channel/UCg1l44T5Irwm5K849uO9Hiw',
+  facebook: 'https://www.facebook.com/pmilanesoficial',
+  instagram: 'https://www.instagram.com/pablo_milanes_oficial/',
+  twitter: 'https://x.com/pmilanesoficial',
+  spotify: 'https://open.spotify.com/artist/4vOfKh5wz7lTcdqB3EwsC5',
+  deezer: 'https://www.deezer.com/mx/artist/75087',
+  apple: 'https://music.apple.com/mx/artist/pablo-milan%C3%A9s/132280',
+  soundcloud: 'https://soundcloud.com/pablomilanes',
+  tidal: 'https://listen.tidal.com/artist/35825',
+  wiki: 'https://es.wikipedia.org/wiki/Pablo_Milan%C3%A9s',
+  ticketmaster:'https://www.ticketmaster.com/pablo-milanes-tickets/artist/762879',
+  tiktok: 'https://www.tiktok.com/search/video?q=Pablo%20Milanes&t=1726169450082',
+  napster: 'https://music.amazon.com.mx/artists/B000QKA3M4/pablo-milan%C3%A9s',
+},
+  {
     title: 'Neto Bernal',
     description:
       'Ernesto Bernal Contreras, mejor conocido como Neto Bernal, es un cantante de música regional, procedente de Mexicali, Baja California, México. El joven, que nació el 1 de octubre de 1997, comparte junto con su madre el origen en la ciudad fronteriza, Mexicali, mientras que su padre viene de Sonora. El artista, de tan sólo 19 años, creció allí junto con su hermano menor, Alexis Bernal.',
@@ -293,36 +411,7 @@ const CardData33
     tiktok: 'https://www.tiktok.com/@badbunny?lang=es',
     napster: 'https://web.napster.com/artist/art.231403288',
   },
-  {
-    title: 'Peso Pluma',
-    description:
-      'Hassan Emilio Kabande Laija (Zapopan, Jalisco; 15 de junio de 1999), conocido como Peso Pluma, es un cantante mexicano. Se especializa en el subgénero de corridos tumbados.Su fama internacional comenzó en 2022, después de colaborar con cantantes como Luis R. Conriquez y Natanael Cano.3​ Algunos de sus éxitos son «El Belicón», «Siempre pendientes», «PRC», «Por las noches», «AMG», «Ella baila sola» y «La bebé (Remix)». Debido a su fama ha logrado colaborar también con artistas de éxito mundial como Becky G,5​ Nicki Nicole6​, Marshmello,7​y Ovy on the Drums.Su estilo musical se caracteriza por un toque acústico con influencias de la música urbana como el trap mezclados con sonido de los corridos',
-    category: 'Sierreño',
-    videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlXbLwh-AdLa1iHtuW_y_J9b',
-    price: 80,
-    coverImg: 'pesopluma.jpg',
-    location: 'Mexico',
-    locationImg: 'mexiflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.rioranchoeventscenter.com/event/peso-pluma/',
-    youtube: 'https://www.youtube.com/channel/UCzrM_068Odho89mTRrrxqbA',
-    facebook: 'https://www.facebook.com/PesoPlumaOficial',
-    instagram: 'https://www.instagram.com/pesopluma/',
-    twitter: 'https://twitter.com/ElPesoPluma',
-    spotify:
-      'https://open.spotify.com/artist/12GqGscKJx3aE4t07u7eVZ?si=u4gDkNCrR_-gnhy-aFtWJQ&nd=1',
-    deezer: 'https://www.deezer.com/mx/artist/80365122',
-    apple: 'https://music.apple.com/mx/artist/peso-pluma/1500139475?l=en',
-    soundcloud: 'https://soundcloud.com/pesopluma',
-    tidal: 'https://listen.tidal.com/artist/17614478',
-    wiki: 'https://es.wikipedia.org/wiki/Peso_Pluma_(cantante)',
-    ticketmaster:
-      'https://www.ticketmaster.com/peso-pluma-tickets/artist/2979041',
-    tiktok: 'https://www.tiktok.com/@therealpesopluma',
-    napster: 'https://music.amazon.com.mx/artists/B082C6RXYG',
-  },
+  
   {
     title: 'Gera MX',
     description:

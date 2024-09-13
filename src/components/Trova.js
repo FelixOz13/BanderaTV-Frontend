@@ -1,17 +1,18 @@
 import { useState } from 'react'
-import CardData8 from '../data/CardData8'
-import Card from './Card'
-import Navbar from './Navbar'
-import ButtonTreeCategories from './ButtonTreeCategories'
+import CardData35 from '../data/CardData35'
+import Card from '../components/Card'
+import Navbar from '../components/Navbar'
 
-function ClubMusic() {
+import ButtonTreeCategories from '../components/ButtonTreeCategories'
+
+function Trova() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData8.map((item) => ({
+  const dataWithIds = CardData35.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
@@ -26,7 +27,9 @@ function ClubMusic() {
     return 0
   })
 
-  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
+  const cards = sortedData
+    .reverse()
+    .map((item) => <Card key={item.id} item={item} />)
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
@@ -35,13 +38,16 @@ function ClubMusic() {
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Club Music</h1>
+      <h1 className="title2">Trova en Guitarra</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
 
       <ButtonTreeCategories />
 
-      <img className="indianaut" src="./images/electronauts.jpeg" alt="" />
-      <img className="indianaut2" src="./images/electronauts.jpeg" alt="" />
+      <h1 className="slidertext">←←Desliza para Navegar→→</h1>
+      <img className="indianaut2" src="./images/moonaut.png" alt="" />
+      <img className="indianaut" src="./images/astronaut.png" alt="" />
+      <img className="indianaut" src="./images/indianaut.png" alt="" />
+      <img className="indianaut" src="./images/rockguitarist.jpg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
@@ -57,4 +63,4 @@ function ClubMusic() {
   )
 }
 
-export default ClubMusic
+export default Trova

@@ -34,6 +34,10 @@ import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
 import Solistas from './components/Solistas'
 import Funk from './components/Funk'
+import Trova from './components/Trova'
+import Punk from './components/Punk'
+import SoftRock from './components/SoftRock'
+import Oldies from './components/Oldies'
 import BandDetail from './components/BandDetail'
 
 
@@ -86,6 +90,10 @@ root.render(
         <Route path="/bachatta" element={<Bachatta />} />
         <Route path="/solistas" element={<Solistas />} />
         <Route path="/funk" element={<Funk />} />
+        <Route path="/trova" element={<Trova />} />
+        <Route path="/punk" element={<Punk />} />
+        <Route path="/softrock" element={<SoftRock />} />
+        <Route path="/oldies" element={<Oldies />} />
         <Route path="/Bandera/:title" element={<BandDetail />} />
       </Routes>
     </Router>

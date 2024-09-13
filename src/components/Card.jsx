@@ -21,7 +21,9 @@ import {
 import { SiTidal } from 'react-icons/si'
 import React, { useState } from 'react'
 import Spinner from './Spinner'
-import { BsFillPlayCircleFill , BsTwitterX} from 'react-icons/bs'
+import { BsFillPlayCircleFill , BsTwitterX} from 'react-icons/bs';
+import { IoTicketSharp } from "react-icons/io5";
+
 
 function Card({ item }) {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -190,13 +192,15 @@ function Card({ item }) {
         >
           <FaTiktok />
         </a>
-        <a href={item.ticketmaster} target="_blank" rel="noreferrer">
-          <img
-            src="../images/ticketmaster.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={item.ticketmaster}
+          className="icons-twitter"
+          
+        >
+        <IoTicketSharp />
+
         </a>
         <a href={item.wiki} target="_blank" rel="noreferrer">
           <img
