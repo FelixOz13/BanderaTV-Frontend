@@ -52,14 +52,14 @@
   }
   
   .band-card h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: "Iceland";
     margin: 1px 0;
     color: goldenrod ;
   }
   
   .band-card p {
-    font-size: 18px;
+    font-size: 12px;
     color: goldenrod ;
 
   }
@@ -68,6 +68,7 @@
     width: 100%;
     max-width: 500px;
     height: auto;
+    max-height: 400px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -166,8 +167,8 @@
   
   
   .origin-flag {
-    width: 108px;
-    height: 75px;
+    width: 55px;
+    height: 35px;
     border-radius: 10px;; /* Adjust this to the desired height */
 }
 
