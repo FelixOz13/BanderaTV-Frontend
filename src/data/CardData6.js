@@ -405,7 +405,36 @@ const CardData6 = [
     tiktok: 'https://www.tiktok.com/@officialtednuguent?lang=es',
     napster: 'https://music.amazon.com.mx/artists/B000QJR4LI/ted-nugent',
   },
-  
+  {
+    title: 'Deep Purple',
+    description:
+      'Deep Purple es una banda británica de hard rock fundada en 1968 en Hertford, Reino Unido. La banda es considerada como una de las mejores y pionera de dicho género, además de influir a futuras bandas de rock y heavy metal junto a Black Sabbath y Led Zeppelin. Su música ha incorporado elementos del rock progresivo, rock sinfónico, rock psicodélico, blues rock, funk rock, britpop y música clásica. En su historia, Deep Purple ha vendido más de 150 millones de discos en todo el mundo.,​',
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_kX4qeyYgQnLP5DI67HUGY7aQIHcK7MKRk',
+    price: 36,
+    coverImg: 'deeppurple.jpg',
+    category: 'Rock Clasico',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'http://deeppurple.tv/',
+    youtube: 'https://www.youtube.com/channel/UCB6clUGV3bIoHJ5IzNF4y0Q',
+    facebook: 'https://www.facebook.com/deeppurple6876',
+    instagram: 'https://www.instagram.com/deeppurple_official/',
+    twitter: 'https://x.com/_DeepPurple',
+    spotify:
+      'https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf',
+    deezer: 'https://www.deezer.com/mx/artist/864',
+    apple: 'https://music.apple.com/us/artist/deep-purple/135532',
+    soundcloud: 'https://soundcloud.com/deeppurple',
+    tidal: 'https://listen.tidal.com/artist/3355',
+    wiki: 'https://es.wikipedia.org/wiki/Deep_Purple',
+    ticketmaster:
+      'https://www.ticketmaster.com/deep-purple-tickets/artist/734897',
+    tiktok: 'https://www.tiktok.com/@deeppurple_official?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJNHU0/deep-purple',
+  },
   {
     title: 'Blue Oyster Cult',
     description:

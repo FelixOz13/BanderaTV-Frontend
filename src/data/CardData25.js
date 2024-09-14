@@ -939,6 +939,66 @@ const CardData25 = [
     napster: 'https://music.amazon.com.mx/artists/B0016SK9OW/lady-gaga',
   },
   {
+    title: 'Kylie Minogue',
+    description:
+      'Kylie Ann Minogue (/ˈkaɪliː mɨˈnoʊɡ/; Melbourne, 28 de mayo de 1968) es una cantante, compositora y actriz australiana. Es ampliamente reconocida por su octavo álbum de estudio, Fever (2001), y su exitoso sencillo «Cant Get You Out of My Head», conocida como la canción más sonada del año, la cual le valió dos distinciones en los Premios Brit en 2002.​ Posteriormente, en 2023, escala de nuevo a los conteos musicales con «Padam Padam». Con un total de ochenta millones de producciones musicales vendidas en el mundo a lo largo de su carrera,​ Minogue es una de los artistas australianos de mayores ventas..',
+    videourl:
+      'https://youtube.com/playlist?list=PLzOGAM1vNU1qgpBKtjZwpGJu1FWBQtAVP&si=XoEAvHQS7eosFqlZ',
+    price: '$50',
+    coverImg: 'kylieminogue.jpg',
+    category: 'Rythm & Blues',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://music.kylie.com/',
+    youtube: 'https://www.youtube.com/@kylieminogue',
+    facebook: 'https://www.facebook.com/kylieminogue',
+    instagram: 'https://www.instagram.com/kylieminogue',
+    twitter:
+      'https://x.com/kylieminogue',
+    spotify: 'https://open.spotify.com/artist/4RVnAU35WRWra6OZ3CbbMA',
+    deezer: 'https://www.deezer.com/mx/artist/479',
+    apple: 'https://music.apple.com/mx/artist/kylie-minogue/465031',
+    soundcloud: 'https://soundcloud.com/kylie-minogue-official',
+    tidal: 'https://listen.tidal.com/artist/2573',
+    wiki: 'https://es.wikipedia.org/wiki/Kylie_Minogue',
+    ticketmaster:
+      'https://www.ticketmaster.com/kylie-minogue-tickets/artist/735661',
+    tiktok: 'https://www.tiktok.com/@kylieminogue?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000RSDP0C/kylie-minogue',
+  },
+  {
+    title: 'Carrie Underwood',
+    description:
+      'Carrie Marie Underwood (Muskogee, Oklahoma; 10 de marzo de 1983)2​ es una cantante de música country y actriz estadounidense. Underwood saltó a la fama tras ganar la 4° temporada de American Idol en 2005. Su álbum debut, Some Hearts, fue lanzado en 2005 y cuenta con los éxitos "Jesus, Take The Wheel", "Before He Cheats" y "Wasted". Es el álbum debut de un artista country que más rápido se ha vendido en la historia de Nielsen SoundScan.3​ También se convirtió en el álbum debut más vendido por una artista country en la historia de RIAA, también el álbum debut más vendido por una ex-American Idol.',
+    videourl:
+      'https://youtube.com/playlist?list=PLzOGAM1vNU1qgpBKtjZwpGJu1FWBQtAVP&si=XoEAvHQS7eosFqlZ',
+    price: '$50',
+    coverImg: 'carrieunderwood.jpg',
+    category: 'Soft Rock',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.carrieunderwoodofficial.com/',
+    youtube: 'https://www.youtube.com/@carrieunderwood',
+    facebook: 'https://www.facebook.com/carrieunderwood',
+    instagram: 'https://www.instagram.com/carrieunderwood/',
+    twitter:
+      'https://x.com/carrieunderwood',
+    spotify: 'https://open.spotify.com/artist/4xFUf1FHVy696Q1JQZMTRj',
+    deezer: 'https://www.deezer.com/mx/artist/4388',
+    apple: 'https://music.apple.com/mx/artist/carrie-underwood/63399334',
+    soundcloud: 'https://soundcloud.com/carrieunderwoodofficial',
+    tidal: 'https://listen.tidal.com/artist/27941',
+    wiki: 'https://es.wikipedia.org/wiki/Carrie_Underwood',
+    ticketmaster:
+      'https://www.ticketmaster.com/kylie-minogue-tickets/artist/735661',
+    tiktok: 'https://www.tiktok.com/@carrieunderwood?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B00137J9VK/carrie-underwood',
+  },
+  {
     title: 'Demi Lovato',
     description:
       'Demetria Devonne Lovato, cuyo nombre artístico es Demi Lovato, es una celebridad estadounidense profesional en el canto, la actuación y la composición. Fundó junto con Nick Jonas el sello discográfico Safehouse Records..',

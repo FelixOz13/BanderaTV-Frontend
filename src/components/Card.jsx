@@ -1,82 +1,53 @@
-import ReactPlayer from 'react-player/lazy'
-import LikeButtons from './LikeButtons'
-import BanderaMedia from './BanderaMedia'
-import StarRating from './StarRating'
-import { GiBlackFlag } from 'react-icons/gi'
-import { SiApplemusic } from 'react-icons/si'
-import { useLocation, Link } from 'react-router-dom'
-import Comments from '../Comments/Comments'
-import { RiFullscreenLine } from "react-icons/ri";
-import {
-  FaTiktok,
-  FaWhatsapp,
-  FaInstagramSquare,
-  FaYoutube,
-  FaShare,
-  FaSpotify,
-  FaFacebook,
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-} from 'react-icons/fa'
+import StarRating from './StarRating';
 
-import { SiTidal } from 'react-icons/si'
-import React, { useState } from 'react'
-import Spinner from './Spinner'
-import { BsFillPlayCircleFill , BsTwitterX} from 'react-icons/bs';
-import { IoTicketSharp } from "react-icons/io5";
+import Spinner from './Spinner';
+
+
+
+import { BsFillPlayCircleFill, } from 'react-icons/bs';
 
 
 function Card({ item }) {
-  const [imageLoaded, setImageLoaded] = useState(false)
-  const currentLocation = useLocation()
+  const [imageLoaded, setImageLoaded] = useState(false);
+ 
 
   const handleImageLoad = () => {
-    setImageLoaded(true)
-  }
-
-  let badgeText
-  if (item.openSpots === 0) {
-    badgeText = 'No Mas Boletos'
-  } else if (item.openSpots > 0) {
-    badgeText = 'Boletos Disponibles'
-  }
-
-  const shareUrl = `${window.location.origin}/Bandera/${encodeURIComponent(item.title)}`;
-
-  const handleShare = () => {
-    if (navigator.share) {
-      const shareContent = {
-        title: document.title,
-        text: `Te Invitamos a disfrutar de ${item.title} con Bandera Musical`,
-        url: shareUrl, // Include the full URL here
-      };
-  
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch(error => console.error('Error sharing:', error));
-    } else {
-      console.warn('Web Share API not supported');
-    }
+    setImageLoaded(true);
   };
+
+  let badgeText;
+  if (item.openSpots === 0) {
+    badgeText = 'No Mas Boletos';
+  } else if (item.openSpots > 0) {
+    badgeText = 'Boletos Disponibles';
+  }
+
   
 
   return (
     <div className="card">
-      {badgeText && <div className="card--badge">{badgeText}</div>}
-      {!imageLoaded && <Spinner />}{' '}
-      {/* Display spinner while image is loading */}
-      <img
-        src={`../images/${item.coverImg}`}
-        className="card--image"
-        alt="card"
-        onLoad={handleImageLoad}
-      />
-      <div className="notranslate">
-        <h1 className="card--title">{item.title}</h1>
+      <Link className="card--link" to={`/Bandera/${item.title}`}>
+        {badgeText && <div className="card--badge">{badgeText}</div>}
+        {!imageLoaded && <Spinner />}
+        <img
+          src={`../images/${item.coverImg}`}
+          className="card--image"
+          alt={`Cover for ${item.title}`}
+          onLoad={handleImageLoad}
+          onError={(e) => { e.target.src = 'path/to/placeholder/image'; }}
+        />
+        <div className="card--details">
+          <h1 className="card--title">{item.title}</h1>
+          <p className="category">{item.category}</p>
+        </div>
+        <StarRating />
+        <h1 className='play-button'><BsFillPlayCircleFill /></h1>
+      </Link>
 
-        <p className="category">{item.category}</p>
-      </div>
-      <StarRating />
+      {/* Additional Content (Previously Commented-Out) 
       <img
         src={`../images/${item.locationImg}`}
         className="locationImg"
@@ -84,7 +55,7 @@ function Card({ item }) {
       />
       <p className="description">{item.description}</p>
       <div>
-        {!imageLoaded && <Spinner />}{' '}
+        {!imageLoaded && <Spinner />}
         <ReactPlayer
           url={item.videourl}
           className="video"
@@ -93,7 +64,7 @@ function Card({ item }) {
           light
           autoPlay={false}
           controls
-          playIcon=<BsFillPlayCircleFill />
+          playIcon={<BsFillPlayCircleFill />}
           onReady={handleImageLoad}
         />
       </div>
@@ -102,29 +73,22 @@ function Card({ item }) {
         <button
           className="sharebutton1"
           onClick={handleShare}
-          role="link" // Add ARIA role to indicate this is a link-like element
+          role="link"
         >
           <FaShare />
         </button>
-        <Link  className="sharebutton1" to={`/Bandera/${item.title}`}>
-          
-        <RiFullscreenLine/>
-      </Link>
+        <Link className="sharebutton1" to={`/Bandera/${item.title}`}>
+          <RiFullscreenLine />
+        </Link>
         <a
           className="sharebutton2"
-          href={`whatsapp://send?text=${encodeURIComponent(
-            `${window.location.origin}${currentLocation.pathname}`,
-          )}`}
+          href={`whatsapp://send?text=${encodeURIComponent(`${window.location.origin}${currentLocation.pathname}`)}`}
         >
           <FaWhatsapp />
         </a>
-        
       </div>
-      <div style={{ marginTop: '-65px' }}>
-        <Comments
-          commentsUrl="http://localhost:3004/comments"
-          currentUserId="1"
-        />
+      <div className="comments-section" style={{ marginTop: '20px' }}>
+        <Comments commentsUrl="http://localhost:3004/comments" currentUserId="1" />
       </div>
       <div className="slidertextdiv">
         <h1 className="slidertext">
@@ -137,58 +101,46 @@ function Card({ item }) {
           rel="noreferrer"
           href={item.websiteurl}
           className="icons-bandera"
-          
         >
           <GiBlackFlag />
         </a>
-        
         <a
           target="_blank"
           rel="noreferrer"
           href={item.facebook}
           className="icons-fb"
-          
         >
           <FaFacebook />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.youtube}
           className="icons-YT"
-          
         >
           <FaYoutube />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.instagram}
           className="icons-instagram"
-          
         >
           <FaInstagramSquare />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.twitter}
           className="icons-twitter"
-          
         >
-        <BsTwitterX />
-
+          <BsTwitterX />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.tiktok}
           className="icons-tiktok"
-          
         >
           <FaTiktok />
         </a>
@@ -196,63 +148,54 @@ function Card({ item }) {
           target="_blank"
           rel="noreferrer"
           href={item.ticketmaster}
-          className="icons-twitter"
-          
+          className="icons-ticketmaster"
         >
-        <IoTicketSharp />
-
+          <IoTicketSharp />
         </a>
         <a href={item.wiki} target="_blank" rel="noreferrer">
           <img
             src="../images/wiki.jpg"
             className="sponsor"
-            alt=""
+            alt="Wikipedia"
             media="(max-width: 400px)"
           />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.spotify}
           className="icons-spotify"
-          
         >
           <FaSpotify />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.apple}
           className="icons-itunes"
-          
         >
           <SiApplemusic />
         </a>
-
         <a
           target="_blank"
           rel="noreferrer"
           href={item.tidal}
           className="icons-tidal"
-          
         >
           <SiTidal />
         </a>
-
         <a href={item.napster} target="_blank" rel="noreferrer">
           <img
             src="../images/amazonMusic.jpeg"
             className="sponsor"
-            alt=""
+            alt="Amazon Music"
             media="(max-width: 300px)"
           />
         </a>
       </div>
-      <BanderaMedia />
+      <BanderaMedia />*/}
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

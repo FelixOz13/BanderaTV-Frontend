@@ -49,7 +49,7 @@
 
 
  .card {
-   width: 300px;
+   width: 200px;
    font-size: 12px;
    flex: 0 0 auto;
    /* ADD */
@@ -62,7 +62,6 @@
    border-radius: 10px;
    padding: 10px;
    position: relative;
-   padding-bottom: 10px;
    color: #f4c44b;
  }
 
@@ -107,12 +106,22 @@
 
  /* ADD */
  .card--title {
-   overflow: hidden;
-   text-overflow: ellipsis;
-   font-size: 2.0rem;
-   font-family: 'Iceland';
-   color: #f4c44b;
- }
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 2.0rem;
+  font-family: 'Iceland';
+  color: #f4c44b;
+  text-decoration: none; /* Ensures no underline is applied */
+}
+.card--link {
+  text-align: center;
+  text-decoration: none; /* Removes underline from links */
+}
+.play-button{
+  font-size: 65px;
+  color:goldenrod;
+  margin-top: 50px;
+}
 
  .card--stats {
    display: flex;
