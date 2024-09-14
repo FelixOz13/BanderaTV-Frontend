@@ -4,7 +4,7 @@ import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
 import Navbar from './Navbar'
 
-function Mexicanas() {
+function Femeninas() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
@@ -56,4 +56,4 @@ function Mexicanas() {
     </div>
   )
 }
-export default Mexicanas
+export default Femeninas

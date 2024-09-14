@@ -27,6 +27,35 @@ const CardData19 = [
       'https://www.ticketmaster.com/barbra-streisand-tickets/artist/734094',
     tiktok: 'https://www.tiktok.com/@barbrastreisand?lang=es',
     napster: 'https://us.napster.com/artist/barbra-streisand',
+  },{
+    title: 'Nina Simone',
+    description:
+      'Eunice Kathleen Waymon (Tryon, Carolina del Norte, 21 de febrero de 1933-Carry-le-Rouet, Francia, 21 de abril de 2003), más conocida por su nombre artístico Nina Simone, fue una cantante, compositora y pianista estadounidense de jazz, blues, rhythm and blues y soul. Se la conoce con el sobrenombre de High Priestess of Soul (Gran Sacerdotisa del soul)Estilísticamente, la palabra que mejor caracteriza a Nina Simone es eclecticismo. Su voz, con rango propio de una contralto,se caracterizaba por su pasión, su breathiness (voz jadeante, sofocada, sin aliento) y su trémolo.',
+
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_mBwW7nfNTqit12_Pf31v1C2q760N_C4vM',
+    price: '$50',
+    coverImg: 'ninasimone.jpg',
+    category: 'Soul',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.ettajamesofficial.com/',
+    youtube: 'https://www.youtube.com/channel/UCJ-FRbWianyv9q-Ly9whFQQ',
+    facebook: 'https://www.facebook.com/nina.simone',
+    instagram: 'https://www.instagram.com/ninasimone',
+    twitter: 'https://x.com/NinaSimoneMusic',
+    spotify: 'https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO',
+    deezer: 'https://www.deezer.com/mx/artist/744',
+    apple: 'https://music.apple.com/us/artist/nina-simone/79798?l=es-MX',
+    soundcloud:'https://soundcloud.com/ninasimone',
+    tidal: 'https://listen.tidal.com/artist/1684',
+    wiki: 'https://es.wikipedia.org/wiki/Nina_Simone',
+    ticketmaster:
+      'https://www.viagogo.com.mx/Boletos-Conciertos/Jazz-Blues-and-RnB-Music/Nina-Simone-Boletos',
+    tiktok: 'https://www.tiktok.com/@ninasimone',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJUJM/nina-simone',
   },
   {
     title: 'Aretha Franklin',

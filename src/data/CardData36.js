@@ -193,7 +193,36 @@ const CardData36=[
         ticketmaster: 'https://www.ticketmaster.com/',
         tiktok: 'https://www.tiktok.com/@sexpistols',
         napster: 'https://music.amazon.com.mx/artists/B000QJPXUW/sex-pistols',
-      },  {
+      }, 
+      {
+        title: 'Incubus',
+        description:
+          'Incubus es una banda de rock alternativo​ estadounidense formado por el vocalista Brandon Boyd, guitarrista Mike Einziger y batería José Pasillas cuando estudiaban juntos y después expandieron con la inclusión del bajista Alex Dirk Lance Katunich y Gavin DJ Lyfe Koppell; ambos reemplazados finalmente por Ben Kenney y DJ Kilmore respectivamente. Para el 2001 tuvieron un enorme éxito con el sencillo Drive, seguido de su álbum Morning View.En 2003, la banda establece la fundación Make Yourself Foundation para donar dinero a fundaciones de beneficencia.',
+        videourl:
+          'https://music.youtube.com/playlist?list=OLAK5uy_nVn0lxDAdY-B5tKniN0FYgQMDeOHFEjh0',
+        price: 36,
+        coverImg: 'incubus.jpg',
+        category: 'Rock',
+        location: 'USA',
+        locationImg: 'usaflag.jpg',
+        openSpots: null,
+        likes: 1000,
+        websiteurl: 'https://www.incubushq.com/',
+        youtube: 'https://music.youtube.com/channel/UC8FhfVPXx7ac7araOiNkTYw',
+        facebook: 'https://www.facebook.com/Incubus/',
+        instagram: 'https://www.instagram.com/incubusofficial/',
+        twitter: 'https://x.com/incubusband',
+        spotify: 'https://open.spotify.com/artist/3YcBF2ttyueytpXtEzn1Za',
+        deezer: 'https://www.deezer.com/mx/artist/693',
+        apple: 'https://music.apple.com/mx/artist/incubus/465707',
+        soundcloud: 'https://soundcloud.com/nofx-official',
+        tidal: 'https://listen.tidal.com/artist/1086',
+        wiki: 'https://es.wikipedia.org/wiki/Incubus_(banda)',
+        ticketmaster: 'https://www.ticketmaster.com/incubus-tickets/artist/741166',
+        tiktok: 'https://www.tiktok.com/@incubusofficial?lang=es',
+        napster: 'https://music.amazon.com.mx/artists/B000QKUHTI/incubus',
+      },
+        {
         title: 'Rammstein',
         description:
           "Rammstein (German pronunciation: [ˈʁamʃtaɪn], lit. ramming stone) is a German Neue Deutsche Härte band formed in Berlin in 1994. The band's lineup—consisting of lead vocalist Till Lindemann, lead guitarist Richard Kruspe, rhythm guitarist Paul Landers, bassist Oliver Riedel, drummer Christoph Schneider, and keyboardist Christian Flake Lorenz—has remained unchanged throughout their history, along with their approach to songwriting, which consists of Lindemann writing and singing the lyrics over instrumental pieces the rest of the band has completed beforehand. Prior to their formation, some members were associated with the punk rock acts Feeling B and First Arsch..",

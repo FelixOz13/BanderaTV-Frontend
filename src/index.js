@@ -28,7 +28,7 @@ import Rhythm from './components/Rhythm'
 import Baroque from './components/Baroque'
 import HipHop from './components/HipHop'
 import Rancheras from './components/Rancheras'
-import Mexicanas from './components/Mexicanas'
+import Femeninas from './components/Femeninas'
 import Sonidero from './components/Sonidero'
 import Baladas from './components/Baladas'
 import Bachatta from './components/Bachatta'
@@ -84,7 +84,7 @@ root.render(
         <Route path="/Baroque" element={<Baroque />} />
         <Route path="/HipHop" element={<HipHop />} />
         <Route path="/Rancheras" element={<Rancheras />} />
-        <Route path="/Mexicanas" element={<Mexicanas />} />
+        <Route path="/femeninas" element={<Femeninas />} />
         <Route path="/Sonidero" element={<Sonidero />} />
         <Route path="/baladas" element={<Baladas />} />
         <Route path="/bachatta" element={<Bachatta />} />

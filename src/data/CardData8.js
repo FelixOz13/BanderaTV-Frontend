@@ -26,7 +26,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/deadmau5-tickets/artist/1221074',
     tiktok: 'https://www.tiktok.com/@deadmau5?lang=es',
-    napster: 'https://us.napster.com/artist/deadmau5',
+    napster: 'https://music.amazon.com.mx/artists/B000QKNU1U/deadmau5',
   },
   {
     title: 'Tiësto',
@@ -55,7 +55,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com.mx/tiesto-boletos/artist/834120',
     tiktok: 'https://www.tiktok.com/@tiesto?lang=es',
-    napster: 'https://app.napster.com/artist/tiesto',
+    napster: 'https://music.amazon.com.mx/artists/B000XKKZ4S/ti%C3%ABsto',
   },
   {
     title: 'David Guetta',
@@ -84,7 +84,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/david-guetta-tickets/artist/1109508',
     tiktok: 'https://www.tiktok.com/@davidguetta?lang=es',
-    napster: 'https://app.napster.com/artist/david-guetta',
+    napster: 'https://music.amazon.com.mx/artists/B000SXBQ0W/david-guetta',
   },
   {
     title: 'Armin Van Buren',
@@ -113,7 +113,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/armin-van-buuren-tickets/artist/878620',
     tiktok: 'https://www.tiktok.com/@arminvanbuuren?lang=es',
-    napster: 'https://app.napster.com/artist/armin-van-buuren',
+    napster: 'https://music.amazon.com.mx/artists/B000QJVYJG/armin-van-buuren',
   },
 
   {
@@ -143,7 +143,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/mark-farina-tickets/artist/836585',
     tiktok: 'https://www.tiktok.com/@markfarina1?lang=es',
-    napster: 'https://us.napster.com/artist/mark-farina',
+    napster: 'https://music.amazon.com.mx/artists/B000RW0WP4/mark-farina',
   },
   {
     title: 'Nacional Records',
@@ -172,7 +172,7 @@ const CardData8 = [
     wiki: 'https://es.wikipedia.org/wiki/Nacional_Records',
     ticketmaster: 'https://www.ticketmaster.com/',
     tiktok: 'https://www.tiktok.com/@nacionalrecords',
-    napster: 'https://us.napster.com/artist/nortec-collective',
+    napster: 'https://music.amazon.com.mx/artists/B000QJRZHQ/nortec-collective',
   },
   {
     title: 'Alan Walker ',
@@ -201,7 +201,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/alan-walker-tickets/artist/2216743',
     tiktok: 'https://www.tiktok.com/@alanwalkermusic?lang=es',
-    napster: 'https://us.napster.com/artist/alan-walker',
+    napster: 'https://music.amazon.com.mx/artists/B0013FJCOG/alan-walker',
   },
   {
     title: 'Martin Garrix',
@@ -230,7 +230,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/martin-garrix-tickets/artist/1923024',
     tiktok: 'https://www.tiktok.com/@martingarrix?lang=es',
-    napster: 'https://www.deezer.com/mx/artist/3968561',
+    napster: 'https://music.amazon.com.mx/artists/B004VJJSHW/martin-garrix',
   },
   {
     title: 'Route 94',
@@ -262,6 +262,64 @@ const CardData8 = [
     napster: 'https://music.amazon.com/artists/B00CVO38O8/route-94',
   },
   {
+    title: 'Calvin Harris',
+    description:
+      'Adam Richard Wiles (Dumfries, Dumfries y Galloway, 17 de enero de 1984), más conocido como Calvin Harris, es un DJ, cantante y productor británico. Actualmente ocupa el puesto 16 de los 100 mejores DJ de la revista DJ Magazine. Su álbum debut, seleccionado por la Industria Fonográfica Británica, I Created Disco, fue lanzado en 2007 y contenía sencillos tales como Acceptable in the 80s y The Girls que ingresaron en el Top 10 del Reino Unido.',
+    videourl:
+      'https://youtube.com/playlist?list=PLCnkz7la5RxMxu9cbTxpXhYrwWDrweJVA',
+    price: '$50',
+    coverImg: 'calvinharris.jpg',
+    category: 'Pop',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: null,
+    websiteurl: 'https://loveregenerator.com/',
+    youtube: 'https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow',
+    facebook: 'https://www.facebook.com/search/top?q=calvin%20harris',
+    instagram: 'https://www.instagram.com/calvinharris/',
+    twitter: 'https://twitter.com/CalvinHarris',
+    spotify: 'https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY',
+    deezer: 'https://www.deezer.com/mx/artist/5313805',
+    apple: 'https://music.apple.com/mx/artist/calvin-harris/201955086',
+    soundcloud: 'https://soundcloud.com/calvinharris',
+    tidal: 'https://listen.tidal.com/artist/8401',
+    wiki: 'https://es.wikipedia.org/wiki/Calvin_Harris',
+    ticketmaster:
+      'https://www.ticketmaster.com/calvin-harris-tickets/artist/1149552',
+    napster: 'https://music.amazon.com.mx/artists/B000YC5H4S/calvin-harris',
+    tiktok: 'https://www.tiktok.com/@calvinharris?lang=es',
+  },
+  {
+    title: 'John Digweed',
+    description:
+      'Thomas John Digweed (born 1 January 1967) is a British DJ and record producer.[2] DJ Magazine voted him the World No. 1 DJ in 2001.[3] As well as achieving success as a solo act, he has collaborated with Sasha as Sasha & John Digweed, and with Nick Muir as Bedrock.',
+    videourl:
+      'https://youtube.com/playlist?list=PLCnkz7la5RxMxu9cbTxpXhYrwWDrweJVA',
+    price: '$50',
+    coverImg: 'johndigweed.jpg',
+    category: 'Pop',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: null,
+    websiteurl: 'https://ra.co/dj/digweed',
+    youtube: 'https://www.youtube.com/user/bedrocktransitions',
+    facebook: 'https://www.facebook.com/djjohndigweed/',
+    instagram: 'https://www.instagram.com/djjohndigweed/',
+    twitter: 'https://x.com/DJJohnDigweed',
+    spotify: 'https://open.spotify.com/artist/3xnDktxhudJR2Wv3HZDQ9W',
+    deezer: 'https://www.deezer.com/mx/artist/186545',
+    apple: 'https://music.apple.com/mx/artist/john-digweed/91476876',
+    soundcloud: 'https://soundcloud.com/john-digweed',
+    tidal: 'https://listen.tidal.com/artist/3550418',
+    wiki: 'https://en.wikipedia.org/wiki/John_Digweed',
+    ticketmaster:
+      'https://www.ticketmaster.com/john-digweed-tickets/artist/848086',
+    napster: 'https://music.amazon.com.mx/artists/B000RSBSBU/john-digweed',
+    tiktok: 'https://www.tiktok.com/search/video?lang=es&q=John%20Digweed&t=1726255499244',
+  },
+  {
     title: 'Deep Nation',
     description:
       'Deep house (110~125 BPM) is a subgenre of house music that originated in the 1980s, initially fusing elements of Chicago house with the lush chords of 1980s jazz-funk and touches of soul music. Its origins are attributed to the early recordings of Larry Heard (aka Mr. Fingers), including his influential track Can You Feel It.',
@@ -286,7 +344,7 @@ const CardData8 = [
     wiki: 'https://en.wikipedia.org/wiki/Deep_house',
     ticketmaster: 'https://www.ticketmaster.com/',
     tiktok: 'https://www.tiktok.com/@dopenationrecords?lang=es',
-    napster: 'https://www.beatport.com/artist/deep-house-nation/479233',
+    napster: 'https://music.amazon.com.mx/artists/B005OUBYPG/deep-nation',
   },
   {
     title: 'Infected Mushroom',
@@ -315,7 +373,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/infected-mushroom-tickets/artist/1274899',
     tiktok: 'https://www.tiktok.com/@infectedmushroomofficial?lang=es',
-    napster: 'https://www.napster.com/mx',
+    napster: 'https://music.amazon.com.mx/artists/B000RRFLJG/infected-mushroom',
   },
   {
     title: 'The Chemical Brothers',
@@ -347,7 +405,7 @@ const CardData8 = [
     ticketmaster:
       'https://www.ticketmaster.com/chemical-brothers-tickets/artist/807212',
     tiktok: 'https://www.tiktok.com/@chemicalbrothersofficial',
-    napster: 'https://www.deezer.com/mx/artist/81',
+    napster: 'https://music.amazon.com.mx/artists/B00G5XK5K6/the-chemical-brothers',
   },
   {
     title: 'Afterlife',

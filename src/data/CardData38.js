@@ -175,6 +175,97 @@ const CardData38= [
     napster: 'https://music.amazon.com.mx/artists/B000RHPLF0/buddy-holly',
   },
   {
+    title: 'Beach Boys',
+    description:
+      "The Beach Boys are an American rock band that formed in Hawthorne, California, in 1961. The group's original lineup consisted of brothers Brian, Dennis, and Carl Wilson, their cousin Mike Love, and friend Al Jardine. Distinguished by their vocal harmonies, adolescent-themed lyrics, and musical ingenuity, they are one of the most influential acts of the rock era. They drew on the music of older pop vocal groups, 1950s rock and roll, and black R&B to create their unique sound. Under Brian's direction, they often incorporated classical or jazz elements and unconventional recording techniques in innovative ways..",
+    videourl:
+      'https://youtube.com/playlist?list=PL_ZuQ6gD_Zp62U-ay5q0hEmSvrR_GbGii',
+    price: 36,
+    coverImg: 'theBeachBoys.png',
+    category: 'Rock Clasico',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://thebeachboys.com/',
+    youtube: 'https://www.youtube.com/channel/UCUxNZEOdVy77QiiSTHk8bug',
+    facebook: 'https://www.facebook.com/thebeachboys',
+    instagram: 'https://www.instagram.com/thebeachboys/',
+    twitter: 'https://www.instagram.com/thebeachboys/',
+    spotify:
+      'https://open.spotify.com/artist/3oDbviiivRWhXwIE8hxkVV?autoplay=true',
+    deezer: 'https://www.deezer.com/en/artist/2179?autoplay=true',
+    apple: 'https://music.apple.com/us/artist/the-beach-boys/562555',
+    soundcloud: 'https://soundcloud.com/thebeachboys',
+    tidal: 'https://listen.tidal.com/artist/9371',
+    wiki: 'https://en.wikipedia.org/wiki/The_Beach_Boys',
+    ticketmaster:
+      'https://www.ticketmaster.com/the-beach-boys-tickets/artist/734518',
+    tiktok: 'https://www.tiktok.com/@thebeachboys',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPEL0/the-beach-boys',
+  },
+  {
+    title: 'The Beatles',
+    description:
+      'The Beatles, también conocida en el mundo hispano como los Beatles, fue una banda de rock inglesa formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970 por John Lennon, Paul McCartney, George Harrison y Ringo Starr. Es ampliamente considerada como la banda más influyentes de todos los tiempos, siendo parte fundamental en el desarrollo del movimiento contracultural de la década de 1960 y el reconocimiento de la música popular como forma de arte.',
+    videourl:
+      'https://youtube.com/playlist?list=PL0jp-uZ7a4g8b4orD6OrbsVBigPO-EX9d',
+    price: 36,
+    coverImg: 'beatles.gif',
+    category: 'Rock',
+    location: 'Uk',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.thebeatles.com/',
+    youtube: 'https://www.youtube.com/%20the%20beatles',
+    facebook: 'https://www.facebook.com/thebeatles',
+    instagram: 'https://www.instagram.com/thebeatles/',
+    twitter: 'https://twitter.com/beatlesstory',
+    spotify: 'https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2',
+    deezer: 'https://www.deezer.com/mx/artist/1',
+    apple: 'https://music.apple.com/mx/artist/the-beatles/136975',
+    soundcloud:
+      'https://soundcloud.com/thebeatles',
+    tidal: 'https://listen.tidal.com/artist/3634161',
+    wiki: 'https://es.wikipedia.org/wiki/The_Beatles',
+    ticketmaster:
+      'https://www.ticketmaster.com/tribute-to-the-beatles-tickets/artist/2281760',
+    tiktok: 'https://www.tiktok.com/@thebeatles?lang=es',
+    napster: 'https://music.amazon.com/artists/B00GB0QTOY/the-beatles',
+  },
+  {
+    title: 'The Animals',
+    description:
+      'The Animals (Español: Los Animales) es una banda de rock británica formada en Newcastle upon Tyne a comienzos de la década de 1960. La agrupación se trasladó a Londres logrando reconocimiento comercial en 1964. Son reconocidos principalmente por la canción The House of the Rising Sun, aunque también publicaron otros sencillos exitosos como We Gotta Get Out of This Place, Its My Life y Dont Let Me Be Misunderstood. Fueron populares en los Estados Unidos como parte de la Invasión británica.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_nh9zMXkcuIW2R16SbH3oRoZItvBydfHQQ&si=Wx48Hufu9ZcQr_YA',
+    price: 36,
+    coverImg: 'theanimals.jpg',
+    category: 'Rock',
+    location: 'Uk',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.edsullivan.com/artists/the-animals/',
+    youtube: 'https://www.youtube.com/channel/UCgXfS0QdhrX55_rS4npXDow',
+    facebook: 'https://www.facebook.com/TheAnimalsMusic/',
+    instagram: 'https://www.instagram.com/animalsandfriendsuk/',
+    twitter: 'https://x.com/Animalstheband',
+    spotify: 'https://open.spotify.com/artist/3ICflSq6ZgYAIrm2CTkfVP',
+    deezer: 'https://www.deezer.com/mx/artist/3350',
+    apple: 'https://music.apple.com/mx/artist/the-animals/1960022',
+    soundcloud:
+      'https://soundcloud.com/the-animals-official',
+    tidal: 'https://listen.tidal.com/artist/9867',
+    wiki: 'https://es.wikipedia.org/wiki/The_Animals',
+    ticketmaster:
+      'https://www.ticketmaster.com/the-animals-tickets/artist/1192964',
+    tiktok: 'https://www.tiktok.com/search/video?lang=es&q=The%20Animals&t=1726256788538',
+    napster: 'https://music.amazon.com/artists/B00G6MJFNO/the-animals',
+    
+  },
+  {
     title: 'Sam Cooke',
     description:
     "Samuel Cook (Clarksdale, Misisipi, 22 de enero de 1931–Los Ángeles, 11 de diciembre de 1964), más conocido por su nombre artístico Sam Cooke, fue un cantante estadounidense de música góspel, rhythm and blues, soul y pop; compositor y empresario musical. Es uno de los pioneros de la música soul y una de las grandes influencias en la música pop, el R&B y la neo soul.Muchos lo consideran El Rey del Soul —título que comparte con Otis Redding— por haber logrado una treintena de hits entre 1957 y 1965.Fue el primer cantante negro en fundar su propia empresa discográfica, SAR Records, y también un reconocido activista dentro del Movimiento por los Derechos Civiles. Además, en su época fue uno de los artistas con mayor audiencia no negra. El documental sobre su vida: Las dos muertes de Sam Cooke, trata sobre la vida de Cooke.",

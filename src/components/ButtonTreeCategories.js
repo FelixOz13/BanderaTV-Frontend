@@ -260,7 +260,7 @@ function ButtonTreeCategories() {
       </Link>
       
       
-      <Link className="btn" to="/mexicanas">
+      <Link className="btn" to="/femeninas">
         <img
           src="../images/cantantes.png"
           className="sponsor1"

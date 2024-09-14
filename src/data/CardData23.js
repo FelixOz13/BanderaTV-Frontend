@@ -26,7 +26,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/search?q=Los+Angeles+Rap+Events',
     tiktok: 'https://www.tiktok.com/@hood.rapz',
-    napster: 'https://us.napster.com/artist/south-central-cartel',
+    napster: 'https://music.amazon.com.mx/artists/B000RHOCFK/south-central-cartel',
   },
   {
     title: 'Snoop Dogg',
@@ -55,37 +55,66 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/snoop-dogg-tickets/artist/763942',
     tiktok: 'https://www.tiktok.com/@snoopdogg?lang=es',
-    napster: 'https://us.napster.com/artist/snoop-dogg',
+    napster: 'https://music.amazon.com.mx/artists/B000QK7JQW/snoop-dogg',
   },
 
   {
-    title: 'Beastie Boys',
+    title: 'Jay Z',
     description:
-      'Beastie Boys fue un grupo musical de rap neoyorquino fundado en Brooklyn en 1981. Comenzaron tocando hardcore punk en sus primeras grabaciones para la disquera independiente Ratcage Records de David Parsons. Habiendo asimilado la cultura callejera de la gran manzana desde 1983 comenzaron a experimentar con hip hop y hacer rap. También han editado discos basados en el funk y el jazz y es frecuente que en sus discos de hip hop incluyan rock o punk o algún corte acústico. También son conocidas las actividades de turntablism y de producción musical de sus miembros. Según Mike D., Beastie quiere decir: Boys Entering Anarchistic States Towards Internal Excellence',
+      'Shawn Corey Carter (Brooklyn, Nueva York, 4 de diciembre de 1969), más conocido por su nombre artístico Jay-Z (estilizado como JAY-Z), es un rapero, productor, empresario y actor estadounidense. Es uno de los artistas de hip-hop más exitosos económicamente en Estados Unidos y mundialmente, y posee un patrimonio neto de más de US$2.500 millones en 2024.Ha vendido aproximadamente 75 millones de álbumes en todo el mundo, y ha recibido 83 nominaciones a los premios Grammy por su trabajo musical, convirtiéndolo en el músico más nominado en la historia de esos premios, de las cuales ha ganado 23. Es considerado como uno de los mejores raperos de todos los tiempos. Clasificó como número uno de la controvertida lista de The Greatest MCs of All-Time elaborada por la cadena de televisión MTV en 2006. Tres de sus álbumes, Reasonable Doubt (1996), The Blueprint (2001) y The Black Album (2003), se consideran hitos en el género y los tres clasifican en la lista de los 500 mejores álbumes de todos los tiempos de la revista Rolling Stone, quien también lo calificó como el 88.º mejor artista de los 100 mejores artistas de todos los tiempos',
     videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_mv36h4Y-yvaQcMMpsH3vNWKRDMFuhUhkY',
+      'https://youtube.com/playlist?list=OLAK5uy_nnGAnvGYiX88LAahgDAbBAZy_z0R1Cdro&si=7AzVfMq2EuppU7nx',
     price: 36,
-    coverImg: 'beastieboys.jpeg',
-    category: 'Alternativo',
+    coverImg: 'jay-z.jpg',
+    category: 'Hip Hop',
     location: 'USA',
     locationImg: 'usaflag.jpg',
     openSpots: null,
     likes: 1000,
-    websiteurl: 'https://beastieboys.com/',
-    youtube: 'https://www.youtube.com/channel/UCpRUSBcRWUQZIj3_jWF19Dg',
-    facebook: 'https://www.facebook.com/beastieboys',
-    instagram: 'https://www.instagram.com/beastieboysstory/',
-    twitter: 'https://twitter.com/beastieboys',
-    spotify: 'https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx',
-    deezer: 'https://www.deezer.com/mx/artist/194746',
-    apple: 'https://music.apple.com/mx/artist/beastie-boys/1971863',
-    soundcloud: 'https://soundcloud.com/beastieboys',
+    websiteurl: 'https://www.rocnation.com/',
+    youtube: 'https://www.youtube.com/channel/UCN-sc1xJr-QQNj_uNIM9wTA',
+    facebook: 'https://www.facebook.com/JayZ/',
+    instagram: 'https://www.instagram.com/jayz/',
+    twitter: 'https://x.com/sc',
+    spotify: 'https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB',
+    deezer: 'https://www.deezer.com/mx/artist/1309',
+    apple: 'https://music.apple.com/mx/artist/jay-z/1352449404',
+    soundcloud: 'https://soundcloud.com/thecarters',
     tidal: 'https://listen.tidal.com/artist/8963',
-    wiki: 'https://es.wikipedia.org/wiki/Beastie_Boys',
+    wiki: 'https://es.wikipedia.org/wiki/Jay-Z',
     ticketmaster:
-      'https://www.ticketmaster.com/beastie-boys-tickets/artist/702455',
-    tiktok: 'https://www.tiktok.com/@beastieboys_tiktok?lang=es',
-    napster: 'https://web.napster.com/artist/art.4794',
+      'https://www.ticketmaster.com/jayz-tickets/artist/781009',
+    tiktok: 'https://www.tiktok.com/@jay_zofficial01?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJHOWW/jay-z',
+  },
+  {
+    title: 'Diddy',
+    description:
+      'Sean John Combs (Harlem, 4 de noviembre de 1969) conocido artísticamente como Diddy o Puff Daddy, es un rapero, compositor, productor discográfico, actor y empresario estadounidense, ganador de cuatro Premios Grammy.Fue mánager y amigo de Biggie Smalls (Notorious B.I.G.) y Wavy Squad, uno de sus descubridores, participó en todos sus videoclips y sin duda fue su empuje para dejar el mundo de las drogas. Es conocido también por su enemistad con el rapero Tupac Shakur y el productor Suge Knight.Combs ha sido objeto de una serie de acusaciones de conducta sexual inapropiada, que comenzaron a fines de 2023 después de que Cassie Ventura, con quien Combs tuvo una relación a largo plazo, presentó una demanda multimillonaria en su contra por agresión sexual, que se resolvió fuera de los tribunales. En los días siguientes, se presentaron tres demandas más por demandantes adicionales, con acusaciones similares de mala conducta que van desde 1991 hasta 2003. A raíz de las acusaciones, varias empresas y marcas se desvincularon de Combs y se revocó un doctorado honorario de la Universidad de Howard. En marzo de 2024, el Departamento de Seguridad Nacional allanó varias propiedades vinculadas a Combs como parte de una investigación en curso. En mayo de 2024, se publicaron imágenes de vigilancia de Combs agrediendo físicamente a Ventura en un hotel en 2016, por lo que Combs emitió una disculpa pública',
+    videourl:
+      'https://youtube.com/playlist?list=PLO_91L9g7dwNDhhZg-sjIhjSd2OKkjMrk&si=rCkcnes7meWXbo4Q',
+    price: 36,
+    coverImg: 'diddy.jpg',
+    category: 'Hip Hop',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://diddy.com/',
+    youtube: 'https://www.youtube.com/channel/UCPlVQrTbx0UxYtilJ3CVu0Q',
+    facebook: 'https://www.facebook.com/Diddy/',
+    instagram: 'https://www.instagram.com/diddy',
+    twitter: 'https://x.com/diddy',
+    spotify: 'https://open.spotify.com/artist/59wfkuBoNyhDMQGCljbUbA',
+    deezer: 'https://www.deezer.com/mx/artist/173581',
+    apple: 'https://music.apple.com/mx/artist/beastie-boys/1971863',
+    soundcloud: 'https://soundcloud.com/diddy8',
+    tidal: 'https://tidal.com/browse/artist/3503485',
+    wiki: 'https://es.wikipedia.org/wiki/Sean_Combs',
+    ticketmaster:
+      'https://www.ticketmaster.com/diddy-tickets/artist/828609',
+    tiktok: 'https://www.tiktok.com/@diddy?lang=es',
+    napster: 'https://music.amazon.com/artists/B09LVMXZBV/diddy',
   },
   {
     title: 'Lil Nas x',
@@ -114,7 +143,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/lil-nas-x-tickets/artist/2669155',
     tiktok: 'https://www.tiktok.com/@lilnasx?lang=es',
-    napster: 'https://us.napster.com/artist/lil-nas-x',
+    napster: 'https://music.amazon.com.mx/artists/B07FFZTKDN/lil-nas-x',
   },
   {
     title: 'Drake',
@@ -141,8 +170,8 @@ const CardData23 = [
     tidal: 'https://listen.tidal.com/artist/3632070',
     wiki: 'https://es.wikipedia.org/wiki/Drake_(m%C3%BAsico)',
     ticketmaster: 'https://www.ticketmaster.com/Drake-tickets/artist/1319371',
-    tiktok: 'https://www.tiktok.com/@champagnee.papiii?lang=es',
-    napster: 'https://web.napster.com/artist/art.231403288',
+    tiktok: 'https://www.tiktok.com/@drakee.ita?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJRIHS/drake',
   },
   {
     title: 'Eminem',
@@ -170,7 +199,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/Eminem',
     ticketmaster: 'https://www.ticketmaster.com/eminem-tickets/artist/722998',
     tiktok: 'https://www.tiktok.com/@eminem?lang=es',
-    napster: 'https://us.napster.com/artist/eminem',
+    napster: 'https://music.amazon.com.mx/artists/B000S2JA4W/eminem',
   },
   {
     title: 'Daddy Yankee',
@@ -199,7 +228,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com./daddy-yankee-tickets/artist/935043',
     tiktok: 'https://www.tiktok.com/@daddyyankee?lang=es',
-    napster: 'https://app.napster.com/artist/daddy-yankee',
+    napster: 'https://music.amazon.com.mx/artists/B000QKA31U/daddy-yankee',
   },
   {
     title: 'Long Beach Finest Hits',
@@ -229,7 +258,7 @@ const CardData23 = [
       'https://www.ticketmaster.com/vanilla-ice-tickets/artist/702531',
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=long%20beach%20rap&t=1660899147648',
-    napster: 'https://us.napster.com/artist/long-beach-playaz',
+    napster: 'https://music.amazon.com.mx/playlists/B09YK1YC6P',
   },
 
   {
@@ -258,7 +287,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/Mack_10',
     ticketmaster: 'https://www.ticketmaster.com/mack-10-tickets/artist/775484',
     tiktok: 'https://www.tiktok.com/search/video?q=mack%2010&t=1661799721412',
-    napster: 'https://web.napster.com/artist/art.176',
+    napster: 'https://music.amazon.com.mx/artists/B000RSFUBO/ice-cube',
   },
   {
     title: 'Westside Connection',
@@ -288,7 +317,7 @@ const CardData23 = [
       'https://www.ticketmaster.com/westside-connection-tickets/artist/780763',
     tiktok:
       'https://www.tiktok.com/search/video?q=Westside%20Connection&t=1661798282509',
-    napster: 'https://web.napster.com/artist/art.61493',
+    napster: 'https://music.amazon.com.mx/artists/B000QKG6YS/westside-connection',
   },
   {
     title: 'Ice Cube',
@@ -316,7 +345,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/Ice_Cube',
     ticketmaster: 'https://www.ticketmaster.com/ice-cube-tickets/artist/702485',
     tiktok: 'https://www.tiktok.com/@icecubeofficialll?lang=es',
-    napster: 'https://us.napster.com/artist/ice-cube',
+    napster: 'https://music.amazon.com.mx/artists/B000RSFUBO/ice-cube',
   },
   {
     title: 'Dr Dre',
@@ -344,7 +373,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/snoop-dogg-tickets/artist/763942',
     tiktok: 'https://www.tiktok.com/@dr_dre39?lang=es',
-    napster: 'https://us.napster.com/artist/dr-dre',
+    napster: 'https://music.amazon.com.mx/artists/B000QKKBL2/dr-dre',
   },
   {
     title: 'TRU',
@@ -373,7 +402,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/no-limit-soldiers-tickets/artist/2853776',
     tiktok: 'https://www.tiktok.com/@nolimit_soldiers_fan',
-    napster: 'https://web.napster.com/album/alb.14936772',
+    napster: 'https://music.amazon.com/artists/B0C7BP92DQ/tru',
   },
   {
     title: 'Master P',
@@ -401,7 +430,7 @@ const CardData23 = [
     wiki: 'https://en.wikipedia.org/wiki/Master_P',
     ticketmaster: 'https://www.ticketmaster.com/master-p-tickets/artist/849545',
     tiktok: 'https://www.tiktok.com/@masterpofficial',
-    napster: 'https://web.napster.com/artist/art.585',
+    napster: 'https://music.amazon.com/artists/B000QJI6CO/master-p',
   },
   {
     description:
@@ -431,7 +460,7 @@ const CardData23 = [
       'https://www.ticketmaster.com/silkk-the-shocker-tickets/artist/12683',
     tiktok:
       'https://www.tiktok.com/search/video?q=silk%20the%20shocker&t=1661803217402',
-    napster: 'https://web.napster.com/artist/art.1745',
+    napster: 'https://music.amazon.com/albums/B0031R9BOK',
   },
   {
     title: 'Too Short',
@@ -460,7 +489,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/too-short-tickets/artist/840782',
     tiktok: 'https://www.tiktok.com/@tooshortdog?lang=es',
-    napster: 'https://us.napster.com/artist/too-short',
+    napster: 'https://music.amazon.com/artists/B000QJKCA8/too-hort',
   },
   {
     title: 'Suga Free',
@@ -489,7 +518,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/suga-free-tickets/artist/777374',
     tiktok: 'https://www.tiktok.com/search?q=sugafreethapimp&t=1661804342069',
-    napster: 'https://web.napster.com/artist/art.52228',
+    napster: 'https://music.amazon.com/artists/B000QKAUFE/suga-free',
   },
   {
     title: 'DJ Quick',
@@ -517,7 +546,7 @@ const CardData23 = [
     wiki: 'https://en.wikipedia.org/wiki/DJ_Quik',
     ticketmaster: 'https://www.ticketmaster.com/dj-quik-tickets/artist/768266',
     tiktok: 'https://www.tiktok.com/search/video?q=dj%20quik&t=1661805469485',
-    napster: 'https://web.napster.com/artist/art.5713',
+    napster: 'https://music.amazon.com/artists/B000QJPQPO/dj-quik',
   },
 
   {
@@ -547,7 +576,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/Tupac_Shakur',
     ticketmaster: 'https://www.ticketmaster.com/2pac-tickets/artist/1115630',
     tiktok: 'https://www.tiktok.com/@thebest.2pac?lang=es',
-    napster: 'https://us.napster.com/artist/2pac',
+    napster: 'https://music.amazon.com/artists/B000QKJMGW/2pac',
   },
   {
     title: '50 Cent',
@@ -576,7 +605,7 @@ const CardData23 = [
     wiki: 'https://en.wikipedia.org/wiki/50_Cent',
     ticketmaster: 'https://www.ticketmaster.com/50-cent-tickets/artist/713910',
     tiktok: 'https://www.tiktok.com/@50cent',
-    napster: 'https://web.napster.com/artist/art.44827',
+    napster: 'https://music.amazon.com/artists/B000QJO3TY/50-cent',
   },
   {
     title: 'Notorious B.I.G',
@@ -605,7 +634,7 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/the-notorious-big-tickets/artist/2736',
     tiktok: 'https://www.tiktok.com/@thenotoriousbig?lang=es',
-    napster: 'https://us.napster.com/artist/the-notorious-big',
+    napster: 'https://music.amazon.com/artists/B000QKN2BI/the-notorious-b-i-g',
   },
   {
     title: 'NWA',
@@ -633,7 +662,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/N.W.A.',
     ticketmaster: 'https://www.ticketmaster.com/nwa-tickets/artist/1153',
     tiktok: 'https://www.tiktok.com/@nwa.fans?lang=es',
-    napster: 'https://us.napster.com/artist/nwa',
+    napster: 'https://music.amazon.com/artists/B000TD0DR8/n-w-a',
   },
   {
     title: 'Eazy E',
@@ -661,7 +690,7 @@ const CardData23 = [
     wiki: 'https://es.wikipedia.org/wiki/Eazy-E',
     ticketmaster: 'https://www.ticketmaster.com/eazy-e-tickets/artist/898478',
     tiktok: 'https://www.tiktok.com/@king.eazye?lang=es',
-    napster: 'https://us.napster.com/artist/eazy-e',
+    napster: 'https://music.amazon.com/artists/B000TD2BBY/eazy-e',
   },
   {
     title: 'Lil Wayne',
@@ -690,7 +719,94 @@ const CardData23 = [
     ticketmaster:
       'https://www.ticketmaster.com/lil-wayne-tickets/artist/712214',
     tiktok: 'https://www.tiktok.com/@lilwayne?lang=es',
-    napster: 'https://us.napster.com/artist/lil-wayne',
+    napster: 'https://music.amazon.com/artists/B000S2BWRK/lil-wayne',
+  },
+  {
+    title: 'Birdman',
+    description:
+      "Bryan Christopher Williams (nacido Brooks; 15 de febrero de 1969), más conocido por sus nombres artísticos Birdman o Baby, es un rapero y ejecutivo discográfico estadounidense. Es la cara pública del sello discográfico Cash Money Records, que cofundó con su hermano mayor Ronald Slim Williams en 1991. Birdman lanzó su álbum debut homónimo en 2002 y publicó tres álbumes posteriores—Fast Money (2005), 5 * Stunna (2007) y Priceless (2009)—con un éxito comercial moderado y una recepción crítica mixta; en 2020, anunció que el último sería su final. Junto con su carrera en solitario, es miembro del dúo de hip hop Big Tymers con el productor Mannie Fresh, así como del supergrupo Cash Money Millionaires..",
+    videourl:
+      'https://www.youtube.com/playlist?list=OLAK5uy_mp-Bu6oeeK__TzlDbjnM7TG006ki58mkc',
+    price: '$50',
+    coverImg: 'birdman.jpg',
+    category: 'Rap Americano',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.birdmanstunna.com/',
+    youtube: 'https://www.youtube.com/channel/UCejvAdvNEvs8_w2XS0Wjntg',
+    facebook: 'https://www.facebook.com/Birdman/',
+    instagram: 'https://www.instagram.com/birdman/?hl=en',
+    twitter: 'https://x.com/birdman5star',
+    spotify: 'https://open.spotify.com/artist/35sCXuy5gN6Or69rZ9vqBs',
+    deezer: 'https://www.deezer.com/mx/artist/14919',
+    apple: 'https://music.apple.com/mx/artist/birdman/72812522',
+    soundcloud: 'https://soundcloud.com/birdman-official',
+    tidal: 'https://listen.tidal.com/artist/3502576',
+    wiki: 'https://es.wikipedia.org/wiki/Birdman_(rapero)',
+    ticketmaster:
+      'https://www.ticketmaster.com/birdman-tickets/artist/851710',
+    tiktok: 'https://www.tiktok.com/@burdma18?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000W0AFQC/birdman',
+  },
+  {
+    title: 'Three 6 Mafia',
+    description:
+      "Three 6 Mafia (anteriormente conocido como Triple Six Mafia) es la primera agrupación musical de rap de Memphis, Tennessee , en ser platino así como nominado y ganador de un Óscar. La agrupación la conforman principalmente cuatro miembros: Paul Beauregard (DJ Paul), Jordan Houston (Juicy J), Lord Infamous y Crunchy Black..",
+    videourl:
+      'https://youtube.com/playlist?list=PLAwiZyNbH28X2o4-8fCGjljV2T6a5RwGo&si=F30--H3AATYRJnes',
+    price: '$50',
+    coverImg: 'three6.gif',
+    category: 'Rap Americano',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.three6mafiamerch.com/',
+    youtube: 'https://www.youtube.com/channel/UCa-MexmcInkyWUzyyA3WUTw',
+    facebook: 'https://www.facebook.com/three6mafia/',
+    instagram: 'https://www.instagram.com/three6mafia/',
+    twitter: 'https://x.com/three6mafialife',
+    spotify: 'https://open.spotify.com/artist/26s8LSolLfCIY88ysQbIuT',
+    deezer: 'https://www.deezer.com/mx/artist/291',
+    apple: 'https://music.apple.com/mx/artist/three-6-mafia/1889116',
+    soundcloud: 'https://soundcloud.com/three-6-mafia',
+    tidal: 'https://listen.tidal.com/artist/6868',
+    wiki: 'https://es.wikipedia.org/wiki/Three_6_Mafia',
+    ticketmaster:
+      'https://www.ticketmaster.com/three-6-mafia-tickets/artist/777957',
+    tiktok: 'https://www.tiktok.com/@three6mafia?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B000QJOGJ6/three-6-mafia',
+  },
+  {
+    title: 'Juvenile',
+    description:
+      "Juvenile (Terius Gray, 25 de marzo de 1977 en Nueva Orleans, Luisiana) es un rapero estadounidense que a los 19 años fue de los pioneros del southern rap con su álbum Being Myself, en 1995. Con el éxito Bounce for the Juvenile dio nombre al estilo del sur conocido como Bounce",
+    videourl:
+      'https://youtube.com/playlist?list=PLs8_sLMd5PB9WrF3DhywVA-jtsFRklVt9&si=Yf6_KGWhmbfy6AyO',
+    price: '$50',
+    coverImg: 'juvi.png',
+    category: 'Rap Americano',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.juvenileofficial.com/',
+    youtube: 'https://www.youtube.com/channel/UCSXRhf5E93q5bjELatiwk_w',
+    facebook: 'https://www.facebook.com/juviethegreat/',
+    instagram: 'https://www.instagram.com/juviethegreat',
+    twitter: 'https://x.com/juviethegreat',
+    spotify: 'https://open.spotify.com/artist/0rG0AZBscc8S8q1ahIsasI',
+    deezer: 'https://www.deezer.com/mx/artist/3504',
+    apple: 'https://music.apple.com/mx/artist/juvenile/1464606',
+    soundcloud: 'https://soundcloud.com/juvenileofficial',
+    tidal: 'https://listen.tidal.com/artist/15035',
+    wiki: 'https://es.wikipedia.org/wiki/Juvenile',
+    ticketmaster:
+      'https://www.ticketmaster.com/juvenile-tickets/artist/769787',
+    tiktok: 'https://www.tiktok.com/search?lang=es&q=Juvenile&t=1726285220649',
+    napster: 'https://music.amazon.com.mx/artists/B000QJI4TO/juvenile',
   },
   {
     title: 'Baby Bash',

@@ -263,6 +263,36 @@ const CardData7 = [
     napster: 'https://app.napster.com/artist/zoe',
   },
   {
+    title: 'Duncan Dhu',
+    description:
+      'Duncan Dhu fue un grupo musical español de rock originario de San Sebastián (Guipúzcoa, España) formado el 4 de agosto de 1984 tras la fusión de los principales integrantes de los grupos Aristogatos y Los Dalton. Sus miembros originales fueron Mikel Erentxun (cantante hasta entonces del grupo Aristogatos), Diego Vasallo (vocalista y bajista del grupo Los Dalton) y Juan Ramón Viles (guitarra y batería de Los Dalton). Desde 1989 hasta 2016 estuvo compuesto por los dos primeros.El nombre del grupo hace referencia a un personaje de Secuestrado, una novela de 1886 de Robert Louis Stevenson. En ella, Duncan Dhu era el jefe de un clan escocés que fascinaba a Erentxun en aquellos años.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lcp1ADgi4y9JQPUNxB-DKPULIa822A1RI&si=WsL7sKi6CGSuikS_',
+    price: 50,
+    coverImg: 'duncandhu.jpg',
+    category: 'Rock',
+    location: 'España',
+    locationImg: 'spain.jpeg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://vuelveduncandhu.com/',
+    youtube: 'https://www.youtube.com/channel/UCj8sFiFmI7qCQzJWgUSwj-Q',
+    facebook: 'https://www.facebook.com/duncandhuperu/',
+    instagram: 'https://www.instagram.com/duncandhuoficial/',
+    twitter: 'https://x.com/duncandhu',
+    spotify: 'https://open.spotify.com/artist/2MLHBMApNE5h8wIufiTPs7',
+    deezer: 'https://www.deezer.com/mx/artist/64661',
+    apple: 'https://music.apple.com/mx/artist/duncan-dhu/18198835',
+    soundcloud: 'https://soundcloud.com/duncan-dhu',
+    tidal: 'https://listen.tidal.com/artist/13308',
+    wiki: 'https://es.wikipedia.org/wiki/Duncan_Dhu',
+    ticketmaster:
+      'https://www.viagogo.com.mx/Boletos-Conciertos/Pop-Rock/Duncan-Dhu-Boletos',
+    tiktok: 'https://www.tiktok.com/search/video?lang=es&q=Duncan%20Dhu&t=1726258574962',
+    napster: 'https://music.amazon.com/artists/B0013CSVE6/duncan-dhu',
+    
+  },
+  {
     title: 'Los Enanitos Verdes',
     description:
       'Enanitos Verdes es una banda argentina de rock en español, formada en 1979 en Mendoza, Argentina. A lo largo de su carrera han logrado colocarse en puestos importantes de las listas de popularidad argentinas, de América y el Caribe. Es considerado uno de los grupos más importantes del rock argentino de los años 1980 y del rock en español.',
@@ -289,8 +319,8 @@ const CardData7 = [
     ticketmaster:
       'https://www.viagogo.com.mx/Boletos-Conciertos/Pop-Rock/Enanitos-Verdes-Boletos',
     tiktok: 'https://www.tiktok.com/@enanitosverdes_oficial?lang=es',
-    napster: 'https://app.napster.com/artist/los-enanitos-verdes',
-    ticketImg: 'viagogo.jpeg',
+    napster: 'https://music.amazon.com/artists/B000SZLJPW/los-enanitos-verdes',
+    
   },
   {
     title: 'Los Bunkers',
@@ -319,8 +349,8 @@ const CardData7 = [
     ticketmaster:
       'https://www.viagogo.com.mx/Boletos-Conciertos/Pop-Rock/Los-Bunkers-Boletos',
     tiktok: 'https://www.tiktok.com/@losbunkers_oficial?lang=es',
-    napster: 'https://us.napster.com/artist/los-bunkers-rock',
-    ticketImg: 'viagogo.jpeg',
+    napster: 'https://music.amazon.com/artists/B000QKJO4M/los-bunkers',
+    
   },
   {
     title: 'Siddhartha',
@@ -349,7 +379,7 @@ const CardData7 = [
     ticketmaster:
       'https://www.ticketmaster.com/siddhartha-tickets/artist/1629841',
     tiktok: 'https://www.tiktok.com/@siddhartha_oficial?lang=es',
-    napster: 'https://app.napster.com/artist/siddhartha',
+    napster: 'https://music.amazon.com/artists/B0013M20WA/siddhartha',
   },
 
   {
@@ -378,7 +408,7 @@ const CardData7 = [
     wiki: 'https://es.wikipedia.org/wiki/M%C3%B3lotov',
     ticketmaster: 'https://www.ticketmaster.com/molotov-tickets/artist/795806',
     tiktok: 'https://www.tiktok.com/@molotovoficial?lang=es',
-    napster: 'https://app.napster.com/artist/molotov',
+    napster: 'https://music.amazon.com/artists/B000WGZ01Q/molotov',
   },
   {
     title: 'Juanes',
@@ -406,7 +436,7 @@ const CardData7 = [
     wiki: 'https://es.wikipedia.org/wiki/Juanes',
     ticketmaster: 'https://www.ticketmaster.com./juanes-tickets/artist/949573',
     tiktok: 'https://www.tiktok.com/@juanes?lang=es',
-    napster: 'https://web.napster.com/artist/juanes',
+    napster: 'https://music.amazon.com/artists/B000QJTAQA/juanes',
   },
   {
     title: 'Reik',
@@ -434,7 +464,7 @@ const CardData7 = [
     wiki: 'https://es.wikipedia.org/wiki/Reik',
     ticketmaster: 'https://www.ticketmaster.com.mx/reik-boletos/artist/1020467',
     tiktok: 'https://www.tiktok.com/@reikmx',
-    napster: 'https://us.napster.com/artist/reik',
+    napster: 'https://music.amazon.com/artists/B00136F8W0/reik',
   },
   {
     title: 'Jarabe De Palo',
@@ -617,7 +647,7 @@ const CardData7 = [
     price: '$50',
     coverImg: 'heroesdelsilencio.jpeg',
     category: 'Rock en Español',
-    location: 'Mexico',
+    location: 'España',
     locationImg: 'spain.jpeg',
     openSpots: null,
     likes: 1000,
@@ -635,7 +665,36 @@ const CardData7 = [
     ticketmaster:
       'https://www.ticketmaster.com.mx/heroes-del-silencio-boletos/artist/778265',
     tiktok: 'https://www.tiktok.com/@heroesdelsilenciooficial?lang=es',
-    napster: 'https://www.napster.com/mx/',
+    napster: 'https://music.amazon.com/artists/B000SZG68C/h%C3%A9roes-del-silencio',
+  },
+  {
+    title: 'Bunbury',
+    description:
+      'Enrique Ortiz de Landázuri Izarduy (Zaragoza, 11 de agosto de 1967),​ más conocido como Enrique Bunbury o simplemente Bunbury, es un cantante, compositor y músico español. Es reconocido por haber sido el líder de la banda Héroes del Silencio. Comenzó su actividad musical durante los primeros años de la década de los 80, formando parte de Apocalipsis, Rebel Waltz, Proceso Entrópico, Zumo de Vidrio y Niños del Brasil, aunque su consagración llegó siendo el líder de Héroes del Silencio, grupo musical de gran éxito y considerado por muchos como una de las mejores bandas del rock español.​ Después de la ruptura del grupo en 1996, comenzó su carrera como solista al año siguiente consolidándose como una importante figura en el ámbito musical español e hispanoamericano.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_mVJVHI0NfbNOsQVHaq0CbFTVaSvDwUiCA&si=Hi5ztivyVH1i9noC',
+    price: '$50',
+    coverImg: 'bunbury.jpg',
+    category: 'Rock en Español',
+    location: 'España',
+    locationImg: 'spain.jpeg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://www.enriquebunbury.com/',
+    youtube: 'https://www.youtube.com/@EnriqueBunburyOficial',
+    facebook: 'https://www.facebook.com/bunburyoficial',
+    instagram: 'https://www.instagram.com/bunburyoficial/?hl=en',
+    twitter: 'https://x.com/bunburyoficial',
+    spotify: 'https://open.spotify.com/artist/4uqzzJg3ww5eH7IgGV7DMT',
+    deezer: 'https://www.deezer.com/mx/artist/242817',
+    apple: 'https://music.apple.com/mx/artist/bunbury/2307216',
+    soundcloud: 'https://soundcloud.com/officialbunbury',
+    tidal: 'https://listen.tidal.com/artist/9077',
+    wiki: 'https://es.wikipedia.org/wiki/Enrique_Bunbury',
+    ticketmaster:
+      'https://www.ticketmaster.com.mx/bunbury-boletos/artist/796533',
+    tiktok: 'https://www.tiktok.com/@bunburyoficial?lang=es',
+    napster: 'https://music.amazon.com/artists/B000SA3BE4/bunbury',
   },
   {
     title: 'Cafe Tacvba',
@@ -662,8 +721,8 @@ const CardData7 = [
     tidal: 'https://listen.tidal.com/artist/12575',
     wiki: 'https://es.wikipedia.org/wiki/Caf%C3%A9_Tacvba',
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=Caf%C3%A9+Tacvba',
-    tiktok: 'https://www.ticketmaster.com.mx/search?q=Caf%C3%A9+Tacvba',
-    napster: 'https://www.tiktok.com/@tiktacvba?lang=es',
+    tiktok: 'https://www.tiktok.com/@tiktacvba?lang=es',
+    napster: 'https://music.amazon.com/artists/B000VZWALG/caf%C3%A9-tacvba',
   },
   {
     title: 'Santana',
@@ -672,7 +731,7 @@ const CardData7 = [
     videourl:
       'http://youtube.com/playlist?list=OLAK5uy_nFhKKg7Ch_9lnfxTogq0VhkZZdvB7wBg4',
     price: 50,
-    coverImg: 'santana.jpg',
+    coverImg: 'santana.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
@@ -692,7 +751,7 @@ const CardData7 = [
     ticketmaster: 'https://www.ticketmaster.com/santana-tickets/artist/741473',
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=Santana%20music&t=1654465241940',
-    napster: 'https://app.napster.com/artist/santana',
+    napster: 'https://music.amazon.com/artists/B000QKDMIG/santana',
   },
   {
     title: 'La Maldita Vecindad',
@@ -722,7 +781,7 @@ const CardData7 = [
     ticketmaster:
       'https://www.ticketmaster.com.mx/maldita-vecindad-tickets/artist/755054',
     tiktok: 'https://www.tiktok.com/@malditavecindadoficial?lang=es',
-    napster: 'https://app.napster.com/artist/maldita-vecindad',
+    napster: 'https://music.amazon.com/artists/B01IYB0HHM/maldita-vecindad-y-los-hijos-del-5to-patio',
   },
   {
     title: 'Manu Chao',
@@ -751,7 +810,7 @@ const CardData7 = [
     ticketmaster:
       'https://www.ticketmaster.com/manu-chao-tickets/artist/1116562',
     tiktok: 'https://www.tiktok.com/@manuchaoofficial?lang=es',
-    napster: 'https://mx.napster.com/artist/manu-chao',
+    napster: 'https://music.amazon.com/artists/B0013JVCAY/hombres-g',
   },
   {
     title: 'Los Hombres G',
@@ -779,7 +838,7 @@ const CardData7 = [
     wiki: 'https://es.wikipedia.org/wiki/Hombres_G',
     ticketmaster: 'https://www.ticketmaster.com.mx/search?q=+Hombres+G',
     tiktok: 'https://www.tiktok.com/@hombresgnet?lang=es',
-    napster: 'https://app.napster.com/artist/hombres-g',
+    napster: 'https://music.amazon.com/artists/B0013JVCAY/hombres-g',
   },
   {
     title: 'El Tri',
@@ -807,7 +866,7 @@ const CardData7 = [
     wiki: 'https://es.wikipedia.org/wiki/El_Tri_(banda)',
     ticketmaster: 'https://www.ticketmaster.com/el-tri-tickets/artist/758955',
     tiktok: 'https://www.tiktok.com/@eltrioficial?lang=es',
-    napster: 'https://app.napster.com/artist/el-tri',
+    napster: 'https://music.amazon.com/artists/B00130KKFG/el-tri',
   },
 ]
 export default CardData7
