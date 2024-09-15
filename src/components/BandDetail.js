@@ -190,8 +190,7 @@ const handleShareButtonClick = async () => {
         className="video"
         width="100%"
         height="100%"
-        
-        autoPlay={false}
+        autoPlay={true}
         controls
       />
     </div>
