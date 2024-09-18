@@ -8,6 +8,7 @@ import { SiApplemusic } from 'react-icons/si';
 import { useParams} from 'react-router-dom';
 import Comments from '../Comments/Comments';
 import BanderaMedia from './BanderaMedia';
+
 import {
   FaTiktok,
   FaWhatsapp,
@@ -191,7 +192,7 @@ const handleShareButtonClick = async () => {
         width="100%"
         height="100%"
         autoPlay={true}
-        controls
+        controls={true}
       />
     </div>
     <div className="slidertextdiv">

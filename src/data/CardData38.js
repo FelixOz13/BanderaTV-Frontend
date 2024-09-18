@@ -1,8 +1,8 @@
 const CardData38= [
     {
-    title: 'Elvis Presley',
+    title: 'Elvis-Presley',
     description:
-      'Elvis Aaron Presley (8 de enero de 1935 – 16 de agosto de 1977), conocido monónimamente como Elvis, fue un cantante y actor estadounidense. Conocido como el Rey del Rock and Roll, es considerado una de las figuras culturales más significativas del siglo XX. Las interpretaciones enérgicas de Presley y su estilo de actuación sexualmente provocador, combinados con una mezcla singularmente potente de influencias a través de las barreras raciales durante una era transformadora en las relaciones raciales, le trajeron tanto un gran éxito como una controversia inicial.',
+      'Elvis Aaron Presley ​ (Tupelo, Misisipi, 8 de enero de 1935-Memphis, Tennessee, 16 de agosto de 1977), conocido como Elvis Presley, o Elvis, fue un cantante y actor estadounidense. Apodado como «el rey del rock and roll», es considerado como uno de los iconos culturales más populares del siglo XX.Nació en Tupelo (Misisipi), pero cuando tenía trece años, se mudó junto a su familia a Memphis, en Tennessee, donde en 1954 comenzó su carrera artística cuando el dueño de Sun Records, Sam Phillips, vio en él la manera de expandir la música afroamericana. Acompañado por el guitarrista Scotty Moore y el contrabajista Bill Black, fue uno de los creadores del rockabilly, un estilo de tempo rápido impulsado por un constante ritmo que consiste en una fusión de música country y rhythm and blues.Tras llegar a un acuerdo con el empresario Tom Parker, su apoderado durante casi dos décadas, la compañía discográfica RCA Records consiguió un contrato para difundir su música. El primer sencillo con esta empresa, «Heartbreak Hotel», lanzado en enero de 1956, se convirtió en un éxito número uno. Pronto, tras sus apariciones en los medios, se convirtió en la figura principal del popular sonido del rock and roll, con una serie de presentaciones televisivas y éxitos que llegaron a la cima de las listas de ventas. Sus interpretaciones llenas de energía, sobre todo de canciones afroamericanas, y su estilo desinhibido lo hicieron enormemente popular y controvertido. Meses después, en noviembre de ese mismo año, llevó a cabo su debut cinematográfico con la película Love Me Tender.Reclutado para el servicio militar en 1958, reanudó su carrera artística dos años más tarde, llegando parte de su material a alcanzar mayor éxito comercial desde entonces. Sin embargo, dio pocos conciertos en la década de 1960, guiado por Parker, se consagró a filmar películas para Hollywood y bandas sonoras, muchas de ellas ridiculizadas por la crítica. En 1968, tras siete años alejado de los escenarios, volvió a realizar actuaciones en directo en un especial de televisión que dio lugar a una amplia serie de conciertos en Las Vegas y también a varias giras musicales por Estados Unidos. En 1973 protagonizó el primer concierto televisado, de ámbito mundial vía satélite, Aloha from Hawaii, visto por casi mil quinientos millones de personas. Finalmente, el consumo excesivo de medicamentos comprometió gravemente su salud, hasta que en 1977 murió súbitamente a la temprana edad de cuarenta y dos años. Presley es considerado como una de las figuras más importantes de la cultura popular del siglo XX. American Idol se refirió a él como el más grande ídolo mundial.​ Tenía una voz versátil y un inusual éxito en muchos géneros, entre ellos el country, el pop, las baladas, el góspel y el blues. Además, es el solista con más ventas en la historia de la música popular.Nominado a catorce premios Grammy, ganó tres y recibió uno en la categoría a la carrera artística a la edad de treinta y seis años, además de figurar en diversos salones de la fama musicales.',
     videourl:
       'https://youtube.com/playlist?list=PLsLrXjai8Jf4pGeXmvzmvxjiCA_ax404J&si=tRssZmTDBwUzXa1H',
     price: 80,
@@ -150,7 +150,7 @@ const CardData38= [
     description:
       'Charles Hardin Holley, más conocido como Buddy Holly (Lubbock, Texas; 7 de septiembre de 1936-Clear Lake, Iowa; 3 de febrero de 1959),4​2​ fue un cantante, compositor y guitarrista estadounidense de mediados de la década de los 50s, considerado hoy en día como uno de los pioneros del Rock and Roll. Holly fue descrito por el crítico Bruce Eder como: «La fuerza creativa más influyente del rock and roll primigenio».Si bien durante su corta trayectoria, Buddy Holly sólo alcanzó a publicar tres álbumes de estudio, su innovación y sobresaliente obra musical sirvieron de inspiración e influencia a muchos músicos y bandas posteriores como: The Beatles, The Hollies, The Beach Boys, The Rolling Stones, Cliff Richard, Bruce Springsteen, Jeff Beck, Eric Clapton, Fiona Apple, Lou Reed, Elton John, Don McLean, Bob Dylan, Brian May y Freddie Mercury,entre otros, además de ejercer una profunda y vasta influencia en la música popular',
     videourl:
-      'https://youtube.com/playlist?list=OLAK5uy_n7qSBx5vrAJ8qRZQY1ANql-_ThODp79gQ&si=XailU_q-4dghlq-s',
+      'https://youtube.com/playlist?list=PL112B34708960CED3&si=rAItwy_AjoI3mHPd',
     price: '$50',
     coverImg: 'buddyholly.jpeg',
     category: 'Oldies Rock',
@@ -496,36 +496,6 @@ const CardData38= [
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=Chet%20Atkins&t=1693371013916',
     napster: 'https://music.amazon.com.mx/artists/B000QJO81C/chet-atkins',
-  },
-  {
-    title: 'Elvis Presley',
-    description:
-      'Elvis Aaron Presley (8 de enero de 1935 – 16 de agosto de 1977), conocido monónimamente como Elvis, fue un cantante y actor estadounidense. Conocido como el Rey del Rock and Roll, es considerado una de las figuras culturales más significativas del siglo XX. Las interpretaciones enérgicas de Presley y su estilo de actuación sexualmente provocador, combinados con una mezcla singularmente potente de influencias a través de las barreras raciales durante una era transformadora en las relaciones raciales, le trajeron tanto un gran éxito como una controversia inicial.',
-    videourl:
-      'https://youtube.com/playlist?list=PLsLrXjai8Jf4pGeXmvzmvxjiCA_ax404J&si=tRssZmTDBwUzXa1H',
-    price: 80,
-    coverImg: 'elvis.gif',
-    category: 'Rock Guitar',
-    location: 'USA',
-    locationImg: 'usaflag.jpg',
-    openSpots: null,
-    likes: 1000,
-    websiteurl: 'https://www.elvisthemusic.com/',
-    youtube: 'https://www.youtube.com/channel/UCW6G95TBLCh5SdC-DHDSf5w',
-    facebook: 'https://www.facebook.com/elvis',
-    instagram: 'https://www.instagram.com/elvis/',
-    twitter: 'https://x.com/ElvisPresley',
-    spotify: 'https://open.spotify.com/artist/43ZHCT0cAZBISjO8DG9PnE?autoplay=true',
-    deezer: 'https://www.deezer.com/mx/artist/1125',
-    apple: 'https://music.apple.com/mx/artist/elvis-presley/197443',
-    soundcloud: 'https://soundcloud.com/elvissonymusic',
-    tidal: 'https://listen.tidal.com/artist/1588',
-    wiki: 'https://es.wikipedia.org/wiki/Elvis_Presley',
-    ticketmaster:
-      'https://www.ticketmaster.com/elvis-presley-in-concert-tickets/artist/1413196',
-    tiktok:
-      'https://www.tiktok.com/@elvispresley?lang=es',
-    napster: 'https://music.amazon.com.mx/artists/B000QJPED8/elvis-presley',
   },
   {
     title: 'Tony Bennett',

@@ -58,9 +58,9 @@ const CardData37=[
     napster: 'https://music.amazon.com.mx/artists/B000VWN42I/tears-for-fears',
   },
    {
-    title: 'Elton John',
+    title: 'Elton-John',
     description:
-      'Sir Elton John es un cantante, pianista, compositor y músico británico. Con una carrera de más de 50 años, ha lanzado más de 30 álbumes de estudio y ha vendido más de 300 millones de copias en todo el mundo, siendo uno de los artistas musicales más exitosos de la historia.',
+      'Elton Hercules John (Reginald Kenneth Dwight; Pinner, Middlesex, Inglaterra, 25 de marzo de 1947) es un cantante, compositor y músico de rock y pop británico. Con una carrera de más de 60 años, ha lanzado 32 álbumes de estudio y ha vendido más de 300 millones de copias en todo el mundo, siendo uno de los artistas musicales más exitosos de la historia. Ha colaborado con el letrista Bernie Taupin desde 1967 y muchas de sus canciones han alcanzado la cima de las listas de éxito en el mundo. Es el único artista en mantener al menos una canción dentro del Billboard Hot 100 durante 30 años consecutivos, desde 1970 hasta 2000. Su canción «Candle in the Wind 1997», reescrita en ocasión de la muerte de Diana de Gales, vendió más de 33 millones de copias y es el segundo sencillo más vendido en la historia.​ Su trabajo también se ha extendido hacia la composición, la producción y, en ocasiones, la actuación.Nacido y criado en Pinner, suburbio de Londres, John aprendió a tocar el piano a una edad muy temprana. Formó su primera banda, Bluesology, en 1962, y se alió con el letrista Bernie Taupin en 1967. Durante los siguientes dos años escribieron canciones para otros artistas como Lulu, y al mismo tiempo, trabajó para las bandas The Hollies y The Scaffold.',
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_mr6JQDWNhkKYRCe0LUbmROXYR8XUD0N6A',
     price: 36,
@@ -87,9 +87,9 @@ const CardData37=[
     napster: 'https://music.amazon.com/artists/B000QJK22G/elton-john',
   },
   {
-    title: 'Sting',
+    title: '*Sting*',
     description:
-      'Gordon Matthew Thomas Sumner, conocido artísticamente como Sting, es un músico británico que se desempeñó inicialmente como bajista, y más tarde como cantante y bajista del grupo musical The Police, formando luego su propia banda..',
+      'Gordon Matthew Thomas Sumner (Wallsend, Tyneside del Norte; 2 de octubre de 1951), conocido artísticamente como Sting, es un músico británico que se desempeñó inicialmente como bajista, y más tarde como cantante y voz líder, bajista y compositor del grupo musical The Police, formando luego su propia banda. Como miembro de The Police y como solista, Sting ha vendido más de cien millones de discos,​ ha recibido diecisiete Premios Grammy por su trabajo, recibiendo el primero por mejor interpretación de rock instrumental en 1981, un Premio Globo de Oro, un Premio Primetime Emmy y hasta cuatro nominaciones a los premios Óscar por mejor canción.​ En 2002, Sting recibió el Premio Ivor Novello a la trayectoria, reconocimiento de la Academia Británica de Compositores y Autores;​ y también fue incluido en el Salón de la Fama de los Compositores. En 2017, fue galardonado con el Polar Music Prize​ y en 2019, recibió el Premio BMI por su canción Every Breath You Take.​ Como miembro de The Police, fue inducido en el Salón de la Fama del Rock and Roll, en 2003.',
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_kk7sE13ypRgPTNaJTq3yvhZ2CavuO0U8w',
     price: '$50',
@@ -201,9 +201,9 @@ const CardData37=[
   },
   
   {
-    title: 'Dire Straits',
+    title: 'Dire-Straits',
     description:
-      'Dire Straits fue una banda de rock británica formada en Londres en 1977 por Mark Knopfler, David Knopfler, John Illsley y Pick Withers, estando activos hasta el año 1995. Dire Straits es considerado como uno de lo grupos musicales más exitosos de la historia de la música rock..',
+      'Dire Straits (pronunciación: /daɪr streɪts/) fue una banda de rock británica formada en Londres en 1977 por Mark Knopfler (voz principal y guitarra principal), David Knopfler (guitarra rítmica y coros), John Illsley (bajo y coros) y Pick Withers (batería y percusión), estando activos hasta el año 1995. Dire Straits es considerado como uno de los grupos musicales más exitosos de la historia de la música rock.Su primer sencillo, Sultans of Swing, de su álbum debut homónimo de 1978, llegó a los diez primeros en las listas de éxitos del Reino Unido y los Estados Unidos. Le siguieron éxitos como Romeo and Juliet (1981), Private Investigations (1982), Twisting by the Pool (1983), Money for Nothing (1985) y Walk of Life (1985).​ Su álbum de mayor éxito comercial, Brothers in Arms (1985), ha vendido más de 30 millones de copias; fue el primer álbum en vender un millón de copias en disco compacto​ y es el octavo álbum más vendido en la historia del Reino Unido. Según el Guinness Book of British Hit Albums, Dire Straits ha pasado más de 1100 semanas en la lista de álbumes del Reino Unido, la quinta mayor cantidad de todos los tiempos',
     videourl:
       'https://youtube.com/playlist?list=PLFw8JYl3SAY7GfEZXekVjN9STaJ7iEoQC',
     price: '$50',
@@ -830,7 +830,7 @@ const CardData37=[
   }, {
     title: 'Men at Work',
     description:
-      'Men at Work es una banda de rock australiana formada en 1978. Sus miembros fueron Colin Hay en la voz principal; Jerry Speiser en la batería y Ron Strykert en la guitarra. A ellos se les unieron Greg Ham en la flauta y teclados y luego John Rees en el bajo..',
+      'Men at Work es una banda de rock australiana formada en 1978. Sus miembros fueron Colin Hay en la voz principal; Jerry Speiser en la batería y Ron Strykert en la guitarra. A ellos se les unieron Greg Ham en la flauta y teclados y luego John Rees en el bajo.Esta formación logró un éxito nacional e internacional en la década de 1980. En enero de 1983, fueron los primeros artistas australianos en tener en simultáneo un álbum y sencillo en el primer lugar en las listas de Billboard de Estados Unidos, Business as Usual (publicado el 9 de noviembre de 1981) y "Down Under" (1981), respectivamente. Con estos últimos trabajos lograron la misma distinción simultánea de un álbum n.º 1 y un sencillo n.º 1 en las listas de Australia, Nueva Zelanda y Reino Unido. Su segundo álbum, Cargo (2 de mayo de 1983), también fue número 1 en Australia , N° 2 en Nueva Zelanda, N° 3 en Estados Unidos y N.º 8 en el Reino Unido. Su tercer álbum, Two Hearts, alcanzó el top 20 en Australia y top 50 en Estados Unidos.En los premios Grammy de 1983 ganaron la categoría de Mejor Nuevo Artista; mientras que en los ARIA Music Awards de 1994 fueron incluidos en el Salón de la Fama. Men At Work ha vendido más de 30 millones de discos en todo el mundo.El grupo se disolvió en 1986, siendo reformado en 1996 para separarse nuevamente en 2012.En mayo de 2001 "Down Under" fue incluida en el lugar número 4 en el Top 30 de canciones australianas de la APRA, y Business as Usual apareció en el libro de los 100 Mejores Discos Australianos.',
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_nBY6ctNjnFNxKu_lixzniP8Whibs_Ahq8',
     price: 36,
