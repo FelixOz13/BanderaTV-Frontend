@@ -19,6 +19,7 @@ import {
   FaFacebook,
 } from 'react-icons/fa';
 import { SiTidal } from 'react-icons/si';
+import { IoTicketSharp } from "react-icons/io5";
 import { BsTwitterX } from 'react-icons/bs';
 import { loadCardData } from '../utils/loadCardData'; 
 import "./banddetail.css"
@@ -261,14 +262,14 @@ const handleShareButtonClick = async () => {
         >
           <FaTiktok />
         </a>
-        <a href={band.ticketmaster} target="_blank" rel="noreferrer">
-          <img
-            src="../images/ticketmaster.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
+        <a
+        target="_blank"
+        rel="noreferrer"
+        href={band.ticketmaster}
+        className="icons-ticketmaster"
+      >
+        <IoTicketSharp />
+      </a>
         <a href={band.wiki} target="_blank" rel="noreferrer">
           <img
             src="../images/wiki.jpg"

@@ -8,7 +8,7 @@ function StarRating({ size = 25, isHalf = true, count = 5 }) {
   };
 
   return (
-    <div>
+    <div className="stars">
       <ReactStars
         size={size}
         isHalf={isHalf}

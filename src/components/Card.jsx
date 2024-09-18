@@ -42,6 +42,10 @@ function Card({ item }) {
         <div className="card--details">
           <h1 className="card--title">{item.title}</h1>
           <p className="category">{item.category}</p>
+          <img src={`../images/${item.locationImg}`}
+               className="locationImg"
+               alt="location"
+      />
         </div>
         <StarRating />
         <h1 className='play-button'><BsFillPlayCircleFill /></h1>

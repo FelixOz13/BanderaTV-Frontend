@@ -338,6 +338,36 @@ const CardData14 = [
     "napster": "https://music.amazon.com/artists/B001Q1RXGQ/empire-of-the-sun"
   },
   {
+    title: 'Moby',
+    description:
+      "Richard Melville Hall (Harlem, Nueva York, Estados Unidos; 11 de septiembre de 1965), más conocido como Moby, es un productor y compositor musical estadounidense.​ Tomó su nombre artístico del libro más famoso de su conocido tío tatarabuelo, Herman Melville, Moby-Dick. Después de colocar ocho de sus sencillos en la lista de sencillos del Reino Unido​ en los años 1990 haciendo música techno, su mayor éxito fue Play, lanzado en 1999, del cual vendió doce millones de copias en todo el mundo. Ha tenido conflictos dialécticos con Marilyn Manson y Eminem. Desde 2007 sube música a su cuenta de YouTube y cuenta con más de cuatrocientos noventa millones de reproducciones.3​ Su etapa como solista, cuenta con doce álbumes de estudio, diez álbumes recopilatorios, más de sesenta y cinco sencillos, entre otras apariciones. A lo largo de su carrera vendió más de veinte millones de álbumes y tres millones solo en Estados Unidos, tiene certificaciones tales como un disco de diamante en Francia, veinte discos de platino, dieciséis discos de oro y uno de plata.",
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lil43yNsZ_N1HvGl9zeAv8QRt2_TFJsVA&si=ebcMwZih909PRJwJ',
+    price: 80,
+    coverImg: 'moby.jpg',
+    category: 'Electronica',
+    location: 'USA',
+    locationImg: 'usaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://moby.com/',
+    youtube: 'https://www.youtube.com/@moby',
+    facebook: 'https://www.facebook.com/mobymusic',
+    instagram: 'https://www.instagram.com/moby',
+    twitter: 'https://x.com/thelittleidiot',
+    spotify: 'https://open.spotify.com/artist/3OsRAKCvk37zwYcnzRf5XF',
+    deezer: 'https://www.deezer.com/mx/artist/493',
+    apple: 'https://music.apple.com/mx/artist/moby/789023',
+    soundcloud: 'https://soundcloud.com/moby',
+    tidal: 'https://listen.tidal.com/artist/9045',
+    wiki: 'https://es.wikipedia.org/wiki/Moby',
+    ticketmaster:
+      'https://www.ticketmaster.com/moby-tickets/artist/806872',
+    tiktok: 'https://www.tiktok.com/@moby',
+    napster: 'https://music.amazon.com.mx/artists/B000QJPGP4/moby',
+  },
+ 
+  {
     title: 'Glass Beams',
     description:
       "Glass Beams es un trío musical australiano de Melbourne, Australia. La banda fue fundada por Rajan Silva en 2020 durante la pandemia de COVID-19, junto con otros dos miembros no identificados. Su EP debut, Mirage, fue lanzado en junio de 2021. La banda combina sintetizadores, rock, psicodelia, guitarra eléctrica, instrumentales orientales y sutiles voces susurrantes. En todas sus apariciones públicas, han usado máscaras de vidrio adornadas con joyas doradas.",
