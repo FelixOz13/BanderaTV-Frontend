@@ -1162,8 +1162,8 @@ const CardData33
     videourl:
       'https://youtube.com/playlist?list=OLAK5uy_k-V1J_WESQbQj0jILxECmHXmnhXI3QQes&si=JaH-2ZGf1XNOEs_t',
     price: '$50',
-    coverImg: 'calvinharris.jpg',
-    category: 'Pop',
+    coverImg: 'lennykravitz.jpg',
+    category: 'Rock',
     location: 'USA',
     locationImg: 'usaflag.jpg',
     openSpots: 1000,
