@@ -161,7 +161,7 @@ const handleShareButtonClick = async () => {
 </div>
       
       <LikeButtons />
-      <p className="description" style={{backgroundColor:"black",fontFamily:'Notable' , borderRadius:'10px'}}>{band.description}</p>
+      <p className="description" style={{backgroundColor:"black",fontFamily:'Iceland' , fontSize:'1.5rem', borderRadius:'10px'}}>{band.description}</p>
       <div>
        
         
