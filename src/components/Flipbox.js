@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import ShareDialog from './shareDialog'
 
+
 function Flipbox() {
   return (
     <div>
@@ -19,19 +20,24 @@ function Flipbox() {
                 className="flag-logo3"
                 src="../images/icon.png"
                 alt="Mexico"
+                style={{color:'white'}}
               />
             </div>
 
             <div className="flip-box-back">
+            <Link to= '/about'>
               <img
                 className="flag-logo4"
                 src="../images/aguiladorada.jpeg"
                 alt="Mexico"
+                style={{color:'green'}}
               />
+              </Link>
             </div>
           </div>
         </div>
         <ShareDialog />
+        
       </div>
     </div>
   )

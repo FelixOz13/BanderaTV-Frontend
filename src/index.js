@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './components/Home'
+import About from './components/About'
 import Intro from './components/Intro'
 import Artists from './components/Artists'
 import Mariachi from './components/Mariachi'
@@ -58,6 +59,7 @@ root.render(
         <Route path="/" element={<Intro />} />
         <Route path="/myapps" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/artists" element={<Artists />} />
         <Route path="/mariachi" element={<Mariachi />} />

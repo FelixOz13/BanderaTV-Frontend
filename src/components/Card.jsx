@@ -7,7 +7,7 @@ import Spinner from './Spinner';
 
 
 
-import { BsFillPlayCircleFill, } from 'react-icons/bs';
+import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 
 function Card({ item }) {
