@@ -119,7 +119,7 @@ const handleShareButtonClick = async () => {
 // Button element
 <button
   className="sharebutton-button"
-  onClick={handleShareButtonClick}
+  onClick={handleShare}
   role="link" // ARIA role for link-like elements
 >
   <FaShare />
@@ -161,7 +161,7 @@ const handleShareButtonClick = async () => {
 </div>
       
       <LikeButtons />
-      <p className="description" style={{backgroundColor:"black"}}>{band.description}</p>
+      <p className="description" style={{backgroundColor:"black",fontFamily:'Notable'}}>{band.description}</p>
       <div>
        
         

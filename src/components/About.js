@@ -49,8 +49,8 @@ const About = () => {
         así como la diversidad de productos de tiendas como Hot Topic, Bandera Musical se posiciona como un espacio único donde la música, la moda y la cultura se entrelazan de manera innovadora y emocionante.
         Únete a la comunidad de Bandera Musical y descubre un mundo de música, arte y colecciones que resuenan con tu espíritu rebelde y tu amor por la cultura alternativa.
       </p>
-
-      </div> 
+      
+     </div>
     </div>
   );
 };

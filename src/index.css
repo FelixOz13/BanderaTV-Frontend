@@ -8,7 +8,6 @@
  body {
    margin: 0;
    max-width: fit-content;
-   background-image: url("bgimages/universewallpaper2.jpg");
    background-size: 100%;
 
  }
@@ -1117,41 +1116,8 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.gigmeoutbutton {
-  text-align: center;
-  width: 195px;
-  height: 40px;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-.gigmeoutbutton:hover {
-  background-image: linear-gradient(to right, #dc9e02, black, #dc9e02);
-  max-width: 195px;
-  max-height: 45px;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.maadbutton {
-  text-align: center;
-  width: 65px;
-  height: 65px;
-  margin-top: 15px;
-  margin-left: 15px;
-  border-radius: 10px;
-}
 
-.maadbutton:hover {
-  background-image: linear-gradient(to right, #dc9e02, black, #dc9e02);
-  max-width: 65px;
-  max-height: 65px;
-  padding: 5px;
-  
-  border-radius: 10px;
-  cursor: pointer;
-}
-.socios{
-  text-align: center;
-  margin-top:25px;
-}
+
+
+
 
