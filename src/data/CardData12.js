@@ -31,10 +31,10 @@ const CardData12 = [
   {
     title: 'Luis R Conriquez',
     description:
-      'Luis R Conriquez es un compositor que se hizo conocido entre el público gracias a su estilo interpretativo, la honestidad de sus letras, sus mensajes de superación personal y un talento innato para componer corridos modernos',
+      'Luis R Conriquez es un compositor que se hizo conocido entre el público gracias a su estilo interpretativo, la honestidad de sus letras, sus mensajes de superación personal y un talento innato para componer corridos modernos especializado en corridos bélicos y otros géneros del estilo de Sinaloa. Alcanzaría la fama en 2023 por colaborar con la banda mexicana La Adictiva y el cantante Peso Pluma, en los sencillos "JGL" y "Siempre Pendientes", respectivamente. Desde entonces, también ha grabado y lanzado algunas canciones en el género urbano latino.',
     category: 'Sierreño',
     videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlVhgiYg1lFWJMnQ2A_3COmX',
+      'https://youtube.com/playlist?list=OLAK5uy_mvY17MuqZOMYb6-wT6NdqOmrRkYYQi1iw&si=YLa0xduq3a9dHCeo',
     price: 80,
     coverImg: 'luisrconriquez.jpeg',
     location: 'Mexico',
@@ -42,7 +42,7 @@ const CardData12 = [
     openSpots: null,
     likes: 1000,
     websiteurl: 'https://kartelmusic.com/',
-    youtube: 'https://www.youtube.com/@kartelmusicoficial',
+    youtube: 'https://www.youtube.com/channel/UCFwuPQIpFbDlcQmwAc-jW8g',
     facebook: 'https://www.facebook.com/profile.php?id=100050488239777',
     instagram: 'https://www.instagram.com/luisrconriquez.fan.page/',
     twitter: 'https://twitter.com/LuisRConriquez',

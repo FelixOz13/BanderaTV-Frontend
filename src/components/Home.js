@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from './Navbar'
-import CardData4 from '../data/CardData4'
+import CardData1 from '../data/CardData1'
 
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
@@ -12,7 +12,7 @@ function Home() {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData4.map((item) => ({
+  const dataWithIds = CardData1.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))

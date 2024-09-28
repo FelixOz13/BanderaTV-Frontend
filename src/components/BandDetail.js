@@ -161,7 +161,7 @@ const handleShareButtonClick = async () => {
 </div>
       
       <LikeButtons />
-      <p className="description" style={{backgroundColor:"black",fontFamily:'Notable'}}>{band.description}</p>
+      <p className="description" style={{backgroundColor:"black",fontFamily:'Notable' , borderRadius:'10px'}}>{band.description}</p>
       <div>
        
         
@@ -318,7 +318,7 @@ const handleShareButtonClick = async () => {
           />
         </a>
       </div>
-      <h1 style={{color:"goldenrod", backgroundColor:"black"}}>Deja tus Comentarios</h1>
+      <h1 style={{color:"goldenrod", backgroundColor:"black" , borderRadius:'10px'}}>Deja tus Comentarios</h1>
       <div style={{ marginTop: '65px' }}>
         <Comments
           commentsUrl="http://localhost:3004/comments"
