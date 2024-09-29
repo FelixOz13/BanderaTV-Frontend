@@ -327,7 +327,7 @@ function ButtonTreeCategories() {
     </Link>
     <Link className="btn" to="/local">
         <img
-          src="../images/local.png"
+          src="../images/events.jpg"
           className="sponsor1"
           alt=""
           media="(max-width: 400px)"

@@ -6,6 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Bibliography from './components/Bibliography'
+import Categories from './components/Categories'
 import Intro from './components/Intro'
 import Country from './components/Country'
 import Mariachi from './components/Mariachi'
@@ -66,6 +67,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/bibliography" element={<Bibliography />} />
+        <Route path="/categories" element={<Categories/>} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/country" element={<Country />} />
         <Route path="/mariachi" element={<Mariachi />} />

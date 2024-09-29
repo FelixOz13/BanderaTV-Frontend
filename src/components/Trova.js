@@ -2,8 +2,7 @@ import { useState } from 'react'
 import CardData35 from '../data/CardData35'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
-
-import ButtonTreeCategories from '../components/ButtonTreeCategories'
+import { Link } from 'react-router-dom';
 
 function Trova() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -39,15 +38,7 @@ function Trova() {
     <div>
       <Navbar />
       <h1 className="title2">Trova en Guitarra</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
-
-      <ButtonTreeCategories />
-
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
-      <img className="indianaut2" src="./images/moonaut.png" alt="" />
-      <img className="indianaut" src="./images/astronaut.png" alt="" />
-      <img className="indianaut" src="./images/indianaut.png" alt="" />
-      <img className="indianaut" src="./images/rockguitarist.jpg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
@@ -56,6 +47,13 @@ function Trova() {
           onChange={handleSearch}
           placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
         />
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <Link to='/categories'>
+       <button style={{ fontSize: "1rem", width: '200px', fontFamily: 'Henny Penny', background: 'goldenrod', color: 'black', borderRadius: '10px', marginTop: '20px' }}>
+           Escoje el Tipo de Musica
+       </button>
+      </Link>
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <section className="cards-list">{cards}</section>

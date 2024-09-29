@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import Dropdown from './Dropdown';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaHome } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,16 +19,21 @@ function Navbar() {
 
   return (
     <>
+    
       <nav className='navbar'>
+      
         <Link to='/' onClick={closeMobileMenu}>
           <img className="navbar-logo" src="images/mobileregi6.jpg" alt="Website Logo" />
         </Link>
+        <Link to='/categories' style={{color:'white'}}>
+        <FaHome />
+      </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">
           {click ? <FaTimes style={{ color: 'white' }} /> : <FaBars style={{ color: 'white' }} />}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/categories' className='nav-links' onClick={closeMobileMenu}>
               Inicio
             </Link>
           </li>

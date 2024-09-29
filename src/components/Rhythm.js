@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData29 from '../data/CardData29'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 function Rythm() {
   const [searchQuery, setSearchQuery] = useState('')
 
-  const generateRandomId = () => {
+  const  generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10)
   }
 
@@ -36,12 +36,6 @@ function Rythm() {
     <div>
       <Navbar />
       <h1 className="title2">Rythm and Blues</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
-
-      <ButtonTreeCategories />
-
-      <img className="indianaut" src="./images/singin.png" alt="" />
-      <img className="indianaut2" src="./images/singin.png" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
@@ -50,6 +44,13 @@ function Rythm() {
           onChange={handleSearch}
           placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
         />
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <Link to='/categories'>
+       <button style={{ fontSize: "1rem", width: '200px', fontFamily: 'Henny Penny', background: 'goldenrod', color: 'black', borderRadius: '10px', marginTop: '20px' }}>
+           Escoje el Tipo de Musica
+       </button>
+      </Link>
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <section className="cards-list">{bands}</section>

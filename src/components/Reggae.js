@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Card from './Card'
 import CardData5 from '../data/CardData5'
 import Navbar from './Navbar/Navbar';
-import ButtonTreeCategories from './ButtonTreeCategories'
+import { Link } from 'react-router-dom';
+
 
 function Reggae() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -36,19 +37,6 @@ function Reggae() {
     <div>
       <Navbar />
       <h1 className="title2">Reggae Internacional</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
-
-      <ButtonTreeCategories />
-      <img className="indianaut" src="./images/moonaut.png" alt="" />
-      <img className="indianaut2" src="./images/moonaut.png" alt="" />
-      <img className="indianaut" src="./images/hangloose.jpg" alt="" />
-      <img className="indianaut2" src="./images/hangloose.jpg" alt="" />
-      <img className="indianaut2" src="./images/astronaut.png" alt="" />
-      <img className="indianaut" src="./images/astronaut.png" alt="" />
-      <img className="indianaut" src="./images/indianaut.png" alt="" />
-
-      <img className="indianaut2" src="./images/astronaut.png" alt="" />
-
       <div className="search-bar">
         <input
           className="searchbar"
@@ -57,6 +45,13 @@ function Reggae() {
           onChange={handleSearch}
           placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
         />
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <Link to='/categories'>
+       <button style={{ fontSize: "1rem", width: '200px', fontFamily: 'Henny Penny', background: 'goldenrod', color: 'black', borderRadius: '10px', marginTop: '20px' }}>
+           Escoje el Tipo de Musica
+       </button>
+      </Link>
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <section className="cards-list">{cards}</section>

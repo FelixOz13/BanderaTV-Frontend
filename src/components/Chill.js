@@ -2,7 +2,8 @@ import CardData14 from '../data/CardData14'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { useState } from 'react'
-import ButtonTreeCategories from './ButtonTreeCategories'
+import { Link } from 'react-router-dom';
+
 
 function Chill() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -35,13 +36,7 @@ function Chill() {
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Musica Chill y Ambiental</h1>
-      <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
-
-      <ButtonTreeCategories />
-
-      <img className="indianaut" src="./images/chillart.jpg" alt="" />
-      <img className="indianaut2" src="./images/chillart2.jpg" alt="" />
+      <h1 className="title2">Musica Chill</h1>
       <div className="search-bar">
         <input
           className="searchbar"
@@ -50,6 +45,13 @@ function Chill() {
           onChange={handleSearch}
           placeholder="Busca por Nombre del Artista Aqui...🔍︎🔍︎🔍︎🔍︎"
         />
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <Link to='/categories'>
+       <button style={{ fontSize: "1rem", width: '200px', fontFamily: 'Henny Penny', background: 'goldenrod', color: 'black', borderRadius: '10px', marginTop: '20px' }}>
+           Escoje el Tipo de Musica
+       </button>
+      </Link>
       </div>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>
       <section className="cards-list">{cards}</section>
