@@ -1,25 +1,35 @@
-/* Navbar base styles */
 .navbar {
-  background: black;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
+  display: flex; /* Use Flexbox for layout */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space items apart */
+  padding: 0 10px; /* Add padding to the left and right */
+  background-color: #000; /* Example background color */
 }
 
-/* Logo styles */
 .navbar-logo {
-  width: 300px;
-  margin-top: -3px;
-  justify-self: center;
-  margin-left: -60px;
-  cursor: pointer;
-  text-decoration: none;
-  border-width: 5px;
-  border-color: teal;
-  border-style: ridge;
+  color: white; 
+  font-family: Iceland; 
+  text-decoration: none; 
+  margin-top: -5px;
+  font-size: 2rem; /* Base size as a percentage of viewport width */
 }
+
+/* Media query for tablets and larger phones */
+@media (max-width: 768px) {
+  .navbar-logo {
+    margin-top: 5px;
+    font-size: 1.5rem; /* Slightly larger for tablets */
+  }
+}
+
+/* Media query for smaller phones */
+@media (max-width: 480px) {
+  .navbar-logo {
+    margin-top: 25px;
+    font-size: 1rem; /* Increase for smaller devices */
+  }
+}
+
 
 .fa-firstdraft {
   margin-left: 0.5rem;

@@ -1,6 +1,6 @@
 const CardData23 = [
   {
-    title: 'Música Regional Mexicana 2024 ♫ ',
+    title: 'Musica-Regional-Mexicana-2024',
     description:
       'La Música Regional Mexicana sigue consolidándose como un pilar fundamental en la escena musical, y en 2024, su popularidad no muestra signos de desaceleración. Esta lista de Top 100 Regional Mexicano 2024 presenta una cuidada selección de las canciones más escuchadas y queridas por el público, abarcando géneros como el norteño, corridos, mariachi, y banda.Desde los ritmos alegres que animan las fiestas hasta las letras profundas que cuentan historias de amor y desamor, cada canción en esta lista refleja la rica cultura y tradiciones de México. Artistas tanto establecidos como nuevos talentos brillan en esta selección, destacando la versatilidad y creatividad que caracteriza a la música regional.No te pierdas la oportunidad de disfrutar de los éxitos que están dominando las plataformas de streaming y las estaciones de radio en este 2024. ¡Sumérgete en el ritmo y la pasión de la música regional mexicana y descubre qué temas están marcando tendencia este año!',
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import Dropdown from './Dropdown';
-import { FaBars, FaTimes, FaHome } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -22,9 +22,11 @@ function Navbar() {
     
       <nav className='navbar'>
       
-        <Link to='/' onClick={closeMobileMenu}>
-          <img className="navbar-logo" src="images/mobileregi6.jpg" alt="Bandera Musical" />
-        </Link>
+      <Link to='/' onClick={closeMobileMenu}>
+         <h1 className="navbar-logo">
+          𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸𝄞⨾𓍢ִ໋
+         </h1>
+      </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">
           {click ? <FaTimes style={{ color: 'white' }} /> : <FaBars style={{ color: 'white' }} />}
         </div>
