@@ -23,11 +23,8 @@ function Navbar() {
       <nav className='navbar'>
       
         <Link to='/' onClick={closeMobileMenu}>
-          <img className="navbar-logo" src="images/mobileregi6.jpg" alt="Website Logo" />
+          <img className="navbar-logo" src="images/mobileregi6.jpg" alt="Bandera Musical" />
         </Link>
-        <Link to='/categories' style={{color:'white'}}>
-        <FaHome />
-      </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">
           {click ? <FaTimes style={{ color: 'white' }} /> : <FaBars style={{ color: 'white' }} />}
         </div>
