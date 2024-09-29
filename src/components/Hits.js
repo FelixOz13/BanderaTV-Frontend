@@ -1,17 +1,18 @@
 import { useState } from 'react'
-import CardData9 from '../data/CardData9'
+import Navbar from './Navbar'
+import CardData24 from '../data/CardData24'
+
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
-import Navbar from './Navbar'
 
-function Cumbias() {
+function Hits() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData9.map((item) => ({
+  const dataWithIds = CardData24.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
@@ -35,11 +36,10 @@ function Cumbias() {
     setSearchQuery(event.target.value)
   }
 
-
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Cumbias Classicas</h1>
+      <h1 className="title2">Exitos Musicales de 2024</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
 
       <ButtonTreeCategories />
@@ -61,4 +61,4 @@ function Cumbias() {
   )
 }
 
-export default Cumbias
+export default Hits

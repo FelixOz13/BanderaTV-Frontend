@@ -1,0 +1,36 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color:transparent;
+    padding: 10px 0;
+    color:white
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee 35s linear infinite;
+    will-change: transform;
+  }
+  
+  .marquee-item {
+    flex: 0 0 auto;
+    margin: 0 45px;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  /* Keyframe animation for continuous horizontal scrolling */
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .marquee-image{
+    width:45px;
+    height: 45px;
+    border-radius: 10px;
+  }

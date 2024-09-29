@@ -6,7 +6,7 @@ import StarRating from './StarRating';
 import { GiBlackFlag } from 'react-icons/gi';
 import { SiApplemusic } from 'react-icons/si';
 import { useParams} from 'react-router-dom';
-import Comments from '../Comments/Comments';
+
 import BanderaMedia from './BanderaMedia';
 
 import {
@@ -62,7 +62,7 @@ const BandDetail = () => {
     if (navigator.share) {
       const shareContent = {
         title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${band.coverImg}`,
+        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
         url: shareUrl, // Include the URL so it can be opened directly
       };
       
@@ -76,44 +76,8 @@ const BandDetail = () => {
   };
   
 
-// Function to share only the image
-const handleImage = async () => {
-  try {
-    // Retrieve the cover image URL from the band object
-    const coverImgUrl = `${window.location.origin}/images/${band.coverImg}`;
-    
-    // Fetch the image and convert it to a blob
-    const response = await fetch(coverImgUrl);
-    const blob = await response.blob();
-    
-    // Extract the file name from the coverImg value
-    const fileName = band.coverImg; // Use the dynamic file name here
 
-    const shareData = {
-      files: [
-        new File([blob], fileName, {
-          type: blob.type,
-        }),
-      ],
-      title: band.title,
-    };
 
-    // Check if the device can share the data
-    if (navigator.canShare && navigator.canShare(shareData)) {
-      await navigator.share(shareData);
-      console.log('Image shared successfully');
-    } else {
-      console.warn("Your device doesn't support sharing this type of data.");
-    }
-  } catch (error) {
-    console.error('Error sharing image:', error);
-  }
-};
-
-const handleShareButtonClick = async () => {
-  await handleImage();  // Wait for the image to be shared
-  await handleShare();  // Then share the text and URL
-};
 
 
 // Button element
@@ -161,7 +125,7 @@ const handleShareButtonClick = async () => {
 </div>
       
       <LikeButtons />
-      <p className="description" style={{backgroundColor:"black",fontFamily:'Iceland' , fontSize:'1.5rem', borderRadius:'10px'}}>{band.description}</p>
+      <p className="description" style={{backgroundColor:"black",fontFamily:'Iceland' , fontSize:'1rem', borderRadius:'10px'}}>{band.description}</p>
       <div>
        
         
@@ -177,7 +141,7 @@ const handleShareButtonClick = async () => {
       <a
       className="sharebutton-button"
       href={`whatsapp://send?text=${encodeURIComponent(
-        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.${handleImage}\n ${shareUrl}`
+        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${shareUrl}`
       )}`}
     >
       
@@ -318,13 +282,14 @@ const handleShareButtonClick = async () => {
           />
         </a>
       </div>
-      <h1 style={{color:"goldenrod", backgroundColor:"black" , borderRadius:'10px'}}>Deja tus Comentarios</h1>
-      <div style={{ marginTop: '65px' }}>
+      {/*<h1 style={{color:"goldenrod", backgroundColor:"black" , borderRadius:'10px'}}>Deja tus Comentarios</h1>
+      import Comments from '../Comments/Comments';
+        <div style={{ marginTop: '65px' }}>
         <Comments
           commentsUrl="http://localhost:3004/comments"
           currentUserId="1"
         />
-      </div>
+      </div>*/}
       
       <BanderaMedia style={{color:"goldenrod"}}/>
     </div>

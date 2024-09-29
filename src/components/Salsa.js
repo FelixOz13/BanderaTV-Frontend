@@ -1,17 +1,17 @@
+import Navbar from './Navbar'
 import { useState } from 'react'
-import CardData9 from '../data/CardData9'
+import CardData32 from '../data/CardData32'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
-import Navbar from './Navbar'
 
-function Cumbias() {
+function Salsa() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
     return Math.random().toString(36).substring(2, 10)
   }
 
-  const dataWithIds = CardData9.map((item) => ({
+  const dataWithIds = CardData32.map((item) => ({
     ...item,
     id: generateRandomId(),
   }))
@@ -20,32 +20,28 @@ function Cumbias() {
     item.title.toLowerCase().includes(searchQuery.toLowerCase()),
   )
 
-  const sortedData = [...filteredData].sort((b, a) => {
+  const sortedData = [...filteredData].sort((a, b) => {
     if (a.title.toLowerCase().includes(searchQuery.toLowerCase())) return -1
     if (b.title.toLowerCase().includes(searchQuery.toLowerCase())) return 1
     return 0
   })
 
-  const cards = sortedData
-    .reverse()
-    .map((item) => <Card key={item.id} item={item} />)
-
+  const cards = sortedData.map((item) => <Card key={item.id} item={item} />)
 
   const handleSearch = (event) => {
     setSearchQuery(event.target.value)
   }
 
-
   return (
     <div>
       <Navbar />
-      <h1 className="title2">Cumbias Classicas</h1>
+      <h1 className="title2">Salsa Para Bailar</h1>
       <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
 
       <ButtonTreeCategories />
 
-      <img className="indianaut2" src="./images/flyingsungod.jpg" alt="" />
-      <img className="indianaut" src="./images/flyingsungod.jpg" alt="" />
+      <img className="indianaut" src="./images/bachattaart.jpg" alt="" />
+      <img className="indianaut2" src="./images/bachattaart2.jpg" alt="" />
       <div className="search-bar">
         <input
           className="searchbar"
@@ -61,4 +57,4 @@ function Cumbias() {
   )
 }
 
-export default Cumbias
+export default Salsa

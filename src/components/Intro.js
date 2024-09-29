@@ -3,6 +3,9 @@ import ButtonTreeCategories from './ButtonTreeCategories'
 import Comments from '../Comments/Comments'
 import Navbar from './Navbar'
 
+
+
+
 function Intro() {
   return (
     <div className="hero">
@@ -17,6 +20,7 @@ function Intro() {
           </h4>
 
           <ButtonTreeCategories />
+          
         </div>
         <img className="indianaut" src="./images/indianaut.png" alt="" />
 

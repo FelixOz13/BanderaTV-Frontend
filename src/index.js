@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Home from './components/Home'
+import Hits from './components/Hits'
 import About from './components/About'
 import Intro from './components/Intro'
-import Artists from './components/Artists'
+import Country from './components/Country'
 import Mariachi from './components/Mariachi'
 import Cumbias from './components/Cumbias'
 import RockEsp from './components/RockEsp'
@@ -31,7 +31,7 @@ import HipHop from './components/HipHop'
 import Rancheras from './components/Rancheras'
 import Femeninas from './components/Femeninas'
 import Sonidero from './components/Sonidero'
-import Baladas from './components/Baladas'
+import Salsa from './components/Salsa'
 import Bachatta from './components/Bachatta'
 import Solistas from './components/Solistas'
 import Funk from './components/Funk'
@@ -58,10 +58,10 @@ root.render(
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/myapps" element={<Navigate replace to="/home" />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/hits" element={<Hits />} />
         <Route path="/about" element={<About />} />
         <Route path="/intro" element={<Intro />} />
-        <Route path="/artists" element={<Artists />} />
+        <Route path="/country" element={<Country />} />
         <Route path="/mariachi" element={<Mariachi />} />
         <Route path="/banda" element={<Banda />} />
         <Route path="/norteño" element={<Norteño />} />
@@ -78,17 +78,17 @@ root.render(
         <Route path="/romantica" element={<Romantica />} />
         <Route path="/local" element={<Local />} />
         <Route path="/blues" element={<Blues />} />
-        <Route path="/clasicas" element={<Clasicas />} />
+        <Route path="/EpocadeOro" element={<Clasicas />} />
         <Route path="/jazz" element={<Jazz />} />
         <Route path="/Metal" element={<Metal />} />
         <Route path="/Sierreño" element={<Sierreño />} />
-        <Route path="/Rhythm" element={<Rhythm />} />
+        <Route path="/Rhythm&Blues" element={<Rhythm />} />
         <Route path="/Baroque" element={<Baroque />} />
         <Route path="/HipHop" element={<HipHop />} />
         <Route path="/Rancheras" element={<Rancheras />} />
         <Route path="/femeninas" element={<Femeninas />} />
         <Route path="/Sonidero" element={<Sonidero />} />
-        <Route path="/baladas" element={<Baladas />} />
+        <Route path="/salsa" element={<Salsa />} />
         <Route path="/bachatta" element={<Bachatta />} />
         <Route path="/solistas" element={<Solistas />} />
         <Route path="/funk" element={<Funk />} />

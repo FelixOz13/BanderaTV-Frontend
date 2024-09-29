@@ -1,9 +1,32 @@
 import { Link } from 'react-router-dom'
+import MarqueeSlider from './MarqueeSlider'
 
+const items = [
+  {
+    link: 'https://cerveceriachapultepec.com/',
+    image: './images/chapulogo.jpg'
+  },
+  {
+    link: 'https://www.ocesa.com.mx/',
+    image: './images/ocesa.png'
+  },
+  {
+    link: 'https://cuervotradicional.com.mx/',
+    image: './images/tradicional.jpg'
+  },
+  {
+    link: 'https://estadioakron.mx/',
+    image: './images/akron.jpg'
+  },{
+    link: 'https://www.teatrodiana.com/',
+    image: './images/TeatroDiana.png'
+  },
+  // Add more items as needed
+];
 function ButtonTreeCategories() {
   return (
     <div className="sponsorcontainer1">
-      <Link className="btn" to="/home">
+      <Link className="btn" to="/hits">
         <img
           src="../images/hits.jpeg"
           className="sponsor1"
@@ -143,7 +166,7 @@ function ButtonTreeCategories() {
         />
       </Link>
 
-      <Link className="btn" to="/rhythm">
+      <Link className="btn" to="/Rhythm&Blues">
         <img
           src="../images/rythm.jpg"
           className="sponsor1"
@@ -159,7 +182,7 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-      <Link className="btn" to="/baladas">
+      <Link className="btn" to="/salsa">
       <img
         src="../images/salsa.jpg"
         className="sponsor1"
@@ -232,7 +255,7 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-      <Link className="btn" to="/clasicas">
+      <Link className="btn" to="/EpocadeOro">
         <img
           src="../images/Classica!.png"
           className="sponsor1"
@@ -278,7 +301,7 @@ function ButtonTreeCategories() {
       </Link>
       
       
-      <Link className="btn" to="/artists">
+      <Link className="btn" to="/country">
         <img
           src="../images/country.jpeg"
           className="sponsor1"
@@ -310,8 +333,12 @@ function ButtonTreeCategories() {
           media="(max-width: 400px)"
         />
       </Link>
-    
+      <div>
+      <h1 style={{ fontFamily:"Henny Penny", color:'goldenrod', textAlign:'center', fontSize:'1rem'}}>Patrocinado Por:</h1>
+      <MarqueeSlider items={items} />
+      </div>
     </div>
+  
   )
 }
 

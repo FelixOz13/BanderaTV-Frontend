@@ -4,7 +4,7 @@ import CardData26 from '../data/CardData26'
 import Card from './Card'
 import Navbar from './Navbar'
 
-function Cumbias() {
+function Sonidero() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const generateRandomId = () => {
@@ -57,4 +57,4 @@ function Cumbias() {
   )
 }
 
-export default Cumbias
+export default Sonidero
