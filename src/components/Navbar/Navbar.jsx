@@ -23,8 +23,7 @@ function Navbar() {
       <nav className='navbar'>
       
       <Link to='/' onClick={closeMobileMenu}>
-         <h1 className="navbar-logo">
-          𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸𝄞⨾𓍢ִ໋
+         <h1 className="navbar-logo">𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸
          </h1>
       </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">

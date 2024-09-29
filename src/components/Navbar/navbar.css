@@ -10,15 +10,18 @@
   color: white; 
   font-family: Iceland; 
   text-decoration: none; 
-  margin-top: -5px;
-  font-size: 2rem; /* Base size as a percentage of viewport width */
+  margin: 0; /* Ensures no additional margin */
+  padding-left: 0; /* Ensures no extra padding on the left */
+  font-size: 2rem; /* Base size */
+  display: flex; /* Ensures correct positioning */
+  justify-content: flex-start
 }
 
 /* Media query for tablets and larger phones */
 @media (max-width: 768px) {
   .navbar-logo {
     margin-top: 5px;
-    font-size: 1.5rem; /* Slightly larger for tablets */
+    font-size: 1.5rem; /* Adjusts size for smaller screens */
   }
 }
 
@@ -26,7 +29,7 @@
 @media (max-width: 480px) {
   .navbar-logo {
     margin-top: 12px;
-    font-size: 1.5rem; /* Increase for smaller devices */
+    font-size: 1.5rem; /* Keeps size larger for small devices */
   }
 }
 
