@@ -705,7 +705,7 @@ const CardData6 = [
     description:
       'William Michael Albert Broad (30 de noviembre de 1955), conocido como Billy Idol, es un músico de rock y actor británico-estadounidense. Inicialmente obtuvo reconocimiento como cantante de la banda de punk Generation X. Subsecuentemente, Idol se embarcó en una exitosa carrera como solista durante 46 años de carrera, lo que le valió la fama internacional. Idol inició su carrera en 1976 como guitarrista en la banda de punk Chelsea. Sin embargo, pronto abandonó el grupo junto a su compañero Tony James para formar Generation X, banda en la que cantó por primera vez. El grupo obtuvo un relativo éxito comercial en el Reino Unido, y logró publicar tres álbumes de estudio con Chrysalis Records antes de separarse',
     videourl:
-      'http://youtube.com/playlist?list=OLAK5uy_nFhKKg7Ch_9lnfxTogq0VhkZZdvB7wBg4',
+      'https://youtube.com/playlist?list=PLnsvoCj3vL9k1GF6g8D99WSMrs73OvJf6&si=sVRdmH-3ZkjvbhyY',
     price: 50,
     coverImg: 'billyidol.gif',
     category: 'Rock Clasico',
