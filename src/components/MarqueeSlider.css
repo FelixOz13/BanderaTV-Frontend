@@ -1,36 +1,51 @@
-.marquee-container {
-    width: 100%;
-    overflow: hidden;
-    background-color:transparent;
-    padding: 10px 0;
-    color:white
-  }
+.marquee-container { 
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 10px 0;
   
-  .marquee-content {
-    display: flex;
-    animation: marquee 35s linear infinite;
-    will-change: transform;
+  box-sizing: border-box; /* Add this line */
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  margin: 0 20px; /* Adjusted margin for better spacing */
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.marquee-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+/* Keyframe animation for continuous horizontal scrolling */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
   }
-  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 600px) {
   .marquee-item {
-    flex: 0 0 auto;
-    margin: 0 45px;
-    font-size: 24px;
-    font-weight: bold;
-    white-space: nowrap;
+    font-size: 18px; /* Adjust font size for smaller screens */
+    margin: 0 10px; /* Reduce margin on mobile */
   }
-  
-  /* Keyframe animation for continuous horizontal scrolling */
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+
+  .marquee-image {
+    width: 30px; /* Reduce image size on mobile */
+    height: 30px;
   }
-  .marquee-image{
-    width:45px;
-    height: 45px;
-    border-radius: 10px;
-  }
+}
