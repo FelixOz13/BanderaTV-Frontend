@@ -1,7 +1,7 @@
 import './intro.css'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Comments from '../Comments/Comments'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 
 

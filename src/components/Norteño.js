@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData12 from '../data/CardData12'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Norteño() {
   const [searchQuery, setSearchQuery] = useState('')

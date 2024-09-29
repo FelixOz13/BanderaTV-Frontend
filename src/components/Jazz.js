@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import CardData19 from '../data/CardData19'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 import ButtonTreeCategories from './ButtonTreeCategories'
 
 function Jazz() {

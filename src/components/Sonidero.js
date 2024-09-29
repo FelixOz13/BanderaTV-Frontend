@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData26 from '../data/CardData26'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Sonidero() {
   const [searchQuery, setSearchQuery] = useState('')

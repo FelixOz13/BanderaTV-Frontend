@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import CardData6 from '../data/CardData6'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 import ButtonTreeCategories from './ButtonTreeCategories'
 
 function ClassicRock() {

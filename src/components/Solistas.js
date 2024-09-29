@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData33 from '../data/CardData33'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Solistas() {
   const [searchQuery, setSearchQuery] = useState('')

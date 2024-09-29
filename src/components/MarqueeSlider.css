@@ -22,8 +22,8 @@
 }
 
 .marquee-image {
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 65px;
   border-radius: 10px;
 }
 
@@ -45,7 +45,7 @@
   }
 
   .marquee-image {
-    width: 30px; /* Reduce image size on mobile */
-    height: 30px;
+    width: 50px; /* Reduce image size on mobile */
+    height: 50px;
   }
 }

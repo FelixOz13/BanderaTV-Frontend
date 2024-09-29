@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Hits from './components/Hits'
 import About from './components/About'
+import Contact from './components/Contact'
+import Services from './components/Services'
+import Bibliography from './components/Bibliography'
 import Intro from './components/Intro'
 import Country from './components/Country'
 import Mariachi from './components/Mariachi'
@@ -60,6 +63,9 @@ root.render(
         <Route path="/myapps" element={<Navigate replace to="/home" />} />
         <Route path="/hits" element={<Hits />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/bibliography" element={<Bibliography />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/country" element={<Country />} />
         <Route path="/mariachi" element={<Mariachi />} />

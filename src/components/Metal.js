@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData21 from '../data/CardData21'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Metal() {
   const [searchQuery, setSearchQuery] = useState('')

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData18 from '../data/CardData18'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Blues() {
   const [searchQuery, setSearchQuery] = useState('')

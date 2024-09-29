@@ -157,15 +157,7 @@
 
  }
 
- .navbar-logo {
-   border-width: 4px;
-   border-color:cyan;
-   border-style: groove;
-   margin-left: -25px;
-   margin-top: -25px;
-   width: 185px;
-   height: 60px;
- }
+ 
 
 
 
@@ -935,62 +927,7 @@
  }
 
 
- .flip-box {
-   background-color: transparent;
-   width: 65px;
-   height: 60px;
-   margin: 0rem;
-   margin-top: -0.0rem;
-   position: absolute;
-
-   /* Remove this if you don't want the 3D effect */
- }
-
- /* This container is needed to position the front and back side */
- .flip-box-inner {
-   position: relative;
-   text-align: center;
-   transition: transform 3s;
-   transform-style: preserve-3d;
- }
-
- /* Do an horizontal flip when you move the mouse over the flip box container */
- .flip-box:hover .flip-box-inner {
-   transform: rotateY(180deg);
- }
-
- /* Position the front and back side */
- .flip-box-front {
-   position: absolute;
-   width: 65px;
-   height: 60px;
-
- }
-
- .flip-box-back {
-   position: absolute;
-   width: 55px;
-   height: 60px;
-
- }
-
- .flip-box-back {
-   transform: rotateY(520deg);
- }
-
- .flag-logo3 {
-   width: 60px;
-   height: 60px;
-   margin-right: 5px;
-
-
- }
-
- .flag-logo4 {
-   width: 60px;
-   height: 60px;
-   margin-left: 260px;
- }
+ 
 
  .btn {
    margin: 1px;

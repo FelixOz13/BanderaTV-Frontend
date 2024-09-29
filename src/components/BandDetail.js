@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player/lazy';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 import LikeButtons from './LikeButtons';
 import StarRating from './StarRating';
 import { GiBlackFlag } from 'react-icons/gi';

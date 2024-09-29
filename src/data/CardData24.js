@@ -1,6 +1,6 @@
 const CardData23 = [
   {
-    title: 'Música Regional Mexicana 2024 ♫ Lista de Top 100 Regional Mexicano 2024',
+    title: 'Música Regional Mexicana 2024 ♫ ',
     description:
       'La Música Regional Mexicana sigue consolidándose como un pilar fundamental en la escena musical, y en 2024, su popularidad no muestra signos de desaceleración. Esta lista de Top 100 Regional Mexicano 2024 presenta una cuidada selección de las canciones más escuchadas y queridas por el público, abarcando géneros como el norteño, corridos, mariachi, y banda.Desde los ritmos alegres que animan las fiestas hasta las letras profundas que cuentan historias de amor y desamor, cada canción en esta lista refleja la rica cultura y tradiciones de México. Artistas tanto establecidos como nuevos talentos brillan en esta selección, destacando la versatilidad y creatividad que caracteriza a la música regional.No te pierdas la oportunidad de disfrutar de los éxitos que están dominando las plataformas de streaming y las estaciones de radio en este 2024. ¡Sumérgete en el ritmo y la pasión de la música regional mexicana y descubre qué temas están marcando tendencia este año!',
 
@@ -30,7 +30,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'La Lista Pop  2024 - Top Hits',
+    title: 'La Lista Pop  2024-Top Hits',
     description:
       'La lista de Billboard Latino Hot 100 de 2024 destaca las canciones más populares del año, reuniendo lo mejor de diversos géneros musicales, como el pop, reggaetón, hip-hop, y música electrónica. Este ranking refleja las canciones más reproducidas en plataformas de streaming, ventas digitales, y radios a nivel mundial.En este listado, los éxitos de artistas consolidados y emergentes se entrelazan, mostrando la diversidad y evolución de la música en el 2024. Desde los himnos veraniegos hasta las baladas más emocionantes, estas 100 canciones representan lo más escuchado, bailado y coreado por millones de personas alrededor del mundo.Una guía imprescindible para quienes quieren estar al día con los sonidos y ritmos que definieron el año.',
 
@@ -120,7 +120,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Las Mejores Canciones Latinas de 2024 - Billboard Hot 100 - Éxitos Principales',
+    title: 'Las Mejores Canciones Latinas de 2024',
     description:
       'La lista de Billboard Latino Hot 100 de 2024 destaca las canciones más populares del año, reuniendo lo mejor de diversos géneros musicales, como el pop, reggaetón, hip-hop, y música electrónica. Este ranking refleja las canciones más reproducidas en plataformas de streaming, ventas digitales, y radios a nivel mundial.En este listado, los éxitos de artistas consolidados y emergentes se entrelazan, mostrando la diversidad y evolución de la música en el 2024. Desde los himnos veraniegos hasta las baladas más emocionantes, estas 100 canciones representan lo más escuchado, bailado y coreado por millones de personas alrededor del mundo.Una guía imprescindible para quienes quieren estar al día con los sonidos y ritmos que definieron el año.',
 
@@ -150,7 +150,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Rap Mexicano 2024 🇲🇽🇲🇽 Rap en Español 2024 Éxitos 🇲🇽 Hip Hop',
+    title: 'Rap Mexicano 2024 Éxitos 🇲🇽 Hip Hop',
     description:
       'El Rap Mexicano sigue creciendo y evolucionando en 2024, con artistas que llevan el Hip Hop en español a nuevas alturas. Esta lista de éxitos reúne lo mejor del talento mexicano, destacando rimas poderosas, beats innovadores y líricas que tocan temas sociales, culturales y personales, reflejando la realidad y el espíritu de la juventud mexicana.En los Éxitos de Rap en Español 2024, encontrarás una mezcla de veteranos del rap y artistas emergentes que están definiendo el sonido del Hip Hop Mexicano. Desde el underground hasta las grandes plataformas, el rap en México se ha convertido en una voz influyente en la música urbana a nivel mundial. ¡Sumérgete en los ritmos y las rimas más pegajosas de 2024 y descubre los artistas que están marcando el futuro del rap en español!',
 
@@ -210,7 +210,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'TOP 100 Canciones de 2024 - Billboard Hot 100 - Éxitos Principales',
+    title: 'TOP 100 Canciones de 2024 ',
     description:
       'La lista de Billboard Hot 100 de 2024 destaca las canciones más populares del año, reuniendo lo mejor de diversos géneros musicales, como el pop, reggaetón, hip-hop, y música electrónica. Este ranking refleja las canciones más reproducidas en plataformas de streaming, ventas digitales, y radios a nivel mundial.En este listado, los éxitos de artistas consolidados y emergentes se entrelazan, mostrando la diversidad y evolución de la música en el 2024. Desde los himnos veraniegos hasta las baladas más emocionantes, estas 100 canciones representan lo más escuchado, bailado y coreado por millones de personas alrededor del mundo.Una guía imprescindible para quienes quieren estar al día con los sonidos y ritmos que definieron el año.',
 
@@ -240,7 +240,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Éxitos Calientes 2024 - Top 100 Canciones 2024 - Mejores Canciones 2024',
+    title: '100 Éxitos Calientes 2024 ',
     description:
       'La lista de Billboard Hot 100 de 2024 destaca las canciones más populares del año, reuniendo lo mejor de diversos géneros musicales, como el pop, reggaetón, hip-hop, y música electrónica. Este ranking refleja las canciones más reproducidas en plataformas de streaming, ventas digitales, y radios a nivel mundial.En este listado, los éxitos de artistas consolidados y emergentes se entrelazan, mostrando la diversidad y evolución de la música en el 2024. Desde los himnos veraniegos hasta las baladas más emocionantes, estas 100 canciones representan lo más escuchado, bailado y coreado por millones de personas alrededor del mundo.Una guía imprescindible para quienes quieren estar al día con los sonidos y ritmos que definieron el año.',
 
@@ -270,7 +270,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Top 100 Bandera Musical 2024 - Mejores Canciones de Este Año',
+    title: 'Mejores Canciones de Este Año',
     description:
       'El 2024 nos trae una explosión de talento y creatividad musical, con los Top 100 Songs capturando lo mejor de los éxitos globales. Hot Hits 2024 reúne los sencillos más destacados del año, abarcando una amplia variedad de géneros que dominan las listas de reproducción, como el pop, trap, reggaetón, R&B, y más. En esta selección de las Top Songs 2024, encontrarás los temas más virales y reproducidos, aquellos que han dejado huella en plataformas como Spotify, Apple Music, y YouTube. Ya sea que estés buscando la canción perfecta para una fiesta, un momento de relajación o inspiración, esta lista tiene algo para cada estado de ánimo, reflejando lo mejor de la música moderna y las tendencias más frescas del año.',
 
@@ -300,7 +300,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Top 10 Canciones de Esta Semana - Mejores Listas 2024',
+    title: 'Top 10 Canciones de Esta Semana',
     description:
       'En la emocionante y dinámica escena musical de 2024, esta semana se destacan las Top 10 Songs que han conquistado las listas de éxitos. Estas canciones, elegidas por su popularidad en streaming, ventas y difusión en radio, reflejan las preferencias actuales de los oyentes en todo el mundo.Desde pegajosos ritmos de pop hasta poderosas baladas, esta lista incluye artistas consagrados y nuevos talentos que están dando de qué hablar. Cada una de estas canciones ha resonado en las plataformas musicales, capturando la atención y el corazón de los fans.No te pierdas la oportunidad de escuchar las melodías que están marcando tendencia y que, sin duda, definirán el ambiente musical de esta semana. ¡Descubre qué temas están en la cima de las listas y disfruta de lo mejor de la música en 2024!',
 
@@ -330,7 +330,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Mejor Playlist de Reggae 2024 - Mejores Canciones de Reggae 2024 Esta Semana',
+    title: 'Mejor Playlist de Reggae 2024',
     description:
       'Sumérgete en las vibraciones positivas de la Mejor Playlist de Reggae 2024, una selección cuidadosamente curada con los éxitos más destacados del reggae de este año. En esta lista, encontrarás las Mejores Canciones de Reggae de la semana, con una mezcla de leyendas consagradas y artistas emergentes que mantienen vivo el espíritu del género. Desde los ritmos relajantes hasta las letras cargadas de mensajes sociales, estas canciones capturan la esencia del reggae moderno, brindando una experiencia musical que te transportará a paisajes tropicales y llenará tu día de energía positiva. ¡No te pierdas los temas que están marcando tendencia en el reggae este 2024!',
 
@@ -360,7 +360,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Electronica 2024 Lo Mas Nuevo - Musica Dance 2024 - Electronica Playlist',
+    title: 'Electronica 2024 Playlist',
     description:
       'La escena de la música electrónica en 2024 está vibrando con energía, presentando lo último en Electrónica y Música Dance. Esta playlist captura los lanzamientos más frescos y los ritmos más electrizantes del año, desde los beats pegajosos del house y techno, hasta los sonidos experimentales del EDM y el future bass.En la lista de Electrónica 2024 Lo Más Nuevo, encontrarás canciones que dominan las pistas de baile en todo el mundo, con producciones innovadoras de artistas emergentes y DJs consagrados. Esta Playlist de Electrónica 2024 es ideal para poner el ambiente perfecto en cualquier fiesta, entrenamiento o simplemente para disfrutar del poder transformador de la música dance. ¡Prepárate para sumergirte en los ritmos que están marcando el año!',
 
@@ -390,7 +390,7 @@ const CardData23 = [
     napster: 'https://music.amazon.com.mx/user-playlists/d30f0ff99c3e4ead888ec51df7bc9548m12x',
   },
   {
-    title: 'Hip Hop Songs 2024 ♫ Best Hip Hop Playlist 2024',
+    title: ' ♫ Best Hip Hop Playlist 2024',
     description:
       'En la emocionante y dinámica escena musical de 2024, esta semana se destacan las Top 10 Songs que han conquistado las listas de éxitos. Estas canciones, elegidas por su popularidad en streaming, ventas y difusión en radio, reflejan las preferencias actuales de los oyentes en todo el mundo.Desde pegajosos ritmos de pop hasta poderosas baladas, esta lista incluye artistas consagrados y nuevos talentos que están dando de qué hablar. Cada una de estas canciones ha resonado en las plataformas musicales, capturando la atención y el corazón de los fans.No te pierdas la oportunidad de escuchar las melodías que están marcando tendencia y que, sin duda, definirán el ambiente musical de esta semana. ¡Descubre qué temas están en la cima de las listas y disfruta de lo mejor de la música en 2024!',
 

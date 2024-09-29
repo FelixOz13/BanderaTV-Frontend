@@ -2,7 +2,7 @@ import { useState } from 'react'
 import CardData9 from '../data/CardData9'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Cumbias() {
   const [searchQuery, setSearchQuery] = useState('')

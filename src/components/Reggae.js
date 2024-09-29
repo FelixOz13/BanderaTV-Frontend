@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Card from './Card'
 import CardData5 from '../data/CardData5'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 import ButtonTreeCategories from './ButtonTreeCategories'
 
 function Reggae() {

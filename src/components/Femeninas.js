@@ -2,7 +2,7 @@ import { useState } from 'react'
 import CardData25 from '../data/CardData25'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 
 function Femeninas() {
   const [searchQuery, setSearchQuery] = useState('')

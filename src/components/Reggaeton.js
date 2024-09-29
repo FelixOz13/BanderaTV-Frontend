@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import CardData11 from '../data/CardData11'
 import Card from '../components/Card'
-import Navbar from '../components/Navbar'
+import Navbar from './Navbar/Navbar';
 import ButtonTreeCategories from './ButtonTreeCategories'
 
 function Reaggaeton() {

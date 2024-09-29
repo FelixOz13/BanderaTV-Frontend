@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import CardData4 from '../data/CardData4'
 import Card from '../components/Card'
-import Navbar from '../components/Navbar'
+import Navbar from './Navbar/Navbar';
 import ButtonTreeCategories from './ButtonTreeCategories'
 
 function Pop() {

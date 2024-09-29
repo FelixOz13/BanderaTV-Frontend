@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import CardData13 from '../data/CardData13'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar'
 
 function Banda() {
   const [searchQuery, setSearchQuery] = useState('')

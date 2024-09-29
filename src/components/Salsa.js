@@ -1,4 +1,4 @@
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar';
 import { useState } from 'react'
 import CardData32 from '../data/CardData32'
 import ButtonTreeCategories from './ButtonTreeCategories'
