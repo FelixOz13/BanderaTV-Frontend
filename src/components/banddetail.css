@@ -86,14 +86,16 @@
 .sharebutton {
   display: flex;
   justify-content: center;
-  gap: 50px; /* Adjust as needed */
+  gap: 30px; /* Adjust as needed */
   margin-top: 65px;
+  
 }
 
 .sharebutton-button,
 .sharebutton-link {
   background-color: black;
   color: goldenrod;
+  border-radius: 10px;
   border: none;
   font-size: 40px;
   cursor: pointer; /* Indicate interactive elements */

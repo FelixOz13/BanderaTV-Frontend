@@ -26,7 +26,7 @@
 @media (max-width: 480px) {
   .navbar-logo {
     margin-top: 25px;
-    font-size: 1rem; /* Increase for smaller devices */
+    font-size: 1.5rem; /* Increase for smaller devices */
   }
 }
 

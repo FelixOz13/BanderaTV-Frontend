@@ -97,11 +97,17 @@ const BandDetail = () => {
     <div className="band-card">
       
       <div>
-      <img
-      src={`../images/${band.coverImg}`}
-      className="coverImg"
-      alt="cover"
-    />
+      <div className="video-container">
+      <ReactPlayer
+        url={band.videourl}
+        className="video"
+        width="100%"
+        height="100%"
+        autoPlay={true}
+        controls={true}
+      />
+    </div>
+     
     </div>
       <div className="title-name" >
       <h2 className="title-name">{band.title}</h2>
@@ -126,7 +132,11 @@ const BandDetail = () => {
       <LikeButtons />
       <p className="description" style={{backgroundColor:"black",fontFamily:'Iceland' , fontSize:'1rem', borderRadius:'10px'}}>{band.description}</p>
       <div>
-       
+      <img
+      src={`../images/${band.coverImg}`}
+      className="coverImg"
+      alt="cover"
+    />
         
       <div className="sharebutton">
       <button
@@ -149,16 +159,7 @@ const BandDetail = () => {
     </div>
     
       
-      <div className="video-container">
-      <ReactPlayer
-        url={band.videourl}
-        className="video"
-        width="100%"
-        height="100%"
-        autoPlay={true}
-        controls={true}
-      />
-    </div>
+      
     <div className="slidertextdiv">
         <h1 className="slidertext">
           Presiona un Link para visitar la red social del artista
