@@ -22,7 +22,7 @@ function Navbar() {
     
       <nav className='navbar'>
       
-      <Link to='/' onClick={closeMobileMenu}>
+      <Link to='/categories' onClick={closeMobileMenu}>
          <h1 className="navbar-logo">𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸
          </h1>
       </Link>
