@@ -211,7 +211,7 @@ const CardData15 = [
     category: 'Balada',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://www.elefanteoficial.com/',
     youtube: 'https://www.youtube.com/c/elefanteOficial',

@@ -11,7 +11,7 @@ const CardData35 =[
         coverImg: 'fernandodelgadillo.jpg',
         location: 'Mexico',
         locationImg: 'mexiflag.jpg',
-        openSpots: null,
+        openSpots: 1000,
         likes: 1000,
         websiteurl: 'https://www.fdelgadillo.com.mx/',
         youtube: 'https://www.youtube.com/channel/UCVeaNTYY8SGCMqiY31Kc-tA',

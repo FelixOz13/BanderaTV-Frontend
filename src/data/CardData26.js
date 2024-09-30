@@ -355,12 +355,12 @@ const CardData26 = [
     napster: 'https://music.amazon.com.mx/artists/B00GPQAIBO/raymix',
   },
   {
-    title: 'La Sonora Dinamita',
+    title: '* La Sonora* Dinamita*',
     description:
       'La Sonora Dinamita es una agrupación Mexicana y Colombiana exponente de música tropical, principalmente de la cumbia. Se fundó en 1960, en Medellín, Colombia, por iniciativa de Antonio Fuentes, con la voz líder del fallecido cantante Lucho Argaín colombiano naturalizado mexicano. En la actualidad han vendido entre 45 y 50 millones de copias en todo el mundo..',
 
     videourl:
-      'https://youtube.com/playlist?list=PLF-cRDh2mrlUaEUi8KFNbN1T2oTNgZvDH',
+      'https://youtube.com/playlist?list=OLAK5uy_lly61fEc5ywWowA9pwE_cEh1EhQvz6PL0&si=72k6MN67_mF7_S-n',
     price: '$50',
     coverImg: 'SonoraDinamita.jpg',
     category: 'Cumbia',
@@ -369,7 +369,7 @@ const CardData26 = [
     openSpots: null,
     likes: 1000,
     websiteurl: 'http://www.originalsonoradinamita.com/',
-    youtube: 'https://www.youtube.com/channel/UCE_KPQxpcMDtV2zX1ru24Zg',
+    youtube: 'https://www.youtube.com/channel/UCKn7KxJ4CBkjvi8m8aBqMbA',
     facebook: 'https://www.facebook.com/originalsonoradinamita',
     instagram: 'https://www.instagram.com/sonora_dinamita/',
     twitter: 'https://twitter.com/dinamitaonline',
@@ -382,7 +382,7 @@ const CardData26 = [
       'https://www.ticketmaster.com.mx/la-sonora-dinamita-boletos/artist/755214',
     tidal: 'https://listen.tidal.com/artist/3609831',
     tiktok: 'https://www.tiktok.com/@lasonoradinamitaoficial',
-    napster: 'https://web.napster.com/artist/la-sonora-dinamita',
+    napster: 'https://music.amazon.com.mx/artists/B000QK7ZB6/la-sonora-dinamita',
   },
   {
     title: 'Fito Olivares',

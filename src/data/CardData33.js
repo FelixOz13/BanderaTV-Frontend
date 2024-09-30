@@ -1707,6 +1707,34 @@ const CardData33
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=Santana%20music&t=1654465241940',
     napster: 'https://app.napster.com/artist/santana',
+  },{
+    title: 'Mikel Erentxun',
+    description:
+      'Mikel Erentxun Acosta (Caracas, 23 de febrero de 1965) es un cantante y escritor Español, nacido en Venezuela, donde residió desde su primer año de vida para posteriormente, con sus padres, mudarse a San Sebastián, donde reside actualmente.1​ Conocido por ser el líder de la banda española Duncan Dhu. Actualmente continúa destacándose como cantante solista.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_ll8p97KNMcVAgmqOhopNdCio_gW_Jo-0s&si=em6M3fDaE2ArIkfD',
+    price: '$50',
+    coverImg: 'mikelerenxtun.jpg',
+    category: 'Rock Pop',
+    location: 'Venezuela',
+    locationImg: 'venezuelaflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://www.mikelerentxun.ws/',
+    youtube: 'https://www.youtube.com/@mikelerentxun_oficial',
+    facebook: 'https://www.facebook.com/mikelerentxun',
+    instagram: 'https://www.instagram.com/erentxun/',
+    twitter: 'https://x.com/MikelErentxun',
+    spotify: 'https://open.spotify.com/artist/7thnnayFyJnVOAJrpe5wMC',
+    deezer: 'https://www.deezer.com/mx/artist/13508',
+    apple: 'https://music.apple.com/mx/artist/mikel-erentxun/725328',
+    soundcloud: 'https://soundcloud.com/mikelerentxunlasmalasinfluencias',
+    tidal: 'https://listen.tidal.com/artist/12190',
+    wiki: 'https://es.wikipedia.org/wiki/Mikel_Erentxun',
+    ticketmaster:
+      'https://www.ticketmaster.com.mx/mikel-erentxun-tour-2024-guadalajara-19-11-2024/event/3D00610FE3913C13',
+    tiktok: 'https://www.tiktok.com/@mikelerentxun?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B0013CPN3S/mikel-erentxun',
   },
   {
     title: 'Alejandro Fernandez',

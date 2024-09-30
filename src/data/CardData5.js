@@ -126,7 +126,7 @@ const CardData5 = [
     category: 'Reggae',
     location: 'Argentina',
     locationImg: 'argentinaflag.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://pericos.com/',
     youtube: 'https://www.youtube.com/channel/UCbVxcCD25pMVM4RVPb15DVA',
@@ -142,7 +142,7 @@ const CardData5 = [
     ticketmaster:
       'https://www.ticketmaster.com/los-pericos-tickets/artist/782857',
     tiktok: 'https://www.tiktok.com/@lospericosoficial?lang=es',
-    napster: 'https://www.napster.com/mx',
+    napster: 'https://music.amazon.com.mx/artists/B000RHTAWA/los-pericos',
   },
   {
     title: 'Los Cafres',
@@ -155,7 +155,7 @@ const CardData5 = [
     category: 'Reggae',
     location: 'Argentina',
     locationImg: 'argentinaflag.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://loscafres.net/',
     youtube: 'https://www.youtube.com/channel/UCeQ-A7LTWGmN4AIVpVo7u1w',
@@ -171,7 +171,7 @@ const CardData5 = [
     ticketmaster:
       'https://www.ticketmaster.com/los-cafres-tickets/artist/2104221',
     tiktok: 'https://www.tiktok.com/@loscafres?lang=es',
-    napster: 'https://www.napster.com/mx',
+    napster: 'https://music.amazon.com.mx/artists/B000XXRZ5M/los-cafres',
   },
   {
     title: 'Steel Pulse',
@@ -315,7 +315,8 @@ const CardData5 = [
       'https://www.ticketmaster.com/eekamouse-tickets/artist/733887',
     tiktok: 'https://www.tiktok.com/@eekamousejam?lang=es',
     napster: 'https://music.amazon.com/artists/B000QJHMHY/eek-a-mouse',
-  },{
+  },
+  {
     title: 'Burning Spear',
     description:
       "Winston Rodney (nacido el 1 de marzo de 1945), más conocido como Burning Spear, es un músico y cantante jamaiquino de roots reggae. Como muchos otros cantantes jamaicanos de reggae, Burning Spear es conocido por sus mensajes Rastafari.Rodney nació en Saint Ann's Bay, Condado de Middlesex (Jamaica), Jamaica, como Bob Marley y Marcus Garvey; ambos tuvieron una gran influencia en la vida de Rodney. Garvey por su filosofía, la cual Burning Spear abrazó con agrado, y Marley porque le ayudó directamente a empezar en el mundo de la música. Burning Spear fue originalmente el nombre del grupo de Rodney, llamado después Jomo Kenyatta, como el primer primer ministro y Presidente de la independizada Kenia. La fama que fue tomando el nombre del grupo hizo que gradualmente Burning Spear se convirtiera en sinónimo del nombre de Rodney.Burning Spear ha sido uno de los más fuertes defensores de la autodeterminación propugnada por Marcus Garvey y de la repatriación de todos los descendientes Africanos. Varios de sus trabajos conmemoran este activismo africano.En 2002, Burning Spear y su esposa, Sonia Rodney quien ha producido muchos de sus álbumes, fundaron Burning Spear Records.Burning Spear lleva un mensaje de honestidad, paz y amor, que integra con mensajes religiosos y políticos de Rasta y en favor la unidad negra..",
@@ -343,6 +344,35 @@ const CardData5 = [
       'https://www.ticketmaster.com/burning-spear-tickets/artist/733877',
     tiktok: 'https://www.tiktok.com/@burningspear13?lang=es',
     napster: 'https://music.amazon.com/artists/B000QJKI2U/burning-spear',
+  },
+  {
+    title: 'Peter Tosh',
+    description:
+      "Winston Hubert McIntosh (29 de octubre de 1944, Westmoreland - 11 de septiembre de 1987, Kingston), más conocido como Peter Tosh, fue un músico de reggae jamaicano, defensor de los derechos humanos y activista pro-legalización del cannabis. Formó parte del grupo The Wailers en sus principios, para posteriormente tener una exitosa carrera como solista, además de ser uno de los más famosos representantes del movimiento Rastafari.Impulsó y difundió, al igual que Bob Marley, el reggae por todo el mundo y es considerado uno de los mejores artistas de reggae de todos los tiempos.Su firmeza en la lucha contra el sistema, su rechazo a la utilización bélica de las armas nucleares, la defensa de los derechos humanos y el rechazo público al apartheid (fue el primer gran compositor que se mostró en contra abiertamente), además de la legalización de la marihuana son unos de los temas fundamentales de la vida y la carrera musical de Peter Tosh.Crítico con la política de su país y global, llegó a decir: La verdad ha sido calificada como ilegal. Es peligroso tener la verdad en tu poder. Puedes ser culpable de un delito y condenado a muerte.Equal Rights, su éxito de 1977, incluye la conocida frase, repetida años después en muchas protestas Yo no quiero paz, quiero igualdad y justicia.Una de sus decisiones más conocidas fue cuando hizo perder a sus productores 78.000 dólares por no tocar en Israel, ya que los israelitas le vendían armas al Apartheid de África en ese tiempo.",
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_kt0wfPzkqTm8j87SGafavi_i7efVR5HPM&si=5RnmtWt5YMs1vWXc',
+    price: '$50',
+    coverImg: 'petertosh.png',
+    category: 'Reggae',
+    location: 'Jamaica',
+    locationImg: 'jamaicaflag.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl: 'https://petertosh.com/',
+    youtube: 'https://www.youtube.com/channel/UCq1KxBXQebdZdQvr7YlqzYg',
+    facebook: 'https://www.facebook.com/PeterTosh',
+    instagram: 'https://www.instagram.com/petertosh/?hl=en',
+    twitter: 'https://x.com/PeterTosh',
+    spotify: 'https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN',
+    deezer: 'https://www.deezer.com/mx/artist/2326',
+    apple: 'https://music.apple.com/mx/artist/peter-tosh/461717',
+    soundcloud: 'https://soundcloud.com/peter-tosh-music',
+    tidal: 'https://listen.tidal.com/artist/158',
+    wiki: 'https://es.wikipedia.org/wiki/Peter_Tosh',
+    ticketmaster:
+      'https://www.ticketmaster.com/peter-tosh-tickets/artist/2717',
+    tiktok: 'https://www.tiktok.com/@petertoshmusic?lang=es',
+    napster: 'https://music.amazon.com.mx/search/peter+tosh?filter=IsLibrary%7Cfalse&sc=none',
   },
   {
     title: 'Gregory Issacs',
@@ -378,7 +408,7 @@ const CardData5 = [
     description:
       'Robert Nesta Marley (Nine Mile, parroquia de Saint Ann, 6 de febrero de 1945-Miami, Florida, 11 de mayo de 1981), más conocido como Bob Marley, fue un cantante y compositor jamaicano. Durante su carrera musical fue el líder, compositor y guitarrista de las bandas The Wailers (1964-1974) y Bob Marley & The Wailers (1974-1980). Marley sigue siendo el más conocido y respetado intérprete de la música reggae y es acreditado por ayudar a difundir tanto la música de Jamaica como el movimiento rastafari (del que era un miembro comprometido) a una audiencia mundial.',
     videourl:
-      'https://youtube.com/playlist?list=PLnvVNd96RFMT5rWGICoE6jyokwwS4foUM',
+      'https://youtube.com/playlist?list=PLnvVNd96RFMSBPq6GQj8XKsBmk3pGa60Y&si=rm0eRMUMEa2jCm0t',
     price: 36,
     coverImg: 'bobmarley.gif',
     category: 'Reggae',
@@ -400,7 +430,7 @@ const CardData5 = [
     ticketmaster:
       'https://www.ticketmaster.com/bob-marley-festival-tickets/artist/1524551',
     tiktok: 'https://www.tiktok.com/@bobmarley?lang=es',
-    napster: 'https://mx.napster.com/artist/bob-marley',
+    napster: 'https://music.amazon.com.mx/artists/B000QJJU1K/bob-marley',
   },
   {
     title: 'Jamiroquai',
@@ -430,6 +460,8 @@ const CardData5 = [
     ticketmaster:
       'https://www.ticketmaster.com/jamiroquai-tickets/artist/774399',
     tiktok: 'https://www.tiktok.com/@jamiroquaihq?lang=es',
+    napster:
+      'https://music.amazon.com.mx/artists/B000RHRALI/jamiroquai'
   },
   {
     title: 'Damian Marley',
@@ -459,7 +491,7 @@ const CardData5 = [
       'https://www.ticketmaster.com/damian-jr-gong-marley-tickets/artist/826391',
     tiktok: 'https://www.tiktok.com/@damian_marley_?lang=es',
     napster:
-      'https://us.napster.com/artist/damian-marley/album/damian-marley-the-rhapsody-interview/track/living-with-the-last-name-marley',
+      'https://music.amazon.com.mx/artists/B001GNL9V4/damian-marley',
   },
 ]
 
