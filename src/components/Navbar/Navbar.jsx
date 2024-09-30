@@ -19,11 +19,9 @@ function Navbar() {
 
   return (
     <>
-    
-      <nav className='navbar'>
-      
+    <nav className='navbar'>
       <Link to='/categories' onClick={closeMobileMenu}>
-         <h1 className="navbar-logo">𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸
+         <h1 className="navbar-logo">🏳 Bandera Musical®️🎸
          </h1>
       </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">

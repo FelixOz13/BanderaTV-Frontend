@@ -533,7 +533,7 @@ const CardData7 = [
     coverImg: 'nachapop.jpg',
     category: 'Rock Pop',
     location: 'España',
-    locationImg: 'spain.jpg',
+    locationImg: 'spain.jpeg',
     openSpots: null,
     likes: 1000,
     websiteurl: 'https://nachapop.es/',
