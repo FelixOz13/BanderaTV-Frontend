@@ -24,7 +24,7 @@ import ClubMusic from './components/ClubMusic'
 import Pop from './components/Pop'
 import Chill from './components/Chill'
 import Romantica from './components/Romantica'
-import Local from './components/Local'
+import EventTreeCategories from './components/EventTreeCategories'
 import Blues from './components/Blues'
 import Clasicas from './components/Clasicas'
 import Jazz from './components/Jazz'
@@ -43,6 +43,11 @@ import Trova from './components/Trova'
 import Punk from './components/Punk'
 import SoftRock from './components/SoftRock'
 import Oldies from './components/Oldies'
+import AuditorioTelmex from './components/Gigspots/AuditorioTelmex'
+import EstadioAkron from './components//Gigspots/EstadioAkron'
+import Ctres from './components/Gigspots/Ctres'
+import TeatroDiana from './components/Gigspots/TeatroDiana'
+import TresdeMarzo from './components/Gigspots/TresdeMarzo'
 import BandDetail from './components/BandDetail'
 
 
@@ -84,7 +89,7 @@ root.render(
         <Route path="/clubmusic" element={<ClubMusic />} />
         <Route path="/chill" element={<Chill />} />
         <Route path="/romantica" element={<Romantica />} />
-        <Route path="/local" element={<Local />} />
+        <Route path="/events" element={<EventTreeCategories />} />
         <Route path="/blues" element={<Blues />} />
         <Route path="/EpocadeOro" element={<Clasicas />} />
         <Route path="/jazz" element={<Jazz />} />
@@ -104,6 +109,11 @@ root.render(
         <Route path="/punk" element={<Punk />} />
         <Route path="/softrock" element={<SoftRock />} />
         <Route path="/oldies" element={<Oldies />} />
+        <Route path="/teatrodiana" element={<TeatroDiana />} />
+        <Route path="/auditoriotelmex" element={<AuditorioTelmex />} />
+        <Route path="/Ctres" element={<Ctres/>} />
+        <Route path="/estadioakron" element={<EstadioAkron/>} />
+        <Route path="/tresdemarzo" element={<TresdeMarzo/>} />
         <Route path="/Bandera/:title" element={<BandDetail />} />
       </Routes>
     </Router>

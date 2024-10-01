@@ -651,6 +651,7 @@
  .sponsorcontainer {
    display: flex;
    flex-wrap: wrap;
+   text-align: center;
  }
 
  .sponsorcontainer>* {
@@ -658,8 +659,8 @@
  }
 
  .sponsor {
-   width: 40px;
-   height: 40px;
+   width: 200px;
+   height: 200px;
    border-radius: 20%;
    margin: 1px;
    margin-top: 20px;
@@ -671,11 +672,12 @@
    background-image: linear-gradient(to right, #dc9e02,
        black,
        #dc9e02);
-   max-width: 95px;
-   max-height: 95px;
+   max-width: 200px;
+   max-height: 200px;
    padding: 1px;
-   border-radius: 10%;
+   border-radius: 20%;
    cursor: pointer;
+   border-width: 5px;
  }
 
 

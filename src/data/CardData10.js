@@ -1222,6 +1222,36 @@ const CardData10 = [
     tiktok:
       'https://www.tiktok.com/search?lang=es&q=Love%20and%20rockets&t=1693516753203',
     napster: 'https://music.amazon.com.mx/artists/B000S2CZZ8/love-and-rockets',
+  }, {
+    title: 'Siouxsie and the Banshees',
+    description:
+      'Siouxsie and the Banshees (pronunciado [suːzi æn ðə ˈbænʃiːz]) fue una banda británica formada en 1976 por la vocalista Siouxsie Sioux y el bajista Steven Severin. Pioneros del movimiento post-punk, su música evolucionó hacia el rock alternativo, con sencillos pop. Siouxsie and the Banshees fue una de las bandas más importantes, innovadoras e influyentes del movimiento post-punk.Lanzaron su primer sencillo, «Hong Kong Garden», en 1978; la canción, con una melodía original del guitarrista John McKay, fue un éxito en el Reino Unido, con una entrada en el top 10. Su álbum debut, The Scream, fue aclamado por la crítica británica.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_lt6dACBH8ncgqjBg6D5Xu3u3rOFJDhF_U&si=WAJreONXA9I6HGz0',
+    price: '$50',
+    coverImg: 'siouxsieandthebanshees.jpg',
+    category: 'Pop',
+    location: 'UK',
+    locationImg: 'england.jpg',
+    openSpots: null,
+    likes: 1000,
+    websiteurl:
+      'https://www.alohacriticon.com/musica/grupos-y-solistas/siouxsie-the-banshees/',
+    youtube: 'https://www.youtube.com/channel/UCrSQ_CLYKSbQpw8Ol7xTrvQ',
+    facebook: 'https://www.facebook.com/siouxsieandthebanshees',
+    instagram: 'https://www.instagram.com/siouxsieandthebanshees/',
+    twitter: 'https://twitter.com/siouxsieandtheb',
+    spotify: 'https://open.spotify.com/artist/1n65zfwYIj5kKEtNgxUlWb',
+    deezer: 'https://www.deezer.com/mx/artist/1719',
+    apple: 'https://music.apple.com/mx/artist/siouxsie-the-banshees/92623',
+    soundcloud: 'https://soundcloud.com/siouxsie-and-the-banshees-official',
+    tidal: 'https://listen.tidal.com/artist/30182',
+    wiki: 'https://es.wikipedia.org/wiki/Siouxsie_And_The_Banshees',
+    ticketmaster:
+      'https://www.ticketmaster.com/siouxsie-and-the-banshees-tickets/artist/821070',
+    tiktok: 'https://www.tiktok.com/@siouxsie.and.thebanshees?lang=es',
+    napster:
+      'https://music.amazon.com.mx/artists/B000QKPILK/siouxsie-and-the-banshees',
   },
   {
     title: 'Erasure',

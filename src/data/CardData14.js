@@ -320,7 +320,7 @@ const CardData14 = [
     "category": "Electro Dub",
     "location": "Austarlia",
     "locationImg": "australia.jpg",
-    "openSpots": null,
+    "openSpots": 1000,
     "likes": 1000,
     "websiteurl": "https://empireofthesun.co/",
     "youtube": "https://www.youtube.com/channel/UCyacMWc-JhzX6iq2PCF-4jw",

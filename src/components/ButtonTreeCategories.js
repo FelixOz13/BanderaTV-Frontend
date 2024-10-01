@@ -78,7 +78,7 @@ function ButtonTreeCategories() {
     </Link>
     <Link className="btn" to="/romantica">
         <img
-          src="../images/romantica.jpg"
+          src="../images/romanticas.jpeg"
           className="sponsor1"
           alt=""
           media="(max-width: 400px)"
@@ -325,7 +325,7 @@ function ButtonTreeCategories() {
         media="(max-width: 400px)"
       />
     </Link>
-    <Link className="btn" to="/local">
+    <Link className="btn" to="/events">
         <img
           src="../images/events.jpg"
           className="sponsor1"

@@ -736,7 +736,7 @@ const CardData7 = [
     category: 'Rock en Español',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://cafetacuba.com.mx/',
     youtube: 'https://www.youtube.com/c/Caf%C3%A9Tacvba',

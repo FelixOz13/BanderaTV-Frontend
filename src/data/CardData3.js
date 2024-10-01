@@ -10,7 +10,7 @@ const CardData3 = [
     category: 'Rap Latino',
     location: 'Mexico',
     locationImg: 'mexiflag.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://richvagosent.com/',
     youtube: 'https://www.youtube.com/watch?v=ZaJZ9GJwz30',

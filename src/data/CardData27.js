@@ -330,7 +330,7 @@ const CardData27 = [
     category: 'Bachatta',
     location: 'Republica Dominicana',
     locationImg: 'dominican.jpg',
-    openSpots: null,
+    openSpots: 1000,
     likes: 1000,
     websiteurl: 'https://juanluisguerra.com/',
     youtube: 'https://www.youtube.com/channel/UColz1FbIlymB0lfzhESxtow',
@@ -348,6 +348,7 @@ const CardData27 = [
     tiktok: 'https://www.tiktok.com/@juanluisguerra',
     napster: 'https://music.amazon.com/artists/B000QJHP5I/juan-luis-guerra-4-40',
   },
+  
 ]
 
 export default CardData27

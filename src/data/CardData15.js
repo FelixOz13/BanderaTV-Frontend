@@ -205,7 +205,7 @@ const CardData15 = [
     title: 'Elefante',
     description:
       'Elefante es una banda de rock alternativo y pop rock formada en la Ciudad de México a principios de la década de 1990. Han lanzado cinco álbumes, y su álbum homónimo fue nominado a un Premio Grammy Latino en 2005. El grupo alcanzó prominencia cuando abrieron para Joaquín Sabina en un espectáculo en el Auditorio Nacional de la Ciudad de México. Tras varias giras por las Américas, abriendo para Shakira y Maná, su vocalista principal, Reyli, dejó la banda en 2003 para seguir una carrera en solitario. Como reemplazo, reclutaron a Jorge Martínez Guevara, exvocalista del grupo Caos, quien participó en su álbum de 2005, Elefante. Jorge Martínez dejó la banda en 2007, y el compositor/guitarrista Rafael Rafa López y Javi Cantero asumieron las funciones vocales en los lanzamientos posteriores.',
-    videourl: '',
+    videourl: 'https://youtube.com/playlist?list=PLGmZEpYPNGnH5RzBwJYcyMG4ARVnOhx1T&si=9AwQ8B6p_adavhB1',
     price: '$50',
     coverImg: 'elefante.jpg',
     category: 'Balada',
