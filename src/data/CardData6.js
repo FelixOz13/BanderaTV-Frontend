@@ -382,7 +382,7 @@ const CardData6 = [
     videourl:
       'https://www.youtube.com/playlist?list=OLAK5uy_kX4qeyYgQnLP5DI67HUGY7aQIHcK7MKRk',
     price: 36,
-    coverImg: 'tednugent.jpg',
+    coverImg: 'tednugent.gif',
     category: 'Rock Clasico',
     location: 'USA',
     locationImg: 'usaflag.jpg',
