@@ -237,7 +237,7 @@ const CardData11 = [
     videourl:
       'https://youtube.com/playlist?list=PLzAzZbNGlKlruXW-KxEl0iqMoXHQslMK5&si=-3BJnP-kChOo-e3h',
     price: '$50',
-    coverImg: 'ozuna.jpg',
+    coverImg: 'ozuna.gif',
     category: 'Reggaeton',
     location: 'Puerto Rico',
     locationImg: 'puertorico.jpg',
