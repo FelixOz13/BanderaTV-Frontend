@@ -3,6 +3,7 @@ import CardData16 from '../../data/CardData16'
 import Card from '../../components/Card'
 import Navbar from '../Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from '../Particle';
 
 function TresdeMarzo() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -36,6 +37,7 @@ function TresdeMarzo() {
 
   return (
     <div>
+    <Particle id='particles'/>
       <Navbar />
       <h1 className="title2">Estadio 3 de Marzo</h1>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>

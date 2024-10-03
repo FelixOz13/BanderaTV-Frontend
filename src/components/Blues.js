@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import CardData18 from '../data/CardData18'
 import Card from './Card'
-import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar/Navbar'; 
+import Particle from './Particle';
 
 function Blues() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Blues() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Blues de Guitarra</h1>
       <div className="search-bar">

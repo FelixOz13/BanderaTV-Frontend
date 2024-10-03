@@ -3,6 +3,7 @@ import Card from './Card'
 import CardData5 from '../data/CardData5'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Reggae() {
@@ -36,6 +37,7 @@ function Reggae() {
   return (
     <div>
       <Navbar />
+      <Particle id="particles"/>
       <h1 className="title2">Reggae Internacional</h1>
       <div className="search-bar">
         <input

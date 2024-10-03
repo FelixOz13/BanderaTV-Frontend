@@ -3,6 +3,7 @@ import CardData2 from '../data/CardData2'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Mariachi() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -33,6 +34,7 @@ function Mariachi() {
   }
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Musica Regional Mexicana</h1>
       

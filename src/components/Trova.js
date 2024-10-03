@@ -3,6 +3,7 @@ import CardData35 from '../data/CardData35'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Trova() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -36,6 +37,7 @@ function Trova() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Trova en Guitarra</h1>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>

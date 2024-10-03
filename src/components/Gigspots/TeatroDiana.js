@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CardData16 from '../../data/CardData16'
 import Card from '../../components/Card'
 import Navbar from '../Navbar/Navbar';
+import Particle from '../Particle';
 
 
 function TeatroDiana() {
@@ -36,6 +37,7 @@ function TeatroDiana() {
 
   return (
     <div>
+    <Particle id='particles'/>
       <Navbar />
       <h1 className="title2">Teatro Diana</h1>
       <h1 className="slidertext">Proximos Conciertos</h1>

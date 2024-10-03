@@ -3,6 +3,7 @@ import CardData3 from '../data/CardData3'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function RapTrap() {
@@ -38,6 +39,7 @@ function RapTrap() {
   return (
     <div>
       <Navbar />
+      <Particle id="particles"/>
       <h1 className="title2">Rap Latino</h1>
       <div className="search-bar">
         <input

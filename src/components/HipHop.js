@@ -3,6 +3,7 @@ import CardData23 from '../data/CardData23'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function HipHop() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -37,6 +38,7 @@ function HipHop() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Hip-Hop Americano</h1>
       <div className="search-bar">

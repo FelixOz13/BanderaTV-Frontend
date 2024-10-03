@@ -3,6 +3,7 @@ import CardData8 from '../data/CardData8'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function ClubMusic() {
@@ -40,6 +41,7 @@ function ClubMusic() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Club Music</h1>
       <div className="search-bar">

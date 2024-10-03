@@ -3,6 +3,7 @@ import CardData6 from '../data/CardData6'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function ClassicRock() {
@@ -35,6 +36,7 @@ function ClassicRock() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Rock Classico</h1>
       <div className="search-bar">

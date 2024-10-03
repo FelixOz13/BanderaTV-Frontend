@@ -3,6 +3,7 @@ import CardData33 from '../data/CardData33'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Solistas() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Solistas() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Hombres Solistas</h1>
       <div className="search-bar">

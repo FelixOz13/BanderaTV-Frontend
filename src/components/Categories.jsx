@@ -1,12 +1,14 @@
 import React from 'react'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Navbar from './Navbar/Navbar'
+import Particle from './Particle'
 
 
 function Categories() {
   return (
     <div>
     <Navbar />
+    <Particle id="particles"/>
     <h1 className="title2">Bienvenido</h1>
     <h4 className="headertext">Escoje la Musica que te Gusta?</h4>
     <ButtonTreeCategories/>

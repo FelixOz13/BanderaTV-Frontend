@@ -3,6 +3,7 @@ import CardData26 from '../data/CardData26'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Sonidero() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Sonidero() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Sonidero Pa Bailar</h1>
       <div className="search-bar">

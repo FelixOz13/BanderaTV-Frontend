@@ -3,6 +3,7 @@ import CardData9 from '../data/CardData9'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Cumbias() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -38,6 +39,7 @@ function Cumbias() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Cumbias Classicas</h1>
       <div className="search-bar">

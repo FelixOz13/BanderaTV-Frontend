@@ -3,6 +3,7 @@ import CardData20 from '../data/CardData20'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Classical() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -39,6 +40,7 @@ function Classical() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Epoca de Oro</h1>
       

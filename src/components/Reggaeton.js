@@ -3,6 +3,7 @@ import CardData11 from '../data/CardData11'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Reaggaeton() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Reaggaeton() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Reggaeton</h1>
       <div className="search-bar">

@@ -3,6 +3,7 @@ import CardData22 from '../data/CardData22'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Baroque() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Baroque() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Musica Clasica Baroque</h1>
      

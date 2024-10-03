@@ -3,6 +3,7 @@ import CardData25 from '../data/CardData25'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Femeninas() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Femeninas() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Mujeres Cantantes</h1>
       <div className="search-bar">

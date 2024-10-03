@@ -3,6 +3,7 @@ import CardData7 from '../data/CardData7'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 
@@ -38,6 +39,7 @@ function RockEsp() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Rock en Español</h1>
       <h1 className="slidertext">←←Desliza para Navegar→→</h1>

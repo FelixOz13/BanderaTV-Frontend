@@ -3,6 +3,7 @@ import CardData4 from '../data/CardData4'
 import Card from '../components/Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Pop() {
@@ -35,6 +36,7 @@ function Pop() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Musica POP</h1>
       <div className="search-bar">

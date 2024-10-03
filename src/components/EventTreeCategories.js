@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import Particle from './Particle'
+import Navbar from './Navbar/Navbar'
 
 
 
@@ -6,6 +8,8 @@ import { Link } from 'react-router-dom'
 function EventTreeCategories() {
   return (
     <div>
+    <Navbar/>
+    <Particle id='particles'/>
     <h1 className="title2">Guadalajara y Zapopan</h1>
     <h1 className="title2">Escoje el Foro o sala de Concierto cual deseas atender</h1>
     <div className="sponsorcontainer">

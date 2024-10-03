@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar';
 import CardData24 from '../data/CardData24'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Hits() {
@@ -38,6 +39,7 @@ function Hits() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Exitos Musicales de 2024</h1>
       <div className="search-bar">

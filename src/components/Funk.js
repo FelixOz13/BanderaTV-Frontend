@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData28 from '../data/CardData28'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Funk() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -36,6 +37,7 @@ function Funk() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Funk , Soul & Disco</h1>
       <div className="search-bar">

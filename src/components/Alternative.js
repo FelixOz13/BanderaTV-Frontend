@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData10 from '../data/CardData10'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Alternative() {
@@ -41,6 +42,7 @@ function Alternative() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Rock Alternativo</h1>
       <div className="search-bar">

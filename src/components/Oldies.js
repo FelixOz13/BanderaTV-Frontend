@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData38 from '../data/CardData38'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Oldies() {
@@ -41,6 +42,7 @@ function Oldies() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Oldies Rock</h1>
       <div className="search-bar">

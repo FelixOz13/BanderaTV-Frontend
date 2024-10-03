@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData37 from '../data/CardData37'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function SoftRock() {
@@ -41,6 +42,7 @@ function SoftRock() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2"> Soft Rock</h1>
       <div className="search-bar">

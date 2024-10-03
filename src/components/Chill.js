@@ -3,6 +3,7 @@ import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Chill() {
@@ -35,6 +36,7 @@ function Chill() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Musica Chill</h1>
       <div className="search-bar">

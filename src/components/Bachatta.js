@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData27 from '../data/CardData27'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Bachatta() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Bachatta() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Bachatta</h1>
       <div className="search-bar">

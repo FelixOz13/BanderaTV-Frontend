@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData2 from '../data/CardData2'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Rancheras() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Rancheras() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Rancheras Classicas</h1>
       <div className="search-bar">

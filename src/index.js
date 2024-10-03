@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import Particle from './components/Particle'
 import Hits from './components/Hits'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -120,7 +121,9 @@ root.render(
     <div>
 
 {isMobile && (
+  <div>
   <div className="headertext">
+  <Particle id="particles"/>
     <p>Descarga nuestra App Movil para una mejor Experiencia!</p>
     <a
       href="https://play.google.com/store/apps/details?id=com.banderamusical.site"
@@ -132,6 +135,7 @@ root.render(
         alt="Descarga nuestra app movil en Google Play"
       />
     </a>
+  </div>
   </div>
 )}
 

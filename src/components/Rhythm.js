@@ -3,6 +3,7 @@ import CardData29 from '../data/CardData29'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Rythm() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -35,6 +36,7 @@ function Rythm() {
   return (
     <div>
       <Navbar />
+      <Particle id="particles"/>
       <h1 className="title2">Rythm and Blues</h1>
       <div className="search-bar">
         <input

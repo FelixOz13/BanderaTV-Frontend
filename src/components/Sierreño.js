@@ -3,6 +3,7 @@ import CardData1 from '../data/CardData1'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Sierreño() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Sierreño() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Sierreños con Corridos</h1>
       <div className="search-bar">

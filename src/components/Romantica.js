@@ -3,6 +3,7 @@ import CardData15 from '../data/CardData15'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Romantica() {
@@ -35,6 +36,7 @@ function Romantica() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Romanticas para Enamorar</h1>
      

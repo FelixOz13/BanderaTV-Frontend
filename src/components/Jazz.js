@@ -3,6 +3,7 @@ import CardData19 from '../data/CardData19'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Jazz() {
@@ -35,6 +36,7 @@ function Jazz() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Jazz Classico</h1>
       <div className="search-bar">

@@ -3,6 +3,7 @@ import CardData13 from '../data/CardData13'
 import Card from './Card'
 import Navbar from './Navbar/Navbar'
 import { Link } from 'react-router-dom'
+import Particle from './Particle'
 
 function Banda() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -37,6 +38,7 @@ function Banda() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Banda Instrumental</h1>
       <div className="search-bar">

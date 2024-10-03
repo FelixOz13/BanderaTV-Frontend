@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData32 from '../data/CardData32'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Salsa() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -34,6 +35,7 @@ function Salsa() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Salsa Para Bailar</h1>
       <div className="search-bar">

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import CardData36 from '../data/CardData36'
 import Card from './Card'
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 
 function Punk() {
@@ -41,6 +42,7 @@ function Punk() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Punk Rock</h1>
       <div className="search-bar">

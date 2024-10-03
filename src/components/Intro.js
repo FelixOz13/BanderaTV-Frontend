@@ -2,6 +2,7 @@ import './intro.css'
 import ButtonTreeCategories from './ButtonTreeCategories'
 import Comments from '../Comments/Comments'
 import Navbar from './Navbar/Navbar';
+import Particle from './Particle';
 
 
 
@@ -9,9 +10,10 @@ import Navbar from './Navbar/Navbar';
 function Intro() {
   return (
     <div className="hero">
+    
       <div>
         <Navbar />
-
+        <Particle id="particles"/>
         <h1 className="title2">Bienvenido</h1>
         <div>
           <h4 className="headertext">

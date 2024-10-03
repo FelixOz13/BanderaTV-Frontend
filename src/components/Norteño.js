@@ -3,6 +3,7 @@ import CardData12 from '../data/CardData12'
 import Card from './Card'
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 function Norteño() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -38,6 +39,7 @@ function Norteño() {
 
   return (
     <div>
+    <Particle id="particles"/>
       <Navbar />
       <h1 className="title2">Conjuntos Norteños Mexicanos</h1>
       <div className="search-bar">
