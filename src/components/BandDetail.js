@@ -6,6 +6,7 @@ import StarRating from './StarRating';
 import { GiBlackFlag } from 'react-icons/gi';
 import { SiApplemusic } from 'react-icons/si';
 import { useParams} from 'react-router-dom';
+import Particle from './Particle';
 import BanderaMedia from './BanderaMedia';
 
 import {
@@ -22,6 +23,7 @@ import { IoTicketSharp } from "react-icons/io5";
 import { BsTwitterX } from 'react-icons/bs';
 import { loadCardData } from '../utils/loadCardData'; 
 import "./banddetail.css"
+
 
 
 
@@ -91,6 +93,7 @@ const BandDetail = () => {
   
   return (
     <div>
+    <Particle id="particles"/>
     <Navbar />
     
   
