@@ -526,7 +526,7 @@ const CardData8 = [
     description:
       'Thomas John Digweed (born 1 January 1967) is a British DJ and record producer. DJ Magazine voted him the World No. 1 DJ in 2001. As well as achieving success as a solo act, he has collaborated with Sasha as Sasha & John Digweed, and with Nick Muir as Bedrock.',
     videourl:
-      'https://youtube.com/playlist?list=PLCnkz7la5RxMxu9cbTxpXhYrwWDrweJVA',
+      'https://youtube.com/playlist?list=OLAK5uy_nB2cVbdbq7VY3cnNpkGN9Fq7cPb9I8Gs4&si=m1mBmmStvqldQnhQ',
     price: '$50',
     coverImg: 'johndigweed.jpg',
     category: 'Electronica',
