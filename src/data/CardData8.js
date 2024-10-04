@@ -522,6 +522,35 @@ const CardData8 = [
     tiktok: 'https://www.tiktok.com/@calvinharris?lang=es',
   },
   {
+    title: 'Hernan Cattaneo',
+    description:
+      'Hernán Cattáneo es un destacado DJ y productor musical argentino, reconocido internacionalmente por su influencia en la música electrónica, especialmente en los géneros de progressive house y deep house. Nacido el 4 de diciembre de 1966 en Buenos Aires, Cattáneo comenzó su carrera en la década de 1980 y ha evolucionado a lo largo de los años, ganando reconocimiento por su estilo distintivo y su habilidad para crear atmósferas envolventes en sus sets.A lo largo de su carrera, ha actuado en importantes festivales y clubes de todo el mundo, incluyendo eventos como el Ultra Music Festival y Tomorrowland. También ha lanzado varias compilaciones de mezclas y álbumes originales, consolidando su reputación como uno de los mejores DJs de América Latina.Además de su carrera como DJ, Hernán Cattáneo ha sido un pionero en la escena electrónica en Argentina, contribuyendo al desarrollo de la cultura del club y promoviendo nuevos talentos. Su pasión por la música y su dedicación a su arte lo han llevado a recibir numerosos premios y reconocimientos en la industria musical. Cattáneo continúa siendo una figura influyente en la música electrónica, atrayendo a seguidores de todo el mundo con su estilo único y su compromiso con la innovación musical.',
+    videourl:
+      'https://youtube.com/playlist?list=OLAK5uy_kISE8nGz6AHVtjIqAWXG-odPewl5tfWwk&si=yaNYaME5-YvItRgy',
+    price: '$50',
+    coverImg: 'hernancattaneo.jpg',
+    category: 'Electronica',
+    location: 'Argentina',
+    locationImg: 'argentinaflag.jpg',
+    openSpots: null,
+    likes: null,
+    websiteurl: 'https://www.hernancattaneo.com/',
+    youtube: 'https://www.youtube.com/channel/UCtu51zQwrswrojbaoNtgWgw',
+    facebook: 'https://www.facebook.com/hernancattaneo/',
+    instagram: 'https://www.instagram.com/djhernancattaneo/',
+    twitter: 'https://x.com/cattaneo_hernan/',
+    spotify: 'https://open.spotify.com/artist/4mpJaw5y17CIN08qqe8EfB',
+    deezer: 'https://www.deezer.com/mx/artist/259014',
+    apple: 'https://music.apple.com/mx/artist/hern%C3%A1n-catt%C3%A1neo/44974489',
+    soundcloud: 'https://soundcloud.com/hernancattaneofans',
+    tidal: 'https://listen.tidal.com/artist/3575361',
+    wiki: 'https://es.wikipedia.org/wiki/Hern%C3%A1n_Catt%C3%A1neo',
+    ticketmaster:
+      'https://www.ticketmaster.com/hernan-cattaneo-tickets/artist/981579',
+    napster: 'https://music.amazon.com.mx/artists/B000S2H972/hernan-cattaneo',
+    tiktok: 'https://www.tiktok.com/@hernan_cattaneo?lang=es',
+  },
+  {
     title: 'John Digweed',
     description:
       'Thomas John Digweed (born 1 January 1967) is a British DJ and record producer. DJ Magazine voted him the World No. 1 DJ in 2001. As well as achieving success as a solo act, he has collaborated with Sasha as Sasha & John Digweed, and with Nick Muir as Bedrock.',
