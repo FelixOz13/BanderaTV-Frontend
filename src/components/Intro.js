@@ -10,10 +10,10 @@ import Particle from './Particle';
 function Intro() {
   return (
     <div className="hero">
-    
+    <Particle id="particles"/>
       <div>
         <Navbar />
-        <Particle id="particles"/>
+        
         <h1 className="title2">Bienvenido</h1>
         <div>
           <h4 className="headertext">
