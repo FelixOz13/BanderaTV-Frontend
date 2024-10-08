@@ -2,7 +2,7 @@ const CardData3 = [
   {
     title: 'Remik Gonzales',
     description:
-      'El de Remik Gonzalez es uno de los nombres ineludibles cuando se habla del rap malandro, la expresión musical del lenguaje y el estilo de vida de los barrios menos favorecidos de urbes como su Tijuana natal.',
+      'El de Remik Gonzalez es uno de los nombres ineludibles cuando se habla del rap malandro, la expresión musical del lenguaje y el estilo de vida de los barrios menos favorecidos de urbes como su Tijuana natal.Remik González es un conocido rapero mexicano, popular en la escena de la música urbana latina. Su música se caracteriza por letras crudas y comentarios sociales, abordando temas como la vida en las calles, las luchas personales y las realidades de las comunidades marginadas. Remik ha construido un fuerte seguimiento gracias a su estilo auténtico y sus actuaciones llenas de energía, colaborando a menudo con otros artistas de música urbana. Es parte del creciente movimiento de trap y hip-hop latino, y su música resuena particularmente con las audiencias jóvenes que aprecian la autenticidad de sus historias. Algunas de sus canciones más populares incluyen Mil Lágrimas, Me Levanto, y colaboraciones con otros artistas reconocidos.',
     videourl:
       'https://youtube.com/playlist?list=PLF-cRDh2mrlVZJ1VzQ1VAWiJh9scW9auD&si=JDJ_bgKn5EemPnID',
     price: '$50',
