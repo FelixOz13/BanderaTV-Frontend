@@ -1,5 +1,33 @@
 const CardData3 = [
   {
+    title: 'Remik Gonzales',
+    description:
+      'El de Remik Gonzalez es uno de los nombres ineludibles cuando se habla del rap malandro, la expresión musical del lenguaje y el estilo de vida de los barrios menos favorecidos de urbes como su Tijuana natal.',
+    videourl:
+      'https://youtube.com/playlist?list=PLF-cRDh2mrlVZJ1VzQ1VAWiJh9scW9auD&si=JDJ_bgKn5EemPnID',
+    price: '$50',
+    coverImg: 'remik.jpg',
+    category: 'Rap Latino',
+    location: 'Mexico',
+    locationImg: 'mexiflag.jpg',
+    openSpots: 1000,
+    likes: 1000,
+    websiteurl: 'https://www.letras.com/remik-gonzalez/',
+    youtube: 'https://www.youtube.com/channel/UC1hlr4QMZoNPEuxXOvsFhqA',
+    facebook: 'https://www.facebook.com/RemikGonzalez664/?fref=ts',
+    instagram: 'https://www.instagram.com/remikgonzalez664/',
+    twitter: 'https://x.com/Diego18647815',
+    spotify: 'https://open.spotify.com/artist/4Hzj6dfl1y5x5TzCSsvLB6',
+    deezer: 'https://www.deezer.com/mx/artist/8682742',
+    apple: 'https://music.apple.com/mx/artist/remik-gonzalez/966627770',
+    soundcloud: 'https://soundcloud.com/remikgonzalez',
+    tidal: 'https://listen.tidal.com/artist/7150581',
+    wiki: 'https://www.letras.com/remik-gonzalez/',
+    ticketmaster:
+      'https://remik-gonzalez-tour-mis-demonios.boletia.com/',
+    tiktok: 'https://www.tiktok.com/@remik.gonzalez.664?lang=es',
+    napster: 'https://music.amazon.com.mx/artists/B013SZ30SM/remik-gonzalez',
+  },{
     title: 'Gera MX',
     description:
       'Gerardo Daniel Torres Montante (San Nicolás de los Garza, Nuevo León; 15 de julio de 1994 ), mejor conocido por su nombr MX (anteriormente Gera MXM), es un rapero y compositor mexicano. Su nombre artístico proviene de las primeras cuatro letras de su nombre real, Gera (Gerardo) y la abreviatura del sello Mexamafia ( MXM ), la abreviatura MX proviene de México.e artístico Gera.',

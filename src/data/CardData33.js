@@ -1744,7 +1744,7 @@ const CardData33
     coverImg: 'ricardoarjona.jpg',
     category: 'Baladas',
     location: 'Guatemala',
-    locationImg: 'guatemalaflag.jpg',
+    locationImg: 'guatemalaflag.jpeg',
     openSpots: null,
     likes: null,
     websiteurl: 'https://www.ricardoarjona.com/',
