@@ -9,7 +9,13 @@
  body {
    margin: 0;
    max-width: fit-content;
+<<<<<<< HEAD
    background-image: url("/public/images/universewallpaper2.jpg");
+=======
+  
+  background-image: url("/public/images/universewallpaper2.jpg")
+
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092
    
 
  }

@@ -6,14 +6,34 @@ import ReactPlayer from 'react-player/lazy';
 import './banddetail.css';
 import '../CommentsComponents/Comments.css';
 import { GiBlackFlag } from 'react-icons/gi';
+<<<<<<< HEAD
 import { SiApplemusic, SiTidal } from 'react-icons/si';
 import { FaTiktok, FaInstagramSquare, FaYoutube, FaSpotify, FaFacebook } from 'react-icons/fa';
 import { IoTicketSharp } from 'react-icons/io5';
+=======
+import { SiApplemusic } from 'react-icons/si';
+import { useParams} from 'react-router-dom';
+import Particle from './Particle';
+import BanderaMedia from './BanderaMedia';
+
+import {
+  FaTiktok,
+  FaWhatsapp,
+  FaInstagramSquare,
+  FaYoutube,
+  FaShare,
+  FaSpotify,
+  FaFacebook,
+} from 'react-icons/fa';
+import { SiTidal } from 'react-icons/si';
+import { IoTicketSharp } from "react-icons/io5";
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092
 import { BsTwitterX } from 'react-icons/bs';
 import LikeButtons from '../components/LikeButtons';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCardById } from '../features/cards/cardSlice';
 import ReactGA from 'react-ga4';
+
 
 const BandDetail = () => {
   const { id } = useParams();
@@ -67,8 +87,16 @@ const BandDetail = () => {
 
   return (
     <div>
+<<<<<<< HEAD
     <Navbar/>
     <div className="banddetail-container">
+=======
+    <Particle id="particles"/>
+    <Navbar />
+    
+  
+    <div className="band-card">
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092
       
         <div className="card-content">
           <div className="video-container">

@@ -57,7 +57,11 @@ function ButtonTreeCategories() {
     </Link>
     <Link className="btn" to="/baladas">
         <img
+<<<<<<< HEAD:src/features/cards/Categories/ButtonTreeCategories.jsx
           src="../images/romantica.png"
+=======
+          src="../images/romanticas.jpeg"
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092:src/components/ButtonTreeCategories.js
           className="sponsor1"
           alt=""
           media="(max-width: 400px)"

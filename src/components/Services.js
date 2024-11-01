@@ -1,10 +1,12 @@
 import React from 'react';
 import './Servicios.css'; // Import the CSS file
 import Navbar from './Navbar/Navbar';
+import Particle from './Particle';
 
 function Services() {
   return (
     <div>
+    <Particle id="particles"/>
     <Navbar/>
     <div style={styles.container}>
     <a href="https://banderamusical.com/" target="_blank" rel="noopener noreferrer">

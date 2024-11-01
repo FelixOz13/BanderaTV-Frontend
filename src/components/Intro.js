@@ -1,11 +1,15 @@
 import './intro.css'
 import CommentBox from '../CommentsComponents/CommentBox'
 import Navbar from './Navbar/Navbar';
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import MarqueeSlider from './MarqueeSlider'
 import Footer from './Footer/Footer'
+=======
+import Particle from './Particle';
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092
 
 
 const items = [
@@ -45,13 +49,32 @@ function Intro() {
   })
   return (
     <div className="hero">
+    <Particle id="particles"/>
       <div>
         <Navbar />
+<<<<<<< HEAD
         <h1 className="title2">
         Bienvenido {user && user.username}
         
       </h1>
       
+=======
+        
+        <h1 className="title2">Bienvenido</h1>
+        <div>
+          <h4 className="headertext">
+            {' '}
+            Escoje el tipo de musica que mas te gusta`???
+          </h4>
+
+          <ButtonTreeCategories />
+          
+        </div>
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+
+        <img className="indianaut" src="./images/indianaut.png" alt="" />
+
+>>>>>>> 8de4ec8f562bc6272f731b73e6994c561704d092
         <img
           className="player-wrapper-3"
           src="./videos/banderatv.gif"
