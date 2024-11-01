@@ -1,0 +1,181 @@
+.comments {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Asap Condensed';
+  font-size: '3rem';
+  height: 120px;
+  text-align: center;
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -moz-animation: my-animation 9s infinite;
+  -webkit-animation: my-animation 9s linear infinite;
+  animation: my-animation 9s linear infinite;
+  animation-fill-mode: forwards;
+  
+}
+
+
+.comments-container {
+  position: relative;
+  bottom: 5px;
+  height: 240px;
+  width: calc(100% - 50px);
+  padding: 3px;
+  border-radius: 10px;
+  background-color: black;
+  font-family: 'Asap Condensed', sans-serif;
+  overflow-y: scroll;
+  border: 3px solid goldenrod;
+  margin: 0 auto;
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: goldenrod;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+
+
+
+
+
+.sharebutton {
+  width: 50px;
+  font-size: 25px;
+  color: #dc9e02;
+  background-color: black;
+  position: relative;
+  bottom: 45px;
+  left: 150px;
+}
+
+
+
+.form-group2 input,
+.form-group textarea,
+.form-group select {
+  width: calc(100% - 50px); /* Adjust width to account for the left and right margins */
+  height: auto;
+  background-color: black;
+  color: goldenrod;
+  border: px solid goldenrod;
+  border-radius: 5px;
+  font-family: 'Asap Condensed';
+  font-size: 1rem;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 25px; /* Added left margin */
+  margin-right: 25px; /* Added right margin */
+}
+
+.form-group2 {
+  text-align: left;
+  display: block;
+
+}
+.comment-item {
+  padding: 10px;
+  border-bottom: 1px solid goldenrod;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-username {
+  display: flex;
+    align-items: center;
+  font-weight: bold;
+  color:green;
+  font-size: 3rem;
+  font-family: 'Iceland';
+}
+.comment-username span:not(:last-child) {
+  margin-right: 2rem;
+
+}
+.comment-date{
+  font-size: 1rem;
+}
+.comment-text {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: 'Iceland';
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: red;
+}
+.edit-icon {
+  cursor: pointer;
+  color: green;
+}
+.comment-edit-textarea{
+  background-color: black;
+  border-color: #dc9e02;
+  border-radius: 10px;
+  border-width: 2px;
+  color:goldenrod;
+}
+.btn1{
+  background-color: #dc9e02;
+  height:50px;
+  border-radius: 10px;
+  font-family: 'Iceland';
+  margin-left: 25px;
+}

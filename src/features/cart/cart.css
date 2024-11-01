@@ -1,0 +1,135 @@
+
+.cart {
+  width: 100%;
+  max-width: 1600px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top:25px;
+}
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: 'Long Cang';
+  font-size: 1.2rem;
+}
+
+.cart-display {
+  display: flex;
+  align-items: center;
+}
+
+.cart-image {
+  width: 200px;;
+  height: 200px;;
+  border-radius: 8px;
+  flex-shrink: 0; /* Prevent image from shrinking beyond its intrinsic size */
+  margin-left: -100px;
+  margin-right:25px;
+ 
+   /* Margin between image and other elements */
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    padding: 10px;
+  }
+
+
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  color: red;
+  text-align: center;
+  font-family: 'Long Cang';
+}
+
+.proceed-to-pay {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 50px; /* This will push the button to the right */
+}
+.continue-shopping {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 250px; /* This will push the button to the right */
+}
+.remove-item-button{
+  border:none;
+  color:red;
+  margin-left:25px;
+  font-size:35px;
+}
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 3px solid green;
+}
+
+.cart-quantity {
+  width: 50px;
+  text-align: center;
+  font-size: 1rem;
+  font-style: bold;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 3px solid green;
+}
+
+.cart-size {
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 3px solid green;
+  background-color: white;
+  color: black;
+}
+.cart-details{
+  margin-top:50px;
+}

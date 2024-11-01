@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
 import './navbar.css';
 import Dropdown from './Dropdown';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaSignOutAlt } from 'react-icons/fa';
+import { logout, reset } from '../../features/auth/authSlice';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const { userInfo } = useSelector((state) => state.auth); 
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -17,21 +22,26 @@ function Navbar() {
     }
   };
 
+  const onLogout = () => {
+    dispatch(logout());
+    dispatch(reset());
+    localStorage.removeItem('user');  // Clear localStorage
+    navigate('/');
+    closeMobileMenu();
+  };
+
   return (
     <>
-    
       <nav className='navbar'>
-      
-      <Link to='/categories' onClick={closeMobileMenu}>
-         <h1 className="navbar-logo">𝄞⨾𓍢ִ໋ 🏳 Bandera Musical®️🎸
-         </h1>
-      </Link>
+        <Link to='/' onClick={closeMobileMenu}>
+          <h1 className="navbar-logo">🏳 BanderaTV®️🎸</h1>
+        </Link>
         <div className='menu-icon' onClick={handleClick} role="button" aria-label="Toggle Menu">
           {click ? <FaTimes style={{ color: 'white' }} /> : <FaBars style={{ color: 'white' }} />}
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/categories' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/card-display' className='nav-links' onClick={closeMobileMenu}>
               Inicio
             </Link>
           </li>
@@ -40,11 +50,7 @@ function Navbar() {
             onMouseEnter={() => handleDropdown(true)}
             onMouseLeave={() => handleDropdown(false)}
           >
-            <Link
-              to='/services'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
               Servicios <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
@@ -55,15 +61,30 @@ function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/bibliography' className='nav-links' onClick={closeMobileMenu}>
-              Bibliografía
+            <Link to='/Bibliography' className='nav-links' onClick={closeMobileMenu}>
+              Bibliography
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-              Contacto
-            </Link>
-          </li>
+          {userInfo ? (
+            <>
+              <li className='nav-item'>
+                <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
+                  Profile
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <button className='nav-links' onClick={onLogout}>
+                  <FaSignOutAlt /> Logout
+                </button>
+              </li>
+            </>
+          ) : (
+            <li className='nav-item'>
+              <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
+                Login/Register
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
     </>

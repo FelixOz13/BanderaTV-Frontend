@@ -3,8 +3,6 @@
  }
 
 
- @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Iceland&display=swap');
-
  body {
    margin: 0;
    max-width: fit-content;
@@ -33,57 +31,8 @@
   object-fit: cover;
 }*/
 
- section {
-   padding: 20px;
- }
 
- .cards-list {
-   display: flex;
-   flex-wrap: nowrap;
-   gap: 20px;
-   overflow-x: auto;
-   
- }
-
-
-
- .card {
-   width: 200px;
-   font-size: 12px;
-   flex: 0 0 auto;
-   /* ADD */
-   display: flex;
-   /* ADD */
-   flex-direction: column;
-   margin-top: 5px;
-   /* ADD */
-   background-color: black;
-   border-radius: 10px;
-   padding: 10px;
-   position: relative;
-   color: #f4c44b;
- }
-
- .sharebutton {
-  display:flex;
-  flex-direction: row;
-   
-   }
-.sharebutton2 {
-  display: flex;
-  flex-direction: row;
-  font-size: 25px;
-  color: limegreen;
-  margin-right: 75px;
-}
-.sharebutton1 {
-  display: flex;
-  flex-direction: row;
-  font-size: 25px;
-  color: #dc9e02;
-  margin-right: 5px;
-}
- .headertext {
+.headertext {
    color: #dc9e02;;
   font-style: bold;
    font-family: 'Henny Penny';
@@ -97,39 +46,13 @@
  }
 
 
- .card--image {
-   width: 100%;
-   border-radius: 9px;
-   margin-bottom: 9px;
- }
-
- /* ADD */
- .card--title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 2.0rem;
-  font-family: 'Iceland';
-  color: #f4c44b;
-  text-decoration: none; /* Ensures no underline is applied */
-}
-.card--link {
-  text-align: center;
-  text-decoration: none; /* Removes underline from links */
-}
 .play-button{
   font-size: 65px;
   color:goldenrod;
   margin-top: 50px;
 }
 
- .card--stats {
-   display: flex;
-   align-items: center;
-   color: #f4c44b;
-   font-weight: bold;
-   font-family: 'Iceland';
-   font-size: 1rem;
- }
+
 
  .title2 {
    text-align: center;
@@ -158,7 +81,6 @@
  }
 
  
-
 
 
 
@@ -291,9 +213,10 @@
    position: relative;
    bottom: 800px;
    padding-top: 56.25%;
-   width: 95%;
+   width: 75%;
    display: block;
-   margin: auto;
+   margin-left:25px;
+   margin-right:25px;
 
 
 
@@ -342,7 +265,7 @@
  .locationImg {
    width: 30px;
    position: relative;
-   left: 48px;
+   left: 228px;
    bottom:45px;
 
  }
@@ -955,25 +878,7 @@
 
  }
 
- .app-download-banner {
-   background-color: #f0f0f0;
-   padding: 10px;
-   text-align: center;
- }
-
- .app-download-banner p {
-   margin: 0;
-   font-size: 14px;
- }
-
- .app-download-banner a {
-   display: block;
-   margin-top: 5px;
- }
-
- .app-download-banner img {
-   height: 40px;
- }
+ 
 
  .searchbar {
    background-color: black;

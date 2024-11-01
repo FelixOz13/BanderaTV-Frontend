@@ -1,0 +1,53 @@
+/* Centering container */
+.searchbar {
+    margin-top: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 10vh; /* Full viewport height for vertical centering */
+    width: 100vw; /* Full viewport width for horizontal centering */
+}
+
+/* Styling for search input */
+.search-bar {
+    background-color: black;
+    color: hotpink;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    font-family: 'Henny Penny', cursive;
+    padding: 0 10px; /* Adjusts padding for better alignment */
+    border: 2px solid goldenrod; /* Adds a goldenrod border */
+    outline: none; /* Removes default outline on focus */
+    line-height: 1.5;
+    margin-left:500px;
+    margin-bottom: 50px;
+}
+
+
+.search-bar:focus {
+    border-color: darkgoldenrod; /* Darker shade on focus */
+}
+
+/* Placeholder styling */
+.search-bar::placeholder {
+    color: hotpink;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: normal; /* Avoids extra height */
+}
+
+/* Styling for search button */
+.searchbar-button {
+    background-color: goldenrod;
+    color: black;
+    height: 60px;
+    padding: 0 20px; /* Adds horizontal padding */
+    border-radius: 10px;
+    font-family: 'Henny Penny', cursive;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Space between input and button */
+    margin-top: 15px;
+}

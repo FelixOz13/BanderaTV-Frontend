@@ -1,0 +1,140 @@
+
+.login-container {
+  background-color: black; /* Dark background for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  max-width: 400px; /* Limit max width for better appearance */
+  width: 100%; /* Full width of the container */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; 
+  margin: auto;
+  margin-top: 100px; 
+}
+.container {
+  background-color: black;
+  padding: 40px 10px; /* Increased top padding for space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 10vh; /* Ensures full viewport height */
+}
+
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-family: 'Iceland';
+  color: white;
+  text-align: center;
+}
+
+.heading p {
+  color: white;
+  background-color: #000;
+  border-radius: 10px;
+  font-family: 'Iceland';
+  padding: 10px;
+}
+
+.form {
+  width: 100%;
+  max-width: 1200px; /* Max width for better appearance on large screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items within the group */
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: -10px;
+  font-family: 'Iceland';
+  font-size: 1rem;
+  background-color: yellow;
+  text-align: center;
+}
+
+.form-group label {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.login-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Iceland';
+  margin-top: 20px; /* Adds spacing above the button */
+}
+
+.login-button .icon {
+  margin-left: 0.5em;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0px;
+  padding: 3px;
+  border-width: 4px;
+  border-radius: 40px;
+  border-style: groove;
+  border-color: gold;
+}
+
+.register-link {
+  color: white;
+  margin-left: 3px;
+  font-family: 'Iceland';
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px; /* Adds spacing above the link */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    padding: 0 20px;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    font-size: 0.9rem;
+  }
+
+  .login-button {
+    font-size: 0.9rem;
+  }
+
+  .register-link {
+    font-size: 1.5rem;
+  }
+}

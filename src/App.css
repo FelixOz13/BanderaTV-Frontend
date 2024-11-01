@@ -1,28 +1,3 @@
-.react-player3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 4rem;
-  color: blue;
-
-}
-
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25%;
-  width: 95%;
-  display: block;
-  margin: 45px;
-
-  /* Player ratio: 100 / (1280 / 720) */
-}
-
-.third-party-icons2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 50px;
-
-}
 
 .third-party-icons>* {
   flex: 0 1 20%;
@@ -48,17 +23,19 @@
 .bandera-icons {
   display:flex;
   flex-direction: row;
-  font-size: 20px;
-  margin-top: 25px;
+  font-size: 40px;
+  margin-top: 5px;
 }
 
 .bandera {
   display: flex;
   flex-direction: row;
   color: #dc9e02;
-  margin: 5px;
+  margin-left:25px;
   font-size:20px;
 }
 .contact{
   font-size: 1rem;
+  font-family: 'Iceland';
+  margin-left:45px;
 }

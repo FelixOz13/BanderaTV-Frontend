@@ -1,301 +1,161 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import Navbar from './Navbar/Navbar'
+import CommentBox from '../CommentsComponents/CommentBox';
+import { useParams } from 'react-router-dom';
 import ReactPlayer from 'react-player/lazy';
-import Navbar from './Navbar/Navbar';
-import LikeButtons from './LikeButtons';
-import StarRating from './StarRating';
+import './banddetail.css';
+import '../CommentsComponents/Comments.css';
 import { GiBlackFlag } from 'react-icons/gi';
-import { SiApplemusic } from 'react-icons/si';
-import { useParams} from 'react-router-dom';
-import BanderaMedia from './BanderaMedia';
-
-import {
-  FaTiktok,
-  FaWhatsapp,
-  FaInstagramSquare,
-  FaYoutube,
-  FaShare,
-  FaSpotify,
-  FaFacebook,
-} from 'react-icons/fa';
-import { SiTidal } from 'react-icons/si';
-import { IoTicketSharp } from "react-icons/io5";
+import { SiApplemusic, SiTidal } from 'react-icons/si';
+import { FaTiktok, FaInstagramSquare, FaYoutube, FaSpotify, FaFacebook } from 'react-icons/fa';
+import { IoTicketSharp } from 'react-icons/io5';
 import { BsTwitterX } from 'react-icons/bs';
-import { loadCardData } from '../utils/loadCardData'; 
-import "./banddetail.css"
-
-
+import LikeButtons from '../components/LikeButtons';
+import { useDispatch, useSelector } from 'react-redux';
+import { getCardById } from '../features/cards/cardSlice';
+import ReactGA from 'react-ga4';
 
 const BandDetail = () => {
-  const [band, setBand] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const { title } = useParams();
+  const { id } = useParams();
+  const dispatch = useDispatch();
+
+  // Initialize Google Analytics
+  useEffect(() => {
+    ReactGA.initialize("G-MM8CRMGQ36");
+    ReactGA.send({ hitType: "pageview", page: `/Bandera/${id}` });
+  }, [id]);
+
+  // Selectors to get the card, loading, error state, and error message
+  const card = useSelector((state) => state.cards.card);
+  const isLoading = useSelector((state) => state.cards.isLoading);
+  const isError = useSelector((state) => state.cards.isError);
+  const message = useSelector((state) => state.cards.message);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const bandsData = await loadCardData();
-        const foundBand = bandsData.find(item => item.title === title);
-        setBand(foundBand);
-      } catch (error) {
-        console.error('Error loading bands data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, [title]);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (!band) {
-    return <div>Band not found</div>;
-  }
-  const encodedTitle = encodeURIComponent(band.title);
-  const shareUrl = `${window.location.origin}/Bandera/${encodedTitle}`;
-
-  
-  const handleShare = () => {
-    if (navigator.share) {
-      const shareContent = {
-        title: document.title,
-        text: `Te Invitamos a disfrutar de ${band.title} con Bandera Musical.`,
-        url: shareUrl, // Include the URL so it can be opened directly
-      };
-      
-      navigator
-        .share(shareContent)
-        .then(() => console.log('Share successful'))
-        .catch(error => console.error('Error sharing:', error));
-    } else {
-      console.warn('Web Share API not supported');
+    if (id) {
+      console.log("Fetching band with ID:", id);
+      dispatch(getCardById(id))
+        .unwrap()
+        .then((fetchedCard) => {
+          console.log("Fetched card:", fetchedCard);
+        })
+        .catch((error) => {
+          console.error("Error fetching card:", error);
+        });
     }
-  };
-  
+  }, [dispatch, id]);
 
+  console.log("Current card:", card);
 
+  if (isLoading) {
+    return (
+      <div className="loading-container">
+        <div className="spinner" />
+        <p className='title2'>Loading...</p>
+      </div>
+    );
+  }
 
+  if (isError || !card || Object.keys(card).length === 0) {
+    console.log("Error fetching card:", message);
+    return (
+      <div className="error-container">
+        <p className='title2'>Band not found</p>
+      </div>
+    );
+  }
 
-
-// Button element
-<button
-  className="sharebutton-button"
-  onClick={handleShare}
-  role="link" // ARIA role for link-like elements
->
-  <FaShare />
-</button>
-
-  
   return (
     <div>
-    <Navbar />
-    
-  
-    <div className="band-card">
+    <Navbar/>
+    <div className="banddetail-container">
       
-      <div>
-      <div className="video-container">
-      <ReactPlayer
-        url={band.videourl}
-        className="video"
-        width="100%"
-        height="100%"
-        autoPlay={true}
-        controls={true}
-      />
-    </div>
-     
-    </div>
-      <div className="title-name" >
-      <h2 className="title-name">{band.title}</h2>
-      </div>
-      
-      <div className="card--titler">
-      <p className="card--titler">{band.category}</p>
-      </div>
-      <div><img
-     src={`../images/${band.locationImg}`}
-     className="origin-flag"
-     alt="location"
-   />
-   </div>
-      
-     
-<div>
-
-<StarRating/>
-</div>
-      
-      <LikeButtons />
-      <p className="description" style={{backgroundColor:"black",fontFamily:'Iceland' , fontSize:'1rem', borderRadius:'10px'}}>{band.description}</p>
-      <div>
-      <img
-      src={`../images/${band.coverImg}`}
-      className="coverImg"
-      alt="cover"
-    />
-        
-      <div className="sharebutton">
-      <button
-        className="sharebutton-button"
-        onClick={handleShare}
-        role="link" // ARIA role for link-like elements
-      >
-        <FaShare />
-      </button>
-    
-      <a
-      className="sharebutton-button"
-      href={`whatsapp://send?text=${encodeURIComponent(
-        `Te Invitamos a disfrutar de ${band.title} con Bandera Musical. ${shareUrl}`
-      )}`}
-    >
-      
-      <FaWhatsapp className="sharebutton-button-2"  />
-    </a>
-    </div>
-    
-      
-      
-    <div className="slidertextdiv">
-        <h1 className="slidertext">
-          Presiona un Link para visitar la red social del artista
-        </h1>
-      </div>
-      <div className="third-party-icons">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.websiteurl}
-          className="icons-bandera"
-          id="third-party-grid"
-        >
-          <GiBlackFlag />
-        </a>
-       
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.facebook}
-          className="icons-fb"
-          id="third-party-grid"
-        >
-          <FaFacebook />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.youtube}
-          className="icons-YT"
-          id="third-party-grid"
-        >
-          <FaYoutube />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.instagram}
-          className="icons-instagram"
-          id="third-party-grid"
-        >
-          <FaInstagramSquare />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.twitter}
-          className="icons-twitter"
-          id="third-party-grid"
-        >
-        <BsTwitterX />
-
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.tiktok}
-          className="icons-tiktok"
-          id="third-party-grid"
-        >
-          <FaTiktok />
-        </a>
-        <a
-        target="_blank"
-        rel="noreferrer"
-        href={band.ticketmaster}
-        className="icons-ticketmaster"
-      >
-        <IoTicketSharp />
-      </a>
-        <a href={band.wiki} target="_blank" rel="noreferrer">
-          <img
-            src="../images/wiki.jpg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 400px)"
-          />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.spotify}
-          className="icons-spotify"
-          id="third-party-grid"
-        >
-          <FaSpotify />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.apple}
-          className="icons-itunes"
-          id="third-party-grid"
-        >
-          <SiApplemusic />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={band.tidal}
-          className="icons-tidal"
-          id="third-party-grid"
-        >
-          <SiTidal />
-        </a>
-
-        <a href={band.napster} target="_blank" rel="noreferrer">
-          <img
-            src="../images/amazonMusic.jpeg"
-            className="sponsor"
-            alt=""
-            media="(max-width: 300px)"
-          />
-        </a>
-      </div>
-      {/*<h1 style={{color:"goldenrod", backgroundColor:"black" , borderRadius:'10px'}}>Deja tus Comentarios</h1>
-      import Comments from '../Comments/Comments';
-        <div style={{ marginTop: '65px' }}>
-        <Comments
-          commentsUrl="http://localhost:3004/comments"
-          currentUserId="1"
+        <div className="card-content">
+          <div className="video-container">
+            <ReactPlayer
+              url={card.videourl}
+              className="video"
+              width="100%"
+              height="100%"
+              autoPlay={true}
+              controls={true}
+            />
+          </div>
+          <div className="band-card">
+        <img
+          src={`/images/${card.coverImg}`}
+          alt={card.title}
+          className="bandetail--image"
+          loading="lazy"
         />
-      </div>*/}
+        <img
+            src={`/images/${card.locationImg}`}
+            alt="Location"
+            className="origin-flag"
+            loading="lazy"
+          />
+          <h2 className="card--title">{card.title}</h2>
+          <p className="description">{card.description}</p>
+          <CommentBox/>
+          
+          <LikeButtons />
+          <div className="card-links">
+            {card.websiteurl && (
+              <a href={card.websiteurl} className="icons-bandera" target="_blank" rel="noopener noreferrer">
+                <GiBlackFlag />
+              </a>
+            )}
+            {card.youtube && (
+              <a href={card.youtube} className="icons-YT" target="_blank" rel="noopener noreferrer">
+                <FaYoutube />
+              </a>
+            )}
+            {card.facebook && (
+              <a href={card.facebook} className="icons-fb" target="_blank" rel="noopener noreferrer">
+                <FaFacebook />
+              </a>
+            )}
+            {card.instagram && (
+              <a href={card.instagram} className="icons-instagram" target="_blank" rel="noopener noreferrer">
+                <FaInstagramSquare />
+              </a>
+            )}
+            {card.twitter && (
+              <a href={card.twitter} className="icons-twitter" target="_blank" rel="noopener noreferrer">
+                <BsTwitterX />
+              </a>
+            )}
+            {card.spotify && (
+              <a href={card.spotify} className="icons-spotify" target="_blank" rel="noopener noreferrer">
+                <FaSpotify />
+              </a>
+            )}
+            {card.apple && (
+              <a href={card.apple} className="icons-itunes" target="_blank" rel="noopener noreferrer">
+                <SiApplemusic />
+              </a>
+            )}
+            {card.tidal && (
+              <a href={card.tidal} className="icons-tidal" target="_blank" rel="noopener noreferrer">
+                <SiTidal />
+              </a>
+            )}
+            {card.ticketmaster && (
+              <a href={card.ticketmaster} className="icons-ticketmaster" target="_blank" rel="noopener noreferrer">
+                <IoTicketSharp />
+              </a>
+            )}
+            {card.tiktok && (
+              <a href={card.tiktok} className="icons-tiktok" target="_blank" rel="noopener noreferrer">
+                <FaTiktok />
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
       
-      <BanderaMedia style={{color:"goldenrod"}}/>
     </div>
     </div>
-    </div>
-    
   );
 };
 

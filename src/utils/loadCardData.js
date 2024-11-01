@@ -1,17 +1,20 @@
-const importAll = (context) => context.keys().map(context);
+
 
 export const loadCardData = async () => {
-  // Import all files from the 'data' folder that match the pattern.
-  const context = require.context('../data', false, /^\.\/CardData\d+\.js$/);
-  const modules = importAll(context);
+  try {
+    // Make an API call to your backend to fetch band data
+    const response = await fetch('/api/bands'); // Adjust the endpoint as needed
 
-  // Combine all the imported data into one array.
-  let allBandsData = [];
-  for (const module of modules) {
-    if (module.default) {
-      allBandsData = [...allBandsData, ...module.default];
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
     }
-  }
 
-  return allBandsData;
+    const allBandsData = await response.json();
+
+    return allBandsData;
+  } catch (error) {
+    console.error('Error fetching band data:', error);
+    return []; // Return an empty array or handle the error as needed
+  }
 };
+

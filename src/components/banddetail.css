@@ -9,12 +9,20 @@
  body {
    margin: 0;
    max-width: fit-content;
-   background-image: url("/public/images/blacklaberynth.jpg");
+   background-image: url("/public/images/universewallpaper2.jpg");
    
 
  }
 
-  
+ .banddetail--image {
+  width:400px;
+  height:400px;
+ }
+ 
+ .banddetail--image {
+  width:400px;
+  height:400px;
+ }
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -172,6 +180,7 @@
     width: 55px;
     height: 35px;
     border-radius: 10px;; /* Adjust this to the desired height */
+    margin:35px;
 }
 
 .icons-bandera {
